@@ -1,25 +1,138 @@
 # 🚀 Open Source Projects Metrics
 
-## 📅 Metrics for 14/03/2025
-
-| # Open Source Projects Metrics                                                                                                                                                                                                                                                            | CF LOB Platform (14/03/2025)   | Cardano IBC Incubator (14/03/2025)   | Cardano Rosetta Java (14/03/2025)   | Cardano Devkit (14/03/2025)   | CF Cardano Ballot (14/03/2025)   | CIP30 Data Signature Parser (14/03/2025)   | Cardano Connect With Wallet (14/03/2025)   | CF Adahandle Resolver (14/03/2025)   | CF Java Rewards Calculation (14/03/2025)   | Cardano Client Lib (14/03/2025)   | Yaci Devkit (14/03/2025)   | Yaci (14/03/2025)   | Yaci Store (14/03/2025)   | CF LOB Platform (14/03/2025)   | Cardano IBC Incubator (14/03/2025)   | Cardano Rosetta Java (14/03/2025)   | Cardano Devkit (14/03/2025)   | CF Cardano Ballot (14/03/2025)   | CIP30 Data Signature Parser (14/03/2025)   | Cardano Connect With Wallet (14/03/2025)   | CF Adahandle Resolver (14/03/2025)   | CF Java Rewards Calculation (14/03/2025)   | Cardano Client Lib (14/03/2025)   | Yaci Devkit (14/03/2025)   | Yaci (14/03/2025)   | Yaci Store (14/03/2025)   |
-|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------|:-------------------------------------|:------------------------------------|:------------------------------|:---------------------------------|:-------------------------------------------|:-------------------------------------------|:-------------------------------------|:-------------------------------------------|:----------------------------------|:---------------------------|:--------------------|:--------------------------|:-------------------------------|:-------------------------------------|:------------------------------------|:------------------------------|:---------------------------------|:-------------------------------------------|:-------------------------------------------|:-------------------------------------|:-------------------------------------------|:----------------------------------|:---------------------------|:--------------------|:--------------------------|
-| | Metric | cf-lob-platform | cardano-ibc-incubator | cardano-rosetta-java | cardano-devkit | cf-cardano-ballot | cip30-data-signature-parser | cardano-connect-with-wallet | cf-adahandle-resolver | cf-java-rewards-calculation | cardano-client-lib | yaci-devkit | yaci | yaci-store | | 7                              | 26                                   | 16                                  | 9                             | 20                               | 7                                          | 87                                         | 12                                   | 20                                         | 128                               | 50                         | 27                  | 24                        | 7                              | 26                                   | 16                                  | 9                             | 20                               | 7                                          | 87                                         | 12                                   | 20                                         | 128                               | 50                         | 27                  | 24                        |
-| |--------|------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|                                                                                                       | 5                              | 10                                   | 8                                   | 4                             | 2                                | 1                                          | 26                                         | 2                                    | 1                                          | 52                                | 12                         | 3                   | 8                         | 5                              | 10                                   | 8                                   | 4                             | 2                                | 1                                          | 26                                         | 2                                    | 1                                          | 52                                | 12                         | 3                   | 8                         |
-| ### 📅 Metrics for 2025-03-14                                                                                                                                                                                                                                                              | 1                              | 1                                    | 1                                   | 1                             | 1                                | 1                                          | 1                                          | 1                                    | 1                                          | 1                                 | 1                          | 1                   | 1                         | 1                              | 1                                    | 1                                   | 1                             | 1                                | 1                                          | 1                                          | 1                                    | 1                                          | 1                                 | 1                          | 1                   | 1                         |
-| | GitHub Stars | 7 | 26 | 16 | 9 | 20 | 7 | 87 | 12 | 20 | 128 | 50 | 27 | 24 |                                                                                                                                                                                                           | 94                             | 92                                   | 94                                  | 4                             | 91                               | 21                                         | 73                                         | 39                                   | 50                                         | 96                                | 60                         | 60                  | 96                        | 94                             | 92                                   | 94                                  | 4                             | 91                               | 21                                         | 73                                         | 39                                   | 50                                         | 96                                | 60                         | 60                  | 96                        |
-| | GitHub Forks | 5 | 10 | 8 | 4 | 2 | 1 | 26 | 2 | 1 | 52 | 12 | 3 | 8 |                                                                                                                                                                                                                  | 100                            | 100                                  | 100                                 | 48                            | 100                              | 100                                        | 100                                        | 100                                  | 100                                        | 100                               | 100                        | 100                 | 100                       | 100                            | 100                                  | 100                                 | 48                            | 100                              | 100                                        | 100                                        | 100                                  | 100                                        | 100                               | 100                        | 100                 | 100                       |
-| | GitHub Contributors | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |                                                                                                                                                                                                               | Check manually                 | Check manually                       | Check manually                      | Check manually                | Check manually                   | Check manually                             | Check manually                             | Check manually                       | Check manually                             | Check manually                    | Check manually             | Check manually      | Check manually            | Check manually                 | Check manually                       | Check manually                      | Check manually                | Check manually                   | Check manually                             | Check manually                             | Check manually                       | Check manually                             | Check manually                    | Check manually             | Check manually      | Check manually            |
-| | PRs Merged | 94 | 92 | 94 | 4 | 91 | 21 | 73 | 39 | 50 | 96 | 60 | 60 | 96 |                                                                                                                                                                                                            | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       |
-| | Commit Frequency | 100 | 100 | 100 | 48 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 |                                                                                                                                                                                         | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       |
-| | Dependent Projects | Check manually | Check manually | Check manually | Check manually | Check manually | Check manually | Check manually | Check manually | Check manually | Check manually | Check manually | Check manually | Check manually |                                       | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       |
-| ## 📅 Metrics for 2025-03-14                                                                                                                                                                                                                                                               | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       |
-| | Metric | yaci-store | cardano-node |                                                                                                                                                                                                                                                    | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       |
-| |--------|------------|------------|                                                                                                                                                                                                                                                      | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       |
-| | **GitHub Stars** | N/A | 3107 |                                                                                                                                                                                                                                                         | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       |
-| | **GitHub Forks** | N/A | 726 |                                                                                                                                                                                                                                                          | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       |
-| | **GitHub Contributors** | N/A | 1 |                                                                                                                                                                                                                                                     | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       |
-| | **PRs Merged** | N/A | 75 |                                                                                                                                                                                                                                                             | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       |
-| | **Commit Frequency** | N/A | 100 |                                                                                                                                                                                                                                                      | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       |
-| | **Dependent Projects** | N/A | Check manually |                                                                                                                                                                                                                                         | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       | nan                            | nan                                  | nan                                 | nan                           | nan                              | nan                                        | nan                                        | nan                                  | nan                                        | nan                               | nan                        | nan                 | nan                       |
-
+<table>
+  <tr>
+    <th rowspan="2">ID</th>
+    <th rowspan="2">Metrics</th>
+    <th colspan="1">CF LOB Platform</th>
+    <th colspan="1">Cardano IBC Incubator</th>
+    <th colspan="1">Cardano Rosetta Java</th>
+    <th colspan="1">Cardano Devkit</th>
+    <th colspan="1">CF Cardano Ballot</th>
+    <th colspan="1">CIP30 Data Signature Parser</th>
+    <th colspan="1">Cardano Connect With Wallet</th>
+    <th colspan="1">CF Adahandle Resolver</th>
+    <th colspan="1">CF Java Rewards Calculation</th>
+    <th colspan="1">Cardano Client Lib</th>
+    <th colspan="1">Yaci Devkit</th>
+    <th colspan="1">Yaci</th>
+    <th colspan="1">Yaci Store</th>
+  </tr>
+  <tr>
+    <th>14/03/2025</th>
+    <th>14/03/2025</th>
+    <th>14/03/2025</th>
+    <th>14/03/2025</th>
+    <th>14/03/2025</th>
+    <th>14/03/2025</th>
+    <th>14/03/2025</th>
+    <th>14/03/2025</th>
+    <th>14/03/2025</th>
+    <th>14/03/2025</th>
+    <th>14/03/2025</th>
+    <th>14/03/2025</th>
+    <th>14/03/2025</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>GitHub Stars</td>
+    <td>7</td>
+    <td>26</td>
+    <td>16</td>
+    <td>9</td>
+    <td>20</td>
+    <td>7</td>
+    <td>87</td>
+    <td>12</td>
+    <td>20</td>
+    <td>128</td>
+    <td>50</td>
+    <td>27</td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>GitHub Forks</td>
+    <td>5</td>
+    <td>10</td>
+    <td>8</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+    <td>26</td>
+    <td>2</td>
+    <td>1</td>
+    <td>52</td>
+    <td>12</td>
+    <td>3</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>GitHub Contributors</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>GitHub Pull Requests (PRs) Merged</td>
+    <td>94</td>
+    <td>92</td>
+    <td>94</td>
+    <td>4</td>
+    <td>91</td>
+    <td>21</td>
+    <td>73</td>
+    <td>39</td>
+    <td>50</td>
+    <td>96</td>
+    <td>60</td>
+    <td>60</td>
+    <td>96</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>GitHub Commit Frequency</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td>48</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>GitHub Dependent Projects</td>
+    <td>Check manually</td>
+    <td>Check manually</td>
+    <td>Check manually</td>
+    <td>Check manually</td>
+    <td>Check manually</td>
+    <td>Check manually</td>
+    <td>Check manually</td>
+    <td>Check manually</td>
+    <td>Check manually</td>
+    <td>Check manually</td>
+    <td>Check manually</td>
+    <td>Check manually</td>
+    <td>Check manually</td>
+  </tr>
+</table>
