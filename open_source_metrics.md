@@ -89,7 +89,7 @@
     <td>GitHub Pull Requests (PRs) Merged</td>
     <td>94</td>
     <td>92</td>
-    <td>94</td>
+    <td>95</td>
     <td>4</td>
     <td>91</td>
     <td>21</td>
