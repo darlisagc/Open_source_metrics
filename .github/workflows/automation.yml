@@ -3,6 +3,7 @@ name: Monthly GitHub Metrics Report
 on:
   schedule:
     - cron: "59 23 28-31 * *"  # Runs on the last day of the month at 23:59 UTC
+      - cron: "59 23 28 2 *" 
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
