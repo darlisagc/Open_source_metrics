@@ -8,8 +8,19 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
 # List of repositories to track (Format: "owner/repo")
 REPOS = {
-    "yaci-store": "txpipe/yaci-store",
-    "cardano-ibc": "input-output-hk/cardano-ibc",
+    "cardano-foundation/cf-lob-platform",
+    "cardano-foundation/cardano-ibc-incubator",
+    "cardano-foundation/cardano-rosetta-java",
+    "cardano-foundation/cardano-devkit",
+    "cardano-foundation/cf-cardano-ballot",
+    "cardano-foundation/cip30-data-signature-parser",
+    "cardano-foundation/cardano-connect-with-wallet",
+    "cardano-foundation/cf-adahandle-resolver",
+    "cardano-foundation/cf-java-rewards-calculation",
+    "bloxbean/cardano-client-lib",
+    "bloxbean/yaci-devkit",
+    "bloxbean/yaci",
+    "bloxbean/yaci-store"
 }
 
 # GitHub API Headers
