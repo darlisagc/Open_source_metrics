@@ -8,15 +8,26 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
 # List of repositories to track (Format: "owner/repo")
 REPOS = {
-    "Yaci Store": "txpipe/yaci-store",
-    "Cardano IBC": "input-output-hk/cardano-ibc"
+    "cardano-foundation/cf-lob-platform",
+    "cardano-foundation/cardano-ibc-incubator",
+    "cardano-foundation/cardano-rosetta-java",
+    "cardano-foundation/cardano-devkit",
+    "cardano-foundation/cf-cardano-ballot",
+    "cardano-foundation/cip30-data-signature-parser",
+    "cardano-foundation/cardano-connect-with-wallet",
+    "cardano-foundation/cf-adahandle-resolver",
+    "cardano-foundation/cf-java-rewards-calculation",
+    "bloxbean/cardano-client-lib",
+    "bloxbean/yaci-devkit",
+    "bloxbean/yaci",
+    "bloxbean/yaci-store"
 }
 
 # GitHub API Headers
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
 # Markdown File
-REPORT_FILE = "open_source_metrics_test.md"
+REPORT_FILE = "open_source_metrics.md"
 
 # Fetch GitHub Metrics
 def get_github_metrics(repo):
@@ -65,19 +76,19 @@ def update_markdown():
         "GitHub Dependent Projects",
     ]
 
-    # Load existing data or create new DataFrame
+    # Check if file exists; otherwise, create it
     if os.path.exists(REPORT_FILE):
         df = pd.read_csv(REPORT_FILE)
     else:
         df = pd.DataFrame({"ID": range(1, len(metrics_list) + 1), "Metrics": metrics_list})
 
-    # Append new column for each project with the latest data
+    # Append new column under the same project name
     for project_name, repo in REPOS.items():
         repo_data = get_github_metrics(repo)
 
         if repo_data:
-            new_column_name = f"{project_name} - {date_label}"  # Format: "Project Name - Date"
-            df[new_column_name] = [date_label] + repo_data
+            new_column_name = f"{project_name} ({date_label})"
+            df[new_column_name] = repo_data
 
     # Save updated report
     df.to_csv(REPORT_FILE, index=False)
