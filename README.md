@@ -1,4 +1,4 @@
-# Cardano Foundation Base Framework
+# Cardano Foundation Projects Open source metrics
 
 The Cardano Foundation employs a structured approach to tracking open-source projects using a combination of qualitative and quantitative metrics. The framework ensures alignment with the foundation’s goals and sustainability objectives.
 
