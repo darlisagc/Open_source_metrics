@@ -16,7 +16,7 @@ REPOS = {
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
 # Markdown File
-REPORT_FILE = "open_source_metrics.md"
+REPORT_FILE = "open_source_metrics_test.md"
 
 # Fetch GitHub Metrics
 def get_github_metrics(repo):
