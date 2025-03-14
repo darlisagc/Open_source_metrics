@@ -22,6 +22,7 @@ REPOS = [
     "bloxbean/yaci-store"
 ]
 
+
 # GitHub API Headers
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
@@ -106,4 +107,3 @@ def update_markdown():
 if __name__ == "__main__":
     update_markdown()
 
-    update_google_sheets()
