@@ -7,21 +7,10 @@ from datetime import datetime
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
 # List of repositories to track (Format: "owner/repo")
-REPOS = {
-    "cardano-foundation/cf-lob-platform",
-    "cardano-foundation/cardano-ibc-incubator",
-    "cardano-foundation/cardano-rosetta-java",
-    "cardano-foundation/cardano-devkit",
-    "cardano-foundation/cf-cardano-ballot",
-    "cardano-foundation/cip30-data-signature-parser",
-    "cardano-foundation/cardano-connect-with-wallet",
-    "cardano-foundation/cf-adahandle-resolver",
-    "cardano-foundation/cf-java-rewards-calculation",
-    "bloxbean/cardano-client-lib",
-    "bloxbean/yaci-devkit",
-    "bloxbean/yaci",
-    "bloxbean/yaci-store"
-}
+REPOS = [
+    "txpipe/yaci-store",
+    "input-output-hk/cardano-ibc"
+]
 
 # GitHub API Headers
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
@@ -85,11 +74,15 @@ def update_markdown():
     else:
         df = pd.DataFrame({"ID": range(1, len(metrics_list) + 1), "Metrics": metrics_list})
 
-    # Append new date row for each project
+    # Ensure all columns align
     for project_name, repo in zip(project_names, REPOS):
         repo_data = get_github_metrics(repo)
         if repo_data:
-            df[project_name] = [date_label] + repo_data
+            if project_name in df.columns:
+                df[project_name] = df[project_name].astype(str) + "\n" + date_label + " → " + "\n".join(map(str, repo_data))
+            else:
+                new_column = [date_label] + list(map(str, repo_data))
+                df[project_name] = new_column + [""] * (df.shape[0] - len(new_column))
 
     # Save updated report
     df.to_csv(REPORT_FILE, index=False)
@@ -98,4 +91,3 @@ def update_markdown():
 
 if __name__ == "__main__":
     update_markdown()
-
