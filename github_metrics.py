@@ -66,6 +66,9 @@ def get_github_metrics(repo):
 def update_markdown():
     date_label = datetime.now().strftime("%d/%m/%Y")
 
+    # Extract project names from repo URLs
+    project_names = [repo.split("/")[-1] for repo in REPOS]
+
     # Define table structure
     metrics_list = [
         "GitHub Stars",
@@ -83,7 +86,7 @@ def update_markdown():
         df = pd.DataFrame({"ID": range(1, len(metrics_list) + 1), "Metrics": metrics_list})
 
     # Append new date row for each project
-    for project_name, repo in REPOS.items():
+    for project_name, repo in zip(project_names, REPOS):
         repo_data = get_github_metrics(repo)
         if repo_data:
             df[project_name] = [date_label] + repo_data
@@ -95,3 +98,4 @@ def update_markdown():
 
 if __name__ == "__main__":
     update_markdown()
+
