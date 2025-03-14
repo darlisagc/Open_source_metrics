@@ -10,3 +10,13 @@
 | PRs Merged | 94 | 92 | 94 | 4 | 91 | 21 | 73 | 39 | 50 | 96 | 60 | 60 | 96 |
 | Commit Frequency | 100 | 100 | 100 | 48 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 |
 | Dependent Projects | Check manually | Check manually | Check manually | Check manually | Check manually | Check manually | Check manually | Check manually | Check manually | Check manually | Check manually | Check manually | Check manually |
+## 📅 Metrics for 2025-03-14
+
+| Metric | yaci-store | cardano-node |
+|--------|------------|------------|
+| **GitHub Stars** | N/A | 3107 |
+| **GitHub Forks** | N/A | 726 |
+| **GitHub Contributors** | N/A | 1 |
+| **PRs Merged** | N/A | 75 |
+| **Commit Frequency** | N/A | 100 |
+| **Dependent Projects** | N/A | Check manually |
