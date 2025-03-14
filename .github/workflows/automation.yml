@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # Disable default token (we will use PAT)
 
       - name: Set Up Python
         uses: actions/setup-python@v4
@@ -24,15 +26,15 @@ jobs:
 
       - name: Run GitHub Metrics Script
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the GitHub token stored as a secret
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: python github_metrics.py
 
       - name: Commit and Push Changes
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed for authentication when pushing changes
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # Use the new PAT
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add open_source_metrics.md
           git commit -m "Updated Open Source Metrics for $(date +'%Y-%m-%d')" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
