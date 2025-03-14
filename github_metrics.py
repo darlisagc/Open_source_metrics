@@ -8,19 +8,19 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
 # List of repositories to track (Format: "owner/repo")
 REPOS = {
-    "cardano-foundation/cf-lob-platform",
-    "cardano-foundation/cardano-ibc-incubator",
-    "cardano-foundation/cardano-rosetta-java",
-    "cardano-foundation/cardano-devkit",
-    "cardano-foundation/cf-cardano-ballot",
-    "cardano-foundation/cip30-data-signature-parser",
-    "cardano-foundation/cardano-connect-with-wallet",
-    "cardano-foundation/cf-adahandle-resolver",
-    "cardano-foundation/cf-java-rewards-calculation",
-    "bloxbean/cardano-client-lib",
-    "bloxbean/yaci-devkit",
-    "bloxbean/yaci",
-    "bloxbean/yaci-store"
+    "CF LOB Platform": "cardano-foundation/cf-lob-platform",
+    "Cardano IBC Incubator": "cardano-foundation/cardano-ibc-incubator",
+    "Cardano Rosetta Java": "cardano-foundation/cardano-rosetta-java",
+    "Cardano Devkit": "cardano-foundation/cardano-devkit",
+    "CF Cardano Ballot": "cardano-foundation/cf-cardano-ballot",
+    "CIP30 Data Signature Parser": "cardano-foundation/cip30-data-signature-parser",
+    "Cardano Connect With Wallet": "cardano-foundation/cardano-connect-with-wallet",
+    "CF Adahandle Resolver": "cardano-foundation/cf-adahandle-resolver",
+    "CF Java Rewards Calculation": "cardano-foundation/cf-java-rewards-calculation",
+    "Cardano Client Lib": "bloxbean/cardano-client-lib",
+    "Yaci Devkit": "bloxbean/yaci-devkit",
+    "Yaci": "bloxbean/yaci",
+    "Yaci Store": "bloxbean/yaci-store"
 }
 
 # GitHub API Headers
