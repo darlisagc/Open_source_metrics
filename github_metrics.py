@@ -7,10 +7,10 @@ from datetime import datetime
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
 # List of repositories to track (Format: "owner/repo")
-REPOS = [
-    "txpipe/yaci-store",
-    "input-output-hk/cardano-ibc"
-]
+REPOS = {
+    "Yaci Store": "txpipe/yaci-store",
+    "Cardano IBC": "input-output-hk/cardano-ibc"
+}
 
 # GitHub API Headers
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
@@ -55,9 +55,6 @@ def get_github_metrics(repo):
 def update_markdown():
     date_label = datetime.now().strftime("%d/%m/%Y")
 
-    # Extract project names from repo URLs
-    project_names = [repo.split("/")[-1] for repo in REPOS]
-
     # Define table structure
     metrics_list = [
         "GitHub Stars",
@@ -74,29 +71,13 @@ def update_markdown():
     else:
         df = pd.DataFrame({"ID": range(1, len(metrics_list) + 1), "Metrics": metrics_list})
 
-    # Append new data for each project
-    for project_name, repo in zip(project_names, REPOS):
+    # Append new column for each project with the latest data
+    for project_name, repo in REPOS.items():
         repo_data = get_github_metrics(repo)
 
         if repo_data:
-            if project_name in df.columns:
-                # Append new values under the existing column
-                df[project_name] = df[project_name].astype(str) + " → " + list(map(str, repo_data))
-            else:
-                # Initialize column with first entry
-                df[project_name] = list(map(str, repo_data))
-
-    # Construct a header row with all collected dates
-    dates_collected = [date_label]
-    if os.path.exists(REPORT_FILE):
-        with open(REPORT_FILE, "r") as file:
-            first_line = file.readline().strip()
-            if " - " in first_line:
-                dates_collected = first_line.split(" - ")[1:] + [date_label]
-
-    # Rename project columns to include collected dates
-    for project in df.columns[2:]:  
-        df.rename(columns={project: f"{project} ({' - '.join(dates_collected)})"}, inplace=True)
+            new_column_name = f"{project_name} - {date_label}"  # Format: "Project Name - Date"
+            df[new_column_name] = [date_label] + repo_data
 
     # Save updated report
     df.to_csv(REPORT_FILE, index=False)
