@@ -21,7 +21,7 @@ jobs:
           python-version: "3.9"
 
       - name: Install Dependencies
-        run: pip install requests pandas
+        run: pip install requests pandas tabulate  # ✅ Ensure `tabulate` is installed
 
       - name: Run GitHub Metrics Script
         env:
