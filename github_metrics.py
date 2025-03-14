@@ -1,15 +1,16 @@
 import requests
 import os
+import pandas as pd
 from datetime import datetime
 
 # GitHub API Token (Optional, recommended for higher rate limits)
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
 # List of repositories to track (Format: "owner/repo")
-REPOS = [
-    "txpipe/yaci-store",
-    "input-output-hk/cardano-node"
-]
+REPOS = {
+    "yaci-store": "txpipe/yaci-store",
+    "cardano-ibc": "input-output-hk/cardano-ibc",
+}
 
 # GitHub API Headers
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
@@ -52,49 +53,34 @@ def get_github_metrics(repo):
 
 # Update Markdown File
 def update_markdown():
-    date_label = datetime.now().strftime("%Y-%m-%d")
-    
-    # Read existing report or initialize new one
-    if os.path.exists(REPORT_FILE):
-        with open(REPORT_FILE, "r") as file:
-            lines = file.readlines()
-    else:
-        lines = ["# 🚀 Open Source Projects Metrics\n\n"]
+    date_label = datetime.now().strftime("%d/%m/%Y")
 
-    # Add date header
-    lines.append(f"## 📅 Metrics for {date_label}\n\n")
-
-    # Column headers
-    repo_names = [repo.split("/")[1] for repo in REPOS]
-    header = "| Metric | " + " | ".join(repo_names) + " |\n"
-    separator = "|--------|" + "|".join(["------------"] * len(REPOS)) + "|\n"
-
-    # Collect metrics
-    metric_names = [
-        "GitHub Stars", "GitHub Forks", "GitHub Contributors",
-        "PRs Merged", "Commit Frequency", "Dependent Projects"
+    # Define table structure
+    metrics_list = [
+        "GitHub Stars",
+        "GitHub Forks",
+        "GitHub Contributors",
+        "GitHub Pull Requests (PRs) Merged",
+        "GitHub Commit Frequency",
+        "GitHub Dependent Projects",
     ]
 
-    metrics_data = []
-    
-    for idx, metric in enumerate(metric_names):
-        row = f"| **{metric}** |"
-        for repo in REPOS:
-            repo_data = get_github_metrics(repo)
-            if repo_data:
-                row += f" {repo_data[idx]} |"
-            else:
-                row += " N/A |"
-        metrics_data.append(row + "\n")
+    # Load existing data or create new DataFrame
+    if os.path.exists(REPORT_FILE):
+        df = pd.read_csv(REPORT_FILE)
+    else:
+        df = pd.DataFrame({"ID": range(1, len(metrics_list) + 1), "Metrics": metrics_list})
 
-    # Append new data
-    with open(REPORT_FILE, "w") as file:
-        file.writelines(lines)
-        file.write(header)
-        file.write(separator)
-        file.writelines(metrics_data)
+    # Append new date row for each project
+    for project_name, repo in REPOS.items():
+        repo_data = get_github_metrics(repo)
+        if repo_data:
+            df[project_name] = [date_label] + repo_data
 
-    print(f"Updated {REPORT_FILE} successfully.")
+    # Save updated report
+    df.to_csv(REPORT_FILE, index=False)
+
+    print(f"✅ Updated {REPORT_FILE} successfully!")
 
 if __name__ == "__main__":
     update_markdown()
