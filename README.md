@@ -2,6 +2,7 @@
 
 The Cardano Foundation employs a structured approach to tracking open-source projects using a combination of qualitative and quantitative metrics. The framework ensures alignment with the foundation’s goals and sustainability objectives.
 
+
 ## Metrics Overview
 
 | ID  | Metrics                               | Metric Description                                    | Metric Category                  | Information Availability                          | Collection Method               | Frequency of Data Collection | Location                          | Channels Published?              |
@@ -23,10 +24,10 @@ The Cardano Foundation employs a structured approach to tracking open-source pro
 
 ## Framework Maintenance and Alignment
 
-### 7.1 Update and Maintenance Frequency
+### Update and Maintenance Frequency
 The Cardano Foundation Open Source Framework should be reviewed, maintained, and updated every six months. The responsibility falls under the Ecosystem Engineering Team, High Assurance Labs, and Decentralized Solutions Development teams at the Cardano Foundation. These teams oversee open-source initiatives and Cardano Foundation products, ensuring the framework remains effective.
 
-### 7.2 Alignment with Cardano Foundation Goals
+### Alignment with Cardano Foundation Goals
 The framework ensures alignment with the foundation’s mission by providing a structured methodology for monitoring open-source project health. By leveraging both qualitative and quantitative metrics, it helps maintain transparency, encourage community participation, and support long-term project sustainability. 
 
 By tracking contributions, engagement, and development activity, the Cardano Foundation ensures projects remain decentralized and open to collaboration. This approach fosters innovation while reinforcing Cardano’s commitment to open-source development and governance. Additionally, it helps monitor ecosystem expansion and adoption trends, guiding data-driven decisions to support impactful projects.
