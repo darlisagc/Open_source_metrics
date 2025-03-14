@@ -74,20 +74,19 @@ def update_markdown():
     else:
         df = pd.DataFrame({"ID": range(1, len(metrics_list) + 1), "Metrics": metrics_list})
 
-    # Ensure all columns align
+    # Update project data with new date
     for project_name, repo in zip(project_names, REPOS):
         repo_data = get_github_metrics(repo)
+
         if repo_data:
             if project_name in df.columns:
-                df[project_name] = df[project_name].astype(str) + "\n" + date_label + " → " + "\n".join(map(str, repo_data))
+                # Append new date & value for each metric under the same column
+                df[project_name] = df[project_name].astype(str) + " → " + list(map(str, repo_data))
             else:
-                new_column = [date_label] + list(map(str, repo_data))
-                df[project_name] = new_column + [""] * (df.shape[0] - len(new_column))
+                # Initialize column with first entry
+                df[project_name] = list(map(str, repo_data))
 
-    # Save updated report
-    df.to_csv(REPORT_FILE, index=False)
-
-    print(f"✅ Updated {REPORT_FILE} successfully!")
-
-if __name__ == "__main__":
-    update_markdown()
+    # Update the header to include all tracked dates
+    dates_row = " ("
+    for date in df.columns[2:]:  # Ignore "ID" and "Metrics"
+        dates_row += date + " -
