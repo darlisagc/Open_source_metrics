@@ -84,22 +84,26 @@ def update_markdown():
         df = pd.DataFrame({"ID": range(1, len(metrics_list) + 1), "Metrics": metrics_list})
 
     # ✅ Ensure correct row count in new columns
+    new_data = {}
     for project_name, repo in REPOS.items():
         repo_data = get_github_metrics(repo)
+        new_data[f"{project_name} ({date_label})"] = repo_data
 
-        if repo_data:
-            new_column_name = f"{project_name} ({date_label})"
+    # Convert to DataFrame
+    new_df = pd.DataFrame(new_data)
 
-            # ✅ Adjust column length to match existing DataFrame
-            if len(repo_data) < len(df):
-                repo_data.extend([""] * (len(df) - len(repo_data)))  # Fill missing rows
-            elif len(repo_data) > len(df):
-                df = df.reindex(range(len(repo_data)))  # Expand DataFrame if needed
-            
-            df[new_column_name] = repo_data  # ✅ Correctly align values
+    # ✅ Merge new data while maintaining structure
+    df = pd.concat([df, new_df], axis=1)
 
-    # Save updated report
-    df.to_csv(REPORT_FILE, index=False)
+    # ✅ Convert DataFrame to Markdown format
+    markdown_output = df.to_markdown(index=False)
+
+    # ✅ Write Markdown file
+    with open(REPORT_FILE, "w") as file:
+        file.write("# 🚀 Open Source Projects Metrics\n\n")
+        file.write(f"## 📅 Metrics for {date_label}\n\n")
+        file.write(markdown_output)
+        file.write("\n\n")
 
     print(f"✅ Updated {REPORT_FILE} successfully!")
 
