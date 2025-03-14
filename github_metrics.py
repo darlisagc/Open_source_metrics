@@ -2,26 +2,14 @@ import requests
 import os
 from datetime import datetime
 
-# GitHub API Token (Optional)
+# GitHub API Token (Optional, recommended for higher rate limits)
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
-# List of repositories to track
+# List of repositories to track (Format: "owner/repo")
 REPOS = [
-    "cardano-foundation/cf-lob-platform",
-    "cardano-foundation/cardano-ibc-incubator",
-    "cardano-foundation/cardano-rosetta-java",
-    "cardano-foundation/cardano-devkit",
-    "cardano-foundation/cf-cardano-ballot",
-    "cardano-foundation/cip30-data-signature-parser",
-    "cardano-foundation/cardano-connect-with-wallet",
-    "cardano-foundation/cf-adahandle-resolver",
-    "cardano-foundation/cf-java-rewards-calculation",
-    "bloxbean/cardano-client-lib",
-    "bloxbean/yaci-devkit",
-    "bloxbean/yaci",
-    "bloxbean/yaci-store"
+    "txpipe/yaci-store",
+    "input-output-hk/cardano-node"
 ]
-
 
 # GitHub API Headers
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
@@ -71,13 +59,15 @@ def update_markdown():
         with open(REPORT_FILE, "r") as file:
             lines = file.readlines()
     else:
-        lines = ["# Open Source Projects Metrics\n\n"]
+        lines = ["# 🚀 Open Source Projects Metrics\n\n"]
+
+    # Add date header
+    lines.append(f"## 📅 Metrics for {date_label}\n\n")
 
     # Column headers
     repo_names = [repo.split("/")[1] for repo in REPOS]
-    if "| Metric |" not in "".join(lines):  # Add header only if it's a new file
-        lines.append("| Metric | " + " | ".join(repo_names) + " |\n")
-        lines.append("|--------|" + "|".join(["------------"] * len(REPOS)) + "|\n")
+    header = "| Metric | " + " | ".join(repo_names) + " |\n"
+    separator = "|--------|" + "|".join(["------------"] * len(REPOS)) + "|\n"
 
     # Collect metrics
     metric_names = [
@@ -85,25 +75,26 @@ def update_markdown():
         "PRs Merged", "Commit Frequency", "Dependent Projects"
     ]
 
-    new_data = [f"### 📅 Metrics for {date_label}\n\n"]
+    metrics_data = []
     
     for idx, metric in enumerate(metric_names):
-        row = f"| {metric} |"
+        row = f"| **{metric}** |"
         for repo in REPOS:
             repo_data = get_github_metrics(repo)
             if repo_data:
                 row += f" {repo_data[idx]} |"
             else:
                 row += " N/A |"
-        new_data.append(row + "\n")
+        metrics_data.append(row + "\n")
 
     # Append new data
     with open(REPORT_FILE, "w") as file:
         file.writelines(lines)
-        file.writelines(new_data)
+        file.write(header)
+        file.write(separator)
+        file.writelines(metrics_data)
 
     print(f"Updated {REPORT_FILE} successfully.")
 
 if __name__ == "__main__":
     update_markdown()
-
