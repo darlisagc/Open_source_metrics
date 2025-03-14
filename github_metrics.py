@@ -3,7 +3,7 @@ import os
 import pandas as pd
 from datetime import datetime
 
-# ✅ Updated repository list
+# Define repositories to track
 REPOS = {
     "CF LOB Platform": "cardano-foundation/cf-lob-platform",
     "Cardano IBC Incubator": "cardano-foundation/cardano-ibc-incubator",
@@ -20,54 +20,45 @@ REPOS = {
     "Yaci Store": "bloxbean/yaci-store"
 }
 
-# GitHub API Token (Optional)
+# GitHub API Token (if available)
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-
-# GitHub API Headers
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
-# Markdown File
+# Output file name
 REPORT_FILE = "open_source_metrics.md"
 
-# Fetch GitHub Metrics
+# Function to fetch GitHub metrics for a given repository
 def get_github_metrics(repo):
-    """ Fetch GitHub repository metrics """
     url = f"https://api.github.com/repos/{repo}"
     response = requests.get(url, headers=HEADERS)
-
     if response.status_code == 200:
         data = response.json()
         stars = data.get("stargazers_count", 0)
         forks = data.get("forks_count", 0)
-
-        # Contributors Count
+        # Get contributors count (we use per_page=1 and count the returned list length)
         contributors_url = f"{url}/contributors?per_page=1"
         contributors_response = requests.get(contributors_url, headers=HEADERS)
         contributors = len(contributors_response.json()) if contributors_response.status_code == 200 else 0
-
-        # Merged PRs
+        # Count merged PRs
         prs_url = f"{url}/pulls?state=closed&per_page=100"
         prs_response = requests.get(prs_url, headers=HEADERS)
         merged_prs = sum(1 for pr in prs_response.json() if pr.get("merged_at"))
-
-        # Commit Frequency (Past 100 commits)
+        # Count commits (fetching up to 100)
         commits_url = f"{url}/commits?per_page=100"
         commits_response = requests.get(commits_url, headers=HEADERS)
         commit_frequency = len(commits_response.json())
-
-        # Dependent Projects (GitHub does not expose this via API)
-        dependents_count = "Check manually"
-
+        dependents_count = "Check manually"  # GitHub API does not provide this directly
         return [stars, forks, contributors, merged_prs, commit_frequency, dependents_count]
     else:
         print(f"Error fetching {repo}: {response.status_code}")
-        return ["N/A"] * 6  # Return empty values if request fails
+        return ["N/A"] * 6
 
-# Update Markdown File
+# Function to update the Markdown report
 def update_markdown():
+    # Current collection date
     date_label = datetime.now().strftime("%d/%m/%Y")
-
-    # Define metrics list
+    
+    # Define the metrics (fixed rows)
     metrics_list = [
         "GitHub Stars",
         "GitHub Forks",
@@ -76,35 +67,79 @@ def update_markdown():
         "GitHub Commit Frequency",
         "GitHub Dependent Projects",
     ]
-
-    # ✅ Load existing data or create new DataFrame
+    
+    # Load existing data or create new DataFrame with fixed columns "ID" and "Metrics"
     if os.path.exists(REPORT_FILE):
+        # We store data as CSV (later converted to HTML); if file exists, read it.
         df = pd.read_csv(REPORT_FILE)
     else:
         df = pd.DataFrame({"ID": range(1, len(metrics_list) + 1), "Metrics": metrics_list})
-
-    # ✅ Ensure correct row count in new columns
-    new_data = {}
+    
+    # For each repository, get metrics and add a new column named "Project (Date)"
+    new_columns = {}
     for project_name, repo in REPOS.items():
         repo_data = get_github_metrics(repo)
-        new_data[f"{project_name} ({date_label})"] = repo_data
-
-    # Convert to DataFrame
-    new_df = pd.DataFrame(new_data)
-
-    # ✅ Merge new data while maintaining structure
+        if repo_data:
+            col_name = f"{project_name} ({date_label})"
+            # Ensure the new column has exactly len(df) elements:
+            if len(repo_data) < len(df):
+                repo_data.extend([""] * (len(df) - len(repo_data)))
+            elif len(repo_data) > len(df):
+                df = df.reindex(range(len(repo_data)))
+            new_columns[col_name] = repo_data
+    new_df = pd.DataFrame(new_columns)
+    # Merge new columns into our main DataFrame
     df = pd.concat([df, new_df], axis=1)
-
-    # ✅ Convert DataFrame to Markdown format
-    markdown_output = df.to_markdown(index=False)
-
-    # ✅ Write Markdown file
+    
+    # Build an HTML table with two header rows.
+    # Fixed columns: "ID" and "Metrics"
+    fixed_cols = df.columns[:2].tolist()
+    var_cols = df.columns[2:]
+    
+    # Group variable columns by project name (extracted from "Project (Date)")
+    project_groups = {}
+    for col in var_cols:
+        if " (" in col and col.endswith(")"):
+            proj = col.split(" (")[0]
+            date_part = col.split(" (")[1][:-1]
+            project_groups.setdefault(proj, []).append((date_part, col))
+        else:
+            project_groups.setdefault(col, []).append(("", col))
+    
+    # Build the HTML table string
+    html = "<table>\n"
+    # First header row: Fixed columns and then one cell per project spanning all its date columns.
+    html += "  <tr>\n"
+    html += '    <th rowspan="2">ID</th>\n'
+    html += '    <th rowspan="2">Metrics</th>\n'
+    for proj, cols in project_groups.items():
+        colspan = len(cols)
+        html += f'    <th colspan="{colspan}">{proj}</th>\n'
+    html += "  </tr>\n"
+    
+    # Second header row: List each collection date for the project columns.
+    html += "  <tr>\n"
+    for proj, cols in project_groups.items():
+        for date_part, col in cols:
+            html += f'    <th>{date_part}</th>\n'
+    html += "  </tr>\n"
+    
+    # Data rows:
+    for i, row in df.iterrows():
+        html += "  <tr>\n"
+        html += f"    <td>{row['ID']}</td>\n"
+        html += f"    <td>{row['Metrics']}</td>\n"
+        for proj, cols in project_groups.items():
+            for date_part, col in cols:
+                html += f"    <td>{row[col]}</td>\n"
+        html += "  </tr>\n"
+    html += "</table>\n"
+    
+    # Write the HTML table into the Markdown file (GitHub Markdown renders HTML)
     with open(REPORT_FILE, "w") as file:
         file.write("# 🚀 Open Source Projects Metrics\n\n")
-        file.write(f"## 📅 Metrics for {date_label}\n\n")
-        file.write(markdown_output)
-        file.write("\n\n")
-
+        file.write(html)
+    
     print(f"✅ Updated {REPORT_FILE} successfully!")
 
 if __name__ == "__main__":
