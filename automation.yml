@@ -1,0 +1,36 @@
+name: Monthly GitHub Metrics Report
+
+on:
+  schedule:
+    - cron: "59 23 28-31 * *"  # Runs on the last day of the month
+
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  collect_metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set Up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Run GitHub Metrics Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python github_metrics.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add open_source_metrics.md
+          git commit -m "Updated Open Source Metrics for $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push
