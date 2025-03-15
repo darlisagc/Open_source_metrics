@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - open_source_metrics.md
+  workflow_dispatch:
 
 jobs:
   update_page:
