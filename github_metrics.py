@@ -24,7 +24,8 @@ REPOS = {
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
-# Markdown report file
+# File names for persistent data and final Markdown report
+DATA_FILE = "open_source_metrics_data.csv"
 REPORT_FILE = "open_source_metrics.md"
 
 def get_github_metrics(repo):
@@ -33,36 +34,46 @@ def get_github_metrics(repo):
     response = requests.get(url, headers=HEADERS)
     if response.status_code == 200:
         data = response.json()
-        return {
-            "GitHub Stars": data.get("stargazers_count", 0),
-            "GitHub Forks": data.get("forks_count", 0),
-            "GitHub Contributors": len(requests.get(f"{url}/contributors?per_page=1", headers=HEADERS).json()) if response.status_code == 200 else 0,
-            "GitHub Pull Requests (PRs) Merged": sum(1 for pr in requests.get(f"{url}/pulls?state=closed&per_page=100", headers=HEADERS).json() if pr.get("merged_at")),
-            "GitHub Commit Frequency": len(requests.get(f"{url}/commits?per_page=100", headers=HEADERS).json()),
-            "GitHub Dependent Projects": "Check manually"
-        }
+        return [
+            data.get("stargazers_count", 0),
+            data.get("forks_count", 0),
+            len(requests.get(f"{url}/contributors?per_page=1", headers=HEADERS).json()),
+            sum(1 for pr in requests.get(f"{url}/pulls?state=closed&per_page=100", headers=HEADERS).json() if pr.get("merged_at")),
+            len(requests.get(f"{url}/commits?per_page=100", headers=HEADERS).json()),
+            "Check manually"
+        ]
     else:
         print(f"Error fetching {repo}: {response.status_code}")
-        return {metric: "N/A" for metric in ["GitHub Stars", "GitHub Forks", "GitHub Contributors", "GitHub Pull Requests (PRs) Merged", "GitHub Commit Frequency", "GitHub Dependent Projects"]}
+        return ["N/A"] * 6
 
 def update_markdown():
-    # Collect two different dates: last month's last day and yesterday
     last_day_of_last_month = (datetime.today().replace(day=1) - timedelta(days=1)).strftime("%d/%m/%Y")
-    yesterday = (datetime.today() - timedelta(days=1)).strftime("%d/%m/%Y")
 
-    # Fetch metrics for both dates
-    metrics_data = {}
-    for project_name, repo in REPOS.items():
-        metrics_data[f"{project_name} ({last_day_of_last_month})"] = get_github_metrics(repo)
-        metrics_data[f"{project_name} ({yesterday})"] = get_github_metrics(repo)
-
-    # Convert to DataFrame for Markdown formatting
-    df = pd.DataFrame.from_dict(metrics_data, orient="index")
+    metrics_list = [
+        "GitHub Stars",
+        "GitHub Forks",
+        "GitHub Contributors",
+        "GitHub Pull Requests (PRs) Merged",
+        "GitHub Commit Frequency",
+        "GitHub Dependent Projects"
+    ]
     
-    # Save as Markdown
-    df.to_markdown(REPORT_FILE)
+    if os.path.exists(DATA_FILE):
+        df = pd.read_csv(DATA_FILE)
+    else:
+        df = pd.DataFrame({"ID": range(1, len(metrics_list) + 1), "Metrics": metrics_list})
 
-    print(f"✅ Updated {REPORT_FILE} successfully!")
+    new_data = {}
+    for project_name, repo in REPOS.items():
+        new_data[f"{project_name} ({last_day_of_last_month})"] = get_github_metrics(repo)
+
+    new_df = pd.DataFrame(new_data)
+    df = pd.concat([df, new_df], axis=1)
+    
+    df.to_csv(DATA_FILE, index=False)
+    df.to_markdown(REPORT_FILE, index=False)
+
+    print(f"✅ Updated {REPORT_FILE} and {DATA_FILE} successfully!")
 
 if __name__ == "__main__":
     update_markdown()
