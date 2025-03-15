@@ -1,138 +1,28 @@
-# 🚀 Open Source Projects Metrics
-
-<table>
-  <tr>
-    <th rowspan="2">ID</th>
-    <th rowspan="2">Metrics</th>
-    <th colspan="1">CF LOB Platform</th>
-    <th colspan="1">Cardano IBC Incubator</th>
-    <th colspan="1">Cardano Rosetta Java</th>
-    <th colspan="1">Cardano Devkit</th>
-    <th colspan="1">CF Cardano Ballot</th>
-    <th colspan="1">CIP30 Data Signature Parser</th>
-    <th colspan="1">Cardano Connect With Wallet</th>
-    <th colspan="1">CF Adahandle Resolver</th>
-    <th colspan="1">CF Java Rewards Calculation</th>
-    <th colspan="1">Cardano Client Lib</th>
-    <th colspan="1">Yaci Devkit</th>
-    <th colspan="1">Yaci</th>
-    <th colspan="1">Yaci Store</th>
-  </tr>
-  <tr>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>GitHub Stars</td>
-    <td>7</td>
-    <td>26</td>
-    <td>17</td>
-    <td>9</td>
-    <td>20</td>
-    <td>7</td>
-    <td>87</td>
-    <td>12</td>
-    <td>20</td>
-    <td>128</td>
-    <td>50</td>
-    <td>27</td>
-    <td>24</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>GitHub Forks</td>
-    <td>5</td>
-    <td>10</td>
-    <td>8</td>
-    <td>4</td>
-    <td>2</td>
-    <td>1</td>
-    <td>26</td>
-    <td>2</td>
-    <td>1</td>
-    <td>52</td>
-    <td>12</td>
-    <td>3</td>
-    <td>8</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>GitHub Contributors</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>GitHub Pull Requests (PRs) Merged</td>
-    <td>94</td>
-    <td>92</td>
-    <td>95</td>
-    <td>4</td>
-    <td>91</td>
-    <td>21</td>
-    <td>75</td>
-    <td>39</td>
-    <td>50</td>
-    <td>96</td>
-    <td>60</td>
-    <td>60</td>
-    <td>96</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>GitHub Commit Frequency</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-    <td>48</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>GitHub Dependent Projects</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-  </tr>
-</table>
+|                                          |   GitHub Stars |   GitHub Forks |   GitHub Contributors |   GitHub Pull Requests (PRs) Merged |   GitHub Commit Frequency | GitHub Dependent Projects   |
+|:-----------------------------------------|---------------:|---------------:|----------------------:|------------------------------------:|--------------------------:|:----------------------------|
+| CF LOB Platform (28/02/2025)             |              7 |              5 |                     1 |                                  94 |                       100 | Check manually              |
+| CF LOB Platform (14/03/2025)             |              7 |              5 |                     1 |                                  94 |                       100 | Check manually              |
+| Cardano IBC Incubator (28/02/2025)       |             26 |             10 |                     1 |                                  92 |                       100 | Check manually              |
+| Cardano IBC Incubator (14/03/2025)       |             26 |             10 |                     1 |                                  92 |                       100 | Check manually              |
+| Cardano Rosetta Java (28/02/2025)        |             17 |              8 |                     1 |                                  95 |                       100 | Check manually              |
+| Cardano Rosetta Java (14/03/2025)        |             17 |              8 |                     1 |                                  95 |                       100 | Check manually              |
+| Cardano Devkit (28/02/2025)              |              9 |              4 |                     1 |                                   4 |                        48 | Check manually              |
+| Cardano Devkit (14/03/2025)              |              9 |              4 |                     1 |                                   4 |                        48 | Check manually              |
+| CF Cardano Ballot (28/02/2025)           |             20 |              2 |                     1 |                                  91 |                       100 | Check manually              |
+| CF Cardano Ballot (14/03/2025)           |             20 |              2 |                     1 |                                  91 |                       100 | Check manually              |
+| CIP30 Data Signature Parser (28/02/2025) |              7 |              1 |                     1 |                                  21 |                       100 | Check manually              |
+| CIP30 Data Signature Parser (14/03/2025) |              7 |              1 |                     1 |                                  21 |                       100 | Check manually              |
+| Cardano Connect With Wallet (28/02/2025) |             87 |             26 |                     1 |                                  75 |                       100 | Check manually              |
+| Cardano Connect With Wallet (14/03/2025) |             87 |             26 |                     1 |                                  75 |                       100 | Check manually              |
+| CF Adahandle Resolver (28/02/2025)       |             12 |              2 |                     1 |                                  39 |                       100 | Check manually              |
+| CF Adahandle Resolver (14/03/2025)       |             12 |              2 |                     1 |                                  39 |                       100 | Check manually              |
+| CF Java Rewards Calculation (28/02/2025) |             20 |              1 |                     1 |                                  50 |                       100 | Check manually              |
+| CF Java Rewards Calculation (14/03/2025) |             20 |              1 |                     1 |                                  50 |                       100 | Check manually              |
+| Cardano Client Lib (28/02/2025)          |            128 |             52 |                     1 |                                  96 |                       100 | Check manually              |
+| Cardano Client Lib (14/03/2025)          |            128 |             52 |                     1 |                                  96 |                       100 | Check manually              |
+| Yaci Devkit (28/02/2025)                 |             50 |             12 |                     1 |                                  60 |                       100 | Check manually              |
+| Yaci Devkit (14/03/2025)                 |             50 |             12 |                     1 |                                  60 |                       100 | Check manually              |
+| Yaci (28/02/2025)                        |             27 |              3 |                     1 |                                  60 |                       100 | Check manually              |
+| Yaci (14/03/2025)                        |             27 |              3 |                     1 |                                  60 |                       100 | Check manually              |
+| Yaci Store (28/02/2025)                  |             24 |              8 |                     1 |                                  96 |                       100 | Check manually              |
+| Yaci Store (14/03/2025)                  |             24 |              8 |                     1 |                                  96 |                       100 | Check manually              |
