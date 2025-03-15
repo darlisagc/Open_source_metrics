@@ -24,5 +24,5 @@
 | Yaci Devkit (14/03/2025)                 |             50 |             12 |                     1 |                                  60 |                       100 | Check manually              |
 | Yaci (28/02/2025)                        |             27 |              3 |                     1 |                                  60 |                       100 | Check manually              |
 | Yaci (14/03/2025)                        |             27 |              3 |                     1 |                                  60 |                       100 | Check manually              |
-| Yaci Store (28/02/2025)                  |             24 |              8 |                     1 |                                  96 |                       100 | Check manually              |
-| Yaci Store (14/03/2025)                  |             24 |              8 |                     1 |                                  96 |                       100 | Check manually              |
+| Yaci Store (28/02/2025)                  |             23 |              8 |                     1 |                                  96 |                       100 | Check manually              |
+| Yaci Store (14/03/2025)                  |             23 |              8 |                     1 |                                  96 |                       100 | Check manually              |
