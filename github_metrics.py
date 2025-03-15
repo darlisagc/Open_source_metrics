@@ -1,7 +1,7 @@
 import requests
 import os
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import datetime
 
 # Define repository list
 REPOS = {
@@ -46,9 +46,9 @@ def get_github_metrics(repo):
         return ["N/A"] * 6
 
 def update_markdown():
-    last_day_of_last_month = (datetime.today().replace(day=1) - timedelta(days=1)).strftime("%d/%m/%Y")
-    yesterday = (datetime.today() - timedelta(days=1)).strftime("%d/%m/%Y")
-
+    # Use today's date as the report date (should be the last day of the month)
+    report_date = datetime.today().strftime("%d/%m/%Y")
+    
     metrics_list = [
         "GitHub Stars",
         "GitHub Forks",
@@ -60,42 +60,36 @@ def update_markdown():
 
     # Prepare Markdown content
     md_content = f"# 🚀 Open Source Metrics Report\n\n"
-    md_content += f"📅 Data collected on **{last_day_of_last_month}** and **{yesterday}**\n\n"
+    md_content += f"📅 Data collected on **{report_date}**\n\n"
 
     # Loop through each repository
-    total_metrics_last_month = [0] * len(metrics_list)
-    total_metrics_yesterday = [0] * len(metrics_list)
+    total_metrics = [0] * len(metrics_list)
 
     for project_name, repo in REPOS.items():
         md_content += f"## 📌 {project_name}\n"
-        md_content += f"| Metric | {last_day_of_last_month} | {yesterday} |\n"
-        md_content += "|--------|----------------:|----------------:|\n"
+        md_content += f"| Metric | {report_date} |\n"
+        md_content += "|--------|----------------:|\n"
 
-        repo_metrics_last_month = get_github_metrics(repo)
-        repo_metrics_yesterday = get_github_metrics(repo)
+        repo_metrics = get_github_metrics(repo)
 
         for idx, metric in enumerate(metrics_list):
-            value_last_month = repo_metrics_last_month[idx]
-            value_yesterday = repo_metrics_yesterday[idx]
-
+            value = repo_metrics[idx]
             # Accumulate totals (skip non-numeric values)
-            if str(value_last_month).isdigit():
-                total_metrics_last_month[idx] += int(value_last_month)
-            if str(value_yesterday).isdigit():
-                total_metrics_yesterday[idx] += int(value_yesterday)
+            if str(value).isdigit():
+                total_metrics[idx] += int(value)
 
-            md_content += f"| {metric} | {value_last_month} | {value_yesterday} |\n"
+            md_content += f"| {metric} | {value} |\n"
 
         md_content += "\n"  # Space between repo sections
 
-    # Add totals section with dates in headers
-    md_content += f"## 📊 Total Across All Repositories (Data from {last_day_of_last_month} & {yesterday})\n"
-    md_content += f"| Metric | {last_day_of_last_month} | {yesterday} |\n"
-    md_content += "|--------|----------------:|----------------:|\n"
+    # Add totals section with date in header
+    md_content += f"## 📊 Total Across All Repositories (Data from {report_date})\n"
+    md_content += f"| Metric | {report_date} |\n"
+    md_content += "|--------|----------------:|\n"
     for idx, metric in enumerate(metrics_list):
-        md_content += f"| {metric} | {total_metrics_last_month[idx]} | {total_metrics_yesterday[idx]} |\n"
+        md_content += f"| {metric} | {total_metrics[idx]} |\n"
 
-    # Always update the same file (overwriting it) even if the content is unchanged.
+    # Always update the same file (overwriting it)
     with open(REPORT_FILE, "w") as f:
         f.write(md_content)
 
