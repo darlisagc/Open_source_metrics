@@ -7,6 +7,7 @@ on:
     paths:
       - "open_source_metrics.md"  # Trigger only if this file is updated
   workflow_dispatch:  # Allows manual triggering
+  repository_dispatch:  # Allows API trigger from automation.yml
 
 jobs:
   deploy:
@@ -20,7 +21,7 @@ jobs:
           fetch-depth: 0  # Ensure all branches are available
 
       - name: Install Markdown Converter
-        run: pip install markdown  # ✅ Fixes the "command not found" issue
+        run: pip install markdown  # ✅ Ensures markdown is installed
 
       - name: Switch to gh-pages Branch Without Deleting Files
         run: |
@@ -32,13 +33,21 @@ jobs:
         run: |
           echo "<html><head><meta charset='UTF-8'><title>Open Source Metrics</title></head><body>" > index.html
           echo "<h1>Open Source Metrics</h1>" >> index.html
-          python3 -m markdown open_source_metrics.md >> index.html  # ✅ Corrected Markdown conversion
+          python3 -m markdown open_source_metrics.md >> index.html  # ✅ Fixed Markdown conversion
           echo "</body></html>" >> index.html
 
       - name: Commit and Push to gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "github-actions@github.com"
           git add index.html
-          git commit -m "Deploy latest Open Source Metrics" || echo "No changes to commit"
-          git push --force https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git gh-pages
+          
+          # Prevent commit errors if no changes were made
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit. Skipping commit."
+          else
+            git commit -m "Deploy latest Open Source Metrics"
+            git push --force https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git gh-pages
+          fi
