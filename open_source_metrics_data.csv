@@ -1,14 +1,14 @@
 Project,GitHub Stars,GitHub Forks,GitHub Contributors,GitHub Pull Requests (PRs) Merged,GitHub Commit Frequency,GitHub Dependent Projects
-CF LOB Platform,7,5,1,94,100,Check manually
-Cardano IBC Incubator,26,10,1,92,100,Check manually
-Cardano Rosetta Java,17,8,1,95,100,Check manually
-Cardano Devkit,9,4,1,4,48,Check manually
-CF Cardano Ballot,20,2,1,91,100,Check manually
-CIP30 Data Signature Parser,7,1,1,21,100,Check manually
-Cardano Connect With Wallet,87,26,1,75,100,Check manually
-CF Adahandle Resolver,12,2,1,39,100,Check manually
-CF Java Rewards Calculation,20,1,1,50,100,Check manually
-Cardano Client Lib,128,52,1,96,100,Check manually
-Yaci Devkit,50,12,1,60,100,Check manually
-Yaci,27,3,1,60,100,Check manually
-Yaci Store,24,8,1,96,100,Check manually
+CF LOB Platform,7,5,9,94,100,Check manually
+Cardano IBC Incubator,26,10,15,92,100,Check manually
+Cardano Rosetta Java,17,8,25,95,100,Check manually
+Cardano Devkit,N/A,N/A,N/A,N/A,N/A,N/A
+CF Cardano Ballot,20,2,16,91,100,Check manually
+CIP30 Data Signature Parser,7,1,8,21,100,Check manually
+Cardano Connect With Wallet,87,26,16,75,100,Check manually
+CF Adahandle Resolver,12,2,5,39,100,Check manually
+CF Java Rewards Calculation,20,1,5,50,100,Check manually
+Cardano Client Lib,128,52,26,96,100,Check manually
+Yaci Devkit,50,12,9,60,100,Check manually
+Yaci,27,3,5,60,100,Check manually
+Yaci Store,24,8,11,96,100,Check manually
