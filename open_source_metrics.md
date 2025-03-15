@@ -1,138 +1,143 @@
-# 🚀 Open Source Projects Metrics
+# 🚀 Open Source Metrics Report
 
-<table>
-  <tr>
-    <th rowspan="2">ID</th>
-    <th rowspan="2">Metrics</th>
-    <th colspan="1">CF LOB Platform</th>
-    <th colspan="1">Cardano IBC Incubator</th>
-    <th colspan="1">Cardano Rosetta Java</th>
-    <th colspan="1">Cardano Devkit</th>
-    <th colspan="1">CF Cardano Ballot</th>
-    <th colspan="1">CIP30 Data Signature Parser</th>
-    <th colspan="1">Cardano Connect With Wallet</th>
-    <th colspan="1">CF Adahandle Resolver</th>
-    <th colspan="1">CF Java Rewards Calculation</th>
-    <th colspan="1">Cardano Client Lib</th>
-    <th colspan="1">Yaci Devkit</th>
-    <th colspan="1">Yaci</th>
-    <th colspan="1">Yaci Store</th>
-  </tr>
-  <tr>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-    <th>15/03/2025</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>GitHub Stars</td>
-    <td>7</td>
-    <td>26</td>
-    <td>17</td>
-    <td>9</td>
-    <td>20</td>
-    <td>7</td>
-    <td>87</td>
-    <td>12</td>
-    <td>20</td>
-    <td>128</td>
-    <td>50</td>
-    <td>27</td>
-    <td>24</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>GitHub Forks</td>
-    <td>5</td>
-    <td>10</td>
-    <td>8</td>
-    <td>4</td>
-    <td>2</td>
-    <td>1</td>
-    <td>26</td>
-    <td>2</td>
-    <td>1</td>
-    <td>52</td>
-    <td>12</td>
-    <td>3</td>
-    <td>8</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>GitHub Contributors</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>GitHub Pull Requests (PRs) Merged</td>
-    <td>94</td>
-    <td>92</td>
-    <td>95</td>
-    <td>4</td>
-    <td>91</td>
-    <td>21</td>
-    <td>75</td>
-    <td>39</td>
-    <td>50</td>
-    <td>96</td>
-    <td>60</td>
-    <td>60</td>
-    <td>96</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>GitHub Commit Frequency</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-    <td>48</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>GitHub Dependent Projects</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-    <td>Check manually</td>
-  </tr>
-</table>
+📅 Data collected on **15/03/2025**
+
+## 📌 CF LOB Platform
+| Metric | 15/03/2025 |
+|--------|----------------:|
+| GitHub Stars | 7 |
+| GitHub Forks | 5 |
+| GitHub Contributors | 9 |
+| GitHub Pull Requests (PRs) Merged | 94 |
+| GitHub Commit Frequency | 100 |
+| GitHub Dependent Projects | Check manually |
+
+## 📌 Cardano IBC Incubator
+| Metric | 15/03/2025 |
+|--------|----------------:|
+| GitHub Stars | 26 |
+| GitHub Forks | 10 |
+| GitHub Contributors | 15 |
+| GitHub Pull Requests (PRs) Merged | 92 |
+| GitHub Commit Frequency | 100 |
+| GitHub Dependent Projects | Check manually |
+
+## 📌 Cardano Rosetta Java
+| Metric | 15/03/2025 |
+|--------|----------------:|
+| GitHub Stars | 17 |
+| GitHub Forks | 8 |
+| GitHub Contributors | 25 |
+| GitHub Pull Requests (PRs) Merged | 95 |
+| GitHub Commit Frequency | 100 |
+| GitHub Dependent Projects | Check manually |
+
+## 📌 Cardano Devkit
+| Metric | 15/03/2025 |
+|--------|----------------:|
+| GitHub Stars | N/A |
+| GitHub Forks | N/A |
+| GitHub Contributors | N/A |
+| GitHub Pull Requests (PRs) Merged | N/A |
+| GitHub Commit Frequency | N/A |
+| GitHub Dependent Projects | N/A |
+
+## 📌 CF Cardano Ballot
+| Metric | 15/03/2025 |
+|--------|----------------:|
+| GitHub Stars | 20 |
+| GitHub Forks | 2 |
+| GitHub Contributors | 16 |
+| GitHub Pull Requests (PRs) Merged | 91 |
+| GitHub Commit Frequency | 100 |
+| GitHub Dependent Projects | Check manually |
+
+## 📌 CIP30 Data Signature Parser
+| Metric | 15/03/2025 |
+|--------|----------------:|
+| GitHub Stars | 7 |
+| GitHub Forks | 1 |
+| GitHub Contributors | 8 |
+| GitHub Pull Requests (PRs) Merged | 21 |
+| GitHub Commit Frequency | 100 |
+| GitHub Dependent Projects | Check manually |
+
+## 📌 Cardano Connect With Wallet
+| Metric | 15/03/2025 |
+|--------|----------------:|
+| GitHub Stars | 87 |
+| GitHub Forks | 26 |
+| GitHub Contributors | 16 |
+| GitHub Pull Requests (PRs) Merged | 75 |
+| GitHub Commit Frequency | 100 |
+| GitHub Dependent Projects | Check manually |
+
+## 📌 CF Adahandle Resolver
+| Metric | 15/03/2025 |
+|--------|----------------:|
+| GitHub Stars | 12 |
+| GitHub Forks | 2 |
+| GitHub Contributors | 5 |
+| GitHub Pull Requests (PRs) Merged | 39 |
+| GitHub Commit Frequency | 100 |
+| GitHub Dependent Projects | Check manually |
+
+## 📌 CF Java Rewards Calculation
+| Metric | 15/03/2025 |
+|--------|----------------:|
+| GitHub Stars | 20 |
+| GitHub Forks | 1 |
+| GitHub Contributors | 5 |
+| GitHub Pull Requests (PRs) Merged | 50 |
+| GitHub Commit Frequency | 100 |
+| GitHub Dependent Projects | Check manually |
+
+## 📌 Cardano Client Lib
+| Metric | 15/03/2025 |
+|--------|----------------:|
+| GitHub Stars | 128 |
+| GitHub Forks | 52 |
+| GitHub Contributors | 26 |
+| GitHub Pull Requests (PRs) Merged | 96 |
+| GitHub Commit Frequency | 100 |
+| GitHub Dependent Projects | Check manually |
+
+## 📌 Yaci Devkit
+| Metric | 15/03/2025 |
+|--------|----------------:|
+| GitHub Stars | 50 |
+| GitHub Forks | 12 |
+| GitHub Contributors | 9 |
+| GitHub Pull Requests (PRs) Merged | 60 |
+| GitHub Commit Frequency | 100 |
+| GitHub Dependent Projects | Check manually |
+
+## 📌 Yaci
+| Metric | 15/03/2025 |
+|--------|----------------:|
+| GitHub Stars | 27 |
+| GitHub Forks | 3 |
+| GitHub Contributors | 5 |
+| GitHub Pull Requests (PRs) Merged | 60 |
+| GitHub Commit Frequency | 100 |
+| GitHub Dependent Projects | Check manually |
+
+## 📌 Yaci Store
+| Metric | 15/03/2025 |
+|--------|----------------:|
+| GitHub Stars | 24 |
+| GitHub Forks | 8 |
+| GitHub Contributors | 11 |
+| GitHub Pull Requests (PRs) Merged | 96 |
+| GitHub Commit Frequency | 100 |
+| GitHub Dependent Projects | Check manually |
+
+## 📊 Total Across All Repositories (Data from 15/03/2025)
+| Metric | 15/03/2025 |
+|--------|----------------:|
+| GitHub Stars | 425 |
+| GitHub Forks | 130 |
+| GitHub Contributors | 150 |
+| GitHub Pull Requests (PRs) Merged | 869 |
+| GitHub Commit Frequency | 1200 |
+| GitHub Dependent Projects | 0 |
