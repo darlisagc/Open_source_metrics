@@ -24,8 +24,9 @@ REPOS = {
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
-# Markdown report file (constant file name)
+# Files
 REPORT_FILE = "open_source_metrics.md"
+CSV_FILE = "open_source_metrics_data.csv"
 
 def get_github_metrics(repo):
     """Fetch GitHub metrics for the given repository."""
@@ -45,8 +46,8 @@ def get_github_metrics(repo):
         print(f"Error fetching {repo}: {response.status_code}")
         return ["N/A"] * 6
 
-def update_markdown():
-    # Use today's date as the report date (should be the last day of the month)
+def update_reports():
+    # Use today's date as the report date (should be the last day of the month when scheduled)
     report_date = datetime.today().strftime("%d/%m/%Y")
     
     metrics_list = [
@@ -62,38 +63,52 @@ def update_markdown():
     md_content = f"# 🚀 Open Source Metrics Report\n\n"
     md_content += f"📅 Data collected on **{report_date}**\n\n"
 
-    # Loop through each repository
-    total_metrics = [0] * len(metrics_list)
+    # List for CSV rows
+    csv_data = []
 
+    # Loop through each repository
     for project_name, repo in REPOS.items():
         md_content += f"## 📌 {project_name}\n"
         md_content += f"| Metric | {report_date} |\n"
         md_content += "|--------|----------------:|\n"
 
         repo_metrics = get_github_metrics(repo)
-
+        # Prepare a dict for CSV row
+        row = {"Project": project_name}
         for idx, metric in enumerate(metrics_list):
             value = repo_metrics[idx]
-            # Accumulate totals (skip non-numeric values)
-            if str(value).isdigit():
-                total_metrics[idx] += int(value)
-
+            row[metric] = value
             md_content += f"| {metric} | {value} |\n"
 
+        csv_data.append(row)
         md_content += "\n"  # Space between repo sections
 
-    # Add totals section with date in header
+    # Totals calculation for Markdown (optional)
+    totals = {metric: 0 for metric in metrics_list}
+    for row in csv_data:
+        for metric in metrics_list:
+            try:
+                # Only sum numeric values
+                totals[metric] += int(row[metric])
+            except (ValueError, TypeError):
+                pass
+
+    # Append totals section to Markdown
     md_content += f"## 📊 Total Across All Repositories (Data from {report_date})\n"
     md_content += f"| Metric | {report_date} |\n"
     md_content += "|--------|----------------:|\n"
-    for idx, metric in enumerate(metrics_list):
-        md_content += f"| {metric} | {total_metrics[idx]} |\n"
+    for metric in metrics_list:
+        md_content += f"| {metric} | {totals[metric]} |\n"
 
-    # Always update the same file (overwriting it)
+    # Save Markdown file
     with open(REPORT_FILE, "w") as f:
         f.write(md_content)
-
     print(f"✅ Updated {REPORT_FILE} successfully!")
 
+    # Create a DataFrame and save CSV file
+    df = pd.DataFrame(csv_data)
+    df.to_csv(CSV_FILE, index=False)
+    print(f"✅ Updated {CSV_FILE} successfully!")
+
 if __name__ == "__main__":
-    update_markdown()
+    update_reports()
