@@ -24,8 +24,7 @@ REPOS = {
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
-# File names for persistent data and final Markdown report
-DATA_FILE = "open_source_metrics_data.csv"
+# Markdown report file
 REPORT_FILE = "open_source_metrics.md"
 
 def get_github_metrics(repo):
@@ -48,6 +47,7 @@ def get_github_metrics(repo):
 
 def update_markdown():
     last_day_of_last_month = (datetime.today().replace(day=1) - timedelta(days=1)).strftime("%d/%m/%Y")
+    yesterday = (datetime.today() - timedelta(days=1)).strftime("%d/%m/%Y")
 
     metrics_list = [
         "GitHub Stars",
@@ -57,23 +57,44 @@ def update_markdown():
         "GitHub Commit Frequency",
         "GitHub Dependent Projects"
     ]
-    
-    if os.path.exists(DATA_FILE):
-        df = pd.read_csv(DATA_FILE)
-    else:
-        df = pd.DataFrame({"ID": range(1, len(metrics_list) + 1), "Metrics": metrics_list})
 
-    new_data = {}
-    for project_name, repo in REPOS.items():
-        new_data[f"{project_name} ({last_day_of_last_month})"] = get_github_metrics(repo)
+    # Prepare Markdown content
+    md_content = "# 🚀 Open Source Metrics Report\n\n"
+    md_content += "| ID | Metric |"
 
-    new_df = pd.DataFrame(new_data)
-    df = pd.concat([df, new_df], axis=1)
-    
-    df.to_csv(DATA_FILE, index=False)
-    df.to_markdown(REPORT_FILE, index=False)
+    # Create dynamic columns for each project (two timestamps) and one total column
+    for project_name in REPOS.keys():
+        md_content += f" {project_name} ({last_day_of_last_month}) | {project_name} ({yesterday}) |"
+    md_content += " Total ({last_day_of_last_month}) | Total ({yesterday}) |\n"
 
-    print(f"✅ Updated {REPORT_FILE} and {DATA_FILE} successfully!")
+    # Align columns: left for descriptions, right for numerical data
+    md_content += "|----|---------|" + "------:|------:|" * len(REPOS) + "------:|------:|\n"
+
+    # Fetch and add data
+    for idx, metric in enumerate(metrics_list, start=1):
+        md_content += f"| {idx} | {metric} |"
+
+        total_last_month = 0
+        total_yesterday = 0
+
+        for repo in REPOS.values():
+            metrics_last_month = get_github_metrics(repo)[idx - 1]
+            metrics_yesterday = get_github_metrics(repo)[idx - 1]
+
+            # Add to total (ignore non-numeric values)
+            total_last_month += int(metrics_last_month) if str(metrics_last_month).isdigit() else 0
+            total_yesterday += int(metrics_yesterday) if str(metrics_yesterday).isdigit() else 0
+
+            md_content += f" {metrics_last_month} | {metrics_yesterday} |"
+
+        # Append total column values
+        md_content += f" {total_last_month} | {total_yesterday} |\n"
+
+    # Save Markdown file
+    with open(REPORT_FILE, "w") as f:
+        f.write(md_content)
+
+    print(f"✅ Updated {REPORT_FILE} successfully!")
 
 if __name__ == "__main__":
     update_markdown()
