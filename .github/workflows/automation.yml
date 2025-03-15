@@ -1,8 +1,8 @@
-name: Monthly GitHub Metrics Report
+name: Generate Monthly GitHub Metrics
 
 on:
   schedule:
-    - cron: "59 23 28-31 * *"  # Runs on the last day of every month at 23:59 UTC
+    - cron: "59 23 28-31 * *"  # Runs on the last day of the month at 23:59 UTC
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false  # Disable default token
+          persist-credentials: false
 
       - name: Set Up Python
         uses: actions/setup-python@v4
@@ -21,7 +21,7 @@ jobs:
           python-version: "3.9"
 
       - name: Install Dependencies
-        run: pip install requests pandas tabulate  # ✅ Ensure dependencies are installed
+        run: pip install requests pandas tabulate
 
       - name: Determine Last Day of Month
         run: |
@@ -40,12 +40,19 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: python github_metrics.py
 
-      - name: Commit and Push Changes
+      - name: Commit and Push Markdown Report
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add open_source_metrics.md open_source_metrics_data.csv
+          git add open_source_metrics.md
           git diff --quiet && git diff --staged --quiet || git commit -m "Updated Open Source Metrics for $(date +'%Y-%m-%d')"
           git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+
+      - name: Trigger GitHub Pages Deployment
+        run: |
+          curl -X POST -H "Authorization: token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
+               -H "Accept: application/vnd.github.v3+json" \
+               https://api.github.com/repos/${{ github.repository }}/actions/workflows/publish-metrics.yml/dispatches \
+               -d '{"ref": "main"}'
