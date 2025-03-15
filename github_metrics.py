@@ -59,36 +59,41 @@ def update_markdown():
     ]
 
     # Prepare Markdown content
-    md_content = "# 🚀 Open Source Metrics Report\n\n"
-    md_content += "| ID | Metric |"
+    md_content = f"# 🚀 Open Source Metrics Report\n\n"
+    md_content += f"📅 Data collected on **{last_day_of_last_month}** and **{yesterday}**\n\n"
 
-    # Create dynamic columns for each project (two timestamps) and one total column
-    for project_name in REPOS.keys():
-        md_content += f" {project_name} ({last_day_of_last_month}) | {project_name} ({yesterday}) |"
-    md_content += " Total ({last_day_of_last_month}) | Total ({yesterday}) |\n"
+    # Loop through each repository
+    total_metrics_last_month = [0] * len(metrics_list)
+    total_metrics_yesterday = [0] * len(metrics_list)
 
-    # Align columns: left for descriptions, right for numerical data
-    md_content += "|----|---------|" + "------:|------:|" * len(REPOS) + "------:|------:|\n"
+    for project_name, repo in REPOS.items():
+        md_content += f"## 📌 {project_name}\n"
+        md_content += f"| Metric | {last_day_of_last_month} | {yesterday} |\n"
+        md_content += "|--------|----------------:|----------------:|\n"
 
-    # Fetch and add data
-    for idx, metric in enumerate(metrics_list, start=1):
-        md_content += f"| {idx} | {metric} |"
+        repo_metrics_last_month = get_github_metrics(repo)
+        repo_metrics_yesterday = get_github_metrics(repo)
 
-        total_last_month = 0
-        total_yesterday = 0
+        for idx, metric in enumerate(metrics_list):
+            value_last_month = repo_metrics_last_month[idx]
+            value_yesterday = repo_metrics_yesterday[idx]
 
-        for repo in REPOS.values():
-            metrics_last_month = get_github_metrics(repo)[idx - 1]
-            metrics_yesterday = get_github_metrics(repo)[idx - 1]
+            # Accumulate totals (skip non-numeric values)
+            if str(value_last_month).isdigit():
+                total_metrics_last_month[idx] += int(value_last_month)
+            if str(value_yesterday).isdigit():
+                total_metrics_yesterday[idx] += int(value_yesterday)
 
-            # Add to total (ignore non-numeric values)
-            total_last_month += int(metrics_last_month) if str(metrics_last_month).isdigit() else 0
-            total_yesterday += int(metrics_yesterday) if str(metrics_yesterday).isdigit() else 0
+            md_content += f"| {metric} | {value_last_month} | {value_yesterday} |\n"
 
-            md_content += f" {metrics_last_month} | {metrics_yesterday} |"
+        md_content += "\n"  # Space between repo sections
 
-        # Append total column values
-        md_content += f" {total_last_month} | {total_yesterday} |\n"
+    # Add totals section with dates in headers
+    md_content += f"## 📊 Total Across All Repositories (Data from {last_day_of_last_month} & {yesterday})\n"
+    md_content += f"| Metric | {last_day_of_last_month} | {yesterday} |\n"
+    md_content += "|--------|----------------:|----------------:|\n"
+    for idx, metric in enumerate(metrics_list):
+        md_content += f"| {metric} | {total_metrics_last_month[idx]} | {total_metrics_yesterday[idx]} |\n"
 
     # Save Markdown file
     with open(REPORT_FILE, "w") as f:
