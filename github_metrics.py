@@ -24,9 +24,6 @@ REPOS = {
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
-# Markdown report file
-REPORT_FILE = "open_source_metrics.md"
-
 def get_github_metrics(repo):
     """Fetch GitHub metrics for the given repository."""
     url = f"https://api.github.com/repos/{repo}"
@@ -95,11 +92,12 @@ def update_markdown():
     for idx, metric in enumerate(metrics_list):
         md_content += f"| {metric} | {total_metrics_last_month[idx]} | {total_metrics_yesterday[idx]} |\n"
 
-    # Save Markdown file
-    with open(REPORT_FILE, "w") as f:
+    # Generate a unique report filename using the current timestamp.
+    report_file = f"open_source_metrics_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md"
+    with open(report_file, "w") as f:
         f.write(md_content)
 
-    print(f"✅ Updated {REPORT_FILE} successfully!")
+    print(f"✅ Updated {report_file} successfully!")
 
 if __name__ == "__main__":
     update_markdown()
