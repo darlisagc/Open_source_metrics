@@ -125,7 +125,7 @@
 ## 📌 Yaci Store
 | Metric | 15/03/2025 |
 |--------|----------------:|
-| GitHub Stars | 24 |
+| GitHub Stars | 23 |
 | GitHub Forks | 8 |
 | GitHub Contributors | 11 |
 | GitHub Pull Requests (PRs) Merged | 96 |
@@ -135,7 +135,7 @@
 ## 📊 Total Across All Repositories (Data from 15/03/2025)
 | Metric | 15/03/2025 |
 |--------|----------------:|
-| GitHub Stars | 425 |
+| GitHub Stars | 424 |
 | GitHub Forks | 130 |
 | GitHub Contributors | 150 |
 | GitHub Pull Requests (PRs) Merged | 869 |
