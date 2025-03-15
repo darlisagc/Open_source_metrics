@@ -25,7 +25,6 @@ jobs:
 
       - name: Determine Last Day of Month
         run: |
-          # Determine if today is the last day of the month
           TOMORROW_MONTH=$(date -d "tomorrow" +%m)
           CURRENT_MONTH=$(date +%m)
 
@@ -47,6 +46,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add open_source_metrics.md
+          git add open_source_metrics.md open_source_metrics_data.csv
           git diff --quiet && git diff --staged --quiet || git commit -m "Updated Open Source Metrics for $(date +'%Y-%m-%d')"
           git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
