@@ -1,6 +1,6 @@
 import os
 import requests
-import markdown
+import mistune
 from datetime import datetime
 
 # Load environment variables from GitHub Secrets
@@ -16,7 +16,8 @@ HEADERS = {"Content-Type": "application/json"}
 def convert_md_to_html(md_file):
     with open(md_file, "r", encoding="utf-8") as f:
         md_content = f.read()
-    html_body = markdown.markdown(md_content, extensions=["tables", "fenced_code"])
+    # Convert Markdown to HTML using Mistune
+    html_body = mistune.html(md_content)
     return f"<div>{html_body}</div>"
 
 def get_existing_page(title):
