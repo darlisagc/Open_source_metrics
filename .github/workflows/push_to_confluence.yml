@@ -25,7 +25,7 @@ jobs:
           python -m pip install requests commonmark
 
       - name: Verify CommonMark Installation
-        run: python -c "import commonmark; print('✅ commonmark module is installed, version:', commonmark.__version__)"
+        run: python -c "import commonmark; print('✅ commonmark module is installed')"
 
       - name: Push Markdown Report to Confluence
         env:
