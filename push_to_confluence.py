@@ -1,6 +1,6 @@
 import os
 import requests
-import mistune
+import commonmark
 from datetime import datetime
 
 # Load environment variables from GitHub Secrets
@@ -16,8 +16,8 @@ HEADERS = {"Content-Type": "application/json"}
 def convert_md_to_html(md_file):
     with open(md_file, "r", encoding="utf-8") as f:
         md_content = f.read()
-    # Convert Markdown to HTML using Mistune
-    html_body = mistune.html(md_content)
+    # Convert Markdown to HTML using CommonMark
+    html_body = commonmark.commonmark(md_content)
     return f"<div>{html_body}</div>"
 
 def get_existing_page(title):
