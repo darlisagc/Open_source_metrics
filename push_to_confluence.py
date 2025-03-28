@@ -3,13 +3,13 @@ import requests
 import markdown
 from datetime import datetime
 
-# Environment variables from GitHub Actions
+# Load environment variables from GitHub Secrets
 CONFLUENCE_API_TOKEN = os.getenv("CONFLUENCE_API_TOKEN")
 CONFLUENCE_EMAIL = os.getenv("CONFLUENCE_EMAIL")
 CONFLUENCE_SPACE_KEY = os.getenv("CONFLUENCE_SPACE_KEY")
 CONFLUENCE_PARENT_PAGE_ID = os.getenv("CONFLUENCE_PARENT_PAGE_ID")  # Optional
 
-BASE_URL = "https://cardanofoundation.atlassian.net/wiki"  # Your actual Confluence base URL
+BASE_URL = "https://cardanofoundation.atlassian.net/wiki"
 AUTH = (CONFLUENCE_EMAIL, CONFLUENCE_API_TOKEN)
 HEADERS = {"Content-Type": "application/json"}
 
