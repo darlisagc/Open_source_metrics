@@ -22,10 +22,10 @@ jobs:
       - name: Upgrade pip and Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install requests mistune
+          python -m pip install requests commonmark
 
-      - name: Verify Mistune Installation
-        run: python -c "import mistune; print('✅ Mistune module is installed, version:', mistune.__version__)"
+      - name: Verify CommonMark Installation
+        run: python -c "import commonmark; print('✅ commonmark module is installed, version:', commonmark.__version__)"
 
       - name: Push Markdown Report to Confluence
         env:
