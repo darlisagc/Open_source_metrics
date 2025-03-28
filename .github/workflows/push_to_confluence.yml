@@ -20,12 +20,7 @@ jobs:
           python-version: "3.9"
 
       - name: Install Dependencies
-        run: pip install requests
-
-      - name: Install Pandoc
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc
+        run: pip install requests markdown
 
       - name: Push Markdown Report to Confluence
         env:
