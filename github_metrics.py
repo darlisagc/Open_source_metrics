@@ -2,9 +2,8 @@ import requests
 import os
 import pandas as pd
 from datetime import datetime
-from bs4 import BeautifulSoup
 
-# Define repository list
+# GitHub Repositories to track
 REPOS = {
     "CF LOB Platform": "cardano-foundation/cf-lob-platform",
     "Cardano IBC Incubator": "cardano-foundation/cardano-ibc-incubator",
@@ -16,27 +15,30 @@ REPOS = {
     "CF Adahandle Resolver": "cardano-foundation/cf-adahandle-resolver",
     "CF Java Rewards Calculation": "cardano-foundation/cf-java-rewards-calculation",
     "Cardano Client Lib": "bloxbean/cardano-client-lib",
+    "Cardano Client Core": "bloxbean/cardano-client-core",
     "Yaci Devkit": "bloxbean/yaci-devkit",
     "Yaci": "bloxbean/yaci",
     "Yaci Store": "bloxbean/yaci-store"
 }
 
-# Mapping GitHub repos to Maven Central coordinates (groupId, artifactId)
+# Map GitHub repos to Maven Central (groupId, artifactId)
 MAVEN_COORDS = {
-    "cardano-foundation/cf-java-rewards-calculation": ("org.cardanofoundation", "cf-java-rewards-calculation"),
     "bloxbean/cardano-client-lib": ("com.bloxbean.cardano", "cardano-client-lib"),
+    "bloxbean/cardano-client-core": ("com.bloxbean.cardano", "cardano-client-core"),
     "bloxbean/yaci-devkit": ("com.bloxbean", "yaci-devkit"),
-    "bloxbean/yaci": ("com.bloxbean", "yaci"),
-    "bloxbean/yaci-store": ("com.bloxbean", "yaci-store")
+    "bloxbean/yaci-store": ("com.bloxbean", "yaci-store"),
+    "cardano-foundation/cf-java-rewards-calculation": ("org.cardanofoundation", "cf-java-rewards-calculation")
 }
 
-# GitHub API Token
+# GitHub API Token (optional)
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
 # Output files
 REPORT_FILE = "open_source_metrics.md"
 CSV_FILE = "open_source_metrics_data.csv"
+
+# ------------------- GitHub Metric Functions -------------------
 
 def get_contributors_count(repo):
     count = 0
@@ -89,41 +91,20 @@ def get_releases_count(repo):
         page += 1
     return count
 
-def get_maven_downloads(group_id, artifact_id):
-    url = f"https://search.maven.org/solrsearch/select?q=g:%22{group_id}%22+AND+a:%22{artifact_id}%22&rows=1&wt=json"
+# ------------------- Maven Central -------------------
+
+def get_maven_total_downloads(group_id, artifact_id):
+    url = f'https://search.maven.org/solrsearch/select?q=g:"{group_id}"+AND+a:"{artifact_id}"&rows=1&wt=json'
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
         try:
-            return data["response"]["docs"][0].get("downloadCount", "N/A")
+            return data["response"]["docs"][0].get("downloadCount", "Not available")
         except (IndexError, KeyError):
-            return "N/A"
-    return "N/A"
+            return "Not available"
+    return "Error"
 
-def get_mvnrepository_monthly_downloads(group_id, artifact_id):
-    url = f"https://mvnrepository.com/artifact/{group_id}/{artifact_id}"
-    try:
-        response = requests.get(url)
-        if response.status_code != 200:
-            return "N/A"
-        soup = BeautifulSoup(response.text, "lxml")
-        usage_table = soup.find("table", {"class": "grid versions"})
-        if not usage_table:
-            return "N/A"
-        rows = usage_table.find_all("tr")[1:]
-        latest_month_downloads = 0
-        for row in rows:
-            cols = row.find_all("td")
-            if len(cols) < 4:
-                continue
-            downloads = cols[3].text.strip().replace(",", "")
-            try:
-                latest_month_downloads += int(downloads)
-            except:
-                continue
-        return latest_month_downloads if latest_month_downloads else "N/A"
-    except Exception:
-        return "N/A"
+# ------------------- Combined Metrics -------------------
 
 def get_github_metrics(repo):
     url = f"https://api.github.com/repos/{repo}"
@@ -135,11 +116,9 @@ def get_github_metrics(repo):
         releases_count = get_releases_count(repo)
 
         maven_downloads = "N/A"
-        mvnrepo_monthly_downloads = "N/A"
         if repo in MAVEN_COORDS:
             group_id, artifact_id = MAVEN_COORDS[repo]
-            maven_downloads = get_maven_downloads(group_id, artifact_id)
-            mvnrepo_monthly_downloads = get_mvnrepository_monthly_downloads(group_id, artifact_id)
+            maven_downloads = get_maven_total_downloads(group_id, artifact_id)
 
         return [
             data.get("stargazers_count", 0),
@@ -147,10 +126,11 @@ def get_github_metrics(repo):
             contributors_count,
             merged_prs,
             releases_count,
-            maven_downloads,
-            mvnrepo_monthly_downloads
+            maven_downloads
         ]
-    return ["N/A"] * 7
+    return ["N/A"] * 6
+
+# ------------------- Report Generation -------------------
 
 def update_reports():
     report_date = datetime.today().strftime("%d/%m/%Y")
@@ -158,11 +138,11 @@ def update_reports():
         "GitHub Stars",
         "GitHub Forks",
         "GitHub Contributors",
-        "GitHub Pull Requests (PRs) Merged",
+        "GitHub PRs Merged",
         "GitHub Releases",
-        "Maven Total Downloads",
-        "MvnRepository Monthly Downloads"
+        "Maven Total Downloads"
     ]
+
     md_content = f"# 🚀 Open Source Metrics Report\n\n📅 Data collected on **{report_date}**\n\n"
     csv_data = []
 
@@ -187,16 +167,21 @@ def update_reports():
             except (ValueError, TypeError):
                 pass
 
-    md_content += f"## 📊 Total Across All Repositories (Data from {report_date})\n"
-    md_content += f"| Metric | {report_date} |\n"
-    md_content += "|--------|----------------:|\n"
+    md_content += f"## 📊 Totals Across All Projects (as of {report_date})\n"
+    md_content += f"| Metric | Total |\n"
+    md_content += "|--------|-------:|\n"
     for metric in metrics_list:
         md_content += f"| {metric} | {totals[metric]} |\n"
 
     with open(REPORT_FILE, "w") as f:
         f.write(md_content)
+    print(f"✅ Markdown report saved to {REPORT_FILE}")
+
     df = pd.DataFrame(csv_data)
     df.to_csv(CSV_FILE, index=False)
+    print(f"✅ CSV data saved to {CSV_FILE}")
+
+# ------------------- Run Script -------------------
 
 if __name__ == "__main__":
     update_reports()
