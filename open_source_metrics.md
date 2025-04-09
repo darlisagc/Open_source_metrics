@@ -10,7 +10,8 @@
 | GitHub Contributors | 9 |
 | GitHub PRs Merged | 193 |
 | GitHub Releases | 0 |
-| Maven Total Downloads | N/A |
+| GitHub Release Downloads | 0 |
+| Maven Monthly Downloads | Not implemented |
 
 ## 📌 Cardano IBC Incubator
 | Metric | 09/04/2025 |
@@ -20,7 +21,8 @@
 | GitHub Contributors | 15 |
 | GitHub PRs Merged | 174 |
 | GitHub Releases | 0 |
-| Maven Total Downloads | N/A |
+| GitHub Release Downloads | 0 |
+| Maven Monthly Downloads | Not implemented |
 
 ## 📌 Cardano Rosetta Java
 | Metric | 09/04/2025 |
@@ -30,7 +32,8 @@
 | GitHub Contributors | 25 |
 | GitHub PRs Merged | 271 |
 | GitHub Releases | 26 |
-| Maven Total Downloads | N/A |
+| GitHub Release Downloads | 0 |
+| Maven Monthly Downloads | Not implemented |
 
 ## 📌 Cardano Devkit
 | Metric | 09/04/2025 |
@@ -40,7 +43,8 @@
 | GitHub Contributors | N/A |
 | GitHub PRs Merged | N/A |
 | GitHub Releases | N/A |
-| Maven Total Downloads | N/A |
+| GitHub Release Downloads | N/A |
+| Maven Monthly Downloads | N/A |
 
 ## 📌 CF Cardano Ballot
 | Metric | 09/04/2025 |
@@ -50,7 +54,8 @@
 | GitHub Contributors | 16 |
 | GitHub PRs Merged | 517 |
 | GitHub Releases | 71 |
-| Maven Total Downloads | N/A |
+| GitHub Release Downloads | 0 |
+| Maven Monthly Downloads | Not implemented |
 
 ## 📌 CIP30 Data Signature Parser
 | Metric | 09/04/2025 |
@@ -60,7 +65,8 @@
 | GitHub Contributors | 8 |
 | GitHub PRs Merged | 21 |
 | GitHub Releases | 7 |
-| Maven Total Downloads | N/A |
+| GitHub Release Downloads | 0 |
+| Maven Monthly Downloads | Not implemented |
 
 ## 📌 Cardano Connect With Wallet
 | Metric | 09/04/2025 |
@@ -70,7 +76,8 @@
 | GitHub Contributors | 16 |
 | GitHub PRs Merged | 75 |
 | GitHub Releases | 54 |
-| Maven Total Downloads | N/A |
+| GitHub Release Downloads | 0 |
+| Maven Monthly Downloads | Not implemented |
 
 ## 📌 CF Adahandle Resolver
 | Metric | 09/04/2025 |
@@ -80,7 +87,8 @@
 | GitHub Contributors | 5 |
 | GitHub PRs Merged | 39 |
 | GitHub Releases | 10 |
-| Maven Total Downloads | N/A |
+| GitHub Release Downloads | 0 |
+| Maven Monthly Downloads | Not implemented |
 
 ## 📌 CF Java Rewards Calculation
 | Metric | 09/04/2025 |
@@ -90,7 +98,8 @@
 | GitHub Contributors | 5 |
 | GitHub PRs Merged | 53 |
 | GitHub Releases | 22 |
-| Maven Total Downloads | Not available |
+| GitHub Release Downloads | 0 |
+| Maven Monthly Downloads | Not implemented |
 
 ## 📌 Cardano Client Lib
 | Metric | 09/04/2025 |
@@ -100,7 +109,8 @@
 | GitHub Contributors | 26 |
 | GitHub PRs Merged | 233 |
 | GitHub Releases | 50 |
-| Maven Total Downloads | Not available |
+| GitHub Release Downloads | 309 |
+| Maven Monthly Downloads | Not implemented |
 
 ## 📌 Cardano Client Core
 | Metric | 09/04/2025 |
@@ -110,7 +120,8 @@
 | GitHub Contributors | N/A |
 | GitHub PRs Merged | N/A |
 | GitHub Releases | N/A |
-| Maven Total Downloads | N/A |
+| GitHub Release Downloads | N/A |
+| Maven Monthly Downloads | N/A |
 
 ## 📌 Yaci Devkit
 | Metric | 09/04/2025 |
@@ -120,7 +131,8 @@
 | GitHub Contributors | 9 |
 | GitHub PRs Merged | 61 |
 | GitHub Releases | 25 |
-| Maven Total Downloads | Not available |
+| GitHub Release Downloads | 502 |
+| Maven Monthly Downloads | Not implemented |
 
 ## 📌 Yaci
 | Metric | 09/04/2025 |
@@ -130,7 +142,8 @@
 | GitHub Contributors | 5 |
 | GitHub PRs Merged | 62 |
 | GitHub Releases | 36 |
-| Maven Total Downloads | N/A |
+| GitHub Release Downloads | 0 |
+| Maven Monthly Downloads | Not implemented |
 
 ## 📌 Yaci Store
 | Metric | 09/04/2025 |
@@ -140,7 +153,8 @@
 | GitHub Contributors | 11 |
 | GitHub PRs Merged | 272 |
 | GitHub Releases | 40 |
-| Maven Total Downloads | Not available |
+| GitHub Release Downloads | 1348 |
+| Maven Monthly Downloads | Not implemented |
 
 ## 📊 Totals Across All Projects (as of 09/04/2025)
 | Metric | Total |
@@ -150,4 +164,5 @@
 | GitHub Contributors | 150 |
 | GitHub PRs Merged | 1971 |
 | GitHub Releases | 341 |
-| Maven Total Downloads | 0 |
+| GitHub Release Downloads | 2159 |
+| Maven Monthly Downloads | 0 |

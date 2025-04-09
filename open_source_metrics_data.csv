@@ -1,15 +1,15 @@
-Project,GitHub Stars,GitHub Forks,GitHub Contributors,GitHub PRs Merged,GitHub Releases,Maven Total Downloads
-CF LOB Platform,8,6,9,193,0,N/A
-Cardano IBC Incubator,27,11,15,174,0,N/A
-Cardano Rosetta Java,18,8,25,271,26,N/A
-Cardano Devkit,N/A,N/A,N/A,N/A,N/A,N/A
-CF Cardano Ballot,21,4,16,517,71,N/A
-CIP30 Data Signature Parser,7,1,8,21,7,N/A
-Cardano Connect With Wallet,87,26,16,75,54,N/A
-CF Adahandle Resolver,12,2,5,39,10,N/A
-CF Java Rewards Calculation,20,1,5,53,22,Not available
-Cardano Client Lib,129,52,26,233,50,Not available
-Cardano Client Core,N/A,N/A,N/A,N/A,N/A,N/A
-Yaci Devkit,50,12,9,61,25,Not available
-Yaci,27,3,5,62,36,N/A
-Yaci Store,26,8,11,272,40,Not available
+Project,GitHub Stars,GitHub Forks,GitHub Contributors,GitHub PRs Merged,GitHub Releases,GitHub Release Downloads,Maven Monthly Downloads
+CF LOB Platform,8,6,9,193,0,0,Not implemented
+Cardano IBC Incubator,27,11,15,174,0,0,Not implemented
+Cardano Rosetta Java,18,8,25,271,26,0,Not implemented
+Cardano Devkit,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+CF Cardano Ballot,21,4,16,517,71,0,Not implemented
+CIP30 Data Signature Parser,7,1,8,21,7,0,Not implemented
+Cardano Connect With Wallet,87,26,16,75,54,0,Not implemented
+CF Adahandle Resolver,12,2,5,39,10,0,Not implemented
+CF Java Rewards Calculation,20,1,5,53,22,0,Not implemented
+Cardano Client Lib,129,52,26,233,50,309,Not implemented
+Cardano Client Core,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Yaci Devkit,50,12,9,61,25,502,Not implemented
+Yaci,27,3,5,62,36,0,Not implemented
+Yaci Store,26,8,11,272,40,1348,Not implemented
