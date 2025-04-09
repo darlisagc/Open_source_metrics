@@ -3,7 +3,7 @@ import os
 import pandas as pd
 from datetime import datetime
 
-# GitHub Repositories to track
+# GitHub repositories to track
 REPOS = {
     "CF LOB Platform": "cardano-foundation/cf-lob-platform",
     "Cardano IBC Incubator": "cardano-foundation/cardano-ibc-incubator",
@@ -21,16 +21,7 @@ REPOS = {
     "Yaci Store": "bloxbean/yaci-store"
 }
 
-# Map GitHub repos to Maven Central (groupId, artifactId)
-MAVEN_COORDS = {
-    "bloxbean/cardano-client-lib": ("com.bloxbean.cardano", "cardano-client-lib"),
-    "bloxbean/cardano-client-core": ("com.bloxbean.cardano", "cardano-client-core"),
-    "bloxbean/yaci-devkit": ("com.bloxbean", "yaci-devkit"),
-    "bloxbean/yaci-store": ("com.bloxbean", "yaci-store"),
-    "cardano-foundation/cf-java-rewards-calculation": ("org.cardanofoundation", "cf-java-rewards-calculation")
-}
-
-# GitHub API Token (optional)
+# GitHub API token (optional but recommended to avoid rate limits)
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
@@ -38,7 +29,7 @@ HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 REPORT_FILE = "open_source_metrics.md"
 CSV_FILE = "open_source_metrics_data.csv"
 
-# ------------------- GitHub Metric Functions -------------------
+# -------------------- GitHub Metric Functions --------------------
 
 def get_contributors_count(repo):
     count = 0
@@ -91,20 +82,20 @@ def get_releases_count(repo):
         page += 1
     return count
 
-# ------------------- Maven Central -------------------
+def get_github_release_downloads(repo):
+    """Sum all asset downloads from GitHub releases."""
+    url = f"https://api.github.com/repos/{repo}/releases"
+    response = requests.get(url, headers=HEADERS)
+    if response.status_code != 200:
+        return "N/A"
+    releases = response.json()
+    total_downloads = 0
+    for release in releases:
+        for asset in release.get("assets", []):
+            total_downloads += asset.get("download_count", 0)
+    return total_downloads
 
-def get_maven_total_downloads(group_id, artifact_id):
-    url = f'https://search.maven.org/solrsearch/select?q=g:"{group_id}"+AND+a:"{artifact_id}"&rows=1&wt=json'
-    response = requests.get(url)
-    if response.status_code == 200:
-        data = response.json()
-        try:
-            return data["response"]["docs"][0].get("downloadCount", "Not available")
-        except (IndexError, KeyError):
-            return "Not available"
-    return "Error"
-
-# ------------------- Combined Metrics -------------------
+# -------------------- Metrics Collector --------------------
 
 def get_github_metrics(repo):
     url = f"https://api.github.com/repos/{repo}"
@@ -114,23 +105,20 @@ def get_github_metrics(repo):
         contributors_count = get_contributors_count(repo)
         merged_prs = get_merged_prs_count(repo)
         releases_count = get_releases_count(repo)
-
-        maven_downloads = "N/A"
-        if repo in MAVEN_COORDS:
-            group_id, artifact_id = MAVEN_COORDS[repo]
-            maven_downloads = get_maven_total_downloads(group_id, artifact_id)
-
+        github_downloads = get_github_release_downloads(repo)
+        maven_monthly_downloads = "Not implemented"  # Placeholder only
         return [
             data.get("stargazers_count", 0),
             data.get("forks_count", 0),
             contributors_count,
             merged_prs,
             releases_count,
-            maven_downloads
+            github_downloads,
+            maven_monthly_downloads
         ]
-    return ["N/A"] * 6
+    return ["N/A"] * 7
 
-# ------------------- Report Generation -------------------
+# -------------------- Report Generator --------------------
 
 def update_reports():
     report_date = datetime.today().strftime("%d/%m/%Y")
@@ -140,7 +128,8 @@ def update_reports():
         "GitHub Contributors",
         "GitHub PRs Merged",
         "GitHub Releases",
-        "Maven Total Downloads"
+        "GitHub Release Downloads",
+        "Maven Monthly Downloads"
     ]
 
     md_content = f"# 🚀 Open Source Metrics Report\n\n📅 Data collected on **{report_date}**\n\n"
@@ -181,7 +170,7 @@ def update_reports():
     df.to_csv(CSV_FILE, index=False)
     print(f"✅ CSV data saved to {CSV_FILE}")
 
-# ------------------- Run Script -------------------
+# -------------------- Run --------------------
 
 if __name__ == "__main__":
     update_reports()
