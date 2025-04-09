@@ -15,7 +15,6 @@ REPOS = {
     "CF Adahandle Resolver": "cardano-foundation/cf-adahandle-resolver",
     "CF Java Rewards Calculation": "cardano-foundation/cf-java-rewards-calculation",
     "Cardano Client Lib": "bloxbean/cardano-client-lib",
-    "Cardano Client Core": "bloxbean/cardano-client-core",
     "Yaci Devkit": "bloxbean/yaci-devkit",
     "Yaci": "bloxbean/yaci",
     "Yaci Store": "bloxbean/yaci-store"
