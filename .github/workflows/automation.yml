@@ -2,7 +2,7 @@ name: Generate Monthly GitHub Metrics
 
 on:
   schedule:
-    - cron: "59 23 28-31 * *"  # Runs at 23:59 UTC on days 28, 29, 30, and 31, but only executes on the true last day.
+    - cron: "59 23 28-31 * *"  # Runs near midnight on last few days, script will check if it's truly last day
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
@@ -21,7 +21,8 @@ jobs:
           python-version: "3.9"
 
       - name: Install Dependencies
-        run: pip install requests pandas tabulate
+        run: |
+          pip install requests pandas tabulate beautifulsoup4 lxml
 
       - name: Determine Last Day of Month
         run: |
@@ -46,6 +47,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add open_source_metrics.md open_source_metrics_data.csv
-          # Force commit even if there are no changes
           git commit --allow-empty -m "Updated Open Source Metrics for $(date +'%Y-%m-%d')"
           git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
