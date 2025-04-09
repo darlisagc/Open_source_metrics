@@ -112,17 +112,6 @@
 | GitHub Release Downloads | 309 |
 | Maven Monthly Downloads |  |
 
-## 📌 Cardano Client Core
-| Metric | 09/04/2025 |
-|--------|----------------:|
-| GitHub Stars | N/A |
-| GitHub Forks | N/A |
-| GitHub Contributors | N/A |
-| GitHub PRs Merged | N/A |
-| GitHub Releases | N/A |
-| GitHub Release Downloads | N/A |
-| Maven Monthly Downloads | N/A |
-
 ## 📌 Yaci Devkit
 | Metric | 09/04/2025 |
 |--------|----------------:|
@@ -153,7 +142,7 @@
 | GitHub Contributors | 11 |
 | GitHub PRs Merged | 272 |
 | GitHub Releases | 40 |
-| GitHub Release Downloads | 1351 |
+| GitHub Release Downloads | 1354 |
 | Maven Monthly Downloads |  |
 
 ## 📊 Totals Across All Projects (as of 09/04/2025)
@@ -164,5 +153,5 @@
 | GitHub Contributors | 150 |
 | GitHub PRs Merged | 1973 |
 | GitHub Releases | 341 |
-| GitHub Release Downloads | 2162 |
+| GitHub Release Downloads | 2165 |
 | Maven Monthly Downloads | 0 |
