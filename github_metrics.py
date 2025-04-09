@@ -106,7 +106,7 @@ def get_github_metrics(repo):
         merged_prs = get_merged_prs_count(repo)
         releases_count = get_releases_count(repo)
         github_downloads = get_github_release_downloads(repo)
-        maven_monthly_downloads = "Not implemented"  # Placeholder only
+        maven_monthly_downloads = " "  # Placeholder only
         return [
             data.get("stargazers_count", 0),
             data.get("forks_count", 0),
