@@ -6,7 +6,7 @@ from datetime import datetime
 # Define repository list
 REPOS = {
     "CF LOB Platform": "cardano-foundation/cf-lob-platform",
-    "Veridian Wallet": "cardano-foundation/veridian-wallet"
+    "Veridian Wallet": "cardano-foundation/veridian-wallet",
     "Cardano IBC Incubator": "cardano-foundation/cardano-ibc-incubator",
     "Cardano Rosetta Java": "cardano-foundation/cardano-rosetta-java",
     "Cardano Devkit": "cardano-foundation/cf-devkit",
