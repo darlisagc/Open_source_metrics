@@ -1,6 +1,7 @@
 import requests
 import os
 import json
+import csv
 from datetime import datetime, timedelta
 
 # -------------------- Configuration --------------------
@@ -27,7 +28,8 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
 # Output files
-REPORT_FILE = "open_source_metrics.md"
+MARKDOWN_REPORT_FILE = "open_source_metrics.md"
+CSV_FILE = "open_source_metrics_data.csv"
 HISTORY_FILE = "metrics_history.json"
 
 # List of metrics to collect (order matters)
@@ -115,7 +117,7 @@ def get_github_metrics(repo):
         merged_prs = get_merged_prs_count(repo)
         releases_count = get_releases_count(repo)
         github_downloads = get_github_release_downloads(repo)
-        maven_monthly_downloads = ""  # Placeholder for future data
+        maven_monthly_downloads = ""  # Placeholder
         return [
             data.get("stargazers_count", 0),
             data.get("forks_count", 0),
@@ -150,7 +152,7 @@ def update_history(simulated_date=None):
         if project_name not in history:
             # Initialize history for the project
             history[project_name] = {"dates": [], "data": {metric: [] for metric in METRICS_LIST}}
-        # Only add new data if this date hasn't been recorded
+        # Only add new data if this date hasn't been recorded yet for the project.
         if current_date not in history[project_name]["dates"]:
             history[project_name]["dates"].append(current_date)
             for idx, metric in enumerate(METRICS_LIST):
@@ -184,13 +186,61 @@ def generate_markdown_report(history, current_date):
     
     return md_content
 
-def update_reports(simulated_date=None):
+def update_markdown_reports(simulated_date=None):
     history, current_date = update_history(simulated_date)
     md_content = generate_markdown_report(history, current_date)
     
-    with open(REPORT_FILE, "w", encoding="utf-8") as f:
+    with open(MARKDOWN_REPORT_FILE, "w", encoding="utf-8") as f:
         f.write(md_content)
-    print(f"✅ Markdown report updated and saved to {REPORT_FILE}")
+    print(f"✅ Markdown report updated and saved to {MARKDOWN_REPORT_FILE}")
+
+# -------------------- CSV Report Generation --------------------
+
+def generate_csv_report(history):
+    # Get the union of dates across all projects.
+    all_dates = set()
+    for project in history:
+        for d in history[project]["dates"]:
+            all_dates.add(d)
+    # Sort dates by real date
+    all_dates = sorted(list(all_dates), key=lambda x: datetime.strptime(x, "%d/%m/%Y"))
+    
+    # Build CSV header: start with "Project", then one column per metric for each date.
+    headers = ["Project"]
+    for date in all_dates:
+        for metric in METRICS_LIST:
+            headers.append(f"{metric} ({date})")
+    
+    # Build rows for each project.
+    rows = []
+    for project in sorted(REPOS.keys()):
+        row = [project]
+        project_history = history.get(project, {})
+        proj_dates = project_history.get("dates", [])
+        proj_data = project_history.get("data", {})
+        # For each expected date (in sorted order), add metric values. If a date is missing, fill with blanks.
+        for date in all_dates:
+            if date in proj_dates:
+                idx = proj_dates.index(date)
+                for metric in METRICS_LIST:
+                    val_list = proj_data.get(metric, [])
+                    # Ensure the index exists; otherwise, add an empty string.
+                    row.append(val_list[idx] if idx < len(val_list) else "")
+            else:
+                row.extend([""] * len(METRICS_LIST))
+        rows.append(row)
+    
+    # Write the CSV file.
+    with open(CSV_FILE, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(headers)
+        writer.writerows(rows)
+    print(f"✅ CSV data updated and saved to {CSV_FILE}")
+
+def update_csv_report():
+    # Load the latest history
+    history = load_history()
+    generate_csv_report(history)
 
 # -------------------- Main: Simulate Two Runs --------------------
 
@@ -199,8 +249,11 @@ if __name__ == "__main__":
     yesterday = (datetime.today() - timedelta(days=1)).strftime("%d/%m/%Y")
     today = datetime.today().strftime("%d/%m/%Y")
     
-    # Run the report update for yesterday's data
-    update_reports(simulated_date=yesterday)
+    # Simulate report updates for yesterday's data.
+    update_markdown_reports(simulated_date=yesterday)
     
-    # Run the report update for today's data
-    update_reports(simulated_date=today)
+    # Then simulate report updates for today's data.
+    update_markdown_reports(simulated_date=today)
+    
+    # Finally, update the CSV file based on the complete history.
+    update_csv_report()
