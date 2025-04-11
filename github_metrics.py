@@ -117,7 +117,7 @@ def get_github_metrics(repo):
         merged_prs = get_merged_prs_count(repo)
         releases_count = get_releases_count(repo)
         github_downloads = get_github_release_downloads(repo)
-        maven_monthly_downloads = ""  # Placeholder
+        maven_monthly_downloads = ""  # Placeholder for future data
         return [
             data.get("stargazers_count", 0),
             data.get("forks_count", 0),
@@ -152,7 +152,7 @@ def update_history(simulated_date=None):
         if project_name not in history:
             # Initialize history for the project
             history[project_name] = {"dates": [], "data": {metric: [] for metric in METRICS_LIST}}
-        # Only add new data if this date hasn't been recorded yet for the project.
+        # Only add new data if this date hasn't been recorded yet.
         if current_date not in history[project_name]["dates"]:
             history[project_name]["dates"].append(current_date)
             for idx, metric in enumerate(METRICS_LIST):
@@ -194,53 +194,38 @@ def update_markdown_reports(simulated_date=None):
         f.write(md_content)
     print(f"✅ Markdown report updated and saved to {MARKDOWN_REPORT_FILE}")
 
-# -------------------- CSV Report Generation --------------------
+# -------------------- CSV Report Generation in MD Layout --------------------
 
-def generate_csv_report(history):
-    # Get the union of dates across all projects.
-    all_dates = set()
-    for project in history:
-        for d in history[project]["dates"]:
-            all_dates.add(d)
-    # Sort dates by real date
-    all_dates = sorted(list(all_dates), key=lambda x: datetime.strptime(x, "%d/%m/%Y"))
-    
-    # Build CSV header: start with "Project", then one column per metric for each date.
-    headers = ["Project"]
-    for date in all_dates:
-        for metric in METRICS_LIST:
-            headers.append(f"{metric} ({date})")
-    
-    # Build rows for each project.
+def generate_csv_rows(history):
     rows = []
+    # For each repository, produce a section similar to the Markdown layout.
     for project in sorted(REPOS.keys()):
-        row = [project]
-        project_history = history.get(project, {})
-        proj_dates = project_history.get("dates", [])
-        proj_data = project_history.get("data", {})
-        # For each expected date (in sorted order), add metric values. If a date is missing, fill with blanks.
-        for date in all_dates:
-            if date in proj_dates:
-                idx = proj_dates.index(date)
-                for metric in METRICS_LIST:
-                    val_list = proj_data.get(metric, [])
-                    # Ensure the index exists; otherwise, add an empty string.
-                    row.append(val_list[idx] if idx < len(val_list) else "")
-            else:
-                row.extend([""] * len(METRICS_LIST))
-        rows.append(row)
-    
-    # Write the CSV file.
-    with open(CSV_FILE, "w", newline="", encoding="utf-8") as f:
-        writer = csv.writer(f)
-        writer.writerow(headers)
-        writer.writerows(rows)
-    print(f"✅ CSV data updated and saved to {CSV_FILE}")
+        if project not in history:
+            continue
+        # Add a header row for the repository
+        rows.append([f"Project: {project}"])
+        # Get dates (in the order they were appended) and the metrics for this project.
+        dates = history[project].get("dates", [])
+        # Header row for the metrics table
+        header = ["Metric"] + dates
+        rows.append(header)
+        # For each metric, create a row with its recorded values.
+        for metric in METRICS_LIST:
+            values = history[project]["data"].get(metric, [])
+            row = [metric] + [str(v) for v in values]
+            rows.append(row)
+        # Add an empty row as a spacer between projects
+        rows.append([])
+    return rows
 
 def update_csv_report():
-    # Load the latest history
     history = load_history()
-    generate_csv_report(history)
+    csv_rows = generate_csv_rows(history)
+    with open(CSV_FILE, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        for row in csv_rows:
+            writer.writerow(row)
+    print(f"✅ CSV data updated and saved to {CSV_FILE}")
 
 # -------------------- Main: Simulate Two Runs --------------------
 
