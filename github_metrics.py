@@ -1,5 +1,6 @@
 import requests
 import os
+import json
 from datetime import datetime
 
 # GitHub repositories to track
@@ -19,12 +20,24 @@ REPOS = {
     "Yaci Store": "bloxbean/yaci-store"
 }
 
-# GitHub API token (optional but recommended to avoid rate limits)
+# GitHub API token (optional, for higher rate limits)
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
-# Output Markdown file
+# Output files
 REPORT_FILE = "open_source_metrics.md"
+HISTORY_FILE = "metrics_history.json"
+
+# List of metrics to collect (order matters)
+METRICS_LIST = [
+    "GitHub Stars",
+    "GitHub Forks",
+    "GitHub Contributors",
+    "GitHub PRs Merged",
+    "GitHub Releases",
+    "GitHub Release Downloads",
+    "Maven Monthly Downloads"
+]
 
 # -------------------- GitHub Metric Functions --------------------
 
@@ -100,7 +113,7 @@ def get_github_metrics(repo):
         merged_prs = get_merged_prs_count(repo)
         releases_count = get_releases_count(repo)
         github_downloads = get_github_release_downloads(repo)
-        maven_monthly_downloads = ""  # Placeholder for future data
+        maven_monthly_downloads = ""  # Placeholder
         return [
             data.get("stargazers_count", 0),
             data.get("forks_count", 0),
@@ -112,43 +125,68 @@ def get_github_metrics(repo):
         ]
     return ["N/A"] * 7
 
-# -------------------- Updated Report Generator --------------------
+# -------------------- Historical Data Functions --------------------
+
+def load_history():
+    if os.path.exists(HISTORY_FILE):
+        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    else:
+        return {}
+
+def save_history(history):
+    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+        json.dump(history, f, indent=2)
+
+def update_history():
+    current_date = datetime.today().strftime("%d/%m/%Y")
+    history = load_history()
+    
+    for project_name, repo in REPOS.items():
+        metrics = get_github_metrics(repo)
+        if project_name not in history:
+            # Initialize history for the project
+            history[project_name] = {"dates": [], "data": {metric: [] for metric in METRICS_LIST}}
+        # Only add new data if this date hasn't been recorded for the project.
+        if current_date not in history[project_name]["dates"]:
+            history[project_name]["dates"].append(current_date)
+            for idx, metric in enumerate(METRICS_LIST):
+                history[project_name]["data"][metric].append(metrics[idx])
+    save_history(history)
+    return history, current_date
+
+# -------------------- Markdown Report Generation --------------------
+
+def generate_markdown_report(history, current_date):
+    md_content = "# 🚀 Open Source Metrics Report\n\n"
+    md_content += f"_Data collected up to **{current_date}**_\n\n"
+    
+    for project_name in REPOS.keys():
+        md_content += f"### 📌 {project_name}\n\n"
+        # Get collected dates and metrics for the project
+        dates = history.get(project_name, {}).get("dates", [])
+        data = history.get(project_name, {}).get("data", {})
+        
+        # Create table header with the collected dates
+        header = "| Metric | " + " | ".join(dates) + " |\n"
+        separator = "|" + "--------|" * (len(dates) + 1) + "\n"
+        md_content += header + separator
+        
+        # For each metric, add a row of values
+        for metric in METRICS_LIST:
+            values = data.get(metric, [])
+            row = f"| {metric} | " + " | ".join(str(v) for v in values) + " |\n"
+            md_content += row
+        md_content += "\n"
+    
+    return md_content
 
 def update_reports():
-    report_date = datetime.today().strftime("%d/%m/%Y")
-    metrics_list = [
-        "GitHub Stars",
-        "GitHub Forks",
-        "GitHub Contributors",
-        "GitHub PRs Merged",
-        "GitHub Releases",
-        "GitHub Release Downloads",
-        "Maven Monthly Downloads"
-    ]
-
-    # Load existing Markdown content if available
-    if os.path.exists(REPORT_FILE):
-        with open(REPORT_FILE, "r", encoding="utf-8") as f:
-            existing_content = f.read()
-    else:
-        existing_content = "# 🚀 Open Source Metrics Report\n\n"
-
-    # Prepare a new section for the current run
-    new_section = f"## 📅 {report_date}\n\n"
-    for project_name, repo in REPOS.items():
-        new_section += f"### 📌 {project_name}\n"
-        new_section += f"| Metric | {report_date} |\n"
-        new_section += "|--------|----------------:|\n"
-        repo_metrics = get_github_metrics(repo)
-        for idx, metric in enumerate(metrics_list):
-            new_section += f"| {metric} | {repo_metrics[idx]} |\n"
-        new_section += "\n"
-
-    # Append the new section to the existing content
-    updated_content = existing_content + "\n" + new_section
-
+    history, current_date = update_history()
+    md_content = generate_markdown_report(history, current_date)
+    
     with open(REPORT_FILE, "w", encoding="utf-8") as f:
-        f.write(updated_content)
+        f.write(md_content)
     print(f"✅ Markdown report updated and saved to {REPORT_FILE}")
 
 # -------------------- Run --------------------
