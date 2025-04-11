@@ -2,10 +2,6 @@
 
 ## Metrics Overview
 
-# Projects Open source metrics
-
-## Metrics Overview
-
 | ID | Metrics                                | Metric Description                                                      | Metric Category                  | Information Availability                   | Collection Method           | Frequency of Data Collection | Location                                 |
 |----|----------------------------------------|-------------------------------------------------------------------------|----------------------------------|--------------------------------------------|-----------------------------|------------------------------|------------------------------------------|
 | 1  | GitHub Stars                           | Measures interest/popularity.                                           | Community Engagement Metrics     | GitHub project main page                   | Manually / GitHub API        | Monthly                      | Confluence page / GitHub repository      |
