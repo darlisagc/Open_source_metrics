@@ -22,7 +22,8 @@ def convert_md_to_html(md_file):
 
 def get_existing_page(title):
     url = f"{BASE_URL}/rest/api/content"
-    params = {"title": title, "spaceKey": CONFLUENCE_SPACE_KEY}
+    # Request expansion of the version field
+    params = {"title": title, "spaceKey": CONFLUENCE_SPACE_KEY, "expand": "version"}
     response = requests.get(url, headers=HEADERS, auth=AUTH, params=params)
     if response.status_code != 200:
         print(f"⚠️ Failed to check existing page: {response.status_code} - {response.text}")
@@ -63,7 +64,8 @@ def create_page(title, body):
         print(f"❌ Failed to create page: {response.status_code} - {response.text}")
 
 def push_to_confluence():
-    report_title = f"Open Source Metrics Report - {datetime.today().strftime('%B %Y')}"
+    # Use a fixed title so that the same page is updated each time.
+    report_title = "Open Source Metrics Report"
     print(f"📄 Publishing: {report_title}")
     html_body = convert_md_to_html("open_source_metrics.md")
 
