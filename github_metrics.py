@@ -2,7 +2,7 @@ import requests
 import os
 import json
 import csv
-from datetime import datetime, timedelta
+from datetime import datetime
 
 # -------------------- Configuration --------------------
 
@@ -142,17 +142,17 @@ def save_history(history):
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2)
 
-def update_history(simulated_date=None):
-    # Use simulated_date if provided; otherwise, use the current date.
-    current_date = simulated_date if simulated_date else datetime.today().strftime("%d/%m/%Y")
+def update_history():
+    # Always use today's date for a monthly run.
+    current_date = datetime.today().strftime("%d/%m/%Y")
     history = load_history()
     
     for project_name, repo in REPOS.items():
         metrics = get_github_metrics(repo)
         if project_name not in history:
-            # Initialize history for the project.
+            # Initialize history for the project
             history[project_name] = {"dates": [], "data": {metric: [] for metric in METRICS_LIST}}
-        # Add new data only if this date hasn't been recorded yet.
+        # Only add new data if today's date hasn't been recorded yet.
         if current_date not in history[project_name]["dates"]:
             history[project_name]["dates"].append(current_date)
             for idx, metric in enumerate(METRICS_LIST):
@@ -168,16 +168,16 @@ def generate_markdown_report(history, current_date):
     
     for project_name in REPOS.keys():
         md_content += f"### 📌 {project_name}\n\n"
-        # Retrieve dates and metric data for the project.
+        # Get collected dates and metrics for the project
         dates = history.get(project_name, {}).get("dates", [])
         data = history.get(project_name, {}).get("data", {})
         
-        # Build a table header based on the collected dates.
+        # Create table header with the collected dates
         header = "| Metric | " + " | ".join(dates) + " |\n"
         separator = "|" + "--------|" * (len(dates) + 1) + "\n"
         md_content += header + separator
         
-        # Add a row for each metric with its historical values.
+        # For each metric, add a row of values
         for metric in METRICS_LIST:
             values = data.get(metric, [])
             row = f"| {metric} | " + " | ".join(str(v) for v in values) + " |\n"
@@ -186,29 +186,29 @@ def generate_markdown_report(history, current_date):
     
     return md_content
 
-def update_markdown_reports(simulated_date=None):
-    history, current_date = update_history(simulated_date)
+def update_markdown_reports():
+    history, current_date = update_history()
     md_content = generate_markdown_report(history, current_date)
     
     with open(MARKDOWN_REPORT_FILE, "w", encoding="utf-8") as f:
         f.write(md_content)
     print(f"✅ Markdown report updated and saved to {MARKDOWN_REPORT_FILE}")
 
-# -------------------- CSV Report Generation in Markdown Layout --------------------
+# -------------------- CSV Report Generation (Same Layout as MD) --------------------
 
 def generate_csv_rows(history):
     rows = []
-    # Create a section in the CSV file for each repository.
+    # For each repository, produce a section similar to the Markdown layout.
     for project in sorted(REPOS.keys()):
         if project not in history:
             continue
-        # Add a header row with the project name.
+        # Add a header row for the repository
         rows.append([f"Project: {project}"])
-        # Retrieve the dates and metric data for the project.
+        # Get dates and build header row
         dates = history[project].get("dates", [])
         header = ["Metric"] + dates
         rows.append(header)
-        # For each metric, add a row with its values.
+        # For each metric, create a row with its recorded values.
         for metric in METRICS_LIST:
             values = history[project]["data"].get(metric, [])
             row = [metric] + [str(v) for v in values]
@@ -226,19 +226,8 @@ def update_csv_report():
             writer.writerow(row)
     print(f"✅ CSV data updated and saved to {CSV_FILE}")
 
-# -------------------- Main: Run Monthly Update --------------------
+# -------------------- Main --------------------
 
 if __name__ == "__main__":
-    # In production, the script would be scheduled to run monthly.
-    # For demonstration purposes, we simulate two runs: one for yesterday and one for today.
-    yesterday = (datetime.today() - timedelta(days=1)).strftime("%d/%m/%Y")
-    today = datetime.today().strftime("%d/%m/%Y")
-    
-    # Update reports with yesterday's data (adding a new column with that date).
-    update_markdown_reports(simulated_date=yesterday)
-    
-    # Update reports with today's data (adds another new column).
-    update_markdown_reports(simulated_date=today)
-    
-    # Finally, update the CSV file based on the complete history.
-    update_csv_report()
+    update_markdown_reports()  # Updates the Markdown report with today's date as a new column.
+    update_csv_report()        # Updates the CSV file with the same layout.
