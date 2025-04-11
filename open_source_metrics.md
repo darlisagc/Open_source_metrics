@@ -2,6 +2,18 @@
 
 _Data collected up to **11/04/2025**_
 
+### 📌 Veridian Wallet
+
+| Metric | 11/04/2025 |
+|--------|--------|
+| GitHub Stars | 123 |
+| GitHub Forks | 18 |
+| GitHub Contributors | 16 |
+| GitHub PRs Merged | 1008 |
+| GitHub Releases | 1 |
+| GitHub Release Downloads | 0 |
+| Maven Monthly Downloads |  |
+
 ### 📌 CF LOB Platform
 
 | Metric | 11/04/2025 |
