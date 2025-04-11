@@ -150,10 +150,10 @@ _Data collected up to **11/04/2025**_
 
 | Metric | 10/04/2025 | 11/04/2025 |
 |--------|--------|--------|
-| GitHub Stars | 25 | 25 |
+| GitHub Stars | 26 | 26 |
 | GitHub Forks | 8 | 8 |
 | GitHub Contributors | 11 | 11 |
-| GitHub PRs Merged | 272 | 272 |
+| GitHub PRs Merged | 273 | 273 |
 | GitHub Releases | 40 | 40 |
 | GitHub Release Downloads | 1357 | 1357 |
 | Maven Monthly Downloads |  |  |
