@@ -8,6 +8,7 @@ from datetime import datetime
 
 # GitHub repositories to track
 REPOS = {
+    "Veridian Wallet": "cardano-foundation/veridian-wallet",
     "CF LOB Platform": "cardano-foundation/cf-lob-platform",
     "Cardano IBC Incubator": "cardano-foundation/cardano-ibc-incubator",
     "Cardano Rosetta Java": "cardano-foundation/cardano-rosetta-java",
