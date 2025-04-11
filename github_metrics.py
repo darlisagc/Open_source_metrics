@@ -1,7 +1,9 @@
 import requests
 import os
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
+
+# -------------------- Configuration --------------------
 
 # GitHub repositories to track
 REPOS = {
@@ -113,7 +115,7 @@ def get_github_metrics(repo):
         merged_prs = get_merged_prs_count(repo)
         releases_count = get_releases_count(repo)
         github_downloads = get_github_release_downloads(repo)
-        maven_monthly_downloads = ""  # Placeholder
+        maven_monthly_downloads = ""  # Placeholder for future data
         return [
             data.get("stargazers_count", 0),
             data.get("forks_count", 0),
@@ -138,8 +140,9 @@ def save_history(history):
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2)
 
-def update_history():
-    current_date = datetime.today().strftime("%d/%m/%Y")
+def update_history(simulated_date=None):
+    # Use simulated_date if provided; otherwise, use today's date.
+    current_date = simulated_date if simulated_date else datetime.today().strftime("%d/%m/%Y")
     history = load_history()
     
     for project_name, repo in REPOS.items():
@@ -147,7 +150,7 @@ def update_history():
         if project_name not in history:
             # Initialize history for the project
             history[project_name] = {"dates": [], "data": {metric: [] for metric in METRICS_LIST}}
-        # Only add new data if this date hasn't been recorded for the project.
+        # Only add new data if this date hasn't been recorded
         if current_date not in history[project_name]["dates"]:
             history[project_name]["dates"].append(current_date)
             for idx, metric in enumerate(METRICS_LIST):
@@ -181,15 +184,23 @@ def generate_markdown_report(history, current_date):
     
     return md_content
 
-def update_reports():
-    history, current_date = update_history()
+def update_reports(simulated_date=None):
+    history, current_date = update_history(simulated_date)
     md_content = generate_markdown_report(history, current_date)
     
     with open(REPORT_FILE, "w", encoding="utf-8") as f:
         f.write(md_content)
     print(f"✅ Markdown report updated and saved to {REPORT_FILE}")
 
-# -------------------- Run --------------------
+# -------------------- Main: Simulate Two Runs --------------------
 
 if __name__ == "__main__":
-    update_reports()
+    # Simulate data collection for yesterday and today.
+    yesterday = (datetime.today() - timedelta(days=1)).strftime("%d/%m/%Y")
+    today = datetime.today().strftime("%d/%m/%Y")
+    
+    # Run the report update for yesterday's data
+    update_reports(simulated_date=yesterday)
+    
+    # Run the report update for today's data
+    update_reports(simulated_date=today)
