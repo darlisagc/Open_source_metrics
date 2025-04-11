@@ -14,10 +14,10 @@
 ## Framework Maintenance and Alignment
 
 ### Update and Maintenance Frequency
-*To be determined based on ongoing requirements.*
+*Fill out later > private repo*
 
 ### Alignment with our Goals
-*Our metrics aim to measure community engagement, development responsiveness, and usage trends to support strategic decision-making for our open source projects.*
+*Fill out later > Private repo*
 
 ## Projects Tracked
 
