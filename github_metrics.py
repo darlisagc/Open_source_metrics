@@ -6,9 +6,9 @@ from datetime import datetime
 
 # -------------------- Configuration --------------------
 
-# GitHub repositories to track
+# Tracked GitHub repositories
 REPOS = {
-    "Veridian Wallet": "cardano-foundation/veridian-wallet",
+    "cf-gsoc-ideas-page-2025": "cardano-foundation/cf-gsoc-ideas-page-2025",
     "CF LOB Platform": "cardano-foundation/cf-lob-platform",
     "Cardano IBC Incubator": "cardano-foundation/cardano-ibc-incubator",
     "Cardano Rosetta Java": "cardano-foundation/cardano-rosetta-java",
@@ -21,7 +21,14 @@ REPOS = {
     "Cardano Client Lib": "bloxbean/cardano-client-lib",
     "Yaci Devkit": "bloxbean/yaci-devkit",
     "Yaci": "bloxbean/yaci",
-    "Yaci Store": "bloxbean/yaci-store"
+    "Yaci Store": "bloxbean/yaci-store",
+    "Cardano Economic Parameter Insights": "cardano-foundation/cardano-economic-parameter-insights",
+    "Cardano Blueprint and Ecosystem Monitoring": "cardano-foundation/cardano-blueprint-and-ecosystem-monitoring",
+    "CF Identity Wallet": "cardano-foundation/cf-identity-wallet",
+    "Cardano Deposit Wallet": "cardano-foundation/cardano-deposit-wallet",
+    "Cardano Wallet": "cardano-foundation/cardano-wallet",
+    "Cardano Wallet Agda": "cardano-foundation/cardano-wallet-agda",
+    "Veridian Wallet": "cardano-foundation/veridian-wallet"
 }
 
 # GitHub API token (optional, for higher rate limits)
@@ -33,15 +40,14 @@ MARKDOWN_REPORT_FILE = "open_source_metrics.md"
 CSV_FILE = "open_source_metrics_data.csv"
 HISTORY_FILE = "metrics_history.json"
 
-# List of metrics to collect (order matters)
+# Updated list of metrics: note that Downloads is the only metric for downloads.
 METRICS_LIST = [
     "GitHub Stars",
     "GitHub Forks",
     "GitHub Contributors",
-    "GitHub PRs Merged",
-    "GitHub Releases",
-    "GitHub Release Downloads",
-    "Maven Monthly Downloads"
+    "GitHub Pull Requests (PRs) Merged",
+    "Number of Releases",
+    "Downloads"
 ]
 
 # -------------------- GitHub Metric Functions --------------------
@@ -98,6 +104,7 @@ def get_releases_count(repo):
     return count
 
 def get_github_release_downloads(repo):
+    """Aggregate downloads across all releases."""
     url = f"https://api.github.com/repos/{repo}/releases"
     response = requests.get(url, headers=HEADERS)
     if response.status_code != 200:
@@ -114,21 +121,15 @@ def get_github_metrics(repo):
     response = requests.get(url, headers=HEADERS)
     if response.status_code == 200:
         data = response.json()
-        contributors_count = get_contributors_count(repo)
-        merged_prs = get_merged_prs_count(repo)
+        stars = data.get("stargazers_count", 0)
+        forks = data.get("forks_count", 0)
+        contributors = get_contributors_count(repo)
+        prs_merged = get_merged_prs_count(repo)
         releases_count = get_releases_count(repo)
-        github_downloads = get_github_release_downloads(repo)
-        maven_monthly_downloads = ""  # Placeholder for future data
-        return [
-            data.get("stargazers_count", 0),
-            data.get("forks_count", 0),
-            contributors_count,
-            merged_prs,
-            releases_count,
-            github_downloads,
-            maven_monthly_downloads
-        ]
-    return ["N/A"] * 7
+        downloads_raw = get_github_release_downloads(repo)
+        downloads = f"Github downloads {downloads_raw}"
+        return [stars, forks, contributors, prs_merged, releases_count, downloads]
+    return ["N/A"] * 6
 
 # -------------------- Historical Data Functions --------------------
 
@@ -144,16 +145,13 @@ def save_history(history):
         json.dump(history, f, indent=2)
 
 def update_history():
-    # Always use today's date for a monthly run.
     current_date = datetime.today().strftime("%d/%m/%Y")
     history = load_history()
     
     for project_name, repo in REPOS.items():
         metrics = get_github_metrics(repo)
         if project_name not in history:
-            # Initialize history for the project
             history[project_name] = {"dates": [], "data": {metric: [] for metric in METRICS_LIST}}
-        # Only add new data if today's date hasn't been recorded yet.
         if current_date not in history[project_name]["dates"]:
             history[project_name]["dates"].append(current_date)
             for idx, metric in enumerate(METRICS_LIST):
@@ -169,16 +167,13 @@ def generate_markdown_report(history, current_date):
     
     for project_name in REPOS.keys():
         md_content += f"### 📌 {project_name}\n\n"
-        # Get collected dates and metrics for the project
         dates = history.get(project_name, {}).get("dates", [])
         data = history.get(project_name, {}).get("data", {})
         
-        # Create table header with the collected dates
         header = "| Metric | " + " | ".join(dates) + " |\n"
         separator = "|" + "--------|" * (len(dates) + 1) + "\n"
         md_content += header + separator
         
-        # For each metric, add a row of values
         for metric in METRICS_LIST:
             values = data.get(metric, [])
             row = f"| {metric} | " + " | ".join(str(v) for v in values) + " |\n"
@@ -199,23 +194,18 @@ def update_markdown_reports():
 
 def generate_csv_rows(history):
     rows = []
-    # For each repository, produce a section similar to the Markdown layout.
     for project in sorted(REPOS.keys()):
         if project not in history:
             continue
-        # Add a header row for the repository
         rows.append([f"Project: {project}"])
-        # Get dates and build header row
         dates = history[project].get("dates", [])
         header = ["Metric"] + dates
         rows.append(header)
-        # For each metric, create a row with its recorded values.
         for metric in METRICS_LIST:
             values = history[project]["data"].get(metric, [])
             row = [metric] + [str(v) for v in values]
             rows.append(row)
-        # Add an empty row as a spacer between projects.
-        rows.append([])
+        rows.append([])  # Spacer row between projects.
     return rows
 
 def update_csv_report():
@@ -230,5 +220,5 @@ def update_csv_report():
 # -------------------- Main --------------------
 
 if __name__ == "__main__":
-    update_markdown_reports()  # Updates the Markdown report with today's date as a new column.
-    update_csv_report()        # Updates the CSV file with the same layout.
+    update_markdown_reports()  # Update the Markdown report with today's data
+    update_csv_report()        # Update the CSV report with the same layout
