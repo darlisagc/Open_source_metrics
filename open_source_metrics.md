@@ -1,10 +1,10 @@
 # 🚀 Open Source Metrics Report
 
-_Data collected up to **29/05/2025**_
+_Data collected up to **30/05/2025**_
 
 ### 📌 cf-gsoc-ideas-page-2025
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 17 |
 | GitHub Forks | 5 |
@@ -15,7 +15,7 @@ _Data collected up to **29/05/2025**_
 
 ### 📌 CF LOB Platform
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 9 |
 | GitHub Forks | 7 |
@@ -26,7 +26,7 @@ _Data collected up to **29/05/2025**_
 
 ### 📌 Cardano IBC Incubator
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 27 |
 | GitHub Forks | 11 |
@@ -37,7 +37,7 @@ _Data collected up to **29/05/2025**_
 
 ### 📌 Cardano Rosetta Java
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 19 |
 | GitHub Forks | 9 |
@@ -48,7 +48,7 @@ _Data collected up to **29/05/2025**_
 
 ### 📌 Cardano Devkit
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | N/A |
 | GitHub Forks | N/A |
@@ -59,10 +59,10 @@ _Data collected up to **29/05/2025**_
 
 ### 📌 CF Cardano Ballot
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 21 |
-| GitHub Forks | 4 |
+| GitHub Forks | 5 |
 | GitHub Contributors | 16 |
 | GitHub Pull Requests (PRs) Merged | 517 |
 | Number of Releases | 71 |
@@ -70,7 +70,7 @@ _Data collected up to **29/05/2025**_
 
 ### 📌 CIP30 Data Signature Parser
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 7 |
 | GitHub Forks | 1 |
@@ -81,7 +81,7 @@ _Data collected up to **29/05/2025**_
 
 ### 📌 Cardano Connect With Wallet
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 86 |
 | GitHub Forks | 26 |
@@ -92,7 +92,7 @@ _Data collected up to **29/05/2025**_
 
 ### 📌 CF Adahandle Resolver
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 12 |
 | GitHub Forks | 3 |
@@ -103,7 +103,7 @@ _Data collected up to **29/05/2025**_
 
 ### 📌 CF Java Rewards Calculation
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 20 |
 | GitHub Forks | 1 |
@@ -114,7 +114,7 @@ _Data collected up to **29/05/2025**_
 
 ### 📌 Cardano Client Lib
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 126 |
 | GitHub Forks | 52 |
@@ -125,18 +125,18 @@ _Data collected up to **29/05/2025**_
 
 ### 📌 Yaci Devkit
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 52 |
 | GitHub Forks | 12 |
 | GitHub Contributors | 9 |
 | GitHub Pull Requests (PRs) Merged | 64 |
-| Number of Releases | 26 |
-| Downloads | Github downloads 630 |
+| Number of Releases | 27 |
+| Downloads | Github downloads 639 |
 
 ### 📌 Yaci
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 26 |
 | GitHub Forks | 3 |
@@ -147,18 +147,18 @@ _Data collected up to **29/05/2025**_
 
 ### 📌 Yaci Store
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 26 |
 | GitHub Forks | 9 |
 | GitHub Contributors | 11 |
 | GitHub Pull Requests (PRs) Merged | 308 |
 | Number of Releases | 45 |
-| Downloads | Github downloads 1352 |
+| Downloads | Github downloads 1361 |
 
 ### 📌 Cardano Economic Parameter Insights
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 5 |
 | GitHub Forks | 2 |
@@ -169,7 +169,7 @@ _Data collected up to **29/05/2025**_
 
 ### 📌 Cardano Blueprint and Ecosystem Monitoring
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 5 |
 | GitHub Forks | 1 |
@@ -180,18 +180,18 @@ _Data collected up to **29/05/2025**_
 
 ### 📌 CF Identity Wallet
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 123 |
 | GitHub Forks | 21 |
 | GitHub Contributors | 16 |
-| GitHub Pull Requests (PRs) Merged | 1092 |
+| GitHub Pull Requests (PRs) Merged | 1093 |
 | Number of Releases | 3 |
 | Downloads | Github downloads 0 |
 
 ### 📌 Cardano Deposit Wallet
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 1 |
 | GitHub Forks | 0 |
@@ -202,18 +202,18 @@ _Data collected up to **29/05/2025**_
 
 ### 📌 Cardano Wallet
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
-| GitHub Stars | 796 |
+| GitHub Stars | 797 |
 | GitHub Forks | 224 |
 | GitHub Contributors | 55 |
 | GitHub Pull Requests (PRs) Merged | 3612 |
 | Number of Releases | 80 |
-| Downloads | Github downloads 16948 |
+| Downloads | Github downloads 16955 |
 
 ### 📌 Cardano Wallet Agda
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 12 |
 | GitHub Forks | 1 |
@@ -224,12 +224,12 @@ _Data collected up to **29/05/2025**_
 
 ### 📌 Veridian Wallet
 
-| Metric | 29/05/2025 |
+| Metric | 30/05/2025 |
 |--------|--------|
 | GitHub Stars | 123 |
 | GitHub Forks | 21 |
 | GitHub Contributors | 16 |
-| GitHub Pull Requests (PRs) Merged | 1092 |
+| GitHub Pull Requests (PRs) Merged | 1093 |
 | Number of Releases | 3 |
 | Downloads | Github downloads 0 |
 
