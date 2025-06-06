@@ -1,0 +1,527 @@
+{
+  "cf-gsoc-ideas-page-2025": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        17
+      ],
+      "GitHub Forks": [
+        5
+      ],
+      "GitHub Contributors": [
+        6
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        3
+      ],
+      "Number of Releases": [
+        0
+      ],
+      "Downloads": [
+        "Github downloads 0"
+      ]
+    }
+  },
+  "CF LOB Platform": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        8
+      ],
+      "GitHub Forks": [
+        7
+      ],
+      "GitHub Contributors": [
+        9
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        263
+      ],
+      "Number of Releases": [
+        0
+      ],
+      "Downloads": [
+        "Github downloads 0"
+      ]
+    }
+  },
+  "Cardano IBC Incubator": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        27
+      ],
+      "GitHub Forks": [
+        11
+      ],
+      "GitHub Contributors": [
+        16
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        176
+      ],
+      "Number of Releases": [
+        0
+      ],
+      "Downloads": [
+        "Github downloads 0"
+      ]
+    }
+  },
+  "Cardano Rosetta Java": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        19
+      ],
+      "GitHub Forks": [
+        9
+      ],
+      "GitHub Contributors": [
+        27
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        314
+      ],
+      "Number of Releases": [
+        30
+      ],
+      "Downloads": [
+        "Github downloads 0"
+      ]
+    }
+  },
+  "Cardano Devkit": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        "N/A"
+      ],
+      "GitHub Forks": [
+        "N/A"
+      ],
+      "GitHub Contributors": [
+        "N/A"
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        "N/A"
+      ],
+      "Number of Releases": [
+        "N/A"
+      ],
+      "Downloads": [
+        "N/A"
+      ]
+    }
+  },
+  "CF Cardano Ballot": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        22
+      ],
+      "GitHub Forks": [
+        5
+      ],
+      "GitHub Contributors": [
+        16
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        517
+      ],
+      "Number of Releases": [
+        71
+      ],
+      "Downloads": [
+        "Github downloads 0"
+      ]
+    }
+  },
+  "CIP30 Data Signature Parser": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        7
+      ],
+      "GitHub Forks": [
+        1
+      ],
+      "GitHub Contributors": [
+        8
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        21
+      ],
+      "Number of Releases": [
+        7
+      ],
+      "Downloads": [
+        "Github downloads 0"
+      ]
+    }
+  },
+  "Cardano Connect With Wallet": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        86
+      ],
+      "GitHub Forks": [
+        26
+      ],
+      "GitHub Contributors": [
+        16
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        81
+      ],
+      "Number of Releases": [
+        60
+      ],
+      "Downloads": [
+        "Github downloads 0"
+      ]
+    }
+  },
+  "CF Adahandle Resolver": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        12
+      ],
+      "GitHub Forks": [
+        3
+      ],
+      "GitHub Contributors": [
+        5
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        42
+      ],
+      "Number of Releases": [
+        11
+      ],
+      "Downloads": [
+        "Github downloads 0"
+      ]
+    }
+  },
+  "CF Java Rewards Calculation": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        20
+      ],
+      "GitHub Forks": [
+        1
+      ],
+      "GitHub Contributors": [
+        5
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        53
+      ],
+      "Number of Releases": [
+        22
+      ],
+      "Downloads": [
+        "Github downloads 0"
+      ]
+    }
+  },
+  "Cardano Client Lib": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        126
+      ],
+      "GitHub Forks": [
+        52
+      ],
+      "GitHub Contributors": [
+        26
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        235
+      ],
+      "Number of Releases": [
+        51
+      ],
+      "Downloads": [
+        "Github downloads 241"
+      ]
+    }
+  },
+  "Yaci Devkit": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        52
+      ],
+      "GitHub Forks": [
+        12
+      ],
+      "GitHub Contributors": [
+        9
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        64
+      ],
+      "Number of Releases": [
+        27
+      ],
+      "Downloads": [
+        "Github downloads 659"
+      ]
+    }
+  },
+  "Yaci": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        26
+      ],
+      "GitHub Forks": [
+        3
+      ],
+      "GitHub Contributors": [
+        5
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        62
+      ],
+      "Number of Releases": [
+        36
+      ],
+      "Downloads": [
+        "Github downloads 0"
+      ]
+    }
+  },
+  "Yaci Store": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        26
+      ],
+      "GitHub Forks": [
+        9
+      ],
+      "GitHub Contributors": [
+        11
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        312
+      ],
+      "Number of Releases": [
+        45
+      ],
+      "Downloads": [
+        "Github downloads 1366"
+      ]
+    }
+  },
+  "Cardano Economic Parameter Insights": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        5
+      ],
+      "GitHub Forks": [
+        2
+      ],
+      "GitHub Contributors": [
+        2
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        1
+      ],
+      "Number of Releases": [
+        0
+      ],
+      "Downloads": [
+        "Github downloads 0"
+      ]
+    }
+  },
+  "Cardano Blueprint and Ecosystem Monitoring": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        5
+      ],
+      "GitHub Forks": [
+        2
+      ],
+      "GitHub Contributors": [
+        5
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        4
+      ],
+      "Number of Releases": [
+        0
+      ],
+      "Downloads": [
+        "Github downloads 0"
+      ]
+    }
+  },
+  "CF Identity Wallet": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        123
+      ],
+      "GitHub Forks": [
+        21
+      ],
+      "GitHub Contributors": [
+        16
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        1103
+      ],
+      "Number of Releases": [
+        3
+      ],
+      "Downloads": [
+        "Github downloads 0"
+      ]
+    }
+  },
+  "Cardano Deposit Wallet": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        1
+      ],
+      "GitHub Forks": [
+        0
+      ],
+      "GitHub Contributors": [
+        3
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        24
+      ],
+      "Number of Releases": [
+        1
+      ],
+      "Downloads": [
+        "Github downloads 176"
+      ]
+    }
+  },
+  "Cardano Wallet": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        798
+      ],
+      "GitHub Forks": [
+        223
+      ],
+      "GitHub Contributors": [
+        55
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        3612
+      ],
+      "Number of Releases": [
+        80
+      ],
+      "Downloads": [
+        "Github downloads 17004"
+      ]
+    }
+  },
+  "Cardano Wallet Agda": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        12
+      ],
+      "GitHub Forks": [
+        1
+      ],
+      "GitHub Contributors": [
+        4
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        150
+      ],
+      "Number of Releases": [
+        0
+      ],
+      "Downloads": [
+        "Github downloads 0"
+      ]
+    }
+  },
+  "Veridian Wallet": {
+    "dates": [
+      "06/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        123
+      ],
+      "GitHub Forks": [
+        21
+      ],
+      "GitHub Contributors": [
+        16
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        1103
+      ],
+      "Number of Releases": [
+        3
+      ],
+      "Downloads": [
+        "Github downloads 0"
+      ]
+    }
+  }
+}
