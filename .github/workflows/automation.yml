@@ -47,5 +47,6 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add open_source_metrics.md open_source_metrics_data.csv
+          git add metrics_history.json
           git commit --allow-empty -m "Updated Open Source Metrics for $(date +'%Y-%m-%d')"
           git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
