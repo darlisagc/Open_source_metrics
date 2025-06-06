@@ -1,10 +1,10 @@
 # 🚀 Open Source Metrics Report
 
-_Data collected up to **01/06/2025**_
+_Data collected up to **06/06/2025**_
 
 ### 📌 cf-gsoc-ideas-page-2025
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | 17 |
 | GitHub Forks | 5 |
@@ -15,18 +15,18 @@ _Data collected up to **01/06/2025**_
 
 ### 📌 CF LOB Platform
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
-| GitHub Stars | 9 |
+| GitHub Stars | 8 |
 | GitHub Forks | 7 |
 | GitHub Contributors | 9 |
-| GitHub Pull Requests (PRs) Merged | 258 |
+| GitHub Pull Requests (PRs) Merged | 263 |
 | Number of Releases | 0 |
 | Downloads | Github downloads 0 |
 
 ### 📌 Cardano IBC Incubator
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | 27 |
 | GitHub Forks | 11 |
@@ -37,18 +37,18 @@ _Data collected up to **01/06/2025**_
 
 ### 📌 Cardano Rosetta Java
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | 19 |
 | GitHub Forks | 9 |
 | GitHub Contributors | 27 |
-| GitHub Pull Requests (PRs) Merged | 307 |
-| Number of Releases | 29 |
+| GitHub Pull Requests (PRs) Merged | 314 |
+| Number of Releases | 30 |
 | Downloads | Github downloads 0 |
 
 ### 📌 Cardano Devkit
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | N/A |
 | GitHub Forks | N/A |
@@ -59,9 +59,9 @@ _Data collected up to **01/06/2025**_
 
 ### 📌 CF Cardano Ballot
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
-| GitHub Stars | 21 |
+| GitHub Stars | 22 |
 | GitHub Forks | 5 |
 | GitHub Contributors | 16 |
 | GitHub Pull Requests (PRs) Merged | 517 |
@@ -70,7 +70,7 @@ _Data collected up to **01/06/2025**_
 
 ### 📌 CIP30 Data Signature Parser
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | 7 |
 | GitHub Forks | 1 |
@@ -81,7 +81,7 @@ _Data collected up to **01/06/2025**_
 
 ### 📌 Cardano Connect With Wallet
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | 86 |
 | GitHub Forks | 26 |
@@ -92,7 +92,7 @@ _Data collected up to **01/06/2025**_
 
 ### 📌 CF Adahandle Resolver
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | 12 |
 | GitHub Forks | 3 |
@@ -103,7 +103,7 @@ _Data collected up to **01/06/2025**_
 
 ### 📌 CF Java Rewards Calculation
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | 20 |
 | GitHub Forks | 1 |
@@ -114,29 +114,29 @@ _Data collected up to **01/06/2025**_
 
 ### 📌 Cardano Client Lib
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | 126 |
 | GitHub Forks | 52 |
 | GitHub Contributors | 26 |
 | GitHub Pull Requests (PRs) Merged | 235 |
-| Number of Releases | 50 |
-| Downloads | Github downloads 309 |
+| Number of Releases | 51 |
+| Downloads | Github downloads 241 |
 
 ### 📌 Yaci Devkit
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | 52 |
 | GitHub Forks | 12 |
 | GitHub Contributors | 9 |
 | GitHub Pull Requests (PRs) Merged | 64 |
 | Number of Releases | 27 |
-| Downloads | Github downloads 642 |
+| Downloads | Github downloads 659 |
 
 ### 📌 Yaci
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | 26 |
 | GitHub Forks | 3 |
@@ -147,18 +147,18 @@ _Data collected up to **01/06/2025**_
 
 ### 📌 Yaci Store
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | 26 |
 | GitHub Forks | 9 |
 | GitHub Contributors | 11 |
-| GitHub Pull Requests (PRs) Merged | 308 |
+| GitHub Pull Requests (PRs) Merged | 312 |
 | Number of Releases | 45 |
-| Downloads | Github downloads 1362 |
+| Downloads | Github downloads 1366 |
 
 ### 📌 Cardano Economic Parameter Insights
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | 5 |
 | GitHub Forks | 2 |
@@ -169,29 +169,29 @@ _Data collected up to **01/06/2025**_
 
 ### 📌 Cardano Blueprint and Ecosystem Monitoring
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | 5 |
-| GitHub Forks | 1 |
-| GitHub Contributors | 4 |
-| GitHub Pull Requests (PRs) Merged | 3 |
+| GitHub Forks | 2 |
+| GitHub Contributors | 5 |
+| GitHub Pull Requests (PRs) Merged | 4 |
 | Number of Releases | 0 |
 | Downloads | Github downloads 0 |
 
 ### 📌 CF Identity Wallet
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | 123 |
 | GitHub Forks | 21 |
 | GitHub Contributors | 16 |
-| GitHub Pull Requests (PRs) Merged | 1095 |
+| GitHub Pull Requests (PRs) Merged | 1103 |
 | Number of Releases | 3 |
 | Downloads | Github downloads 0 |
 
 ### 📌 Cardano Deposit Wallet
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | 1 |
 | GitHub Forks | 0 |
@@ -202,18 +202,18 @@ _Data collected up to **01/06/2025**_
 
 ### 📌 Cardano Wallet
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
-| GitHub Stars | 797 |
-| GitHub Forks | 224 |
+| GitHub Stars | 798 |
+| GitHub Forks | 223 |
 | GitHub Contributors | 55 |
 | GitHub Pull Requests (PRs) Merged | 3612 |
 | Number of Releases | 80 |
-| Downloads | Github downloads 16965 |
+| Downloads | Github downloads 17004 |
 
 ### 📌 Cardano Wallet Agda
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | 12 |
 | GitHub Forks | 1 |
@@ -224,12 +224,12 @@ _Data collected up to **01/06/2025**_
 
 ### 📌 Veridian Wallet
 
-| Metric | 01/06/2025 |
+| Metric | 06/06/2025 |
 |--------|--------|
 | GitHub Stars | 123 |
 | GitHub Forks | 21 |
 | GitHub Contributors | 16 |
-| GitHub Pull Requests (PRs) Merged | 1095 |
+| GitHub Pull Requests (PRs) Merged | 1103 |
 | Number of Releases | 3 |
 | Downloads | Github downloads 0 |
 
