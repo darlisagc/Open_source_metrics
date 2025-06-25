@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Open_source_metrics/dashboard/static/css/main.e6c13ad2.css",
+    "main.js": "/Open_source_metrics/dashboard/static/js/main.3d283f8d.js",
+    "static/js/453.5812a206.chunk.js": "/Open_source_metrics/dashboard/static/js/453.5812a206.chunk.js",
+    "index.html": "/Open_source_metrics/dashboard/index.html",
+    "main.e6c13ad2.css.map": "/Open_source_metrics/dashboard/static/css/main.e6c13ad2.css.map",
+    "main.3d283f8d.js.map": "/Open_source_metrics/dashboard/static/js/main.3d283f8d.js.map",
+    "453.5812a206.chunk.js.map": "/Open_source_metrics/dashboard/static/js/453.5812a206.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.3d283f8d.js"
+  ]
+}
