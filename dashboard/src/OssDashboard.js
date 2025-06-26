@@ -292,7 +292,7 @@ export default function Dashboard() {
                   <input
                     type="checkbox"
                     checked={selectedDates.includes(date)}
-                    on={() => toggleDate(date)}
+                    onChange={() => toggleDate(date)}
                     style={{
                       height: 18,
                       width: 18,
