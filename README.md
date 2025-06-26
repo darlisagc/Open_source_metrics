@@ -2,7 +2,7 @@
 
 Dashboard: https://darlisagc.github.io/Open_source_metrics/dashboard 
 
-## Metrics Overview
+## Metrics collection overview
 
 | ID | Metrics                                | Metric Description                                                      | Metric Category                  | Information Availability                   | Collection Method           | Frequency of Data Collection | Location                                 |
 |----|----------------------------------------|-------------------------------------------------------------------------|----------------------------------|--------------------------------------------|-----------------------------|------------------------------|------------------------------------------|
