@@ -244,3 +244,113 @@ _Data collected up to **26/06/2025**_
 | Number of Releases | 0 |
 | Downloads | Github downloads 0 |
 
+### 📌 Aiken
+
+| Metric | 26/06/2025 |
+|--------|--------|
+| GitHub Stars | 540 |
+| GitHub Forks | 119 |
+| GitHub Contributors | 46 |
+| GitHub Pull Requests (PRs) Merged | 530 |
+| Number of Releases | 44 |
+| Downloads | Github downloads 35596 |
+
+### 📌 Ogmios
+
+| Metric | 26/06/2025 |
+|--------|--------|
+| GitHub Stars | 313 |
+| GitHub Forks | 94 |
+| GitHub Contributors | 29 |
+| GitHub Pull Requests (PRs) Merged | 135 |
+| Number of Releases | 49 |
+| Downloads | Github downloads 16221 |
+
+### 📌 Kupo
+
+| Metric | 26/06/2025 |
+|--------|--------|
+| GitHub Stars | 129 |
+| GitHub Forks | 30 |
+| GitHub Contributors | 13 |
+| GitHub Pull Requests (PRs) Merged | 39 |
+| Number of Releases | 15 |
+| Downloads | Github downloads 5112 |
+
+### 📌 Ogmios MDK
+
+| Metric | 26/06/2025 |
+|--------|--------|
+| GitHub Stars | 1 |
+| GitHub Forks | 0 |
+| GitHub Contributors | 1 |
+| GitHub Pull Requests (PRs) Merged | 0 |
+| Number of Releases | 1 |
+| Downloads | Github downloads 0 |
+
+### 📌 Merkle Patricia Forestry
+
+| Metric | 26/06/2025 |
+|--------|--------|
+| GitHub Stars | 43 |
+| GitHub Forks | 13 |
+| GitHub Contributors | 7 |
+| GitHub Pull Requests (PRs) Merged | 7 |
+| Number of Releases | 4 |
+| Downloads | Github downloads 0 |
+
+### 📌 Aiken Stdlib
+
+| Metric | 26/06/2025 |
+|--------|--------|
+| GitHub Stars | 56 |
+| GitHub Forks | 35 |
+| GitHub Contributors | 26 |
+| GitHub Pull Requests (PRs) Merged | 58 |
+| Number of Releases | 13 |
+| Downloads | Github downloads 0 |
+
+### 📌 Aiken Fuzz
+
+| Metric | 26/06/2025 |
+|--------|--------|
+| GitHub Stars | 8 |
+| GitHub Forks | 7 |
+| GitHub Contributors | 7 |
+| GitHub Pull Requests (PRs) Merged | 9 |
+| Number of Releases | 4 |
+| Downloads | Github downloads 0 |
+
+### 📌 Elm Cardano
+
+| Metric | 26/06/2025 |
+|--------|--------|
+| GitHub Stars | 21 |
+| GitHub Forks | 5 |
+| GitHub Contributors | 7 |
+| GitHub Pull Requests (PRs) Merged | 81 |
+| Number of Releases | 15 |
+| Downloads | Github downloads 1081 |
+
+### 📌 Elm Bech32
+
+| Metric | 26/06/2025 |
+|--------|--------|
+| GitHub Stars | 1 |
+| GitHub Forks | 0 |
+| GitHub Contributors | 1 |
+| GitHub Pull Requests (PRs) Merged | 0 |
+| Number of Releases | 1 |
+| Downloads | Github downloads 0 |
+
+### 📌 Elm CBOR
+
+| Metric | 26/06/2025 |
+|--------|--------|
+| GitHub Stars | 9 |
+| GitHub Forks | 0 |
+| GitHub Contributors | 2 |
+| GitHub Pull Requests (PRs) Merged | 5 |
+| Number of Releases | 2 |
+| Downloads | Github downloads 0 |
+
