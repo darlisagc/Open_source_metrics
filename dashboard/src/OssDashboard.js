@@ -292,7 +292,7 @@ export default function Dashboard() {
                   <input
                     type="checkbox"
                     checked={selectedDates.includes(date)}
-                    onChange={() => toggleDate(date)}
+                    on={() => toggleDate(date)}
                     style={{
                       height: 18,
                       width: 18,
@@ -309,7 +309,7 @@ export default function Dashboard() {
           </div>
         </div>
 
-        {/* Totals (Summary) Card - now showing change */}
+        {/* Totals (Summary) Card - now showing  */}
         {selectedDates.length > 1 && history && (
           <div style={{
             background: "#f8fafc",
@@ -325,7 +325,7 @@ export default function Dashboard() {
               marginBottom: 14,
               color: "#1e293b"
             }}>
-              🧮 Change (First → Last selected date)
+              🧮 Progress over time
             </div>
             <div style={{
               display: "flex",
