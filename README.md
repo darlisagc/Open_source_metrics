@@ -11,13 +11,6 @@
 | 5  | Number of Releases                     | Responsiveness to bugs/features and user needs.                         | Code and Development Activity    | GitHub project main page > Releases        | Manually / GitHub API?       | Monthly                      | Confluence page                         |
 | 6  | Downloads (NPM, Cargo, Apple Store, Google Play, DockerHub, Homebrew, etc.) | Usage in production / Usage trends / Real adoption.         | Adoption & Usage Metrics         | Various platforms (e.g., DockerHub, NPM, Cargo, etc.) | Manually                    | Monthly                      | Confluence page / GitHub repository      |
 
-## Framework Maintenance and Alignment
-
-### Update and Maintenance Frequency
-*Fill out later > private repo*
-
-### Alignment with our Goals
-*Fill out later > Private repo*
 
 ## Projects Tracked
 
