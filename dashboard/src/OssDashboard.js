@@ -166,7 +166,7 @@ export default function Dashboard() {
           📊 Open Source Metrics Dashboard
         </h1>
         <div style={{ color: "#64748b", marginBottom: 32, fontSize: "1.1rem" }}>
-          Easily visualize open source activity over time.
+          Monitor and compare open source growth and activity across your projects.
         </div>
 
         {/* Controls */}
