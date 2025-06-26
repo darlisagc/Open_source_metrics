@@ -15,14 +15,14 @@ _Data collected up to **26/06/2025**_
 
 ### 📌 Reeve
 
-| Metric | 26/06/2025 |
-|--------|--------|
-| GitHub Stars | 9 |
-| GitHub Forks | 7 |
-| GitHub Contributors | 9 |
-| GitHub Pull Requests (PRs) Merged | 294 |
-| Number of Releases | 0 |
-| Downloads | Github downloads 0 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 |
+|--------|--------|--------|--------|
+| GitHub Stars | 8 | 8 | 9 |
+| GitHub Forks | 7 | 7 | 7 |
+| GitHub Contributors | 9 | 9 | 9 |
+| GitHub Pull Requests (PRs) Merged | 263 | 263 | 294 |
+| Number of Releases | 0 | 0 | 0 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Cardano IBC Incubator
 
