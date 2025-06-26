@@ -49,4 +49,10 @@ jobs:
           git add open_source_metrics.md open_source_metrics_data.csv
           git add metrics_history.json
           git commit --allow-empty -m "Updated Open Source Metrics for $(date +'%Y-%m-%d')"
+
+          # Fetch and merge the latest changes from the remote main branch
+          git fetch origin main
+          git merge origin/main
+
+          # Now push your changes
           git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
