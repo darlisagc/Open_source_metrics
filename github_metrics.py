@@ -28,7 +28,8 @@ REPOS = {
     "Cardano Deposit Wallet": "cardano-foundation/cardano-deposit-wallet",
     "Cardano Wallet": "cardano-foundation/cardano-wallet",
     "Cardano Wallet Agda": "cardano-foundation/cardano-wallet-agda",
-    "Veridian Wallet": "cardano-foundation/veridian-wallet"
+    "Veridian Wallet": "cardano-foundation/veridian-wallet",
+    "Originate": "cardano-foundation/originate"
 }
 
 # GitHub API token (optional, for higher rate limits)
