@@ -233,3 +233,14 @@ _Data collected up to **26/06/2025**_
 | Number of Releases | 3 | 3 | 3 |
 | Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
+### 📌 Originate
+
+| Metric | 26/06/2025 |
+|--------|--------|
+| GitHub Stars | 3 |
+| GitHub Forks | 0 |
+| GitHub Contributors | 2 |
+| GitHub Pull Requests (PRs) Merged | 4 |
+| Number of Releases | 0 |
+| Downloads | Github downloads 0 |
+
