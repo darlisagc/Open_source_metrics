@@ -349,6 +349,12 @@ export default function Dashboard() {
                   const diff = latestValue - initialValue;
                   const diffSign = diff > 0 ? "+" : diff < 0 ? "−" : "";
                   const diffColor = diff > 0 ? "#16a34a" : diff < 0 ? "#dc2626" : "#64748b";
+                  // Calculate percent change
+                  const percent = initialValue === 0 ? 0 : (diff / initialValue) * 100;
+                  const percentSign = percent > 0 ? "+" : percent < 0 ? "−" : "";
+                  const percentString = initialValue === 0
+                    ? "n/a"
+                    : `${percentSign}${Math.abs(percent).toFixed(1)}%`;
                   return (
                     <div key={metric} style={metricCard(METRIC_COLORS[idx])}>
                       <div style={{
@@ -376,6 +382,9 @@ export default function Dashboard() {
                         {diff === 0 ? "No change" : (
                           <>
                             {diff > 0 ? "▲ " : diff < 0 ? "▼ " : ""}{diffSign}{Math.abs(diff)}
+                            <span style={{ fontSize: 15, opacity: 0.8 }}>
+                              {" "}{percentString}
+                            </span>
                           </>
                         )}
                       </div>
@@ -384,6 +393,7 @@ export default function Dashboard() {
                 });
               })()}
             </div>
+            {/* This line kept as requested */}
             <div style={{ marginTop: 18, color: "#64748b", fontSize: 13 }}>
               Comparing: <b>{(() => {
                 const sortedDates = [...selectedDates].sort();
