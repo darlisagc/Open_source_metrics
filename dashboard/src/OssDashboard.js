@@ -377,13 +377,16 @@ export default function Dashboard() {
                         color: diffColor,
                         fontWeight: 700,
                         marginTop: 3,
-                        fontSize: 17
+                        fontSize: 17,
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "7px"
                       }}>
                         {diff === 0 ? "No change" : (
                           <>
                             {diff > 0 ? "▲ " : diff < 0 ? "▼ " : ""}{diffSign}{Math.abs(diff)}
-                            <span style={{ fontSize: 15, opacity: 0.8 }}>
-                              {" "}{percentString}
+                            <span style={{ fontSize: 15, opacity: 0.8, marginLeft: "11px" }}>
+                              ({percentString})
                             </span>
                           </>
                         )}
