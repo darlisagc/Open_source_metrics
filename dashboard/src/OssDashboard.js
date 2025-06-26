@@ -153,7 +153,7 @@ export default function Dashboard() {
     <div style={{
       minHeight: "100vh",
       // Cardano Foundation brand gradient & font!
-      background: ""#F5F6FA",
+      background: "#F5F6FA",
       fontFamily: "Switzer, Helvetica Neue, Arial, sans-serif"
     }}>
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "2rem 1rem" }}>
