@@ -16,15 +16,6 @@ GitHub Pull Requests (PRs) Merged,517,517,517
 Number of Releases,71,71,71
 Downloads,Github downloads 0,Github downloads 0,Github downloads 0
 
-Project: CF Identity Wallet
-Metric,01/06/2025,06/06/2025,26/06/2025
-GitHub Stars,123,123,123
-GitHub Forks,21,21,21
-GitHub Contributors,16,16,17
-GitHub Pull Requests (PRs) Merged,1103,1103,1130
-Number of Releases,3,3,3
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
 Project: CF Java Rewards Calculation
 Metric,01/06/2025,06/06/2025,26/06/2025
 GitHub Stars,20,20,20
@@ -32,15 +23,6 @@ GitHub Forks,1,1,1
 GitHub Contributors,5,5,5
 GitHub Pull Requests (PRs) Merged,53,53,53
 Number of Releases,22,22,22
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: CF LOB Platform
-Metric,01/06/2025,06/06/2025,26/06/2025
-GitHub Stars,8,8,9
-GitHub Forks,7,7,7
-GitHub Contributors,9,9,9
-GitHub Pull Requests (PRs) Merged,263,263,294
-Number of Releases,0,0,0
 Downloads,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: CIP30 Data Signature Parser
@@ -148,6 +130,15 @@ GitHub Stars,3
 GitHub Forks,0
 GitHub Contributors,2
 GitHub Pull Requests (PRs) Merged,4
+Number of Releases,0
+Downloads,Github downloads 0
+
+Project: Reeve
+Metric,26/06/2025
+GitHub Stars,9
+GitHub Forks,7
+GitHub Contributors,9
+GitHub Pull Requests (PRs) Merged,294
 Number of Releases,0
 Downloads,Github downloads 0
 
