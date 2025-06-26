@@ -9,7 +9,7 @@ from datetime import datetime
 # Tracked GitHub repositories
 REPOS = {
     "cf-gsoc-ideas-page-2025": "cardano-foundation/cf-gsoc-ideas-page-2025",
-    "Reeve": "cardano-foundation/cf-lob-platform",
+    "Reeve": "cardano-foundation/cf-reeve-platform",
     "Cardano IBC Incubator": "cardano-foundation/cardano-ibc-incubator",
     "Cardano Rosetta Java": "cardano-foundation/cardano-rosetta-java",
     "Cardano Devkit": "cardano-foundation/cf-devkit",
