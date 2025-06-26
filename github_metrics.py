@@ -9,7 +9,7 @@ from datetime import datetime
 # Tracked GitHub repositories
 REPOS = {
     "cf-gsoc-ideas-page-2025": "cardano-foundation/cf-gsoc-ideas-page-2025",
-    "CF LOB Platform": "cardano-foundation/cf-lob-platform",
+    "Reeve": "cardano-foundation/cf-lob-platform",
     "Cardano IBC Incubator": "cardano-foundation/cardano-ibc-incubator",
     "Cardano Rosetta Java": "cardano-foundation/cardano-rosetta-java",
     "Cardano Devkit": "cardano-foundation/cf-devkit",
@@ -24,7 +24,7 @@ REPOS = {
     "Yaci Store": "bloxbean/yaci-store",
     "Cardano Economic Parameter Insights": "cardano-foundation/cardano-economic-parameter-insights",
     "Cardano Blueprint and Ecosystem Monitoring": "cardano-foundation/cardano-blueprint-and-ecosystem-monitoring",
-    "CF Identity Wallet": "cardano-foundation/cf-identity-wallet",
+    #"CF Identity Wallet": "cardano-foundation/cf-identity-wallet",
     "Cardano Deposit Wallet": "cardano-foundation/cardano-deposit-wallet",
     "Cardano Wallet": "cardano-foundation/cardano-wallet",
     "Cardano Wallet Agda": "cardano-foundation/cardano-wallet-agda",
