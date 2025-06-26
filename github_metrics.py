@@ -8,7 +8,7 @@ from datetime import datetime
 
 # Tracked GitHub repositories
 REPOS = {
-    "cf-gsoc-ideas-page-2025": "cardano-foundation/cf-gsoc-ideas-page-2025",
+   "cf-gsoc-ideas-page-2025": "cardano-foundation/cf-gsoc-ideas-page-2025",
     "Reeve": "cardano-foundation/cf-reeve-platform",
     "Cardano IBC Incubator": "cardano-foundation/cardano-ibc-incubator",
     "Cardano Rosetta Java": "cardano-foundation/cardano-rosetta-java",
@@ -24,13 +24,22 @@ REPOS = {
     "Yaci Store": "bloxbean/yaci-store",
     "Cardano Economic Parameter Insights": "cardano-foundation/cardano-economic-parameter-insights",
     "Cardano Blueprint and Ecosystem Monitoring": "cardano-foundation/cardano-blueprint-and-ecosystem-monitoring",
-    #"CF Identity Wallet": "cardano-foundation/cf-identity-wallet",
     "Cardano Deposit Wallet": "cardano-foundation/cardano-deposit-wallet",
     "Cardano Wallet": "cardano-foundation/cardano-wallet",
     "Cardano Wallet Agda": "cardano-foundation/cardano-wallet-agda",
     "Veridian Wallet": "cardano-foundation/veridian-wallet",
     "Originate": "cardano-foundation/originate",
-    "Amaru": "pragma-org/amaru"
+    "Amaru": "pragma-org/amaru",
+    "Aiken": "aiken-lang/aiken",
+    "Ogmios": "cardanosolutions/ogmios",
+    "Kupo": "cardanosolutions/kupo",
+    "Ogmios MDK": "CardanoSolutions/ogmios-mdk",
+    "Merkle Patricia Forestry": "aiken-lang/merkle-patricia-forestry",
+    "Aiken Stdlib": "aiken-lang/stdlib",
+    "Aiken Fuzz": "aiken-lang/fuzz",
+    "Elm Cardano": "elm-cardano/elm-cardano",
+    "Elm Bech32": "elm-cardano/bech32",
+    "Elm CBOR": "elm-toulouse/cbor"
 }
 
 # GitHub API token (optional, for higher rate limits)
