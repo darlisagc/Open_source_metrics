@@ -803,5 +803,30 @@
         "Github downloads 0"
       ]
     }
+  },
+  "Amaru": {
+    "dates": [
+      "26/06/2025"
+    ],
+    "data": {
+      "GitHub Stars": [
+        72
+      ],
+      "GitHub Forks": [
+        9
+      ],
+      "GitHub Contributors": [
+        15
+      ],
+      "GitHub Pull Requests (PRs) Merged": [
+        203
+      ],
+      "Number of Releases": [
+        0
+      ],
+      "Downloads": [
+        "Github downloads 0"
+      ]
+    }
   }
 }
