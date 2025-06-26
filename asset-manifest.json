@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Open_source_metrics/static/css/main.e6c13ad2.css",
-    "main.js": "/Open_source_metrics/static/js/main.a568674a.js",
+    "main.js": "/Open_source_metrics/static/js/main.205c58ff.js",
     "static/js/453.5812a206.chunk.js": "/Open_source_metrics/static/js/453.5812a206.chunk.js",
     "index.html": "/Open_source_metrics/index.html",
     "main.e6c13ad2.css.map": "/Open_source_metrics/static/css/main.e6c13ad2.css.map",
-    "main.a568674a.js.map": "/Open_source_metrics/static/js/main.a568674a.js.map",
+    "main.205c58ff.js.map": "/Open_source_metrics/static/js/main.205c58ff.js.map",
     "453.5812a206.chunk.js.map": "/Open_source_metrics/static/js/453.5812a206.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.a568674a.js"
+    "static/js/main.205c58ff.js"
   ]
 }
