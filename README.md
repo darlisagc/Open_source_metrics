@@ -3,15 +3,15 @@
 Monitor and visualize GitHub activity metrics for key open source projects.  
 This repository automates data collection, generates monthly reports, and publishes:
 
-- 📊 **A static summary page** (HTML & Markdown)
-- 📈 **An interactive dashboard** to explore trends over time
+- 📊 **A static summary page** (HTML & Markdown): https://darlisagc.github.io/Open_source_metrics/
+- 📈 **An interactive dashboard** to explore trends over time: https://darlisagc.github.io/Open_source_metrics/dashboard/
 
 > Track metrics like stars, forks, contributors, merged PRs, releases, and downloads—  
 > all in one place, with automated updates.
 
 ---
 
-## Metrics collection overview
+## Metrics collected 
 
 | ID | Metrics                                | Metric Description                                                      | Metric Category                  | Information Availability                   | Collection Method           | Frequency of Data Collection | Location                                 |
 |----|----------------------------------------|-------------------------------------------------------------------------|----------------------------------|--------------------------------------------|-----------------------------|------------------------------|------------------------------------------|
@@ -48,8 +48,3 @@ This repository automates data collection, generates monthly reports, and publis
 - [cardano-wallet-agda](https://github.com/cardano-foundation/cardano-wallet-agda)
 - [veridian-wallet](https://github.com/cardano-foundation/veridian-wallet)
 
-
-
-# Open source metrics 
-
-Dashboard: https://darlisagc.github.io/Open_source_metrics/dashboard 
