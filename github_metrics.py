@@ -29,7 +29,8 @@ REPOS = {
     "Cardano Wallet": "cardano-foundation/cardano-wallet",
     "Cardano Wallet Agda": "cardano-foundation/cardano-wallet-agda",
     "Veridian Wallet": "cardano-foundation/veridian-wallet",
-    "Originate": "cardano-foundation/originate"
+    "Originate": "cardano-foundation/originate",
+    "Amaru": "pragma-org/amaru"
 }
 
 # GitHub API token (optional, for higher rate limits)
