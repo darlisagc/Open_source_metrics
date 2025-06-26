@@ -1,0 +1,52 @@
+name: Deploy Metrics Web & Dashboard
+
+on:
+  push:
+    paths:
+      - metrics_history.json
+      - dashboard/**  # Your dashboard source code
+      - .github/workflows/update_page.yml
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Build Dashboard
+        working-directory: ./dashboard
+        run: |
+          npm install
+          npm run build
+
+      - name: Copy metrics_history.json to dashboard build
+        run: cp metrics_history.json dashboard/build/metrics_history.json
+
+      - name: Install Pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
+      - name: Convert Markdown to HTML
+        run: pandoc open_source_metrics.md -o index.html
+
+      - name: Prepare deployment folder
+        run: |
+          mkdir deploy
+          mv index.html deploy/
+          cp -r dashboard/build deploy/dashboard
+          cp metrics_history.json deploy/  # (optional, for legacy support)
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./deploy
