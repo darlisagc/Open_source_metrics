@@ -25,40 +25,49 @@ This repository automates data collection, generates monthly reports, and publis
 
 ## Projects Tracked
 
+### Cardano Foundation Repositories
 
-| Project / Repository                    | GitHub Link                                                                                   |
-|-----------------------------------------|----------------------------------------------------------------------------------------------|
-| cf-gsoc-ideas-page-2025                 | [https://github.com/cardano-foundation/cf-gsoc-ideas-page-2025](https://github.com/cardano-foundation/cf-gsoc-ideas-page-2025)           |
-| cf-lob-platform                         | [https://github.com/cardano-foundation/cf-lob-platform](https://github.com/cardano-foundation/cf-lob-platform)                           |
-| cardano-ibc-incubator                   | [https://github.com/cardano-foundation/cardano-ibc-incubator](https://github.com/cardano-foundation/cardano-ibc-incubator)               |
-| cardano-rosetta-java                    | [https://github.com/cardano-foundation/cardano-rosetta-java](https://github.com/cardano-foundation/cardano-rosetta-java)                 |
-| cf-devkit                               | [https://github.com/cardano-foundation/cf-devkit](https://github.com/cardano-foundation/cf-devkit)                                       |
-| cf-cardano-ballot                       | [https://github.com/cardano-foundation/cf-cardano-ballot](https://github.com/cardano-foundation/cf-cardano-ballot)                       |
-| cip30-data-signature-parser             | [https://github.com/cardano-foundation/cip30-data-signature-parser](https://github.com/cardano-foundation/cip30-data-signature-parser)   |
-| cardano-connect-with-wallet             | [https://github.com/cardano-foundation/cardano-connect-with-wallet](https://github.com/cardano-foundation/cardano-connect-with-wallet)   |
-| cf-adahandle-resolver                   | [https://github.com/cardano-foundation/cf-adahandle-resolver](https://github.com/cardano-foundation/cf-adahandle-resolver)               |
-| cf-java-rewards-calculation             | [https://github.com/cardano-foundation/cf-java-rewards-calculation](https://github.com/cardano-foundation/cf-java-rewards-calculation)   |
-| cardano-client-lib                      | [https://github.com/bloxbean/cardano-client-lib](https://github.com/bloxbean/cardano-client-lib)                                         |
-| yaci-devkit                             | [https://github.com/bloxbean/yaci-devkit](https://github.com/bloxbean/yaci-devkit)                                                     |
-| yaci                                    | [https://github.com/bloxbean/yaci](https://github.com/bloxbean/yaci)                                                                   |
-| yaci-store                              | [https://github.com/bloxbean/yaci-store](https://github.com/bloxbean/yaci-store)                                                       |
-| cardano-economic-parameter-insights      | [https://github.com/cardano-foundation/cardano-economic-parameter-insights](https://github.com/cardano-foundation/cardano-economic-parameter-insights)  |
-| cardano-blueprint-and-ecosystem-monitoring | [https://github.com/cardano-foundation/cardano-blueprint-and-ecosystem-monitoring](https://github.com/cardano-foundation/cardano-blueprint-and-ecosystem-monitoring) |
-| veridian-wallet                         | [https://github.com/cardano-foundation/veridian-wallet](https://github.com/cardano-foundation/veridian-wallet)                           |
-| cardano-deposit-wallet                  | [https://github.com/cardano-foundation/cardano-deposit-wallet](https://github.com/cardano-foundation/cardano-deposit-wallet)             |
-| cardano-wallet                          | [https://github.com/cardano-foundation/cardano-wallet](https://github.com/cardano-foundation/cardano-wallet)                             |
-| cardano-wallet-agda                     | [https://github.com/cardano-foundation/cardano-wallet-agda](https://github.com/cardano-foundation/cardano-wallet-agda)                   |
-| originate                               | [https://github.com/cardano-foundation/originate](https://github.com/cardano-foundation/originate)                                      |
-| aiken-lang/aiken                        | [https://github.com/aiken-lang/aiken](https://github.com/aiken-lang/aiken)                                                             |
-| cardanosolutions/ogmios                 | [https://github.com/CardanoSolutions/ogmios](https://github.com/CardanoSolutions/ogmios)                                               |
-| cardanosolutions/kupo                   | [https://github.com/CardanoSolutions/kupo](https://github.com/CardanoSolutions/kupo)                                                   |
-| CardanoSolutions/ogmios-mdk             | [https://github.com/CardanoSolutions/ogmios-mdk](https://github.com/CardanoSolutions/ogmios-mdk)                                       |
-| aiken-lang/merkle-patricia-forestry     | [https://github.com/aiken-lang/merkle-patricia-forestry](https://github.com/aiken-lang/merkle-patricia-forestry)                       |
-| aiken-lang/stdlib                       | [https://github.com/aiken-lang/stdlib](https://github.com/aiken-lang/stdlib)                                                           |
-| aiken-lang/fuzz                         | [https://github.com/aiken-lang/fuzz](https://github.com/aiken-lang/fuzz)                                                               |
-| pragma-org/amaru                        | [https://github.com/pragma-org/amaru](https://github.com/pragma-org/amaru)                                                             |
-| elm-cardano/elm-cardano                 | [https://github.com/elm-cardano/elm-cardano](https://github.com/elm-cardano/elm-cardano)                                               |
-| elm-cardano/bech32                      | [https://github.com/elm-cardano/bech32](https://github.com/elm-cardano/bech32)                                                         |
-| elm-toulouse/cbor                       | [https://github.com/elm-toulouse/cbor](https://github.com/elm-toulouse/cbor)                                                           |
+| Project / Repository                         | GitHub Link                                                                                   |
+|----------------------------------------------|----------------------------------------------------------------------------------------------|
+| cf-gsoc-ideas-page-2025                      | [https://github.com/cardano-foundation/cf-gsoc-ideas-page-2025](https://github.com/cardano-foundation/cf-gsoc-ideas-page-2025)           |
+| cf-lob-platform                              | [https://github.com/cardano-foundation/cf-lob-platform](https://github.com/cardano-foundation/cf-lob-platform)                           |
+| cardano-ibc-incubator                        | [https://github.com/cardano-foundation/cardano-ibc-incubator](https://github.com/cardano-foundation/cardano-ibc-incubator)               |
+| cardano-rosetta-java                         | [https://github.com/cardano-foundation/cardano-rosetta-java](https://github.com/cardano-foundation/cardano-rosetta-java)                 |
+| cf-devkit                                    | [https://github.com/cardano-foundation/cf-devkit](https://github.com/cardano-foundation/cf-devkit)                                       |
+| cf-cardano-ballot                            | [https://github.com/cardano-foundation/cf-cardano-ballot](https://github.com/cardano-foundation/cf-cardano-ballot)                       |
+| cip30-data-signature-parser                  | [https://github.com/cardano-foundation/cip30-data-signature-parser](https://github.com/cardano-foundation/cip30-data-signature-parser)   |
+| cardano-connect-with-wallet                  | [https://github.com/cardano-foundation/cardano-connect-with-wallet](https://github.com/cardano-foundation/cardano-connect-with-wallet)   |
+| cf-adahandle-resolver                        | [https://github.com/cardano-foundation/cf-adahandle-resolver](https://github.com/cardano-foundation/cf-adahandle-resolver)               |
+| cf-java-rewards-calculation                  | [https://github.com/cardano-foundation/cf-java-rewards-calculation](https://github.com/cardano-foundation/cf-java-rewards-calculation)   |
+| cardano-economic-parameter-insights           | [https://github.com/cardano-foundation/cardano-economic-parameter-insights](https://github.com/cardano-foundation/cardano-economic-parameter-insights)  |
+| cardano-blueprint-and-ecosystem-monitoring    | [https://github.com/cardano-foundation/cardano-blueprint-and-ecosystem-monitoring](https://github.com/cardano-foundation/cardano-blueprint-and-ecosystem-monitoring) |
+| veridian-wallet                              | [https://github.com/cardano-foundation/veridian-wallet](https://github.com/cardano-foundation/veridian-wallet)                           |
+| cardano-deposit-wallet                       | [https://github.com/cardano-foundation/cardano-deposit-wallet](https://github.com/cardano-foundation/cardano-deposit-wallet)             |
+| cardano-wallet                               | [https://github.com/cardano-foundation/cardano-wallet](https://github.com/cardano-foundation/cardano-wallet)                             |
+| cardano-wallet-agda                          | [https://github.com/cardano-foundation/cardano-wallet-agda](https://github.com/cardano-foundation/cardano-wallet-agda)                   |
+| originate                                    | [https://github.com/cardano-foundation/originate](https://github.com/cardano-foundation/originate)                                      |
 
+### BloxBean Repositories
 
+| Project / Repository                         | GitHub Link                                                                                   |
+|----------------------------------------------|----------------------------------------------------------------------------------------------|
+| cardano-client-lib                           | [https://github.com/bloxbean/cardano-client-lib](https://github.com/bloxbean/cardano-client-lib)                                         |
+| yaci-devkit                                  | [https://github.com/bloxbean/yaci-devkit](https://github.com/bloxbean/yaci-devkit)                                                     |
+| yaci                                         | [https://github.com/bloxbean/yaci](https://github.com/bloxbean/yaci)                                                                   |
+| yaci-store                                   | [https://github.com/bloxbean/yaci-store](https://github.com/bloxbean/yaci-store)                                                       |
+
+### Other Tracked Repositories
+
+| Project / Repository                         | GitHub Link                                                                                   |
+|----------------------------------------------|----------------------------------------------------------------------------------------------|
+| aiken-lang/aiken                             | [https://github.com/aiken-lang/aiken](https://github.com/aiken-lang/aiken)                                                             |
+| cardanosolutions/ogmios                      | [https://github.com/CardanoSolutions/ogmios](https://github.com/CardanoSolutions/ogmios)                                               |
+| cardanosolutions/kupo                        | [https://github.com/CardanoSolutions/kupo](https://github.com/CardanoSolutions/kupo)                                                   |
+| CardanoSolutions/ogmios-mdk                  | [https://github.com/CardanoSolutions/ogmios-mdk](https://github.com/CardanoSolutions/ogmios-mdk)                                       |
+| aiken-lang/merkle-patricia-forestry          | [https://github.com/aiken-lang/merkle-patricia-forestry](https://github.com/aiken-lang/merkle-patricia-forestry)                       |
+| aiken-lang/stdlib                            | [https://github.com/aiken-lang/stdlib](https://github.com/aiken-lang/stdlib)                                                           |
+| aiken-lang/fuzz                              | [https://github.com/aiken-lang/fuzz](https://github.com/aiken-lang/fuzz)                                                               |
+| pragma-org/amaru                             | [https://github.com/pragma-org/amaru](https://github.com/pragma-org/amaru)                                                             |
+| elm-cardano/elm-cardano                      | [https://github.com/elm-cardano/elm-cardano](https://github.com/elm-cardano/elm-cardano)                                               |
+| elm-cardano/bech32                           | [https://github.com/elm-cardano/bech32](https://github.com/elm-cardano/bech32)                                                         |
+| elm-toulouse/cbor                            | [https://github.com/elm-toulouse/cbor](https://github.com/elm-toulouse/cbor)                                                           |
