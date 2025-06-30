@@ -25,7 +25,6 @@ This repository automates data collection, generates monthly reports, and publis
 
 ## Projects Tracked
 
-### Tracked GitHub Repositories:
 
 | Project / Repository                    | GitHub Link                                                                                   |
 |-----------------------------------------|----------------------------------------------------------------------------------------------|
