@@ -27,8 +27,6 @@ This repository automates data collection, generates monthly reports, and publis
 
 ### Tracked GitHub Repositories:
 
-## 📊 Projects Tracked Under this Framework
-
 | Project / Repository                    | GitHub Link                                                                                   |
 |-----------------------------------------|----------------------------------------------------------------------------------------------|
 | cf-gsoc-ideas-page-2025                 | [https://github.com/cardano-foundation/cf-gsoc-ideas-page-2025](https://github.com/cardano-foundation/cf-gsoc-ideas-page-2025)           |
