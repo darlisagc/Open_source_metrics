@@ -2,7 +2,7 @@ name: Generate Monthly GitHub Metrics
 
 on:
   schedule:
-    - cron: "59 23 28 * *"  # Runsat 11:59 PM on the 28th day of each month, including February
+    - cron: "59 23 28 * *"  # Runs at 11:59 PM on the 28th day of each month, including February
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
