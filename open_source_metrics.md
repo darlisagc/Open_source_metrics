@@ -1,356 +1,356 @@
 # 🚀 Open Source Metrics Report
 
-_Data collected up to **28/09/2025**_
+_Data collected up to **28/10/2025**_
 
 ### 📌 cf-gsoc-ideas-page-2025
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 17 | 17 | 15 | 15 | 15 | 15 | 15 | 15 | 16 | 16 |
-| GitHub Forks | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 |
-| GitHub Contributors | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 |
-| GitHub Pull Requests (PRs) Merged | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
-| Number of Releases | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 17 | 17 | 15 | 15 | 15 | 15 | 15 | 15 | 16 | 16 | 16 |
+| GitHub Forks | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 |
+| GitHub Contributors | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 |
+| GitHub Pull Requests (PRs) Merged | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
+| Number of Releases | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Reeve
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 8 | 8 | 9 | 9 | 9 | 10 | 10 | 29 | 33 | 34 |
-| GitHub Forks | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 9 | 9 | 9 |
-| GitHub Contributors | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 10 | 10 | 10 |
-| GitHub Pull Requests (PRs) Merged | 263 | 263 | 294 | 297 | 297 | 297 | 298 | 336 | 374 | 408 |
-| Number of Releases | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 2 | 2 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 8 | 8 | 9 | 9 | 9 | 10 | 10 | 29 | 33 | 34 | 34 |
+| GitHub Forks | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 9 | 9 | 9 | 9 |
+| GitHub Contributors | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 10 | 10 | 10 | 10 |
+| GitHub Pull Requests (PRs) Merged | 263 | 263 | 294 | 297 | 297 | 297 | 298 | 336 | 374 | 408 | 438 |
+| Number of Releases | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 2 | 2 | 4 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Cardano IBC Incubator
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 27 | 27 | 25 | 25 | 25 | 25 | 25 | 25 | 25 | 25 |
-| GitHub Forks | 11 | 11 | 12 | 12 | 12 | 12 | 12 | 12 | 12 | 14 |
-| GitHub Contributors | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 |
-| GitHub Pull Requests (PRs) Merged | 176 | 176 | 183 | 184 | 185 | 185 | 185 | 185 | 190 | 190 |
-| Number of Releases | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 27 | 27 | 25 | 25 | 25 | 25 | 25 | 25 | 25 | 25 | 26 |
+| GitHub Forks | 11 | 11 | 12 | 12 | 12 | 12 | 12 | 12 | 12 | 14 | 15 |
+| GitHub Contributors | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 |
+| GitHub Pull Requests (PRs) Merged | 176 | 176 | 183 | 184 | 185 | 185 | 185 | 185 | 190 | 190 | 190 |
+| Number of Releases | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Cardano Rosetta Java
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 19 | 19 | 20 | 20 | 20 | 20 | 20 | 20 | 21 | 23 |
-| GitHub Forks | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 10 | 10 | 10 |
-| GitHub Contributors | 27 | 27 | 27 | 27 | 27 | 27 | 27 | 28 | 28 | 29 |
-| GitHub Pull Requests (PRs) Merged | 314 | 314 | 322 | 323 | 326 | 326 | 326 | 347 | 355 | 369 |
-| Number of Releases | 30 | 30 | 30 | 30 | 31 | 31 | 31 | 33 | 34 | 36 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 19 | 19 | 20 | 20 | 20 | 20 | 20 | 20 | 21 | 23 | 24 |
+| GitHub Forks | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 10 | 10 | 10 | 11 |
+| GitHub Contributors | 27 | 27 | 27 | 27 | 27 | 27 | 27 | 28 | 28 | 29 | 29 |
+| GitHub Pull Requests (PRs) Merged | 314 | 314 | 322 | 323 | 326 | 326 | 326 | 347 | 355 | 369 | 381 |
+| Number of Releases | 30 | 30 | 30 | 30 | 31 | 31 | 31 | 33 | 34 | 36 | 37 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Cardano Devkit
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
-| GitHub Forks | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
-| GitHub Contributors | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
-| GitHub Pull Requests (PRs) Merged | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
-| Number of Releases | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
-| Downloads | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+| GitHub Forks | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+| GitHub Contributors | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+| GitHub Pull Requests (PRs) Merged | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+| Number of Releases | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+| Downloads | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
 
 ### 📌 CF Cardano Ballot
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 22 | 22 | 22 | 22 | 22 | 22 | 22 | 22 | 24 | 24 |
-| GitHub Forks | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 6 | 7 |
-| GitHub Contributors | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 19 |
-| GitHub Pull Requests (PRs) Merged | 517 | 517 | 517 | 517 | 517 | 517 | 517 | 517 | 524 | 539 |
-| Number of Releases | 71 | 71 | 71 | 71 | 71 | 71 | 71 | 71 | 71 | 71 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 22 | 22 | 22 | 22 | 22 | 22 | 22 | 22 | 24 | 24 | 24 |
+| GitHub Forks | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 6 | 7 | 7 |
+| GitHub Contributors | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 19 | 19 |
+| GitHub Pull Requests (PRs) Merged | 517 | 517 | 517 | 517 | 517 | 517 | 517 | 517 | 524 | 539 | 540 |
+| Number of Releases | 71 | 71 | 71 | 71 | 71 | 71 | 71 | 71 | 71 | 71 | 71 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 CIP30 Data Signature Parser
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 8 |
-| GitHub Forks | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| GitHub Contributors | 8 | 8 | 8 | 8 | 8 | 8 | 8 | 8 | 8 | 8 |
-| GitHub Pull Requests (PRs) Merged | 21 | 21 | 21 | 21 | 21 | 21 | 21 | 21 | 21 | 22 |
-| Number of Releases | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 8 | 8 |
+| GitHub Forks | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| GitHub Contributors | 8 | 8 | 8 | 8 | 8 | 8 | 8 | 8 | 8 | 8 | 8 |
+| GitHub Pull Requests (PRs) Merged | 21 | 21 | 21 | 21 | 21 | 21 | 21 | 21 | 21 | 22 | 22 |
+| Number of Releases | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Cardano Connect With Wallet
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 86 | 86 | 86 | 86 | 86 | 86 | 86 | 86 | 85 | 86 |
-| GitHub Forks | 26 | 26 | 26 | 26 | 26 | 26 | 26 | 26 | 26 | 27 |
-| GitHub Contributors | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 17 |
-| GitHub Pull Requests (PRs) Merged | 81 | 81 | 81 | 81 | 81 | 81 | 81 | 81 | 81 | 83 |
-| Number of Releases | 60 | 60 | 60 | 60 | 60 | 60 | 60 | 60 | 60 | 61 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 86 | 86 | 86 | 86 | 86 | 86 | 86 | 86 | 85 | 86 | 86 |
+| GitHub Forks | 26 | 26 | 26 | 26 | 26 | 26 | 26 | 26 | 26 | 27 | 27 |
+| GitHub Contributors | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 17 | 17 |
+| GitHub Pull Requests (PRs) Merged | 81 | 81 | 81 | 81 | 81 | 81 | 81 | 81 | 81 | 83 | 83 |
+| Number of Releases | 60 | 60 | 60 | 60 | 60 | 60 | 60 | 60 | 60 | 61 | 61 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 CF Adahandle Resolver
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 12 | 12 | 12 | 12 | 12 | 12 | 12 | 12 | 13 | 14 |
-| GitHub Forks | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
-| GitHub Contributors | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 |
-| GitHub Pull Requests (PRs) Merged | 42 | 42 | 42 | 42 | 42 | 42 | 42 | 42 | 42 | 42 |
-| Number of Releases | 11 | 11 | 11 | 11 | 11 | 11 | 11 | 11 | 11 | 11 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 12 | 12 | 12 | 12 | 12 | 12 | 12 | 12 | 13 | 14 | 14 |
+| GitHub Forks | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
+| GitHub Contributors | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 |
+| GitHub Pull Requests (PRs) Merged | 42 | 42 | 42 | 42 | 42 | 42 | 42 | 42 | 42 | 42 | 42 |
+| Number of Releases | 11 | 11 | 11 | 11 | 11 | 11 | 11 | 11 | 11 | 11 | 11 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 CF Java Rewards Calculation
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 20 | 20 | 20 | 20 | 20 | 20 | 20 | 20 | 20 | 20 |
-| GitHub Forks | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 2 |
-| GitHub Contributors | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 |
-| GitHub Pull Requests (PRs) Merged | 53 | 53 | 53 | 53 | 53 | 53 | 53 | 53 | 53 | 53 |
-| Number of Releases | 22 | 22 | 22 | 22 | 22 | 22 | 22 | 22 | 22 | 22 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 20 | 20 | 20 | 20 | 20 | 20 | 20 | 20 | 20 | 20 | 20 |
+| GitHub Forks | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 2 | 2 |
+| GitHub Contributors | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 |
+| GitHub Pull Requests (PRs) Merged | 53 | 53 | 53 | 53 | 53 | 53 | 53 | 53 | 53 | 53 | 53 |
+| Number of Releases | 22 | 22 | 22 | 22 | 22 | 22 | 22 | 22 | 22 | 22 | 22 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Cardano Client Lib
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 126 | 126 | 126 | 126 | 126 | 126 | 126 | 126 | 126 | 127 |
-| GitHub Forks | 52 | 52 | 52 | 52 | 52 | 53 | 53 | 53 | 52 | 52 |
-| GitHub Contributors | 26 | 26 | 26 | 26 | 26 | 26 | 26 | 26 | 26 | 27 |
-| GitHub Pull Requests (PRs) Merged | 235 | 235 | 239 | 239 | 239 | 239 | 239 | 241 | 243 | 248 |
-| Number of Releases | 51 | 51 | 53 | 53 | 53 | 53 | 53 | 53 | 53 | 54 |
-| Downloads | Github downloads 241 | Github downloads 241 | Github downloads 67 | Github downloads 67 | Github downloads 67 | Github downloads 67 | Github downloads 67 | Github downloads 67 | Github downloads 67 | Github downloads 0 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 126 | 126 | 126 | 126 | 126 | 126 | 126 | 126 | 126 | 127 | 128 |
+| GitHub Forks | 52 | 52 | 52 | 52 | 52 | 53 | 53 | 53 | 52 | 52 | 53 |
+| GitHub Contributors | 26 | 26 | 26 | 26 | 26 | 26 | 26 | 26 | 26 | 27 | 28 |
+| GitHub Pull Requests (PRs) Merged | 235 | 235 | 239 | 239 | 239 | 239 | 239 | 241 | 243 | 248 | 252 |
+| Number of Releases | 51 | 51 | 53 | 53 | 53 | 53 | 53 | 53 | 53 | 54 | 55 |
+| Downloads | Github downloads 241 | Github downloads 241 | Github downloads 67 | Github downloads 67 | Github downloads 67 | Github downloads 67 | Github downloads 67 | Github downloads 67 | Github downloads 67 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Yaci Devkit
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 52 | 52 | 53 | 53 | 53 | 53 | 53 | 53 | 57 | 58 |
-| GitHub Forks | 12 | 12 | 12 | 12 | 12 | 13 | 13 | 13 | 14 | 14 |
-| GitHub Contributors | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 9 |
-| GitHub Pull Requests (PRs) Merged | 64 | 64 | 64 | 64 | 66 | 66 | 66 | 71 | 71 | 71 |
-| Number of Releases | 27 | 27 | 27 | 27 | 27 | 27 | 27 | 28 | 28 | 28 |
-| Downloads | Github downloads 659 | Github downloads 659 | Github downloads 719 | Github downloads 721 | Github downloads 730 | Github downloads 733 | Github downloads 735 | Github downloads 778 | Github downloads 805 | Github downloads 828 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 52 | 52 | 53 | 53 | 53 | 53 | 53 | 53 | 57 | 58 | 59 |
+| GitHub Forks | 12 | 12 | 12 | 12 | 12 | 13 | 13 | 13 | 14 | 14 | 14 |
+| GitHub Contributors | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 9 |
+| GitHub Pull Requests (PRs) Merged | 64 | 64 | 64 | 64 | 66 | 66 | 66 | 71 | 71 | 71 | 71 |
+| Number of Releases | 27 | 27 | 27 | 27 | 27 | 27 | 27 | 28 | 28 | 28 | 28 |
+| Downloads | Github downloads 659 | Github downloads 659 | Github downloads 719 | Github downloads 721 | Github downloads 730 | Github downloads 733 | Github downloads 735 | Github downloads 778 | Github downloads 805 | Github downloads 828 | Github downloads 862 |
 
 ### 📌 Yaci
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 26 | 26 | 26 | 26 | 26 | 26 | 26 | 27 | 27 | 27 |
-| GitHub Forks | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
-| GitHub Contributors | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 |
-| GitHub Pull Requests (PRs) Merged | 62 | 62 | 66 | 66 | 66 | 66 | 66 | 66 | 73 | 73 |
-| Number of Releases | 36 | 36 | 39 | 39 | 39 | 39 | 39 | 39 | 42 | 42 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 26 | 26 | 26 | 26 | 26 | 26 | 26 | 27 | 27 | 27 | 28 |
+| GitHub Forks | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
+| GitHub Contributors | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 |
+| GitHub Pull Requests (PRs) Merged | 62 | 62 | 66 | 66 | 66 | 66 | 66 | 66 | 73 | 73 | 73 |
+| Number of Releases | 36 | 36 | 39 | 39 | 39 | 39 | 39 | 39 | 42 | 42 | 42 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Yaci Store
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 26 | 26 | 26 | 26 | 26 | 26 | 26 | 27 | 30 | 33 |
-| GitHub Forks | 9 | 9 | 9 | 9 | 9 | 10 | 10 | 10 | 11 | 11 |
-| GitHub Contributors | 11 | 11 | 11 | 11 | 11 | 11 | 11 | 11 | 11 | 11 |
-| GitHub Pull Requests (PRs) Merged | 312 | 312 | 327 | 327 | 327 | 328 | 328 | 350 | 367 | 373 |
-| Number of Releases | 45 | 45 | 47 | 47 | 47 | 47 | 47 | 51 | 55 | 56 |
-| Downloads | Github downloads 1366 | Github downloads 1366 | Github downloads 1412 | Github downloads 1412 | Github downloads 1418 | Github downloads 1420 | Github downloads 1424 | Github downloads 1554 | Github downloads 1351 | Github downloads 1365 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 26 | 26 | 26 | 26 | 26 | 26 | 26 | 27 | 30 | 33 | 34 |
+| GitHub Forks | 9 | 9 | 9 | 9 | 9 | 10 | 10 | 10 | 11 | 11 | 11 |
+| GitHub Contributors | 11 | 11 | 11 | 11 | 11 | 11 | 11 | 11 | 11 | 11 | 12 |
+| GitHub Pull Requests (PRs) Merged | 312 | 312 | 327 | 327 | 327 | 328 | 328 | 350 | 367 | 373 | 375 |
+| Number of Releases | 45 | 45 | 47 | 47 | 47 | 47 | 47 | 51 | 55 | 56 | 56 |
+| Downloads | Github downloads 1366 | Github downloads 1366 | Github downloads 1412 | Github downloads 1412 | Github downloads 1418 | Github downloads 1420 | Github downloads 1424 | Github downloads 1554 | Github downloads 1351 | Github downloads 1365 | Github downloads 1559 |
 
 ### 📌 Cardano Economic Parameter Insights
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 |
-| GitHub Forks | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
-| GitHub Contributors | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
-| GitHub Pull Requests (PRs) Merged | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| Number of Releases | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 |
+| GitHub Forks | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
+| GitHub Contributors | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
+| GitHub Pull Requests (PRs) Merged | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| Number of Releases | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Cardano Blueprint and Ecosystem Monitoring
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 12 | 13 | 13 |
-| GitHub Forks | 2 | 2 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 3 |
-| GitHub Contributors | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 7 | 7 |
-| GitHub Pull Requests (PRs) Merged | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 9 | 12 |
-| Number of Releases | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 12 | 13 | 13 | 14 |
+| GitHub Forks | 2 | 2 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 3 | 3 |
+| GitHub Contributors | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 7 | 7 | 7 |
+| GitHub Pull Requests (PRs) Merged | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 9 | 12 | 13 |
+| Number of Releases | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Cardano Deposit Wallet
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 2 |
-| GitHub Forks | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| GitHub Contributors | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
-| GitHub Pull Requests (PRs) Merged | 24 | 24 | 24 | 24 | 24 | 24 | 24 | 24 | 24 | 24 |
-| Number of Releases | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| Downloads | Github downloads 176 | Github downloads 176 | Github downloads 176 | Github downloads 176 | Github downloads 176 | Github downloads 176 | Github downloads 176 | Github downloads 176 | Github downloads 176 | Github downloads 176 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 2 |
+| GitHub Forks | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| GitHub Contributors | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
+| GitHub Pull Requests (PRs) Merged | 24 | 24 | 24 | 24 | 24 | 24 | 24 | 24 | 24 | 24 | 24 |
+| Number of Releases | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| Downloads | Github downloads 176 | Github downloads 176 | Github downloads 176 | Github downloads 176 | Github downloads 176 | Github downloads 176 | Github downloads 176 | Github downloads 176 | Github downloads 176 | Github downloads 176 | Github downloads 176 |
 
 ### 📌 Cardano Wallet
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 798 | 798 | 801 | 801 | 801 | 802 | 802 | 803 | 805 | 809 |
-| GitHub Forks | 223 | 223 | 223 | 223 | 223 | 223 | 223 | 223 | 225 | 229 |
-| GitHub Contributors | 55 | 55 | 55 | 55 | 55 | 55 | 55 | 56 | 56 | 55 |
-| GitHub Pull Requests (PRs) Merged | 3612 | 3612 | 3612 | 3612 | 3612 | 3612 | 3612 | 3612 | 3612 | 3612 |
-| Number of Releases | 80 | 80 | 80 | 80 | 80 | 80 | 80 | 80 | 80 | 80 |
-| Downloads | Github downloads 17004 | Github downloads 17004 | Github downloads 17185 | Github downloads 17197 | Github downloads 17211 | Github downloads 17217 | Github downloads 17227 | Github downloads 17387 | Github downloads 17640 | Github downloads 17795 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 798 | 798 | 801 | 801 | 801 | 802 | 802 | 803 | 805 | 809 | 807 |
+| GitHub Forks | 223 | 223 | 223 | 223 | 223 | 223 | 223 | 223 | 225 | 229 | 228 |
+| GitHub Contributors | 55 | 55 | 55 | 55 | 55 | 55 | 55 | 56 | 56 | 55 | 55 |
+| GitHub Pull Requests (PRs) Merged | 3612 | 3612 | 3612 | 3612 | 3612 | 3612 | 3612 | 3612 | 3612 | 3612 | 3612 |
+| Number of Releases | 80 | 80 | 80 | 80 | 80 | 80 | 80 | 80 | 80 | 80 | 80 |
+| Downloads | Github downloads 17004 | Github downloads 17004 | Github downloads 17185 | Github downloads 17197 | Github downloads 17211 | Github downloads 17217 | Github downloads 17227 | Github downloads 17387 | Github downloads 17640 | Github downloads 17795 | Github downloads 17935 |
 
 ### 📌 Cardano Wallet Agda
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 12 | 12 | 12 | 12 | 12 | 12 | 12 | 13 | 13 | 13 |
-| GitHub Forks | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 2 |
-| GitHub Contributors | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 |
-| GitHub Pull Requests (PRs) Merged | 150 | 150 | 150 | 150 | 150 | 150 | 150 | 150 | 150 | 150 |
-| Number of Releases | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 12 | 12 | 12 | 12 | 12 | 12 | 12 | 13 | 13 | 13 | 13 |
+| GitHub Forks | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 2 |
+| GitHub Contributors | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 |
+| GitHub Pull Requests (PRs) Merged | 150 | 150 | 150 | 150 | 150 | 150 | 150 | 150 | 150 | 150 | 150 |
+| Number of Releases | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Veridian Wallet
 
-| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 123 | 123 | 123 | 123 | 124 | 124 | 124 | 125 | 127 | 130 |
-| GitHub Forks | 21 | 21 | 21 | 21 | 21 | 21 | 21 | 24 | 25 | 26 |
-| GitHub Contributors | 16 | 16 | 17 | 17 | 17 | 17 | 17 | 18 | 18 | 18 |
-| GitHub Pull Requests (PRs) Merged | 1103 | 1103 | 1130 | 1130 | 1130 | 1130 | 1130 | 1162 | 1186 | 1224 |
-| Number of Releases | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 4 | 4 | 4 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 01/06/2025 | 06/06/2025 | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 123 | 123 | 123 | 123 | 124 | 124 | 124 | 125 | 127 | 130 | 133 |
+| GitHub Forks | 21 | 21 | 21 | 21 | 21 | 21 | 21 | 24 | 25 | 26 | 26 |
+| GitHub Contributors | 16 | 16 | 17 | 17 | 17 | 17 | 17 | 18 | 18 | 18 | 18 |
+| GitHub Pull Requests (PRs) Merged | 1103 | 1103 | 1130 | 1130 | 1130 | 1130 | 1130 | 1162 | 1186 | 1224 | 1269 |
+| Number of Releases | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 4 | 4 | 4 | 4 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Originate
 
-| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 3 | 3 | 3 | 3 | 3 | 3 | 6 | 7 |
-| GitHub Forks | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
-| GitHub Contributors | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 3 |
-| GitHub Pull Requests (PRs) Merged | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 5 |
-| Number of Releases | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 3 | 3 | 3 | 3 | 3 | 3 | 6 | 7 | 7 |
+| GitHub Forks | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 3 |
+| GitHub Contributors | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 3 | 3 |
+| GitHub Pull Requests (PRs) Merged | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 5 | 5 |
+| Number of Releases | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Amaru
 
-| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 72 | 72 | 72 | 72 | 72 | 74 | 74 | 75 |
-| GitHub Forks | 9 | 9 | 9 | 9 | 10 | 11 | 13 | 15 |
-| GitHub Contributors | 15 | 15 | 15 | 15 | 15 | 18 | 21 | 21 |
-| GitHub Pull Requests (PRs) Merged | 203 | 204 | 204 | 204 | 204 | 231 | 279 | 328 |
-| Number of Releases | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 72 | 72 | 72 | 72 | 72 | 74 | 74 | 75 | 79 |
+| GitHub Forks | 9 | 9 | 9 | 9 | 10 | 11 | 13 | 15 | 16 |
+| GitHub Contributors | 15 | 15 | 15 | 15 | 15 | 18 | 21 | 21 | 21 |
+| GitHub Pull Requests (PRs) Merged | 203 | 204 | 204 | 204 | 204 | 231 | 279 | 328 | 373 |
+| Number of Releases | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Aiken
 
-| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 540 | 540 | 541 | 541 | 541 | 544 | 550 | 556 |
-| GitHub Forks | 119 | 119 | 119 | 119 | 119 | 120 | 124 | 125 |
-| GitHub Contributors | 46 | 46 | 46 | 46 | 46 | 46 | 47 | 47 |
-| GitHub Pull Requests (PRs) Merged | 530 | 530 | 530 | 530 | 530 | 540 | 541 | 541 |
-| Number of Releases | 44 | 44 | 44 | 44 | 44 | 45 | 45 | 45 |
-| Downloads | Github downloads 35596 | Github downloads 35625 | Github downloads 35754 | Github downloads 35779 | Github downloads 35853 | Github downloads 37244 | Github downloads 38532 | Github downloads 40018 |
+| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 540 | 540 | 541 | 541 | 541 | 544 | 550 | 556 | 558 |
+| GitHub Forks | 119 | 119 | 119 | 119 | 119 | 120 | 124 | 125 | 124 |
+| GitHub Contributors | 46 | 46 | 46 | 46 | 46 | 46 | 47 | 47 | 47 |
+| GitHub Pull Requests (PRs) Merged | 530 | 530 | 530 | 530 | 530 | 540 | 541 | 541 | 541 |
+| Number of Releases | 44 | 44 | 44 | 44 | 44 | 45 | 45 | 45 | 45 |
+| Downloads | Github downloads 35596 | Github downloads 35625 | Github downloads 35754 | Github downloads 35779 | Github downloads 35853 | Github downloads 37244 | Github downloads 38532 | Github downloads 40018 | Github downloads 41417 |
 
 ### 📌 Ogmios
 
-| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 313 | 313 | 313 | 313 | 313 | 313 | 314 | 314 |
-| GitHub Forks | 94 | 94 | 94 | 94 | 94 | 94 | 94 | 96 |
-| GitHub Contributors | 29 | 29 | 29 | 29 | 29 | 29 | 29 | 29 |
-| GitHub Pull Requests (PRs) Merged | 135 | 135 | 135 | 135 | 135 | 135 | 135 | 135 |
-| Number of Releases | 49 | 49 | 49 | 49 | 49 | 49 | 49 | 49 |
-| Downloads | Github downloads 16221 | Github downloads 16244 | Github downloads 16282 | Github downloads 16300 | Github downloads 16349 | Github downloads 17291 | Github downloads 18362 | Github downloads 19507 |
+| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 313 | 313 | 313 | 313 | 313 | 313 | 314 | 314 | 316 |
+| GitHub Forks | 94 | 94 | 94 | 94 | 94 | 94 | 94 | 96 | 97 |
+| GitHub Contributors | 29 | 29 | 29 | 29 | 29 | 29 | 29 | 29 | 29 |
+| GitHub Pull Requests (PRs) Merged | 135 | 135 | 135 | 135 | 135 | 135 | 135 | 135 | 135 |
+| Number of Releases | 49 | 49 | 49 | 49 | 49 | 49 | 49 | 49 | 50 |
+| Downloads | Github downloads 16221 | Github downloads 16244 | Github downloads 16282 | Github downloads 16300 | Github downloads 16349 | Github downloads 17291 | Github downloads 18362 | Github downloads 19507 | Github downloads 20606 |
 
 ### 📌 Kupo
 
-| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 129 | 129 | 129 | 129 | 129 | 133 | 132 | 133 |
-| GitHub Forks | 30 | 30 | 30 | 30 | 30 | 30 | 30 | 30 |
-| GitHub Contributors | 13 | 13 | 13 | 13 | 13 | 13 | 13 | 13 |
-| GitHub Pull Requests (PRs) Merged | 39 | 39 | 39 | 39 | 39 | 39 | 39 | 39 |
-| Number of Releases | 15 | 15 | 15 | 15 | 15 | 15 | 15 | 15 |
-| Downloads | Github downloads 5112 | Github downloads 5115 | Github downloads 5124 | Github downloads 5128 | Github downloads 5146 | Github downloads 5214 | Github downloads 5289 | Github downloads 5317 |
+| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 129 | 129 | 129 | 129 | 129 | 133 | 132 | 133 | 135 |
+| GitHub Forks | 30 | 30 | 30 | 30 | 30 | 30 | 30 | 30 | 30 |
+| GitHub Contributors | 13 | 13 | 13 | 13 | 13 | 13 | 13 | 13 | 13 |
+| GitHub Pull Requests (PRs) Merged | 39 | 39 | 39 | 39 | 39 | 39 | 39 | 39 | 39 |
+| Number of Releases | 15 | 15 | 15 | 15 | 15 | 15 | 15 | 15 | 15 |
+| Downloads | Github downloads 5112 | Github downloads 5115 | Github downloads 5124 | Github downloads 5128 | Github downloads 5146 | Github downloads 5214 | Github downloads 5289 | Github downloads 5317 | Github downloads 5408 |
 
 ### 📌 Ogmios MDK
 
-| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| GitHub Forks | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| GitHub Contributors | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| GitHub Pull Requests (PRs) Merged | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Number of Releases | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| GitHub Forks | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| GitHub Contributors | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| GitHub Pull Requests (PRs) Merged | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Number of Releases | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Merkle Patricia Forestry
 
-| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 43 | 43 | 43 | 43 | 43 | 43 | 43 | 44 |
-| GitHub Forks | 13 | 13 | 13 | 13 | 13 | 13 | 13 | 15 |
-| GitHub Contributors | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 |
-| GitHub Pull Requests (PRs) Merged | 7 | 7 | 7 | 7 | 7 | 8 | 8 | 8 |
-| Number of Releases | 4 | 4 | 4 | 4 | 4 | 5 | 5 | 5 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 43 | 43 | 43 | 43 | 43 | 43 | 43 | 44 | 44 |
+| GitHub Forks | 13 | 13 | 13 | 13 | 13 | 13 | 13 | 15 | 15 |
+| GitHub Contributors | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 |
+| GitHub Pull Requests (PRs) Merged | 7 | 7 | 7 | 7 | 7 | 8 | 8 | 8 | 8 |
+| Number of Releases | 4 | 4 | 4 | 4 | 4 | 5 | 5 | 5 | 5 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Aiken Stdlib
 
-| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 56 | 56 | 56 | 56 | 56 | 56 | 57 | 57 |
-| GitHub Forks | 35 | 35 | 35 | 35 | 35 | 36 | 36 | 36 |
-| GitHub Contributors | 26 | 26 | 26 | 26 | 26 | 27 | 27 | 27 |
-| GitHub Pull Requests (PRs) Merged | 58 | 58 | 58 | 58 | 58 | 60 | 60 | 60 |
-| Number of Releases | 13 | 13 | 13 | 13 | 13 | 14 | 14 | 14 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 56 | 56 | 56 | 56 | 56 | 56 | 57 | 57 | 58 |
+| GitHub Forks | 35 | 35 | 35 | 35 | 35 | 36 | 36 | 36 | 37 |
+| GitHub Contributors | 26 | 26 | 26 | 26 | 26 | 27 | 27 | 27 | 28 |
+| GitHub Pull Requests (PRs) Merged | 58 | 58 | 58 | 58 | 58 | 60 | 60 | 60 | 62 |
+| Number of Releases | 13 | 13 | 13 | 13 | 13 | 14 | 14 | 14 | 15 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Aiken Fuzz
 
-| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 8 | 8 | 8 | 8 | 8 | 8 | 8 | 9 |
-| GitHub Forks | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 |
-| GitHub Contributors | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 |
-| GitHub Pull Requests (PRs) Merged | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 9 |
-| Number of Releases | 4 | 4 | 4 | 4 | 4 | 5 | 5 | 5 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 8 | 8 | 8 | 8 | 8 | 8 | 8 | 9 | 9 |
+| GitHub Forks | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 |
+| GitHub Contributors | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 |
+| GitHub Pull Requests (PRs) Merged | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 9 |
+| Number of Releases | 4 | 4 | 4 | 4 | 4 | 5 | 5 | 5 | 5 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Elm Cardano
 
-| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 21 | 21 | 21 | 21 | 21 | 22 | 22 | 23 |
-| GitHub Forks | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 |
-| GitHub Contributors | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 |
-| GitHub Pull Requests (PRs) Merged | 81 | 81 | 81 | 81 | 81 | 81 | 81 | 81 |
-| Number of Releases | 15 | 15 | 15 | 15 | 15 | 15 | 15 | 15 |
-| Downloads | Github downloads 1081 | Github downloads 1081 | Github downloads 1081 | Github downloads 1081 | Github downloads 1083 | Github downloads 1195 | Github downloads 1301 | Github downloads 1347 |
+| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 21 | 21 | 21 | 21 | 21 | 22 | 22 | 23 | 24 |
+| GitHub Forks | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 |
+| GitHub Contributors | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 |
+| GitHub Pull Requests (PRs) Merged | 81 | 81 | 81 | 81 | 81 | 81 | 81 | 81 | 81 |
+| Number of Releases | 15 | 15 | 15 | 15 | 15 | 15 | 15 | 15 | 15 |
+| Downloads | Github downloads 1081 | Github downloads 1081 | Github downloads 1081 | Github downloads 1081 | Github downloads 1083 | Github downloads 1195 | Github downloads 1301 | Github downloads 1347 | Github downloads 1450 |
 
 ### 📌 Elm Bech32
 
-| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| GitHub Forks | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| GitHub Contributors | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| GitHub Pull Requests (PRs) Merged | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Number of Releases | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| GitHub Forks | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| GitHub Contributors | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| GitHub Pull Requests (PRs) Merged | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Number of Releases | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
 ### 📌 Elm CBOR
 
-| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| GitHub Stars | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 9 |
-| GitHub Forks | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| GitHub Contributors | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
-| GitHub Pull Requests (PRs) Merged | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 |
-| Number of Releases | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
-| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
+| Metric | 26/06/2025 | 27/06/2025 | 29/06/2025 | 30/06/2025 | 01/07/2025 | 28/07/2025 | 28/08/2025 | 28/09/2025 | 28/10/2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| GitHub Stars | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 9 |
+| GitHub Forks | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| GitHub Contributors | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
+| GitHub Pull Requests (PRs) Merged | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 |
+| Number of Releases | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
+| Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
