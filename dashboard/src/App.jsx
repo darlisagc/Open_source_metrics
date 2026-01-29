@@ -2,14 +2,8 @@ import { useState, useEffect } from 'react'
 import OssDashboard from './OssDashboard'
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false)
-
-  useEffect(() => {
-    // Check system preference
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      setDarkMode(true)
-    }
-  }, [])
+  // Default to dark mode for Cardano Foundation branding
+  const [darkMode, setDarkMode] = useState(true)
 
   useEffect(() => {
     if (darkMode) {
@@ -19,11 +13,7 @@ function App() {
     }
   }, [darkMode])
 
-  return (
-    <div className={darkMode ? 'dark' : ''}>
-      <OssDashboard darkMode={darkMode} setDarkMode={setDarkMode} />
-    </div>
-  )
+  return <OssDashboard darkMode={darkMode} setDarkMode={setDarkMode} />
 }
 
 export default App
