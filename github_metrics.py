@@ -8,7 +8,7 @@ from datetime import datetime
 
 # Tracked GitHub repositories
 REPOS = {
-   "cf-gsoc-ideas-page-2025": "cardano-foundation/cf-gsoc-ideas-page-2025",
+    "cf-gsoc-ideas-page-2025": "cardano-foundation/cf-gsoc-ideas-page-2025",
     "Reeve": "cardano-foundation/cf-reeve-platform",
     "Cardano IBC Incubator": "cardano-foundation/cardano-ibc-incubator",
     "Cardano Rosetta Java": "cardano-foundation/cardano-rosetta-java",
@@ -39,7 +39,15 @@ REPOS = {
     "Aiken Fuzz": "aiken-lang/fuzz",
     "Elm Cardano": "elm-cardano/elm-cardano",
     "Elm Bech32": "elm-cardano/bech32",
-    "Elm CBOR": "elm-toulouse/cbor"
+    "Elm CBOR": "elm-toulouse/cbor",
+    "CIP113 Programmable Tokens": "cardano-foundation/cip113-programmable-tokens",
+    "Cardano Template and Ecosystem Monitoring": "cardano-foundation/cardano-template-and-ecosystem-monitoring",
+    "CF Token Metadata Registry": "cardano-foundation/cf-token-metadata-registry",
+    "Cardano Mobile Connect Demo": "cardano-foundation/cardano-mobile-connect-demo",
+    "Cardano Node Antithesis": "cardano-foundation/cardano-node-antithesis",
+    "X402 Cardano": "cardano-foundation/x402-cardano",
+    "Cardano Tool Compass": "cardano-foundation/cardano-tool-compass",
+    "Uverify Backend": "cardano-foundation/uverify-backend"
 }
 
 # GitHub API token (optional, for higher rate limits)
