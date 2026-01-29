@@ -4,8 +4,8 @@ on:
   push:
     paths:
       - metrics_history.json
-      - dashboard/**  # Your dashboard source code
-      - .github/workflows/update_page.yml
+      - dashboard/**
+      - .github/workflows/dashboard_deployment.yml
   workflow_dispatch:
 
 jobs:
@@ -13,21 +13,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: dashboard/package-lock.json
+
+      - name: Install Dependencies
+        working-directory: ./dashboard
+        run: npm ci
 
       - name: Build Dashboard
         working-directory: ./dashboard
-        run: |
-          npm install
-          npm run build
+        run: npm run build
 
       - name: Copy metrics_history.json to dashboard build
-        run: cp metrics_history.json dashboard/build/metrics_history.json
+        run: cp metrics_history.json dashboard/dist/metrics_history.json
 
       - name: Install Pandoc
         run: |
@@ -41,11 +45,11 @@ jobs:
         run: |
           mkdir deploy
           mv index.html deploy/
-          cp -r dashboard/build deploy/dashboard
-          cp metrics_history.json deploy/  # (optional, for legacy support)
+          cp -r dashboard/dist deploy/dashboard
+          cp metrics_history.json deploy/
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           publish_branch: gh-pages
