@@ -6,6 +6,8 @@ import {
   YAxis,
   Tooltip,
   ResponsiveContainer,
+  BarChart,
+  Bar,
 } from "recharts"
 
 const METRICS = [
@@ -18,42 +20,12 @@ const METRICS = [
 ]
 
 const METRIC_CONFIG = {
-  "GitHub Stars": {
-    color: "#F59E0B",
-    gradient: ["#FCD34D", "#F59E0B"],
-    icon: "M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z",
-    label: "Stars"
-  },
-  "GitHub Forks": {
-    color: "#10B981",
-    gradient: ["#6EE7B7", "#10B981"],
-    icon: "M7.707 3.293a1 1 0 010 1.414L5.414 7H11a7 7 0 017 7v2a1 1 0 11-2 0v-2a5 5 0 00-5-5H5.414l2.293 2.293a1 1 0 11-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z",
-    label: "Forks"
-  },
-  "GitHub Contributors": {
-    color: "#3B82F6",
-    gradient: ["#93C5FD", "#3B82F6"],
-    icon: "M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z",
-    label: "Contributors"
-  },
-  "GitHub Pull Requests (PRs) Merged": {
-    color: "#8B5CF6",
-    gradient: ["#C4B5FD", "#8B5CF6"],
-    icon: "M17.707 9.293a1 1 0 010 1.414l-7 7a1 1 0 01-1.414 0l-7-7A.997.997 0 012 10V5a3 3 0 013-3h5c.256 0 .512.098.707.293l7 7zM5 6a1 1 0 100-2 1 1 0 000 2z",
-    label: "PRs Merged"
-  },
-  "Number of Releases": {
-    color: "#EC4899",
-    gradient: ["#F9A8D4", "#EC4899"],
-    icon: "M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z",
-    label: "Releases"
-  },
-  "Downloads": {
-    color: "#06B6D4",
-    gradient: ["#67E8F9", "#06B6D4"],
-    icon: "M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z",
-    label: "Downloads"
-  },
+  "GitHub Stars": { color: "#F59E0B", label: "Stars" },
+  "GitHub Forks": { color: "#10B981", label: "Forks" },
+  "GitHub Contributors": { color: "#3B82F6", label: "Contributors" },
+  "GitHub Pull Requests (PRs) Merged": { color: "#8B5CF6", label: "PRs Merged" },
+  "Number of Releases": { color: "#EC4899", label: "Releases" },
+  "Downloads": { color: "#06B6D4", label: "Downloads" },
 }
 
 function CardanoLogo({ className = "w-6 h-6" }) {
@@ -78,80 +50,97 @@ function CardanoLogo({ className = "w-6 h-6" }) {
   )
 }
 
-function MetricCard({ metric, value, previousValue, isSelected, onClick }) {
-  const config = METRIC_CONFIG[metric]
-  const diff = value - previousValue
-  const percent = previousValue === 0 ? 0 : (diff / previousValue) * 100
-  const isPositive = diff > 0
-  const isNegative = diff < 0
+function MultiSelect({ label, options, selected, onChange, searchable = false }) {
+  const [isOpen, setIsOpen] = useState(false)
+  const [search, setSearch] = useState("")
+
+  const filteredOptions = searchable && search
+    ? options.filter(opt => opt.toLowerCase().includes(search.toLowerCase()))
+    : options
+
+  const toggleOption = (option) => {
+    if (selected.includes(option)) {
+      onChange(selected.filter(s => s !== option))
+    } else {
+      onChange([...selected, option])
+    }
+  }
 
   return (
-    <button
-      onClick={onClick}
-      className={`group relative w-full text-left p-4 rounded-2xl transition-all duration-300 ${
-        isSelected
-          ? 'bg-white/10 ring-1 ring-white/20 shadow-lg'
-          : 'bg-white/[0.03] hover:bg-white/[0.06]'
-      }`}
-    >
-      {/* Glow effect when selected */}
-      {isSelected && (
-        <div
-          className="absolute inset-0 rounded-2xl opacity-20 blur-xl -z-10"
-          style={{ backgroundColor: config.color }}
-        />
+    <div className="relative">
+      <label className="block text-sm font-medium text-white/60 mb-2">{label}</label>
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="w-full flex items-center justify-between gap-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl px-4 py-3 text-left transition-colors"
+      >
+        <span className="text-sm truncate">
+          {selected.length === 0 ? "Select..." :
+           selected.length === 1 ? selected[0] :
+           `${selected.length} selected`}
+        </span>
+        <svg className={`w-4 h-4 text-white/40 transition-transform ${isOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+
+      {isOpen && (
+        <>
+          <div className="fixed inset-0 z-10" onClick={() => setIsOpen(false)} />
+          <div className="absolute z-20 mt-2 w-full bg-[#0a0a0f] border border-white/10 rounded-xl shadow-2xl overflow-hidden">
+            {searchable && (
+              <div className="p-2 border-b border-white/10">
+                <input
+                  type="text"
+                  placeholder="Search..."
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
+                  className="w-full bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-white/20"
+                />
+              </div>
+            )}
+            <div className="p-2 flex gap-2 border-b border-white/10">
+              <button
+                onClick={() => onChange([...options])}
+                className="flex-1 text-xs font-medium px-3 py-1.5 bg-white/5 hover:bg-white/10 rounded-lg transition-colors"
+              >
+                Select All
+              </button>
+              <button
+                onClick={() => onChange([])}
+                className="flex-1 text-xs font-medium px-3 py-1.5 bg-white/5 hover:bg-white/10 rounded-lg transition-colors"
+              >
+                Clear All
+              </button>
+            </div>
+            <div className="max-h-60 overflow-y-auto p-2 space-y-1">
+              {filteredOptions.map((option) => (
+                <button
+                  key={option}
+                  onClick={() => toggleOption(option)}
+                  className={`w-full flex items-center gap-3 px-3 py-2 rounded-lg text-left text-sm transition-colors ${
+                    selected.includes(option)
+                      ? 'bg-blue-500/20 text-white'
+                      : 'hover:bg-white/5 text-white/70'
+                  }`}
+                >
+                  <div className={`w-4 h-4 rounded border flex items-center justify-center ${
+                    selected.includes(option)
+                      ? 'bg-blue-500 border-blue-500'
+                      : 'border-white/20'
+                  }`}>
+                    {selected.includes(option) && (
+                      <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    )}
+                  </div>
+                  <span className="truncate">{option}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        </>
       )}
-
-      <div className="flex items-start justify-between mb-3">
-        <div
-          className="p-2 rounded-xl transition-transform duration-300 group-hover:scale-110"
-          style={{ backgroundColor: `${config.color}20` }}
-        >
-          <svg className="w-4 h-4" fill={config.color} viewBox="0 0 20 20">
-            <path fillRule="evenodd" d={config.icon} clipRule="evenodd" />
-          </svg>
-        </div>
-        <div className={`flex items-center gap-1 text-xs font-medium px-2 py-1 rounded-full ${
-          isPositive ? 'bg-emerald-500/10 text-emerald-400' :
-          isNegative ? 'bg-red-500/10 text-red-400' :
-          'bg-white/5 text-white/40'
-        }`}>
-          {isPositive && '↑'}
-          {isNegative && '↓'}
-          {diff === 0 ? '—' : `${Math.abs(percent).toFixed(1)}%`}
-        </div>
-      </div>
-
-      <div className="text-2xl font-semibold text-white mb-1 tracking-tight">
-        {value.toLocaleString()}
-      </div>
-      <div className="text-sm text-white/40">{config.label}</div>
-    </button>
-  )
-}
-
-function MiniChart({ data, metric, color }) {
-  if (!data || data.length < 2) return null
-
-  return (
-    <div className="h-12 w-24">
-      <ResponsiveContainer width="100%" height="100%">
-        <AreaChart data={data}>
-          <defs>
-            <linearGradient id={`mini-${metric}`} x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor={color} stopOpacity={0.3} />
-              <stop offset="100%" stopColor={color} stopOpacity={0} />
-            </linearGradient>
-          </defs>
-          <Area
-            type="monotone"
-            dataKey={metric}
-            stroke={color}
-            strokeWidth={1.5}
-            fill={`url(#mini-${metric})`}
-          />
-        </AreaChart>
-      </ResponsiveContainer>
     </div>
   )
 }
@@ -161,15 +150,15 @@ function CustomTooltip({ active, payload, label }) {
 
   return (
     <div className="bg-[#0a0a0f]/95 backdrop-blur-xl border border-white/10 rounded-xl p-4 shadow-2xl">
-      <div className="text-xs text-white/50 mb-2">{label}</div>
+      <div className="text-xs text-white/50 mb-3">{label}</div>
       <div className="space-y-2">
         {payload.map((entry) => (
-          <div key={entry.name} className="flex items-center gap-3">
+          <div key={entry.dataKey} className="flex items-center gap-3">
             <div
               className="w-2 h-2 rounded-full"
               style={{ backgroundColor: entry.color }}
             />
-            <span className="text-sm text-white/70">{METRIC_CONFIG[entry.name]?.label}</span>
+            <span className="text-sm text-white/70">{entry.name}</span>
             <span className="text-sm font-medium text-white ml-auto">
               {entry.value?.toLocaleString()}
             </span>
@@ -180,10 +169,57 @@ function CustomTooltip({ active, payload, label }) {
   )
 }
 
+function MetricCard({ metric, data, selectedProjects }) {
+  const config = METRIC_CONFIG[metric]
+
+  const totals = useMemo(() => {
+    let current = 0
+    let previous = 0
+
+    selectedProjects.forEach(project => {
+      const projectData = data[project]
+      if (projectData && projectData.length > 0) {
+        current += projectData[projectData.length - 1]?.[metric] || 0
+        previous += projectData[projectData.length - 2]?.[metric] || projectData[0]?.[metric] || 0
+      }
+    })
+
+    return { current, previous }
+  }, [data, selectedProjects, metric])
+
+  const diff = totals.current - totals.previous
+  const percent = totals.previous === 0 ? 0 : (diff / totals.previous) * 100
+  const isPositive = diff > 0
+  const isNegative = diff < 0
+
+  return (
+    <div className="bg-white/[0.03] hover:bg-white/[0.05] rounded-2xl p-4 transition-colors">
+      <div className="flex items-center justify-between mb-3">
+        <div
+          className="w-3 h-3 rounded-full"
+          style={{ backgroundColor: config.color }}
+        />
+        <div className={`text-xs font-medium px-2 py-0.5 rounded-full ${
+          isPositive ? 'bg-emerald-500/10 text-emerald-400' :
+          isNegative ? 'bg-red-500/10 text-red-400' :
+          'bg-white/5 text-white/40'
+        }`}>
+          {diff === 0 ? '—' : `${isPositive ? '+' : ''}${percent.toFixed(1)}%`}
+        </div>
+      </div>
+      <div className="text-2xl font-semibold text-white mb-1">
+        {totals.current.toLocaleString()}
+      </div>
+      <div className="text-sm text-white/40">{config.label}</div>
+    </div>
+  )
+}
+
 export default function OssDashboard() {
   const [history, setHistory] = useState(null)
-  const [selectedProject, setSelectedProject] = useState("")
-  const [selectedMetric, setSelectedMetric] = useState("GitHub Stars")
+  const [selectedProjects, setSelectedProjects] = useState([])
+  const [selectedDates, setSelectedDates] = useState([])
+  const [selectedMetrics, setSelectedMetrics] = useState([...METRICS])
   const [error, setError] = useState(null)
   const [loading, setLoading] = useState(true)
 
@@ -196,7 +232,13 @@ export default function OssDashboard() {
       .then((data) => {
         setHistory(data)
         const projectNames = Object.keys(data).sort()
-        setSelectedProject(projectNames[0])
+        // Select first project by default
+        if (projectNames.length > 0) {
+          setSelectedProjects([projectNames[0]])
+          // Select all dates for first project
+          const firstProjectDates = data[projectNames[0]]?.dates || []
+          setSelectedDates(firstProjectDates)
+        }
         setLoading(false)
       })
       .catch(() => {
@@ -205,49 +247,91 @@ export default function OssDashboard() {
       })
   }, [])
 
-  const projectData = useMemo(() => {
-    if (!history || !selectedProject) return null
-    return history[selectedProject]
-  }, [history, selectedProject])
-
-  const chartData = useMemo(() => {
-    if (!projectData?.dates) return []
-
-    return projectData.dates
-      .map((date, index) => {
-        const point = { date }
-        METRICS.forEach((metric) => {
-          const values = projectData.data[metric] || []
-          const raw = values[index]?.toString() || "0"
-          point[metric] = parseInt(raw.match(/\d+/g)?.[0] || 0)
-        })
-        return point
-      })
-      .sort((a, b) => {
-        const [dayA, monthA, yearA] = a.date.split('/')
-        const [dayB, monthB, yearB] = b.date.split('/')
-        return new Date(yearA, monthA - 1, dayA) - new Date(yearB, monthB - 1, dayB)
-      })
-  }, [projectData])
-
-  const latestValues = useMemo(() => {
-    if (!chartData.length) return {}
-    const latest = chartData[chartData.length - 1]
-    const previous = chartData[chartData.length - 2] || chartData[0]
-    return METRICS.reduce((acc, metric) => {
-      acc[metric] = {
-        value: latest[metric] || 0,
-        previous: previous[metric] || 0
-      }
-      return acc
-    }, {})
-  }, [chartData])
-
   const availableProjects = useMemo(() => {
     return history ? Object.keys(history).sort() : []
   }, [history])
 
-  const selectedConfig = METRIC_CONFIG[selectedMetric]
+  const availableDates = useMemo(() => {
+    if (!history || selectedProjects.length === 0) return []
+
+    // Get all unique dates across selected projects
+    const allDates = new Set()
+    selectedProjects.forEach(project => {
+      const dates = history[project]?.dates || []
+      dates.forEach(d => allDates.add(d))
+    })
+
+    // Sort dates chronologically
+    return Array.from(allDates).sort((a, b) => {
+      const [dayA, monthA, yearA] = a.split('/')
+      const [dayB, monthB, yearB] = b.split('/')
+      return new Date(yearA, monthA - 1, dayA) - new Date(yearB, monthB - 1, dayB)
+    })
+  }, [history, selectedProjects])
+
+  // Update selected dates when projects change
+  useEffect(() => {
+    if (availableDates.length > 0) {
+      setSelectedDates(availableDates)
+    }
+  }, [availableDates])
+
+  const chartData = useMemo(() => {
+    if (!history || selectedProjects.length === 0 || selectedDates.length === 0) return {}
+
+    const projectData = {}
+
+    selectedProjects.forEach(project => {
+      const data = history[project]
+      if (!data?.dates) return
+
+      projectData[project] = selectedDates
+        .filter(date => data.dates.includes(date))
+        .map(date => {
+          const index = data.dates.indexOf(date)
+          const point = { date }
+          METRICS.forEach(metric => {
+            const values = data.data[metric] || []
+            const raw = values[index]?.toString() || "0"
+            point[metric] = parseInt(raw.match(/\d+/g)?.[0] || 0)
+          })
+          return point
+        })
+    })
+
+    return projectData
+  }, [history, selectedProjects, selectedDates])
+
+  const combinedChartData = useMemo(() => {
+    if (Object.keys(chartData).length === 0) return []
+
+    // For single project, return its data directly
+    if (selectedProjects.length === 1) {
+      return chartData[selectedProjects[0]] || []
+    }
+
+    // For multiple projects, combine data by date
+    const dataByDate = {}
+
+    selectedProjects.forEach(project => {
+      const data = chartData[project] || []
+      data.forEach(point => {
+        if (!dataByDate[point.date]) {
+          dataByDate[point.date] = { date: point.date }
+          METRICS.forEach(m => { dataByDate[point.date][m] = 0 })
+        }
+        METRICS.forEach(m => {
+          dataByDate[point.date][m] += point[m] || 0
+        })
+      })
+    })
+
+    return Object.values(dataByDate).sort((a, b) => {
+      const [dayA, monthA, yearA] = a.date.split('/')
+      const [dayB, monthB, yearB] = b.date.split('/')
+      return new Date(yearA, monthA - 1, dayA) - new Date(yearB, monthB - 1, dayB)
+    })
+  }, [chartData, selectedProjects])
 
   if (loading) {
     return (
@@ -291,7 +375,7 @@ export default function OssDashboard() {
 
       <div className="relative max-w-7xl mx-auto px-6 py-8">
         {/* Header */}
-        <header className="flex items-center justify-between mb-12">
+        <header className="flex items-center justify-between mb-10">
           <div className="flex items-center gap-4">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl blur-lg opacity-50" />
@@ -304,168 +388,130 @@ export default function OssDashboard() {
               <p className="text-sm text-white/40">Cardano Foundation</p>
             </div>
           </div>
-
-          {/* Project Selector */}
-          <div className="relative">
-            <select
-              value={selectedProject}
-              onChange={(e) => setSelectedProject(e.target.value)}
-              className="appearance-none bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl px-4 py-2.5 pr-10 text-sm font-medium transition-colors cursor-pointer focus:outline-none focus:ring-2 focus:ring-white/20"
-            >
-              {availableProjects.map((p) => (
-                <option key={p} value={p} className="bg-[#0a0a0f]">{p}</option>
-              ))}
-            </select>
-            <svg className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-white/40 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-            </svg>
-          </div>
         </header>
 
-        {/* Metric Cards Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-8">
-          {METRICS.map((metric) => (
-            <MetricCard
-              key={metric}
-              metric={metric}
-              value={latestValues[metric]?.value || 0}
-              previousValue={latestValues[metric]?.previous || 0}
-              isSelected={selectedMetric === metric}
-              onClick={() => setSelectedMetric(metric)}
-            />
-          ))}
+        {/* Filters */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          <MultiSelect
+            label="Repositories"
+            options={availableProjects}
+            selected={selectedProjects}
+            onChange={setSelectedProjects}
+            searchable={true}
+          />
+          <MultiSelect
+            label="Dates"
+            options={availableDates}
+            selected={selectedDates}
+            onChange={setSelectedDates}
+          />
+          <MultiSelect
+            label="Metrics"
+            options={METRICS}
+            selected={selectedMetrics}
+            onChange={setSelectedMetrics}
+          />
         </div>
 
-        {/* Main Chart */}
-        <div className="bg-white/[0.02] border border-white/[0.06] rounded-3xl p-6 mb-8">
-          <div className="flex items-center justify-between mb-6">
-            <div>
-              <h2 className="text-lg font-medium mb-1">{selectedConfig.label} Over Time</h2>
-              <p className="text-sm text-white/40">
-                {chartData.length > 0 && `${chartData[0]?.date} — ${chartData[chartData.length - 1]?.date}`}
-              </p>
-            </div>
-            <div className="flex items-center gap-3">
-              <div
-                className="w-3 h-3 rounded-full"
-                style={{ backgroundColor: selectedConfig.color }}
-              />
-              <span className="text-sm text-white/60">{selectedConfig.label}</span>
-            </div>
-          </div>
-
-          <div className="h-80">
-            <ResponsiveContainer width="100%" height="100%">
-              <AreaChart data={chartData} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
-                <defs>
-                  <linearGradient id="chartGradient" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stopColor={selectedConfig.color} stopOpacity={0.25} />
-                    <stop offset="100%" stopColor={selectedConfig.color} stopOpacity={0} />
-                  </linearGradient>
-                </defs>
-                <XAxis
-                  dataKey="date"
-                  axisLine={false}
-                  tickLine={false}
-                  tick={{ fill: 'rgba(255,255,255,0.3)', fontSize: 12 }}
-                  dy={10}
-                />
-                <YAxis
-                  axisLine={false}
-                  tickLine={false}
-                  tick={{ fill: 'rgba(255,255,255,0.3)', fontSize: 12 }}
-                  dx={-10}
-                  tickFormatter={(value) => value >= 1000 ? `${(value/1000).toFixed(1)}k` : value}
-                />
-                <Tooltip content={<CustomTooltip />} />
-                <Area
-                  type="monotone"
-                  dataKey={selectedMetric}
-                  stroke={selectedConfig.color}
-                  strokeWidth={2}
-                  fill="url(#chartGradient)"
-                  dot={false}
-                  activeDot={{
-                    r: 6,
-                    fill: selectedConfig.color,
-                    stroke: '#030305',
-                    strokeWidth: 3
-                  }}
-                />
-              </AreaChart>
-            </ResponsiveContainer>
-          </div>
-        </div>
-
-        {/* All Metrics Chart */}
-        <div className="bg-white/[0.02] border border-white/[0.06] rounded-3xl p-6">
-          <div className="flex items-center justify-between mb-6">
-            <div>
-              <h2 className="text-lg font-medium mb-1">All Metrics Comparison</h2>
-              <p className="text-sm text-white/40">Track all metrics simultaneously</p>
-            </div>
-          </div>
-
-          <div className="h-80">
-            <ResponsiveContainer width="100%" height="100%">
-              <AreaChart data={chartData} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
-                <defs>
-                  {METRICS.map((metric) => (
-                    <linearGradient key={metric} id={`gradient-${metric}`} x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="0%" stopColor={METRIC_CONFIG[metric].color} stopOpacity={0.15} />
-                      <stop offset="100%" stopColor={METRIC_CONFIG[metric].color} stopOpacity={0} />
-                    </linearGradient>
-                  ))}
-                </defs>
-                <XAxis
-                  dataKey="date"
-                  axisLine={false}
-                  tickLine={false}
-                  tick={{ fill: 'rgba(255,255,255,0.3)', fontSize: 12 }}
-                  dy={10}
-                />
-                <YAxis
-                  axisLine={false}
-                  tickLine={false}
-                  tick={{ fill: 'rgba(255,255,255,0.3)', fontSize: 12 }}
-                  dx={-10}
-                  tickFormatter={(value) => value >= 1000 ? `${(value/1000).toFixed(1)}k` : value}
-                />
-                <Tooltip content={<CustomTooltip />} />
-                {METRICS.map((metric) => (
-                  <Area
-                    key={metric}
-                    type="monotone"
-                    dataKey={metric}
-                    stroke={METRIC_CONFIG[metric].color}
-                    strokeWidth={1.5}
-                    fill={`url(#gradient-${metric})`}
-                    dot={false}
-                  />
-                ))}
-              </AreaChart>
-            </ResponsiveContainer>
-          </div>
-
-          {/* Legend */}
-          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mt-6 pt-6 border-t border-white/[0.06]">
-            {METRICS.map((metric) => (
-              <button
+        {/* Summary Cards */}
+        {selectedProjects.length > 0 && (
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-8">
+            {selectedMetrics.map((metric) => (
+              <MetricCard
                 key={metric}
-                onClick={() => setSelectedMetric(metric)}
-                className={`flex items-center gap-2 text-sm transition-opacity ${
-                  selectedMetric === metric ? 'opacity-100' : 'opacity-50 hover:opacity-75'
-                }`}
-              >
-                <div
-                  className="w-2 h-2 rounded-full"
-                  style={{ backgroundColor: METRIC_CONFIG[metric].color }}
-                />
-                <span>{METRIC_CONFIG[metric].label}</span>
-              </button>
+                metric={metric}
+                data={chartData}
+                selectedProjects={selectedProjects}
+              />
             ))}
           </div>
-        </div>
+        )}
+
+        {/* Chart */}
+        {combinedChartData.length > 0 && selectedMetrics.length > 0 && (
+          <div className="bg-white/[0.02] border border-white/[0.06] rounded-3xl p-6">
+            <div className="flex items-center justify-between mb-6">
+              <div>
+                <h2 className="text-lg font-medium mb-1">Metrics Comparison</h2>
+                <p className="text-sm text-white/40">
+                  {selectedProjects.length === 1
+                    ? selectedProjects[0]
+                    : `${selectedProjects.length} repositories combined`}
+                  {selectedDates.length > 0 && ` • ${selectedDates.length} data points`}
+                </p>
+              </div>
+            </div>
+
+            <div className="h-96">
+              <ResponsiveContainer width="100%" height="100%">
+                <AreaChart data={combinedChartData} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
+                  <defs>
+                    {selectedMetrics.map((metric) => (
+                      <linearGradient key={metric} id={`gradient-${metric}`} x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stopColor={METRIC_CONFIG[metric].color} stopOpacity={0.2} />
+                        <stop offset="100%" stopColor={METRIC_CONFIG[metric].color} stopOpacity={0} />
+                      </linearGradient>
+                    ))}
+                  </defs>
+                  <XAxis
+                    dataKey="date"
+                    axisLine={false}
+                    tickLine={false}
+                    tick={{ fill: 'rgba(255,255,255,0.3)', fontSize: 12 }}
+                    dy={10}
+                  />
+                  <YAxis
+                    axisLine={false}
+                    tickLine={false}
+                    tick={{ fill: 'rgba(255,255,255,0.3)', fontSize: 12 }}
+                    dx={-10}
+                    tickFormatter={(value) => value >= 1000 ? `${(value/1000).toFixed(1)}k` : value}
+                  />
+                  <Tooltip content={<CustomTooltip />} />
+                  {selectedMetrics.map((metric) => (
+                    <Area
+                      key={metric}
+                      type="monotone"
+                      dataKey={metric}
+                      name={METRIC_CONFIG[metric].label}
+                      stroke={METRIC_CONFIG[metric].color}
+                      strokeWidth={2}
+                      fill={`url(#gradient-${metric})`}
+                      dot={false}
+                      activeDot={{
+                        r: 5,
+                        fill: METRIC_CONFIG[metric].color,
+                        stroke: '#030305',
+                        strokeWidth: 2
+                      }}
+                    />
+                  ))}
+                </AreaChart>
+              </ResponsiveContainer>
+            </div>
+
+            {/* Legend */}
+            <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mt-6 pt-6 border-t border-white/[0.06]">
+              {selectedMetrics.map((metric) => (
+                <div key={metric} className="flex items-center gap-2 text-sm">
+                  <div
+                    className="w-2 h-2 rounded-full"
+                    style={{ backgroundColor: METRIC_CONFIG[metric].color }}
+                  />
+                  <span className="text-white/60">{METRIC_CONFIG[metric].label}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Empty State */}
+        {(selectedProjects.length === 0 || selectedDates.length === 0) && (
+          <div className="bg-white/[0.02] border border-white/[0.06] rounded-3xl p-12 text-center">
+            <div className="text-white/30 mb-2">No data to display</div>
+            <p className="text-sm text-white/20">Select at least one repository and date to view metrics</p>
+          </div>
+        )}
 
         {/* Footer */}
         <footer className="mt-16 pt-8 border-t border-white/[0.06] flex items-center justify-between">
