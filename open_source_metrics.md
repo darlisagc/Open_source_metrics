@@ -354,3 +354,91 @@ _Data collected up to **29/01/2026**_
 | Number of Releases | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
 | Downloads | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 | Github downloads 0 |
 
+### 📌 CIP113 Programmable Tokens
+
+| Metric | 29/01/2026 |
+|--------|--------|
+| GitHub Stars | 8 |
+| GitHub Forks | 4 |
+| GitHub Contributors | 3 |
+| GitHub Pull Requests (PRs) Merged | 8 |
+| Number of Releases | 0 |
+| Downloads | Github downloads 0 |
+
+### 📌 Cardano Template and Ecosystem Monitoring
+
+| Metric | 29/01/2026 |
+|--------|--------|
+| GitHub Stars | 26 |
+| GitHub Forks | 21 |
+| GitHub Contributors | 11 |
+| GitHub Pull Requests (PRs) Merged | 27 |
+| Number of Releases | 0 |
+| Downloads | Github downloads 0 |
+
+### 📌 CF Token Metadata Registry
+
+| Metric | 29/01/2026 |
+|--------|--------|
+| GitHub Stars | 6 |
+| GitHub Forks | 2 |
+| GitHub Contributors | 9 |
+| GitHub Pull Requests (PRs) Merged | 31 |
+| Number of Releases | 12 |
+| Downloads | Github downloads 0 |
+
+### 📌 Cardano Mobile Connect Demo
+
+| Metric | 29/01/2026 |
+|--------|--------|
+| GitHub Stars | 3 |
+| GitHub Forks | 0 |
+| GitHub Contributors | 2 |
+| GitHub Pull Requests (PRs) Merged | 0 |
+| Number of Releases | 0 |
+| Downloads | Github downloads 0 |
+
+### 📌 Cardano Node Antithesis
+
+| Metric | 29/01/2026 |
+|--------|--------|
+| GitHub Stars | 1 |
+| GitHub Forks | 1 |
+| GitHub Contributors | 2 |
+| GitHub Pull Requests (PRs) Merged | 7 |
+| Number of Releases | 0 |
+| Downloads | Github downloads 0 |
+
+### 📌 X402 Cardano
+
+| Metric | 29/01/2026 |
+|--------|--------|
+| GitHub Stars | 0 |
+| GitHub Forks | 0 |
+| GitHub Contributors | 64 |
+| GitHub Pull Requests (PRs) Merged | 0 |
+| Number of Releases | 0 |
+| Downloads | Github downloads 0 |
+
+### 📌 Cardano Tool Compass
+
+| Metric | 29/01/2026 |
+|--------|--------|
+| GitHub Stars | 7 |
+| GitHub Forks | 2 |
+| GitHub Contributors | 4 |
+| GitHub Pull Requests (PRs) Merged | 4 |
+| Number of Releases | 0 |
+| Downloads | Github downloads 0 |
+
+### 📌 Uverify Backend
+
+| Metric | 29/01/2026 |
+|--------|--------|
+| GitHub Stars | 0 |
+| GitHub Forks | 0 |
+| GitHub Contributors | 3 |
+| GitHub Pull Requests (PRs) Merged | 0 |
+| Number of Releases | 0 |
+| Downloads | Github downloads 0 |
+
