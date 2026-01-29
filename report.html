@@ -1,0 +1,1909 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Source Metrics Report - Cardano Foundation</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container { max-width: 1400px; margin: 0 auto; }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle { color: #888; margin-bottom: 40px; font-size: 1.1rem; }
+        .date { color: #666; font-size: 0.9rem; margin-bottom: 40px; }
+
+        /* Overview Section */
+        .overview {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 40px;
+        }
+        .overview h2 { font-size: 1.5rem; margin-bottom: 20px; color: #fff; }
+        .overview-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .overview-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 20px;
+            text-align: center;
+        }
+        .overview-card .label { color: #888; font-size: 0.85rem; margin-bottom: 8px; }
+        .overview-card .value { font-size: 2rem; font-weight: 700; color: #fff; }
+        .overview-card .change { font-size: 0.9rem; margin-top: 8px; }
+        .change.up { color: #10b981; }
+        .change.down { color: #ef4444; }
+        .change.same { color: #888; }
+
+        /* Charts */
+        .chart-section {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 40px;
+        }
+        .chart-section h2 { font-size: 1.3rem; margin-bottom: 20px; color: #fff; }
+        .chart-container { height: 400px; }
+
+        /* Projects Grid */
+        .projects-section h2 { font-size: 1.8rem; margin-bottom: 30px; color: #fff; }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 24px;
+            transition: all 0.3s ease;
+        }
+        .project-card:hover {
+            border-color: rgba(102, 126, 234, 0.5);
+            transform: translateY(-2px);
+        }
+        .project-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 16px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .project-card .badge {
+            font-size: 0.7rem;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-weight: 500;
+        }
+        .badge.improved { background: rgba(16, 185, 129, 0.2); color: #10b981; }
+        .badge.declined { background: rgba(239, 68, 68, 0.2); color: #ef4444; }
+        .badge.stable { background: rgba(136, 136, 136, 0.2); color: #888; }
+
+        .metrics-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .metrics-table td {
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            font-size: 0.9rem;
+        }
+        .metrics-table tr:last-child td { border-bottom: none; }
+        .metrics-table .metric-name { color: #888; }
+        .metrics-table .metric-value { text-align: right; font-weight: 600; color: #fff; }
+        .metrics-table .metric-change { text-align: right; font-size: 0.85rem; width: 100px; }
+
+        /* Summary Tables */
+        .summary-section {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 40px;
+        }
+        .summary-section h2 { font-size: 1.5rem; margin-bottom: 20px; color: #fff; }
+        .summary-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .summary-table th, .summary-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .summary-table th {
+            color: #888;
+            font-weight: 500;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+        }
+        .summary-table td { font-size: 0.9rem; }
+        .summary-table tr:hover { background: rgba(255,255,255,0.02); }
+
+        .footer {
+            text-align: center;
+            color: #666;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Open Source Metrics Report</h1>
+        <p class="subtitle">Cardano Foundation Project Analytics</p>
+        <p class="date">Generated: January 29, 2026 at 12:18</p>
+
+        <!-- Overall Summary -->
+        <div class="overview">
+            <h2>📈 Overall Portfolio Summary</h2>
+            <div class="overview-grid">
+
+                <div class="overview-card">
+                    <div class="label">Stars</div>
+                    <div class="value">2,809</div>
+                    <div class="change up">🟢 +8.5%</div>
+                </div>
+
+                <div class="overview-card">
+                    <div class="label">Forks</div>
+                    <div class="value">800</div>
+                    <div class="change up">🟢 +13.5%</div>
+                </div>
+
+                <div class="overview-card">
+                    <div class="label">Contributors</div>
+                    <div class="value">442</div>
+                    <div class="change up">🟢 +10.5%</div>
+                </div>
+
+                <div class="overview-card">
+                    <div class="label">Pull Requests Merged</div>
+                    <div class="value">9,301</div>
+                    <div class="change up">🟢 +14.7%</div>
+                </div>
+
+                <div class="overview-card">
+                    <div class="label">Number of Releases</div>
+                    <div class="value">647</div>
+                    <div class="change up">🟢 +9.3%</div>
+                </div>
+
+                <div class="overview-card">
+                    <div class="label">Downloads</div>
+                    <div class="value">99,110</div>
+                    <div class="change up">🟢 +27.5%</div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Overall Trends Chart -->
+        <div class="chart-section">
+            <h2>📉 Portfolio Trends Over Time</h2>
+            <div class="chart-container">
+                <canvas id="overallChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Top Performers -->
+        <div class="summary-section">
+            <h2>🏆 Top Performers (Most Growth)</h2>
+            <table class="summary-table">
+                <thead>
+                    <tr>
+                        <th>Repository</th>
+                        <th>Stars</th>
+                        <th>Forks</th>
+                        <th>Contributors</th>
+                        <th>PRs Merged</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td><strong>Cardano Blueprint and Ecosystem Monitoring</strong></td>
+                        <td>26 <span class="change up">🟢</span></td>
+                        <td>21 <span class="change up">🟢</span></td>
+                        <td>11 <span class="change up">🟢</span></td>
+                        <td>27 <span class="change up">🟢</span></td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Reeve</strong></td>
+                        <td>38 <span class="change up">🟢</span></td>
+                        <td>8 <span class="change up">🟢</span></td>
+                        <td>13 <span class="change up">🟢</span></td>
+                        <td>506 <span class="change up">🟢</span></td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Originate</strong></td>
+                        <td>8 <span class="change up">🟢</span></td>
+                        <td>3 <span class="change up">🟢</span></td>
+                        <td>4 <span class="change up">🟢</span></td>
+                        <td>7 <span class="change up">🟢</span></td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Amaru</strong></td>
+                        <td>94 <span class="change up">🟢</span></td>
+                        <td>18 <span class="change up">🟢</span></td>
+                        <td>25 <span class="change up">🟢</span></td>
+                        <td>464 <span class="change up">🟢</span></td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Yaci Store</strong></td>
+                        <td>41 <span class="change up">🟢</span></td>
+                        <td>12 <span class="change up">🟢</span></td>
+                        <td>12 <span class="change up">🟢</span></td>
+                        <td>418 <span class="change up">🟢</span></td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Cardano Rosetta Java</strong></td>
+                        <td>24 <span class="change up">🟢</span></td>
+                        <td>13 <span class="change up">🟢</span></td>
+                        <td>31 <span class="change up">🟢</span></td>
+                        <td>407 <span class="change up">🟢</span></td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Veridian Wallet</strong></td>
+                        <td>139 <span class="change up">🟢</span></td>
+                        <td>34 <span class="change up">🟢</span></td>
+                        <td>18 <span class="change up">🟢</span></td>
+                        <td>1,404 <span class="change up">🟢</span></td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>CF Java Rewards Calculation</strong></td>
+                        <td>21 <span class="change same">🟡</span></td>
+                        <td>2 <span class="change up">🟢</span></td>
+                        <td>5 <span class="change same">🟡</span></td>
+                        <td>53 <span class="change same">🟡</span></td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Cardano Deposit Wallet</strong></td>
+                        <td>2 <span class="change up">🟢</span></td>
+                        <td>0 <span class="change same">⚪</span></td>
+                        <td>3 <span class="change same">🟡</span></td>
+                        <td>24 <span class="change same">🟡</span></td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Cardano IBC Incubator</strong></td>
+                        <td>27 <span class="change same">🟡</span></td>
+                        <td>16 <span class="change up">🟢</span></td>
+                        <td>17 <span class="change up">🟢</span></td>
+                        <td>212 <span class="change up">🟢</span></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Needs Attention -->
+        <div class="summary-section">
+            <h2>⚠️ Needs Attention (Declining Metrics)</h2>
+            <table class="summary-table">
+                <thead>
+                    <tr>
+                        <th>Repository</th>
+                        <th>Metric</th>
+                        <th>Previous</th>
+                        <th>Current</th>
+                        <th>Change</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td><strong>CIP30 Data Signature Parser</strong></td>
+                        <td>Forks</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td class="change down">🔴 -100.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Cardano Client Lib</strong></td>
+                        <td>Downloads</td>
+                        <td>241</td>
+                        <td>0</td>
+                        <td class="change down">🔴 -100.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>CF Adahandle Resolver</strong></td>
+                        <td>Forks</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td class="change down">🔴 -33.3%</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>cf-gsoc-ideas-page-2025</strong></td>
+                        <td>Forks</td>
+                        <td>5</td>
+                        <td>4</td>
+                        <td class="change down">🔴 -20.0%</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Individual Projects -->
+        <div class="projects-section">
+            <h2>📁 Individual Repository Reports</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <h3>
+                        Aiken
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">572</td>
+                            <td class="metric-change change up">🟢 +5.7%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">131</td>
+                            <td class="metric-change change up">🟢 +10.1%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">47</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">568</td>
+                            <td class="metric-change change up">🟢 +7.2%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">46</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">45,787</td>
+                            <td class="metric-change change up">🟢 +28.0%</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Aiken Fuzz
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">11</td>
+                            <td class="metric-change change up">🟢 +37.5%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">7</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">7</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">9</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">5</td>
+                            <td class="metric-change change up">🟢 +25.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Aiken Stdlib
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">59</td>
+                            <td class="metric-change change up">🟢 +5.4%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">39</td>
+                            <td class="metric-change change up">🟢 +11.4%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">29</td>
+                            <td class="metric-change change up">🟢 +11.5%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">63</td>
+                            <td class="metric-change change up">🟢 +8.6%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">16</td>
+                            <td class="metric-change change up">🟢 +23.1%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Amaru
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">94</td>
+                            <td class="metric-change change up">🟢 +30.6%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">18</td>
+                            <td class="metric-change change up">🟢 +100.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">25</td>
+                            <td class="metric-change change up">🟢 +66.7%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">464</td>
+                            <td class="metric-change change up">🟢 +127.5%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        CF Adahandle Resolver
+                        <span class="badge stable">Mixed</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">14</td>
+                            <td class="metric-change change up">🟢 +16.7%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">2</td>
+                            <td class="metric-change change down">🔴 -33.3%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">5</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">42</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">11</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        CF Cardano Ballot
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">25</td>
+                            <td class="metric-change change up">🟢 +13.6%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">6</td>
+                            <td class="metric-change change up">🟢 +20.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">19</td>
+                            <td class="metric-change change up">🟢 +18.8%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">540</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">71</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        CF Java Rewards Calculation
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">21</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">2</td>
+                            <td class="metric-change change up">🟢 +100.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">5</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">53</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">22</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        CIP30 Data Signature Parser
+                        <span class="badge stable">Mixed</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">8</td>
+                            <td class="metric-change change up">🟢 +14.3%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change down">🔴 -100.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">8</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">22</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">7</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Cardano Blueprint and Ecosystem Monitoring
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">26</td>
+                            <td class="metric-change change up">🟢 +420.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">21</td>
+                            <td class="metric-change change up">🟢 +950.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">11</td>
+                            <td class="metric-change change up">🟢 +120.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">27</td>
+                            <td class="metric-change change up">🟢 +575.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Cardano Client Lib
+                        <span class="badge stable">Mixed</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">129</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">54</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">29</td>
+                            <td class="metric-change change up">🟢 +11.5%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">263</td>
+                            <td class="metric-change change up">🟢 +11.9%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">56</td>
+                            <td class="metric-change change up">🟢 +9.8%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change down">🔴 -100.0%</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Cardano Connect With Wallet
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">90</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">30</td>
+                            <td class="metric-change change up">🟢 +15.4%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">18</td>
+                            <td class="metric-change change up">🟢 +12.5%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">86</td>
+                            <td class="metric-change change up">🟢 +6.2%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">62</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Cardano Deposit Wallet
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">2</td>
+                            <td class="metric-change change up">🟢 +100.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">3</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">24</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">1</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">177</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Cardano Devkit
+                        <span class="badge stable">Stable</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Cardano Economic Parameter Insights
+                        <span class="badge stable">Stable</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">5</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">2</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">2</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">1</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Cardano IBC Incubator
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">27</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">16</td>
+                            <td class="metric-change change up">🟢 +45.5%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">17</td>
+                            <td class="metric-change change up">🟢 +6.2%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">212</td>
+                            <td class="metric-change change up">🟢 +20.5%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Cardano Rosetta Java
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">24</td>
+                            <td class="metric-change change up">🟢 +26.3%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">13</td>
+                            <td class="metric-change change up">🟢 +44.4%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">31</td>
+                            <td class="metric-change change up">🟢 +14.8%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">407</td>
+                            <td class="metric-change change up">🟢 +29.6%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">40</td>
+                            <td class="metric-change change up">🟢 +33.3%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Cardano Wallet
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">819</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">233</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">55</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">3,617</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">81</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">18,358</td>
+                            <td class="metric-change change up">🟢 +8.0%</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Cardano Wallet Agda
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">13</td>
+                            <td class="metric-change change up">🟢 +8.3%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">1</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">4</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">150</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Elm Bech32
+                        <span class="badge stable">Stable</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">1</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">1</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">1</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Elm CBOR
+                        <span class="badge stable">Stable</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">9</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">2</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">5</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">2</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Elm Cardano
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">24</td>
+                            <td class="metric-change change up">🟢 +14.3%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">5</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">7</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">81</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">15</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">1,553</td>
+                            <td class="metric-change change up">🟢 +43.7%</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Kupo
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">137</td>
+                            <td class="metric-change change up">🟢 +6.2%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">32</td>
+                            <td class="metric-change change up">🟢 +6.7%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">13</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">39</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">15</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">5,619</td>
+                            <td class="metric-change change up">🟢 +9.6%</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Merkle Patricia Forestry
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">43</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">15</td>
+                            <td class="metric-change change up">🟢 +15.4%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">7</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">8</td>
+                            <td class="metric-change change up">🟢 +14.3%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">5</td>
+                            <td class="metric-change change up">🟢 +25.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Ogmios
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">321</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">95</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">29</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">136</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">50</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">24,943</td>
+                            <td class="metric-change change up">🟢 +53.0%</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Ogmios MDK
+                        <span class="badge stable">Stable</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">1</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">1</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">1</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Originate
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">8</td>
+                            <td class="metric-change change up">🟢 +166.7%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">3</td>
+                            <td class="metric-change change up">🟢 +100.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">4</td>
+                            <td class="metric-change change up">🟢 +100.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">7</td>
+                            <td class="metric-change change up">🟢 +75.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Reeve
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">38</td>
+                            <td class="metric-change change up">🟢 +375.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">8</td>
+                            <td class="metric-change change up">🟢 +14.3%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">13</td>
+                            <td class="metric-change change up">🟢 +44.4%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">506</td>
+                            <td class="metric-change change up">🟢 +92.4%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">5</td>
+                            <td class="metric-change change up">🟢 +100.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Veridian Wallet
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">139</td>
+                            <td class="metric-change change up">🟢 +13.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">34</td>
+                            <td class="metric-change change up">🟢 +61.9%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">18</td>
+                            <td class="metric-change change up">🟢 +12.5%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">1,404</td>
+                            <td class="metric-change change up">🟢 +27.3%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">4</td>
+                            <td class="metric-change change up">🟢 +33.3%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Yaci
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">30</td>
+                            <td class="metric-change change up">🟢 +15.4%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">3</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">5</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">75</td>
+                            <td class="metric-change change up">🟢 +21.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">43</td>
+                            <td class="metric-change change up">🟢 +19.4%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Yaci Devkit
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">62</td>
+                            <td class="metric-change change up">🟢 +19.2%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">14</td>
+                            <td class="metric-change change up">🟢 +16.7%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">9</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">71</td>
+                            <td class="metric-change change up">🟢 +10.9%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">28</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">992</td>
+                            <td class="metric-change change up">🟢 +50.5%</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        Yaci Store
+                        <span class="badge improved">Growing</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">41</td>
+                            <td class="metric-change change up">🟢 +57.7%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">12</td>
+                            <td class="metric-change change up">🟢 +33.3%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">12</td>
+                            <td class="metric-change change up">🟢 +9.1%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">418</td>
+                            <td class="metric-change change up">🟢 +34.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">60</td>
+                            <td class="metric-change change up">🟢 +33.3%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">1,681</td>
+                            <td class="metric-change change up">🟢 +23.1%</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="project-card">
+                    <h3>
+                        cf-gsoc-ideas-page-2025
+                        <span class="badge declined">Declining</span>
+                    </h3>
+                    <table class="metrics-table">
+
+                        <tr>
+                            <td class="metric-name">Stars</td>
+                            <td class="metric-value">16</td>
+                            <td class="metric-change change down">🔴 -5.9%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Forks</td>
+                            <td class="metric-value">4</td>
+                            <td class="metric-change change down">🔴 -20.0%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Contributors</td>
+                            <td class="metric-value">6</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Pull Requests Merged</td>
+                            <td class="metric-value">3</td>
+                            <td class="metric-change change same">🟡 —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Number of Releases</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                        <tr>
+                            <td class="metric-name">Downloads</td>
+                            <td class="metric-value">0</td>
+                            <td class="metric-change change same">⚪ —</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Generated by Open Source Metrics Dashboard • Cardano Foundation</p>
+        </div>
+    </div>
+
+    <script>
+        const ctx = document.getElementById('overallChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ["01/06", "30/06", "28/07", "28/08", "28/09", "28/10", "28/11", "29/12", "29/01"],
+                datasets: [
+                    {
+                        label: 'Stars',
+                        data: [1392, 2594, 2635, 2665, 2696, 2716, 2755, 2791, 2809],
+                        borderColor: '#F59E0B',
+                        backgroundColor: 'rgba(245, 158, 11, 0.1)',
+                        fill: true,
+                        tension: 0.4
+                    },
+                    {
+                        label: 'Forks',
+                        data: [393, 708, 718, 730, 751, 756, 772, 785, 800],
+                        borderColor: '#10B981',
+                        backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                        fill: true,
+                        tension: 0.4
+                    },
+                    {
+                        label: 'Contributors',
+                        data: [244, 401, 409, 415, 421, 424, 430, 433, 442],
+                        borderColor: '#3B82F6',
+                        backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                        fill: true,
+                        tension: 0.4
+                    },
+                    {
+                        label: 'PRs Merged',
+                        data: [7037, 8217, 8378, 8540, 8708, 8850, 9021, 9123, 9301],
+                        borderColor: '#8B5CF6',
+                        backgroundColor: 'rgba(139, 92, 246, 0.1)',
+                        fill: true,
+                        tension: 0.4
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        labels: { color: '#888' }
+                    }
+                },
+                scales: {
+                    x: {
+                        grid: { color: 'rgba(255,255,255,0.05)' },
+                        ticks: { color: '#888' }
+                    },
+                    y: {
+                        grid: { color: 'rgba(255,255,255,0.05)' },
+                        ticks: { color: '#888' }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
