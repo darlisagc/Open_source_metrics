@@ -11,13 +11,15 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
         17,
         15,
         15,
+        16,
         16,
         16,
         16,
@@ -38,9 +40,11 @@
         4,
         4,
         4,
+        4,
         4
       ],
       "GitHub Contributors": [
+        6,
         6,
         6,
         6,
@@ -64,6 +68,7 @@
         3,
         3,
         3,
+        3,
         3
       ],
       "Number of Releases": [
@@ -77,9 +82,11 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -106,7 +113,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -120,7 +128,8 @@
         37,
         38,
         39,
-        40
+        40,
+        42
       ],
       "GitHub Forks": [
         7,
@@ -133,7 +142,8 @@
         8,
         8,
         8,
-        8
+        8,
+        9
       ],
       "GitHub Contributors": [
         9,
@@ -146,7 +156,8 @@
         13,
         13,
         14,
-        14
+        14,
+        15
       ],
       "GitHub Pull Requests (PRs) Merged": [
         263,
@@ -159,7 +170,8 @@
         467,
         506,
         544,
-        573
+        573,
+        585
       ],
       "Number of Releases": [
         0,
@@ -172,9 +184,11 @@
         5,
         5,
         7,
-        11
+        11,
+        12
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -201,7 +215,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -215,6 +230,7 @@
         27,
         27,
         27,
+        28,
         28
       ],
       "GitHub Forks": [
@@ -228,6 +244,7 @@
         15,
         16,
         15,
+        15,
         15
       ],
       "GitHub Contributors": [
@@ -238,6 +255,7 @@
         16,
         16,
         16,
+        17,
         17,
         17,
         17,
@@ -254,9 +272,11 @@
         208,
         212,
         288,
-        313
+        313,
+        329
       ],
       "Number of Releases": [
+        0,
         0,
         0,
         0,
@@ -270,6 +290,7 @@
         0
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -296,7 +317,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -310,7 +332,8 @@
         24,
         24,
         26,
-        26
+        26,
+        27
       ],
       "GitHub Forks": [
         9,
@@ -323,7 +346,8 @@
         13,
         13,
         14,
-        13
+        13,
+        14
       ],
       "GitHub Contributors": [
         27,
@@ -335,6 +359,7 @@
         30,
         30,
         31,
+        32,
         32,
         32
       ],
@@ -349,7 +374,8 @@
         399,
         407,
         424,
-        436
+        436,
+        448
       ],
       "Number of Releases": [
         30,
@@ -362,9 +388,11 @@
         40,
         40,
         42,
-        42
+        42,
+        44
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -391,10 +419,12 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
+        "N/A",
         "N/A",
         "N/A",
         "N/A",
@@ -418,9 +448,11 @@
         "N/A",
         "N/A",
         "N/A",
+        "N/A",
         "N/A"
       ],
       "GitHub Contributors": [
+        "N/A",
         "N/A",
         "N/A",
         "N/A",
@@ -444,6 +476,7 @@
         "N/A",
         "N/A",
         "N/A",
+        "N/A",
         "N/A"
       ],
       "Number of Releases": [
@@ -457,9 +490,11 @@
         "N/A",
         "N/A",
         "N/A",
+        "N/A",
         "N/A"
       ],
       "Downloads": [
+        "N/A",
         "N/A",
         "N/A",
         "N/A",
@@ -486,7 +521,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -496,6 +532,7 @@
         24,
         24,
         24,
+        25,
         25,
         25,
         25,
@@ -513,7 +550,8 @@
         6,
         6,
         6,
-        5
+        5,
+        6
       ],
       "GitHub Contributors": [
         16,
@@ -526,7 +564,8 @@
         19,
         19,
         19,
-        19
+        19,
+        20
       ],
       "GitHub Pull Requests (PRs) Merged": [
         517,
@@ -539,9 +578,11 @@
         540,
         540,
         540,
-        540
+        540,
+        541
       ],
       "Number of Releases": [
+        71,
         71,
         71,
         71,
@@ -555,6 +596,7 @@
         71
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -581,7 +623,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -589,6 +632,7 @@
         7,
         7,
         7,
+        8,
         8,
         8,
         8,
@@ -608,9 +652,11 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "GitHub Contributors": [
+        8,
         8,
         8,
         8,
@@ -634,6 +680,7 @@
         22,
         22,
         22,
+        22,
         22
       ],
       "Number of Releases": [
@@ -647,9 +694,11 @@
         7,
         7,
         7,
+        7,
         7
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -676,7 +725,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -690,7 +740,8 @@
         90,
         90,
         91,
-        91
+        91,
+        90
       ],
       "GitHub Forks": [
         26,
@@ -700,6 +751,7 @@
         27,
         27,
         29,
+        30,
         30,
         30,
         30,
@@ -716,6 +768,7 @@
         18,
         18,
         18,
+        18,
         18
       ],
       "GitHub Pull Requests (PRs) Merged": [
@@ -729,6 +782,7 @@
         86,
         86,
         88,
+        91,
         91
       ],
       "Number of Releases": [
@@ -742,9 +796,11 @@
         62,
         62,
         64,
+        67,
         67
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -771,7 +827,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -779,6 +836,7 @@
         12,
         12,
         13,
+        14,
         14,
         14,
         14,
@@ -798,9 +856,11 @@
         2,
         2,
         2,
+        2,
         2
       ],
       "GitHub Contributors": [
+        5,
         5,
         5,
         5,
@@ -824,6 +884,7 @@
         42,
         42,
         42,
+        42,
         42
       ],
       "Number of Releases": [
@@ -837,9 +898,11 @@
         11,
         11,
         11,
+        11,
         11
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -866,7 +929,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -878,6 +942,7 @@
         20,
         20,
         20,
+        21,
         21,
         21,
         21
@@ -893,9 +958,11 @@
         2,
         2,
         2,
+        2,
         2
       ],
       "GitHub Contributors": [
+        5,
         5,
         5,
         5,
@@ -919,6 +986,7 @@
         53,
         53,
         53,
+        53,
         53
       ],
       "Number of Releases": [
@@ -932,9 +1000,11 @@
         22,
         22,
         22,
+        22,
         22
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -961,7 +1031,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -975,7 +1046,8 @@
         128,
         129,
         129,
-        130
+        130,
+        131
       ],
       "GitHub Forks": [
         52,
@@ -986,6 +1058,7 @@
         53,
         54,
         53,
+        54,
         54,
         54,
         54
@@ -1001,6 +1074,7 @@
         28,
         29,
         30,
+        30,
         30
       ],
       "GitHub Pull Requests (PRs) Merged": [
@@ -1014,7 +1088,8 @@
         260,
         263,
         294,
-        314
+        314,
+        317
       ],
       "Number of Releases": [
         51,
@@ -1027,6 +1102,7 @@
         56,
         56,
         56,
+        59,
         59
       ],
       "Downloads": [
@@ -1034,6 +1110,7 @@
         "Github downloads 67",
         "Github downloads 67",
         "Github downloads 67",
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -1056,7 +1133,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -1070,7 +1148,8 @@
         62,
         62,
         62,
-        67
+        67,
+        68
       ],
       "GitHub Forks": [
         12,
@@ -1082,6 +1161,7 @@
         14,
         14,
         14,
+        17,
         17,
         17
       ],
@@ -1096,6 +1176,7 @@
         9,
         9,
         12,
+        12,
         12
       ],
       "GitHub Pull Requests (PRs) Merged": [
@@ -1109,11 +1190,13 @@
         71,
         71,
         80,
+        85,
         85
       ],
       "Number of Releases": [
         27,
         27,
+        28,
         28,
         28,
         28,
@@ -1135,7 +1218,8 @@
         "Github downloads 957",
         "Github downloads 992",
         "Github downloads 1040",
-        "Github downloads 1104"
+        "Github downloads 1104",
+        "Github downloads 1127"
       ]
     }
   },
@@ -1151,7 +1235,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -1161,6 +1246,7 @@
         27,
         27,
         28,
+        30,
         30,
         30,
         30,
@@ -1178,6 +1264,7 @@
         3,
         3,
         4,
+        4,
         4
       ],
       "GitHub Contributors": [
@@ -1190,6 +1277,7 @@
         5,
         5,
         5,
+        6,
         6,
         6
       ],
@@ -1204,7 +1292,8 @@
         73,
         75,
         79,
-        92
+        92,
+        97
       ],
       "Number of Releases": [
         36,
@@ -1217,7 +1306,8 @@
         42,
         43,
         43,
-        47
+        47,
+        49
       ],
       "Downloads": [
         "Github downloads 0",
@@ -1230,6 +1320,7 @@
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
+        "Github downloads 1",
         "Github downloads 1"
       ]
     }
@@ -1246,7 +1337,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -1260,7 +1352,8 @@
         40,
         41,
         43,
-        46
+        46,
+        47
       ],
       "GitHub Forks": [
         9,
@@ -1273,6 +1366,7 @@
         12,
         12,
         12,
+        13,
         13
       ],
       "GitHub Contributors": [
@@ -1286,6 +1380,7 @@
         12,
         12,
         13,
+        15,
         15
       ],
       "GitHub Pull Requests (PRs) Merged": [
@@ -1299,7 +1394,8 @@
         402,
         418,
         438,
-        459
+        459,
+        482
       ],
       "Number of Releases": [
         45,
@@ -1312,7 +1408,8 @@
         58,
         60,
         62,
-        62
+        62,
+        63
       ],
       "Downloads": [
         "Github downloads 1366",
@@ -1325,7 +1422,8 @@
         "Github downloads 1611",
         "Github downloads 1681",
         "Github downloads 1801",
-        "Github downloads 2090"
+        "Github downloads 2090",
+        "Github downloads 2227"
       ]
     }
   },
@@ -1341,10 +1439,12 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
+        5,
         5,
         5,
         5,
@@ -1368,9 +1468,11 @@
         2,
         2,
         2,
+        2,
         2
       ],
       "GitHub Contributors": [
+        2,
         2,
         2,
         2,
@@ -1394,6 +1496,7 @@
         1,
         1,
         1,
+        1,
         1
       ],
       "Number of Releases": [
@@ -1407,9 +1510,11 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -1436,7 +1541,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -1449,6 +1555,7 @@
         15,
         22,
         26,
+        27,
         27,
         27
       ],
@@ -1463,7 +1570,8 @@
         14,
         21,
         23,
-        24
+        24,
+        23
       ],
       "GitHub Contributors": [
         5,
@@ -1474,6 +1582,7 @@
         7,
         7,
         7,
+        11,
         11,
         11,
         11
@@ -1489,6 +1598,7 @@
         14,
         27,
         29,
+        29,
         29
       ],
       "Number of Releases": [
@@ -1502,9 +1612,11 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -1531,7 +1643,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -1539,6 +1652,7 @@
         1,
         1,
         1,
+        2,
         2,
         2,
         2,
@@ -1558,9 +1672,11 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "GitHub Contributors": [
+        3,
         3,
         3,
         3,
@@ -1584,9 +1700,11 @@
         24,
         24,
         24,
+        24,
         24
       ],
       "Number of Releases": [
+        1,
         1,
         1,
         1,
@@ -1610,6 +1728,7 @@
         "Github downloads 177",
         "Github downloads 177",
         "Github downloads 177",
+        "Github downloads 177",
         "Github downloads 177"
       ]
     }
@@ -1626,7 +1745,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -1640,7 +1760,8 @@
         819,
         819,
         818,
-        817
+        817,
+        819
       ],
       "GitHub Forks": [
         223,
@@ -1653,13 +1774,15 @@
         233,
         233,
         233,
-        232
+        232,
+        229
       ],
       "GitHub Contributors": [
         55,
         55,
         56,
         56,
+        55,
         55,
         55,
         55,
@@ -1679,7 +1802,8 @@
         3617,
         3617,
         3664,
-        3666
+        3666,
+        3696
       ],
       "Number of Releases": [
         80,
@@ -1692,7 +1816,8 @@
         81,
         81,
         81,
-        81
+        81,
+        86
       ],
       "Downloads": [
         "Github downloads 17004",
@@ -1705,7 +1830,8 @@
         "Github downloads 18261",
         "Github downloads 18358",
         "Github downloads 18635",
-        "Github downloads 18770"
+        "Github downloads 18770",
+        "Github downloads 15849"
       ]
     }
   },
@@ -1721,12 +1847,14 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
         12,
         12,
+        13,
         13,
         13,
         13,
@@ -1748,9 +1876,11 @@
         1,
         1,
         1,
+        0,
         0
       ],
       "GitHub Contributors": [
+        4,
         4,
         4,
         4,
@@ -1774,6 +1904,7 @@
         150,
         150,
         150,
+        150,
         150
       ],
       "Number of Releases": [
@@ -1787,9 +1918,11 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -1816,7 +1949,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -1830,7 +1964,8 @@
         138,
         139,
         139,
-        141
+        141,
+        142
       ],
       "GitHub Forks": [
         21,
@@ -1843,7 +1978,8 @@
         30,
         34,
         33,
-        35
+        35,
+        36
       ],
       "GitHub Contributors": [
         16,
@@ -1856,6 +1992,7 @@
         18,
         18,
         18,
+        21,
         21
       ],
       "GitHub Pull Requests (PRs) Merged": [
@@ -1869,7 +2006,8 @@
         1334,
         1404,
         1449,
-        1486
+        1486,
+        1493
       ],
       "Number of Releases": [
         3,
@@ -1882,9 +2020,11 @@
         4,
         4,
         4,
-        4
+        4,
+        6
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -1910,7 +2050,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -1919,6 +2060,7 @@
         6,
         7,
         7,
+        8,
         8,
         8,
         8,
@@ -1935,6 +2077,7 @@
         4,
         3,
         5,
+        5,
         5
       ],
       "GitHub Contributors": [
@@ -1946,6 +2089,7 @@
         4,
         4,
         4,
+        5,
         5,
         5
       ],
@@ -1959,6 +2103,7 @@
         7,
         7,
         8,
+        8,
         8
       ],
       "Number of Releases": [
@@ -1971,9 +2116,11 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -1998,7 +2145,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -2010,6 +2158,7 @@
         85,
         90,
         94,
+        100,
         100,
         100
       ],
@@ -2023,6 +2172,7 @@
         18,
         18,
         21,
+        21,
         21
       ],
       "GitHub Contributors": [
@@ -2033,6 +2183,7 @@
         21,
         22,
         23,
+        25,
         25,
         25,
         25
@@ -2047,9 +2198,11 @@
         442,
         464,
         485,
-        508
+        508,
+        522
       ],
       "Number of Releases": [
+        0,
         0,
         0,
         0,
@@ -2062,6 +2215,7 @@
         0
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -2086,7 +2240,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -2099,6 +2254,7 @@
         570,
         572,
         575,
+        578,
         578
       ],
       "GitHub Forks": [
@@ -2111,7 +2267,8 @@
         129,
         131,
         132,
-        133
+        133,
+        136
       ],
       "GitHub Contributors": [
         46,
@@ -2123,7 +2280,8 @@
         47,
         47,
         47,
-        48
+        48,
+        49
       ],
       "GitHub Pull Requests (PRs) Merged": [
         530,
@@ -2135,7 +2293,8 @@
         568,
         568,
         568,
-        581
+        581,
+        591
       ],
       "Number of Releases": [
         44,
@@ -2144,6 +2303,7 @@
         45,
         45,
         45,
+        46,
         46,
         46,
         46,
@@ -2159,7 +2319,8 @@
         "Github downloads 43975",
         "Github downloads 45787",
         "Github downloads 48769",
-        "Github downloads 50375"
+        "Github downloads 50375",
+        "Github downloads 54579"
       ]
     }
   },
@@ -2174,7 +2335,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -2187,7 +2349,8 @@
         319,
         321,
         322,
-        325
+        325,
+        327
       ],
       "GitHub Forks": [
         94,
@@ -2199,9 +2362,11 @@
         96,
         95,
         95,
-        95
+        95,
+        94
       ],
       "GitHub Contributors": [
+        29,
         29,
         29,
         29,
@@ -2223,6 +2388,7 @@
         136,
         136,
         136,
+        136,
         136
       ],
       "Number of Releases": [
@@ -2230,6 +2396,7 @@
         49,
         49,
         49,
+        50,
         50,
         50,
         50,
@@ -2247,7 +2414,8 @@
         "Github downloads 23552",
         "Github downloads 24943",
         "Github downloads 25903",
-        "Github downloads 26674"
+        "Github downloads 26674",
+        "Github downloads 27910"
       ]
     }
   },
@@ -2262,7 +2430,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -2275,6 +2444,7 @@
         136,
         137,
         137,
+        138,
         138
       ],
       "GitHub Forks": [
@@ -2287,6 +2457,7 @@
         31,
         32,
         32,
+        31,
         31
       ],
       "GitHub Contributors": [
@@ -2298,6 +2469,7 @@
         13,
         13,
         13,
+        14,
         14,
         14
       ],
@@ -2311,9 +2483,11 @@
         39,
         39,
         40,
-        42
+        42,
+        43
       ],
       "Number of Releases": [
+        15,
         15,
         15,
         15,
@@ -2335,7 +2509,8 @@
         "Github downloads 5607",
         "Github downloads 5619",
         "Github downloads 5762",
-        "Github downloads 5777"
+        "Github downloads 5777",
+        "Github downloads 5829"
       ]
     }
   },
@@ -2350,10 +2525,12 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
+        1,
         1,
         1,
         1,
@@ -2375,9 +2552,11 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "GitHub Contributors": [
+        1,
         1,
         1,
         1,
@@ -2399,6 +2578,7 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "Number of Releases": [
@@ -2411,9 +2591,11 @@
         1,
         1,
         1,
+        1,
         1
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -2438,7 +2620,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -2451,7 +2634,8 @@
         43,
         43,
         43,
-        43
+        43,
+        44
       ],
       "GitHub Forks": [
         13,
@@ -2463,9 +2647,11 @@
         15,
         15,
         15,
+        15,
         15
       ],
       "GitHub Contributors": [
+        7,
         7,
         7,
         7,
@@ -2487,6 +2673,7 @@
         8,
         8,
         8,
+        8,
         8
       ],
       "Number of Releases": [
@@ -2499,9 +2686,11 @@
         5,
         5,
         5,
+        5,
         5
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -2526,7 +2715,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -2539,7 +2729,8 @@
         59,
         59,
         59,
-        59
+        59,
+        60
       ],
       "GitHub Forks": [
         35,
@@ -2551,6 +2742,7 @@
         38,
         39,
         39,
+        41,
         41
       ],
       "GitHub Contributors": [
@@ -2563,6 +2755,7 @@
         28,
         29,
         29,
+        30,
         30
       ],
       "GitHub Pull Requests (PRs) Merged": [
@@ -2575,6 +2768,7 @@
         62,
         63,
         63,
+        64,
         64
       ],
       "Number of Releases": [
@@ -2587,9 +2781,11 @@
         16,
         16,
         16,
-        16
+        16,
+        17
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -2614,7 +2810,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -2627,9 +2824,11 @@
         11,
         11,
         11,
+        11,
         11
       ],
       "GitHub Forks": [
+        7,
         7,
         7,
         7,
@@ -2651,9 +2850,11 @@
         7,
         7,
         7,
+        7,
         7
       ],
       "GitHub Pull Requests (PRs) Merged": [
+        9,
         9,
         9,
         9,
@@ -2675,9 +2876,11 @@
         5,
         5,
         5,
+        5,
         5
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -2702,7 +2905,8 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
@@ -2715,9 +2919,11 @@
         24,
         24,
         24,
-        24
+        24,
+        25
       ],
       "GitHub Forks": [
+        5,
         5,
         5,
         5,
@@ -2739,6 +2945,7 @@
         7,
         7,
         7,
+        7,
         7
       ],
       "GitHub Pull Requests (PRs) Merged": [
@@ -2751,9 +2958,11 @@
         81,
         81,
         81,
-        81
+        81,
+        82
       ],
       "Number of Releases": [
+        15,
         15,
         15,
         15,
@@ -2775,7 +2984,8 @@
         "Github downloads 1530",
         "Github downloads 1553",
         "Github downloads 1606",
-        "Github downloads 1607"
+        "Github downloads 1607",
+        "Github downloads 1719"
       ]
     }
   },
@@ -2790,10 +3000,12 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
+        1,
         1,
         1,
         1,
@@ -2815,9 +3027,11 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "GitHub Contributors": [
+        1,
         1,
         1,
         1,
@@ -2839,6 +3053,7 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "Number of Releases": [
@@ -2851,9 +3066,11 @@
         1,
         1,
         1,
+        1,
         1
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -2878,10 +3095,12 @@
       "29/12/2025",
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
+        9,
         9,
         9,
         9,
@@ -2903,6 +3122,7 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "GitHub Contributors": [
@@ -2915,9 +3135,11 @@
         2,
         2,
         2,
+        2,
         2
       ],
       "GitHub Pull Requests (PRs) Merged": [
+        5,
         5,
         5,
         5,
@@ -2939,9 +3161,11 @@
         2,
         2,
         2,
+        2,
         2
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
@@ -2959,35 +3183,42 @@
     "dates": [
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
         8,
         8,
-        9
+        9,
+        11
       ],
       "GitHub Forks": [
         4,
         5,
+        6,
         6
       ],
       "GitHub Contributors": [
         3,
         5,
+        6,
         6
       ],
       "GitHub Pull Requests (PRs) Merged": [
         8,
         17,
-        28
+        28,
+        33
       ],
       "Number of Releases": [
+        0,
         0,
         0,
         0
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0"
@@ -2998,20 +3229,24 @@
     "dates": [
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
         26,
+        27,
         27,
         27
       ],
       "GitHub Forks": [
         21,
         23,
-        24
+        24,
+        23
       ],
       "GitHub Contributors": [
+        11,
         11,
         11,
         11
@@ -3019,14 +3254,17 @@
       "GitHub Pull Requests (PRs) Merged": [
         27,
         29,
+        29,
         29
       ],
       "Number of Releases": [
         0,
         0,
+        0,
         0
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0"
@@ -3037,35 +3275,42 @@
     "dates": [
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
         6,
         6,
-        7
+        7,
+        8
       ],
       "GitHub Forks": [
         2,
         2,
+        3,
         3
       ],
       "GitHub Contributors": [
         9,
         9,
+        11,
         11
       ],
       "GitHub Pull Requests (PRs) Merged": [
         31,
         31,
-        46
+        46,
+        61
       ],
       "Number of Releases": [
         12,
         12,
-        13
+        13,
+        15
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0"
@@ -3076,15 +3321,18 @@
     "dates": [
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
         3,
         4,
+        4,
         4
       ],
       "GitHub Forks": [
+        0,
         0,
         0,
         0
@@ -3092,9 +3340,11 @@
       "GitHub Contributors": [
         2,
         2,
+        2,
         2
       ],
       "GitHub Pull Requests (PRs) Merged": [
+        0,
         0,
         0,
         0
@@ -3102,9 +3352,11 @@
       "Number of Releases": [
         0,
         0,
+        0,
         0
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0"
@@ -3115,10 +3367,12 @@
     "dates": [
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
+        1,
         1,
         1,
         1
@@ -3126,9 +3380,11 @@
       "GitHub Forks": [
         1,
         1,
+        1,
         1
       ],
       "GitHub Contributors": [
+        2,
         2,
         2,
         2
@@ -3136,14 +3392,17 @@
       "GitHub Pull Requests (PRs) Merged": [
         7,
         14,
-        15
+        15,
+        42
       ],
       "Number of Releases": [
+        0,
         0,
         0,
         0
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0"
@@ -3154,10 +3413,12 @@
     "dates": [
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
+        0,
         0,
         0,
         0
@@ -3165,9 +3426,11 @@
       "GitHub Forks": [
         0,
         0,
+        0,
         0
       ],
       "GitHub Contributors": [
+        64,
         64,
         64,
         64
@@ -3175,14 +3438,17 @@
       "GitHub Pull Requests (PRs) Merged": [
         0,
         0,
+        0,
         0
       ],
       "Number of Releases": [
         0,
         0,
+        0,
         0
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0"
@@ -3193,10 +3459,12 @@
     "dates": [
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
+        7,
         7,
         7,
         7
@@ -3204,9 +3472,11 @@
       "GitHub Forks": [
         2,
         2,
+        2,
         2
       ],
       "GitHub Contributors": [
+        4,
         4,
         4,
         4
@@ -3214,14 +3484,17 @@
       "GitHub Pull Requests (PRs) Merged": [
         4,
         4,
+        4,
         4
       ],
       "Number of Releases": [
         0,
         0,
+        0,
         0
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0"
@@ -3232,10 +3505,12 @@
     "dates": [
       "29/01/2026",
       "01/03/2026",
-      "29/03/2026"
+      "29/03/2026",
+      "29/04/2026"
     ],
     "data": {
       "GitHub Stars": [
+        0,
         0,
         0,
         0
@@ -3243,9 +3518,11 @@
       "GitHub Forks": [
         0,
         0,
+        0,
         0
       ],
       "GitHub Contributors": [
+        3,
         3,
         3,
         3
@@ -3253,14 +3530,17 @@
       "GitHub Pull Requests (PRs) Merged": [
         0,
         0,
+        0,
         0
       ],
       "Number of Releases": [
         0,
         0,
+        0,
         0
       ],
       "Downloads": [
+        "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0",
         "Github downloads 0"
