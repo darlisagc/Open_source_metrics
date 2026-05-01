@@ -1,5 +1,7 @@
 {
   "cf-gsoc-ideas-page-2025": {
+    "repo": "cardano-foundation/cf-gsoc-ideas-page-2025",
+    "language": "Unknown",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -101,7 +103,9 @@
       ]
     }
   },
-  "Reeve": {
+  "cf-reeve-platform": {
+    "repo": "cardano-foundation/cf-reeve-platform",
+    "language": "Java",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -203,7 +207,9 @@
       ]
     }
   },
-  "Cardano IBC Incubator": {
+  "cardano-ibc-incubator": {
+    "repo": "cardano-foundation/cardano-ibc-incubator",
+    "language": "TypeScript",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -305,7 +311,9 @@
       ]
     }
   },
-  "Cardano Rosetta Java": {
+  "cardano-rosetta-java": {
+    "repo": "cardano-foundation/cardano-rosetta-java",
+    "language": "Java",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -407,7 +415,9 @@
       ]
     }
   },
-  "Cardano Devkit": {
+  "cf-devkit": {
+    "repo": "cardano-foundation/cf-devkit",
+    "language": "Unknown",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -509,7 +519,9 @@
       ]
     }
   },
-  "CF Cardano Ballot": {
+  "cf-cardano-ballot": {
+    "repo": "cardano-foundation/cf-cardano-ballot",
+    "language": "TypeScript",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -611,7 +623,9 @@
       ]
     }
   },
-  "CIP30 Data Signature Parser": {
+  "cip30-data-signature-parser": {
+    "repo": "cardano-foundation/cip30-data-signature-parser",
+    "language": "Java",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -713,7 +727,9 @@
       ]
     }
   },
-  "Cardano Connect With Wallet": {
+  "cardano-connect-with-wallet": {
+    "repo": "cardano-foundation/cardano-connect-with-wallet",
+    "language": "TypeScript",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -815,7 +831,9 @@
       ]
     }
   },
-  "CF Adahandle Resolver": {
+  "cf-adahandle-resolver": {
+    "repo": "cardano-foundation/cf-adahandle-resolver",
+    "language": "Java",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -917,7 +935,9 @@
       ]
     }
   },
-  "CF Java Rewards Calculation": {
+  "cf-java-rewards-calculation": {
+    "repo": "cardano-foundation/cf-java-rewards-calculation",
+    "language": "Java",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -1019,7 +1039,9 @@
       ]
     }
   },
-  "Cardano Client Lib": {
+  "cardano-client-lib": {
+    "repo": "bloxbean/cardano-client-lib",
+    "language": "Java",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -1121,7 +1143,9 @@
       ]
     }
   },
-  "Yaci Devkit": {
+  "yaci-devkit": {
+    "repo": "bloxbean/yaci-devkit",
+    "language": "Java",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -1223,7 +1247,9 @@
       ]
     }
   },
-  "Yaci": {
+  "yaci": {
+    "repo": "bloxbean/yaci",
+    "language": "Java",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -1325,7 +1351,9 @@
       ]
     }
   },
-  "Yaci Store": {
+  "yaci-store": {
+    "repo": "bloxbean/yaci-store",
+    "language": "Java",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -1427,7 +1455,9 @@
       ]
     }
   },
-  "Cardano Economic Parameter Insights": {
+  "cardano-economic-parameter-insights": {
+    "repo": "cardano-foundation/cardano-economic-parameter-insights",
+    "language": "TeX",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -1529,7 +1559,9 @@
       ]
     }
   },
-  "Cardano Blueprint and Ecosystem Monitoring": {
+  "cardano-blueprint-and-ecosystem-monitoring": {
+    "repo": "cardano-foundation/cardano-blueprint-and-ecosystem-monitoring",
+    "language": "TypeScript",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -1631,7 +1663,9 @@
       ]
     }
   },
-  "Cardano Deposit Wallet": {
+  "cardano-deposit-wallet": {
+    "repo": "cardano-foundation/cardano-deposit-wallet",
+    "language": "Haskell",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -1733,7 +1767,9 @@
       ]
     }
   },
-  "Cardano Wallet": {
+  "cardano-wallet": {
+    "repo": "cardano-foundation/cardano-wallet",
+    "language": "Haskell",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -1835,7 +1871,9 @@
       ]
     }
   },
-  "Cardano Wallet Agda": {
+  "cardano-wallet-agda": {
+    "repo": "cardano-foundation/cardano-wallet-agda",
+    "language": "Haskell",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -1937,7 +1975,9 @@
       ]
     }
   },
-  "Veridian Wallet": {
+  "veridian-wallet": {
+    "repo": "cardano-foundation/veridian-wallet",
+    "language": "TypeScript",
     "dates": [
       "01/06/2025",
       "30/06/2025",
@@ -2039,7 +2079,9 @@
       ]
     }
   },
-  "Originate": {
+  "originate": {
+    "repo": "cardano-foundation/originate",
+    "language": "Java",
     "dates": [
       "30/06/2025",
       "28/07/2025",
@@ -2134,7 +2176,9 @@
       ]
     }
   },
-  "Amaru": {
+  "amaru": {
+    "repo": "pragma-org/amaru",
+    "language": "Rust",
     "dates": [
       "30/06/2025",
       "28/07/2025",
@@ -2229,7 +2273,9 @@
       ]
     }
   },
-  "Aiken": {
+  "aiken": {
+    "repo": "aiken-lang/aiken",
+    "language": "Rust",
     "dates": [
       "30/06/2025",
       "28/07/2025",
@@ -2324,7 +2370,9 @@
       ]
     }
   },
-  "Ogmios": {
+  "ogmios": {
+    "repo": "CardanoSolutions/ogmios",
+    "language": "Haskell",
     "dates": [
       "30/06/2025",
       "28/07/2025",
@@ -2419,7 +2467,9 @@
       ]
     }
   },
-  "Kupo": {
+  "kupo": {
+    "repo": "CardanoSolutions/kupo",
+    "language": "Haskell",
     "dates": [
       "30/06/2025",
       "28/07/2025",
@@ -2514,7 +2564,9 @@
       ]
     }
   },
-  "Ogmios MDK": {
+  "ogmios-mdk": {
+    "repo": "CardanoSolutions/ogmios-mdk",
+    "language": "JavaScript",
     "dates": [
       "30/06/2025",
       "28/07/2025",
@@ -2609,7 +2661,9 @@
       ]
     }
   },
-  "Merkle Patricia Forestry": {
+  "merkle-patricia-forestry": {
+    "repo": "aiken-lang/merkle-patricia-forestry",
+    "language": "JavaScript",
     "dates": [
       "30/06/2025",
       "28/07/2025",
@@ -2704,7 +2758,9 @@
       ]
     }
   },
-  "Aiken Stdlib": {
+  "stdlib": {
+    "repo": "aiken-lang/stdlib",
+    "language": "Aiken",
     "dates": [
       "30/06/2025",
       "28/07/2025",
@@ -2799,7 +2855,9 @@
       ]
     }
   },
-  "Aiken Fuzz": {
+  "fuzz": {
+    "repo": "aiken-lang/fuzz",
+    "language": "Aiken",
     "dates": [
       "30/06/2025",
       "28/07/2025",
@@ -2894,7 +2952,9 @@
       ]
     }
   },
-  "Elm Cardano": {
+  "elm-cardano": {
+    "repo": "elm-cardano/elm-cardano",
+    "language": "Elm",
     "dates": [
       "30/06/2025",
       "28/07/2025",
@@ -2989,7 +3049,9 @@
       ]
     }
   },
-  "Elm Bech32": {
+  "bech32": {
+    "repo": "elm-cardano/bech32",
+    "language": "Elm",
     "dates": [
       "30/06/2025",
       "28/07/2025",
@@ -3084,7 +3146,9 @@
       ]
     }
   },
-  "Elm CBOR": {
+  "cbor": {
+    "repo": "elm-toulouse/cbor",
+    "language": "Elm",
     "dates": [
       "30/06/2025",
       "28/07/2025",
@@ -3179,7 +3243,9 @@
       ]
     }
   },
-  "CIP113 Programmable Tokens": {
+  "cip113-programmable-tokens": {
+    "repo": "cardano-foundation/cip113-programmable-tokens",
+    "language": "Aiken",
     "dates": [
       "29/01/2026",
       "01/03/2026",
@@ -3225,7 +3291,9 @@
       ]
     }
   },
-  "Cardano Template and Ecosystem Monitoring": {
+  "cardano-template-and-ecosystem-monitoring": {
+    "repo": "cardano-foundation/cardano-template-and-ecosystem-monitoring",
+    "language": "TypeScript",
     "dates": [
       "29/01/2026",
       "01/03/2026",
@@ -3271,7 +3339,9 @@
       ]
     }
   },
-  "CF Token Metadata Registry": {
+  "cf-token-metadata-registry": {
+    "repo": "cardano-foundation/cf-token-metadata-registry",
+    "language": "Java",
     "dates": [
       "29/01/2026",
       "01/03/2026",
@@ -3317,7 +3387,9 @@
       ]
     }
   },
-  "Cardano Mobile Connect Demo": {
+  "cardano-mobile-connect-demo": {
+    "repo": "cardano-foundation/cardano-mobile-connect-demo",
+    "language": "JavaScript",
     "dates": [
       "29/01/2026",
       "01/03/2026",
@@ -3363,7 +3435,9 @@
       ]
     }
   },
-  "Cardano Node Antithesis": {
+  "cardano-node-antithesis": {
+    "repo": "cardano-foundation/cardano-node-antithesis",
+    "language": "Shell",
     "dates": [
       "29/01/2026",
       "01/03/2026",
@@ -3409,7 +3483,9 @@
       ]
     }
   },
-  "X402 Cardano": {
+  "x402-cardano": {
+    "repo": "cardano-foundation/x402-cardano",
+    "language": "TypeScript",
     "dates": [
       "29/01/2026",
       "01/03/2026",
@@ -3455,7 +3531,9 @@
       ]
     }
   },
-  "Cardano Tool Compass": {
+  "cardano-tool-compass": {
+    "repo": "cardano-foundation/cardano-tool-compass",
+    "language": "TypeScript",
     "dates": [
       "29/01/2026",
       "01/03/2026",
@@ -3501,7 +3579,9 @@
       ]
     }
   },
-  "Uverify Backend": {
+  "uverify-backend": {
+    "repo": "cardano-foundation/uverify-backend",
+    "language": "Unknown",
     "dates": [
       "29/01/2026",
       "01/03/2026",
