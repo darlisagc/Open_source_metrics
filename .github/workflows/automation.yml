@@ -1,8 +1,8 @@
-name: Generate Monthly GitHub Metrics
+name: Generate Weekly GitHub Metrics
 
 on:
   schedule:
-    - cron: "59 23 28 * *"  # Runs at 11:59 PM on the 28th day of each month
+    - cron: "0 6 * * 1"  # Every Monday at 06:00 UTC
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
@@ -23,17 +23,6 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install -r requirements.txt
-
-      - name: Determine Last Day of Month
-        run: |
-          TOMORROW_MONTH=$(date -d "tomorrow" +%m)
-          CURRENT_MONTH=$(date +%m)
-          if [ "$TOMORROW_MONTH" != "$CURRENT_MONTH" ]; then
-            echo "Running script for last day of the month."
-          else
-            echo "Not the last day of the month. Exiting."
-            exit 0
-          fi
 
       - name: Run GitHub Metrics Script
         env:

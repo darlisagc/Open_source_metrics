@@ -169,6 +169,109 @@ function CustomTooltip({ active, payload, label }) {
   )
 }
 
+const LANGUAGE_COLORS = {
+  Java: "#f89820",
+  TypeScript: "#3178c6",
+  JavaScript: "#f7df1e",
+  Haskell: "#5e5086",
+  Rust: "#dea584",
+  Aiken: "#a855f7",
+  Elm: "#60b5cc",
+  Shell: "#89e051",
+  TeX: "#3d6117",
+  Python: "#3572a5",
+  Go: "#00add8",
+  Unknown: "#6b7280",
+}
+
+function langColor(lang) {
+  return LANGUAGE_COLORS[lang] || "#9ca3af"
+}
+
+function IncludedRepos({ history, selectedProjects, isImplicit = false }) {
+  const [expanded, setExpanded] = useState(true)
+
+  const grouped = useMemo(() => {
+    const groups = {}
+    selectedProjects.forEach((name) => {
+      const lang = history[name]?.language || "Unknown"
+      if (!groups[lang]) groups[lang] = []
+      groups[lang].push(name)
+    })
+    return Object.entries(groups)
+      .map(([lang, repos]) => ({ lang, repos: repos.sort() }))
+      .sort((a, b) => b.repos.length - a.repos.length)
+  }, [history, selectedProjects])
+
+  return (
+    <div className="bg-white/[0.02] border border-white/[0.06] rounded-2xl mb-8">
+      <button
+        onClick={() => setExpanded(!expanded)}
+        className="w-full flex items-center justify-between gap-3 px-5 py-3 hover:bg-white/[0.02] transition-colors rounded-2xl"
+      >
+        <div className="flex items-center gap-3">
+          <span className="text-sm font-medium text-white/80">
+            Showing {selectedProjects.length} repositor{selectedProjects.length === 1 ? "y" : "ies"}
+          </span>
+          <span className="text-xs text-white/40">
+            across {grouped.length} language{grouped.length === 1 ? "" : "s"}
+            {isImplicit && " · all repos in scope"}
+          </span>
+        </div>
+        <svg
+          className={`w-4 h-4 text-white/40 transition-transform ${expanded ? "rotate-180" : ""}`}
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+
+      {expanded && (
+        <div className="px-5 pb-4 pt-1 space-y-3 border-t border-white/[0.04]">
+          {grouped.map(({ lang, repos }) => (
+            <div key={lang} className="flex flex-wrap items-center gap-2">
+              <div className="flex items-center gap-2 min-w-[120px]">
+                <span
+                  className="w-2 h-2 rounded-full"
+                  style={{ backgroundColor: langColor(lang) }}
+                />
+                <span className="text-xs font-medium text-white/70">{lang}</span>
+                <span className="text-xs text-white/30">({repos.length})</span>
+              </div>
+              <div className="flex flex-wrap gap-1.5 flex-1">
+                {repos.map((name) => {
+                  const fullName = history[name]?.repo
+                  const href = fullName ? `https://github.com/${fullName}` : null
+                  return href ? (
+                    <a
+                      key={name}
+                      href={href}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="px-2.5 py-1 bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.06] rounded-lg text-xs text-white/70 hover:text-white transition-colors"
+                    >
+                      {name}
+                    </a>
+                  ) : (
+                    <span
+                      key={name}
+                      className="px-2.5 py-1 bg-white/[0.04] border border-white/[0.06] rounded-lg text-xs text-white/70"
+                    >
+                      {name}
+                    </span>
+                  )
+                })}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
+
 function MetricCard({ metric, data, selectedProjects }) {
   const config = METRIC_CONFIG[metric]
 
@@ -220,6 +323,7 @@ export default function OssDashboard() {
   const [selectedProjects, setSelectedProjects] = useState([])
   const [selectedDates, setSelectedDates] = useState([])
   const [selectedMetrics, setSelectedMetrics] = useState([...METRICS])
+  const [selectedLanguages, setSelectedLanguages] = useState([])
   const [error, setError] = useState(null)
   const [loading, setLoading] = useState(true)
 
@@ -231,14 +335,10 @@ export default function OssDashboard() {
       })
       .then((data) => {
         setHistory(data)
-        const projectNames = Object.keys(data).sort()
-        // Select first project by default
-        if (projectNames.length > 0) {
-          setSelectedProjects([projectNames[0]])
-          // Select all dates for first project
-          const firstProjectDates = data[projectNames[0]]?.dates || []
-          setSelectedDates(firstProjectDates)
-        }
+        const languages = Array.from(
+          new Set(Object.values(data).map((p) => p?.language || "Unknown"))
+        ).sort()
+        setSelectedLanguages(languages)
         setLoading(false)
       })
       .catch(() => {
@@ -247,16 +347,44 @@ export default function OssDashboard() {
       })
   }, [])
 
-  const availableProjects = useMemo(() => {
-    return history ? Object.keys(history).sort() : []
+  const availableLanguages = useMemo(() => {
+    if (!history) return []
+    return Array.from(
+      new Set(Object.values(history).map((p) => p?.language || "Unknown"))
+    ).sort()
   }, [history])
 
-  const availableDates = useMemo(() => {
-    if (!history || selectedProjects.length === 0) return []
+  const availableProjects = useMemo(() => {
+    if (!history) return []
+    // No language picked = no language filter; show every repo.
+    if (selectedLanguages.length === 0) return Object.keys(history).sort()
+    const langSet = new Set(selectedLanguages)
+    return Object.keys(history)
+      .filter((name) => langSet.has(history[name]?.language || "Unknown"))
+      .sort()
+  }, [history, selectedLanguages])
 
-    // Get all unique dates across selected projects
+  // Drop any explicitly-selected repos that fall outside the current language scope.
+  useEffect(() => {
+    if (!history) return
+    setSelectedProjects((prev) => {
+      const allowed = new Set(availableProjects)
+      const next = prev.filter((p) => allowed.has(p))
+      return next.length === prev.length ? prev : next
+    })
+  }, [availableProjects, history])
+
+  // Repositories filter is optional fine-tune. Empty = use all in selected languages.
+  const effectiveProjects = useMemo(() => {
+    return selectedProjects.length > 0 ? selectedProjects : availableProjects
+  }, [selectedProjects, availableProjects])
+
+  const availableDates = useMemo(() => {
+    if (!history || effectiveProjects.length === 0) return []
+
+    // Get all unique dates across in-scope projects
     const allDates = new Set()
-    selectedProjects.forEach(project => {
+    effectiveProjects.forEach(project => {
       const dates = history[project]?.dates || []
       dates.forEach(d => allDates.add(d))
     })
@@ -267,7 +395,7 @@ export default function OssDashboard() {
       const [dayB, monthB, yearB] = b.split('/')
       return new Date(yearA, monthA - 1, dayA) - new Date(yearB, monthB - 1, dayB)
     })
-  }, [history, selectedProjects])
+  }, [history, effectiveProjects])
 
   // Update selected dates when projects change
   useEffect(() => {
@@ -277,11 +405,11 @@ export default function OssDashboard() {
   }, [availableDates])
 
   const chartData = useMemo(() => {
-    if (!history || selectedProjects.length === 0 || selectedDates.length === 0) return {}
+    if (!history || effectiveProjects.length === 0 || selectedDates.length === 0) return {}
 
     const projectData = {}
 
-    selectedProjects.forEach(project => {
+    effectiveProjects.forEach(project => {
       const data = history[project]
       if (!data?.dates) return
 
@@ -300,20 +428,20 @@ export default function OssDashboard() {
     })
 
     return projectData
-  }, [history, selectedProjects, selectedDates])
+  }, [history, effectiveProjects, selectedDates])
 
   const combinedChartData = useMemo(() => {
     if (Object.keys(chartData).length === 0) return []
 
     // For single project, return its data directly
-    if (selectedProjects.length === 1) {
-      return chartData[selectedProjects[0]] || []
+    if (effectiveProjects.length === 1) {
+      return chartData[effectiveProjects[0]] || []
     }
 
     // For multiple projects, combine data by date
     const dataByDate = {}
 
-    selectedProjects.forEach(project => {
+    effectiveProjects.forEach(project => {
       const data = chartData[project] || []
       data.forEach(point => {
         if (!dataByDate[point.date]) {
@@ -331,7 +459,7 @@ export default function OssDashboard() {
       const [dayB, monthB, yearB] = b.date.split('/')
       return new Date(yearA, monthA - 1, dayA) - new Date(yearB, monthB - 1, dayB)
     })
-  }, [chartData, selectedProjects])
+  }, [chartData, effectiveProjects])
 
   if (loading) {
     return (
@@ -391,7 +519,13 @@ export default function OssDashboard() {
         </header>
 
         {/* Filters */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+          <MultiSelect
+            label="Languages"
+            options={availableLanguages}
+            selected={selectedLanguages}
+            onChange={setSelectedLanguages}
+          />
           <MultiSelect
             label="Repositories"
             options={availableProjects}
@@ -413,15 +547,24 @@ export default function OssDashboard() {
           />
         </div>
 
+        {/* Included repos breakdown */}
+        {history && effectiveProjects.length > 0 && (
+          <IncludedRepos
+            history={history}
+            selectedProjects={effectiveProjects}
+            isImplicit={selectedProjects.length === 0}
+          />
+        )}
+
         {/* Summary Cards */}
-        {selectedProjects.length > 0 && (
+        {effectiveProjects.length > 0 && (
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-8">
             {selectedMetrics.map((metric) => (
               <MetricCard
                 key={metric}
                 metric={metric}
                 data={chartData}
-                selectedProjects={selectedProjects}
+                selectedProjects={effectiveProjects}
               />
             ))}
           </div>
@@ -434,9 +577,9 @@ export default function OssDashboard() {
               <div>
                 <h2 className="text-lg font-medium mb-1">Metrics Comparison</h2>
                 <p className="text-sm text-white/40">
-                  {selectedProjects.length === 1
-                    ? selectedProjects[0]
-                    : `${selectedProjects.length} repositories combined`}
+                  {effectiveProjects.length === 1
+                    ? effectiveProjects[0]
+                    : `${effectiveProjects.length} repositories combined`}
                   {selectedDates.length > 0 && ` • ${selectedDates.length} data points`}
                 </p>
               </div>
@@ -506,10 +649,10 @@ export default function OssDashboard() {
         )}
 
         {/* Empty State */}
-        {(selectedProjects.length === 0 || selectedDates.length === 0) && (
+        {(effectiveProjects.length === 0 || selectedDates.length === 0) && (
           <div className="bg-white/[0.02] border border-white/[0.06] rounded-3xl p-12 text-center">
             <div className="text-white/30 mb-2">No data to display</div>
-            <p className="text-sm text-white/20">Select at least one repository and date to view metrics</p>
+            <p className="text-sm text-white/20">Select at least one date to view metrics</p>
           </div>
         )}
 
