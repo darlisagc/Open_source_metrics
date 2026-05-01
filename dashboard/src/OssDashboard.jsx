@@ -547,6 +547,10 @@ export default function OssDashboard() {
           />
         </div>
 
+        <p className="text-xs text-white/40 -mt-4 mb-6">
+          Tip: pick languages <em>or</em> repositories — you don't need both. Empty filters = include everything.
+        </p>
+
         {/* Included repos breakdown */}
         {history && effectiveProjects.length > 0 && (
           <IncludedRepos
