@@ -9,7 +9,7 @@ from datetime import datetime
 # Orgs to discover repositories from automatically.
 DISCOVERED_ORGS = ["cardano-foundation", "bloxbean"]
 
-# Additional individual repos outside the discovered orgs.
+# Additional individual repos outside the discovered orgs, or not reliably auto-discovered.
 EXTRA_REPOS = [
     "aiken-lang/aiken",
     "aiken-lang/merkle-patricia-forestry",
@@ -22,6 +22,9 @@ EXTRA_REPOS = [
     "elm-cardano/elm-cardano",
     "elm-cardano/bech32",
     "elm-toulouse/cbor",
+    "cardano-foundation/cf-lob-platform",
+    "cardano-foundation/cardano-devkit",
+    "cardano-foundation/cardano-learn-and-hack",
 ]
 
 # GitHub API token (optional, for higher rate limits)

@@ -50,11 +50,11 @@ function CardanoLogo({ className = "w-6 h-6" }) {
   )
 }
 
-function MultiSelect({ label, options, selected, onChange, searchable = false }) {
+function MultiSelect({ label, options, selected, onChange }) {
   const [isOpen, setIsOpen] = useState(false)
   const [search, setSearch] = useState("")
 
-  const filteredOptions = searchable && search
+  const filteredOptions = search
     ? options.filter(opt => opt.toLowerCase().includes(search.toLowerCase()))
     : options
 
@@ -68,7 +68,7 @@ function MultiSelect({ label, options, selected, onChange, searchable = false })
 
   return (
     <div className="relative">
-      <label className="block text-sm font-medium text-white/60 mb-2">{label}</label>
+      <label className="block text-sm font-medium text-white/80 mb-2">{label}</label>
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between gap-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl px-4 py-3 text-left transition-colors"
@@ -78,26 +78,25 @@ function MultiSelect({ label, options, selected, onChange, searchable = false })
            selected.length === 1 ? selected[0] :
            `${selected.length} selected`}
         </span>
-        <svg className={`w-4 h-4 text-white/40 transition-transform ${isOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg className={`w-4 h-4 text-white/60 transition-transform ${isOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
         </svg>
       </button>
 
       {isOpen && (
         <>
-          <div className="fixed inset-0 z-10" onClick={() => setIsOpen(false)} />
+          <div className="fixed inset-0 z-10" onClick={() => { setIsOpen(false); setSearch("") }} />
           <div className="absolute z-20 mt-2 w-full bg-[#0a0a0f] border border-white/10 rounded-xl shadow-2xl overflow-hidden">
-            {searchable && (
-              <div className="p-2 border-b border-white/10">
-                <input
-                  type="text"
-                  placeholder="Search..."
-                  value={search}
-                  onChange={(e) => setSearch(e.target.value)}
-                  className="w-full bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-white/20"
-                />
-              </div>
-            )}
+            <div className="p-2 border-b border-white/10">
+              <input
+                type="text"
+                placeholder="Type to search..."
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                className="w-full bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-white/20"
+                autoFocus
+              />
+            </div>
             <div className="p-2 flex gap-2 border-b border-white/10">
               <button
                 onClick={() => onChange([...options])}
@@ -137,6 +136,9 @@ function MultiSelect({ label, options, selected, onChange, searchable = false })
                   <span className="truncate">{option}</span>
                 </button>
               ))}
+              {filteredOptions.length === 0 && (
+                <div className="text-sm text-white/60 text-center py-3">No matches</div>
+              )}
             </div>
           </div>
         </>
@@ -150,7 +152,7 @@ function CustomTooltip({ active, payload, label }) {
 
   return (
     <div className="bg-[#0a0a0f]/95 backdrop-blur-xl border border-white/10 rounded-xl p-4 shadow-2xl">
-      <div className="text-xs text-white/50 mb-3">{label}</div>
+      <div className="text-xs text-white/70 mb-3">{label}</div>
       <div className="space-y-2">
         {payload.map((entry) => (
           <div key={entry.dataKey} className="flex items-center gap-3">
@@ -158,7 +160,7 @@ function CustomTooltip({ active, payload, label }) {
               className="w-2 h-2 rounded-full"
               style={{ backgroundColor: entry.color }}
             />
-            <span className="text-sm text-white/70">{entry.name}</span>
+            <span className="text-sm text-white/80">{entry.name}</span>
             <span className="text-sm font-medium text-white ml-auto">
               {entry.value?.toLocaleString()}
             </span>
@@ -213,13 +215,13 @@ function IncludedRepos({ history, selectedProjects, isImplicit = false }) {
           <span className="text-sm font-medium text-white/80">
             Showing {selectedProjects.length} repositor{selectedProjects.length === 1 ? "y" : "ies"}
           </span>
-          <span className="text-xs text-white/40">
+          <span className="text-xs text-white/60">
             across {grouped.length} language{grouped.length === 1 ? "" : "s"}
             {isImplicit && " · all repos in scope"}
           </span>
         </div>
         <svg
-          className={`w-4 h-4 text-white/40 transition-transform ${expanded ? "rotate-180" : ""}`}
+          className={`w-4 h-4 text-white/60 transition-transform ${expanded ? "rotate-180" : ""}`}
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -237,8 +239,8 @@ function IncludedRepos({ history, selectedProjects, isImplicit = false }) {
                   className="w-2 h-2 rounded-full"
                   style={{ backgroundColor: langColor(lang) }}
                 />
-                <span className="text-xs font-medium text-white/70">{lang}</span>
-                <span className="text-xs text-white/30">({repos.length})</span>
+                <span className="text-xs font-medium text-white/80">{lang}</span>
+                <span className="text-xs text-white/60">({repos.length})</span>
               </div>
               <div className="flex flex-wrap gap-1.5 flex-1">
                 {repos.map((name) => {
@@ -250,14 +252,14 @@ function IncludedRepos({ history, selectedProjects, isImplicit = false }) {
                       href={href}
                       target="_blank"
                       rel="noreferrer"
-                      className="px-2.5 py-1 bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.06] rounded-lg text-xs text-white/70 hover:text-white transition-colors"
+                      className="px-2.5 py-1 bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.06] rounded-lg text-xs text-white/80 hover:text-white transition-colors"
                     >
                       {name}
                     </a>
                   ) : (
                     <span
                       key={name}
-                      className="px-2.5 py-1 bg-white/[0.04] border border-white/[0.06] rounded-lg text-xs text-white/70"
+                      className="px-2.5 py-1 bg-white/[0.04] border border-white/[0.06] rounded-lg text-xs text-white/80"
                     >
                       {name}
                     </span>
@@ -305,7 +307,7 @@ function MetricCard({ metric, data, selectedProjects }) {
         <div className={`text-xs font-medium px-2 py-0.5 rounded-full ${
           isPositive ? 'bg-emerald-500/10 text-emerald-400' :
           isNegative ? 'bg-red-500/10 text-red-400' :
-          'bg-white/5 text-white/40'
+          'bg-white/5 text-white/60'
         }`}>
           {diff === 0 ? '—' : `${isPositive ? '+' : ''}${percent.toFixed(1)}%`}
         </div>
@@ -313,16 +315,16 @@ function MetricCard({ metric, data, selectedProjects }) {
       <div className="text-2xl font-semibold text-white mb-1">
         {totals.current.toLocaleString()}
       </div>
-      <div className="text-sm text-white/40">{config.label}</div>
+      <div className="text-sm text-white/60">{config.label}</div>
     </div>
   )
 }
 
-export default function OssDashboard() {
+export default function OssDashboard({ hideHeader = false }) {
   const [history, setHistory] = useState(null)
   const [selectedProjects, setSelectedProjects] = useState([])
   const [selectedDates, setSelectedDates] = useState([])
-  const [selectedMetrics, setSelectedMetrics] = useState([...METRICS])
+  const [selectedMetrics, setSelectedMetrics] = useState([])
   const [selectedLanguages, setSelectedLanguages] = useState([])
   const [error, setError] = useState(null)
   const [loading, setLoading] = useState(true)
@@ -335,10 +337,6 @@ export default function OssDashboard() {
       })
       .then((data) => {
         setHistory(data)
-        const languages = Array.from(
-          new Set(Object.values(data).map((p) => p?.language || "Unknown"))
-        ).sort()
-        setSelectedLanguages(languages)
         setLoading(false)
       })
       .catch(() => {
@@ -397,11 +395,13 @@ export default function OssDashboard() {
     })
   }, [history, effectiveProjects])
 
-  // Update selected dates when projects change
+  // Drop selected dates that are no longer available when projects change
   useEffect(() => {
-    if (availableDates.length > 0) {
-      setSelectedDates(availableDates)
-    }
+    if (!availableDates.length) return
+    setSelectedDates((prev) => {
+      const allowed = new Set(availableDates)
+      return prev.filter((d) => allowed.has(d))
+    })
   }, [availableDates])
 
   const chartData = useMemo(() => {
@@ -464,7 +464,7 @@ export default function OssDashboard() {
   if (loading) {
     return (
       <div className="min-h-screen bg-[#030305] flex items-center justify-center">
-        <div className="flex items-center gap-3 text-white/50">
+        <div className="flex items-center gap-3 text-white/70">
           <div className="w-5 h-5 border-2 border-white/20 border-t-white/60 rounded-full animate-spin" />
           <span>Loading metrics...</span>
         </div>
@@ -483,40 +483,45 @@ export default function OssDashboard() {
   }
 
   return (
-    <div className="min-h-screen bg-[#030305] text-white">
-      {/* Gradient Orbs */}
-      <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-40 -right-40 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl" />
-        <div className="absolute top-1/2 -left-40 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl" />
-        <div className="absolute -bottom-40 right-1/3 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl" />
-      </div>
+    <div className={hideHeader ? "" : "min-h-screen bg-[#030305] text-white"}>
+      {!hideHeader && (
+        <>
+          {/* Gradient Orbs */}
+          <div className="fixed inset-0 overflow-hidden pointer-events-none">
+            <div className="absolute -top-40 -right-40 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl" />
+            <div className="absolute top-1/2 -left-40 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl" />
+            <div className="absolute -bottom-40 right-1/3 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl" />
+          </div>
 
-      {/* Grid Pattern */}
-      <div
-        className="fixed inset-0 pointer-events-none opacity-[0.02]"
-        style={{
-          backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
-                           linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
-          backgroundSize: '64px 64px'
-        }}
-      />
+          {/* Grid Pattern */}
+          <div
+            className="fixed inset-0 pointer-events-none opacity-[0.02]"
+            style={{
+              backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
+                               linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
+              backgroundSize: '64px 64px'
+            }}
+          />
+        </>
+      )}
 
-      <div className="relative max-w-7xl mx-auto px-6 py-8">
-        {/* Header */}
-        <header className="flex items-center justify-between mb-10">
-          <div className="flex items-center gap-4">
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl blur-lg opacity-50" />
-              <div className="relative bg-gradient-to-br from-blue-500 to-purple-600 p-3 rounded-2xl">
-                <CardanoLogo className="w-7 h-7 text-white" />
+      <div className={`relative max-w-7xl mx-auto px-6 ${hideHeader ? "" : "py-8"}`}>
+        {!hideHeader && (
+          <header className="flex items-center justify-between mb-10">
+            <div className="flex items-center gap-4">
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl blur-lg opacity-50" />
+                <div className="relative bg-gradient-to-br from-blue-500 to-purple-600 p-3 rounded-2xl">
+                  <CardanoLogo className="w-7 h-7 text-white" />
+                </div>
+              </div>
+              <div>
+                <h1 className="text-xl font-semibold tracking-tight">Open Source Metrics</h1>
+                <p className="text-sm text-white/60">Cardano Foundation</p>
               </div>
             </div>
-            <div>
-              <h1 className="text-xl font-semibold tracking-tight">Open Source Metrics</h1>
-              <p className="text-sm text-white/40">Cardano Foundation</p>
-            </div>
-          </div>
-        </header>
+          </header>
+        )}
 
         {/* Filters */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
@@ -531,7 +536,6 @@ export default function OssDashboard() {
             options={availableProjects}
             selected={selectedProjects}
             onChange={setSelectedProjects}
-            searchable={true}
           />
           <MultiSelect
             label="Dates"
@@ -547,12 +551,46 @@ export default function OssDashboard() {
           />
         </div>
 
-        <p className="text-xs text-white/40 -mt-4 mb-6">
+        <p className="text-xs text-white/60 -mt-4 mb-6">
           Tip: pick languages <em>or</em> repositories — you don't need both. Empty filters = include everything.
         </p>
 
+        {history && (() => {
+          const historicalRepos = Object.entries(history)
+            .filter(([, v]) => v.dates && v.dates.length > 1)
+            .map(([name]) => name)
+            .sort();
+          const totalRepos = Object.keys(history).length;
+          const newRepos = totalRepos - historicalRepos.length;
+          return (
+            <div className="bg-blue-500/10 border border-blue-400/20 rounded-xl px-4 py-3 mb-6">
+              <div className="flex items-start gap-3">
+                <span className="text-blue-400 text-lg leading-none mt-0.5">i</span>
+                <div className="text-xs text-blue-200/80">
+                  <p>
+                    <strong className="text-blue-200">Note:</strong> {newRepos}+ repositories were added in May 2026 and only have data from that date onward.
+                    Historical data (prior to May 2026) is available for the {historicalRepos.length} repositories listed below, tracked since June 2025.
+                  </p>
+                  <details className="mt-2">
+                    <summary className="cursor-pointer text-blue-300 hover:text-blue-200 transition-colors">
+                      View {historicalRepos.length} repositories with historical data
+                    </summary>
+                    <div className="mt-2 flex flex-wrap gap-1.5">
+                      {historicalRepos.map((name) => (
+                        <span key={name} className="inline-block bg-blue-400/10 border border-blue-400/15 rounded-md px-2 py-0.5 text-blue-200/90">
+                          {name}
+                        </span>
+                      ))}
+                    </div>
+                  </details>
+                </div>
+              </div>
+            </div>
+          );
+        })()}
+
         {/* Included repos breakdown */}
-        {history && effectiveProjects.length > 0 && (
+        {history && effectiveProjects.length > 0 && selectedDates.length > 0 && selectedMetrics.length > 0 && (
           <IncludedRepos
             history={history}
             selectedProjects={effectiveProjects}
@@ -561,7 +599,7 @@ export default function OssDashboard() {
         )}
 
         {/* Summary Cards */}
-        {effectiveProjects.length > 0 && (
+        {effectiveProjects.length > 0 && selectedDates.length > 0 && selectedMetrics.length > 0 && (
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-8">
             {selectedMetrics.map((metric) => (
               <MetricCard
@@ -580,7 +618,7 @@ export default function OssDashboard() {
             <div className="flex items-center justify-between mb-6">
               <div>
                 <h2 className="text-lg font-medium mb-1">Metrics Comparison</h2>
-                <p className="text-sm text-white/40">
+                <p className="text-sm text-white/60">
                   {effectiveProjects.length === 1
                     ? effectiveProjects[0]
                     : `${effectiveProjects.length} repositories combined`}
@@ -604,13 +642,13 @@ export default function OssDashboard() {
                     dataKey="date"
                     axisLine={false}
                     tickLine={false}
-                    tick={{ fill: 'rgba(255,255,255,0.3)', fontSize: 12 }}
+                    tick={{ fill: 'rgba(255,255,255,0.55)', fontSize: 12 }}
                     dy={10}
                   />
                   <YAxis
                     axisLine={false}
                     tickLine={false}
-                    tick={{ fill: 'rgba(255,255,255,0.3)', fontSize: 12 }}
+                    tick={{ fill: 'rgba(255,255,255,0.55)', fontSize: 12 }}
                     dx={-10}
                     tickFormatter={(value) => value >= 1000 ? `${(value/1000).toFixed(1)}k` : value}
                   />
@@ -645,7 +683,7 @@ export default function OssDashboard() {
                     className="w-2 h-2 rounded-full"
                     style={{ backgroundColor: METRIC_CONFIG[metric].color }}
                   />
-                  <span className="text-white/60">{METRIC_CONFIG[metric].label}</span>
+                  <span className="text-white/80">{METRIC_CONFIG[metric].label}</span>
                 </div>
               ))}
             </div>
@@ -653,23 +691,30 @@ export default function OssDashboard() {
         )}
 
         {/* Empty State */}
-        {(effectiveProjects.length === 0 || selectedDates.length === 0) && (
+        {(effectiveProjects.length === 0 || selectedDates.length === 0 || selectedMetrics.length === 0) && (
           <div className="bg-white/[0.02] border border-white/[0.06] rounded-3xl p-12 text-center">
-            <div className="text-white/30 mb-2">No data to display</div>
-            <p className="text-sm text-white/20">Select at least one date to view metrics</p>
+            <div className="text-white/70 mb-2">No data to display</div>
+            <p className="text-sm text-white/60">
+              {selectedMetrics.length === 0 && selectedDates.length === 0
+                ? "Select metrics and dates to view data"
+                : selectedMetrics.length === 0
+                ? "Select at least one metric to view data"
+                : "Select at least one date to view data"}
+            </p>
           </div>
         )}
 
-        {/* Footer */}
-        <footer className="mt-16 pt-8 border-t border-white/[0.06] flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <CardanoLogo className="w-5 h-5 text-white/30" />
-            <span className="text-sm text-white/30">Cardano Foundation</span>
-          </div>
-          <p className="text-sm text-white/20">
-            © {new Date().getFullYear()} Open Source Metrics
-          </p>
-        </footer>
+        {!hideHeader && (
+          <footer className="mt-16 pt-8 border-t border-white/[0.06] flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <CardanoLogo className="w-5 h-5 text-white/70" />
+              <span className="text-sm text-white/70">Cardano Foundation</span>
+            </div>
+            <p className="text-sm text-white/60">
+              © {new Date().getFullYear()} Open Source Metrics
+            </p>
+          </footer>
+        )}
       </div>
     </div>
   )

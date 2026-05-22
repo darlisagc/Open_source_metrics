@@ -1,0 +1,58 @@
+name: Collect External Contributors (Monthly)
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"  # 1st of every month at 06:00 UTC
+  workflow_dispatch:
+    inputs:
+      start_date:
+        description: "Start date (YYYY-MM-DD) — defaults to first of previous month"
+        required: false
+      end_date:
+        description: "End date (YYYY-MM-DD) — defaults to last of previous month"
+        required: false
+
+jobs:
+  collect_external_contributors:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set Up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run External Contributors Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.start_date }}" ]; then
+            ARGS="$ARGS --start-date ${{ github.event.inputs.start_date }}"
+          fi
+          if [ -n "${{ github.event.inputs.end_date }}" ]; then
+            ARGS="$ARGS --end-date ${{ github.event.inputs.end_date }}"
+          fi
+          python external_contributors.py $ARGS
+
+      - name: Commit and Push Results
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add external_contributors_history.json external_contributors_data.csv
+          git commit --allow-empty -m "Updated External Contributors data for $(date +'%Y-%m-%d')"
+
+          git fetch origin main
+          git merge origin/main
+
+          git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main

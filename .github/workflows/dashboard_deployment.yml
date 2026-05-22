@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - metrics_history.json
+      - external_contributors_history.json
       - dashboard/**
       - .github/workflows/dashboard_deployment.yml
   workflow_dispatch:
@@ -30,8 +31,10 @@ jobs:
         working-directory: ./dashboard
         run: npm run build
 
-      - name: Copy metrics_history.json to dashboard build
-        run: cp metrics_history.json dashboard/dist/metrics_history.json
+      - name: Copy data files to dashboard build
+        run: |
+          cp metrics_history.json dashboard/dist/metrics_history.json
+          cp external_contributors_history.json dashboard/dist/external_contributors_history.json
 
       - name: Install Pandoc
         run: |
@@ -50,6 +53,7 @@ jobs:
           mv index.html deploy/
           cp -r dashboard/dist deploy/dashboard
           cp metrics_history.json deploy/
+          cp external_contributors_history.json deploy/
           cp statistics_report.html deploy/report.html
 
       - name: Deploy to GitHub Pages
