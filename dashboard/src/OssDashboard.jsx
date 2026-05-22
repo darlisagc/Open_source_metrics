@@ -556,8 +556,12 @@ export default function OssDashboard({ hideHeader = false }) {
         </p>
 
         {history && (() => {
+          const hasPreMay2026 = (dates) => dates?.some((d) => {
+            const [day, month, year] = d.split('/');
+            return new Date(`${year}-${month}-${day}`) < new Date('2026-05-01');
+          });
           const historicalRepos = Object.entries(history)
-            .filter(([, v]) => v.dates && v.dates.length > 1)
+            .filter(([, v]) => hasPreMay2026(v.dates))
             .map(([name]) => name)
             .sort();
           const totalRepos = Object.keys(history).length;
