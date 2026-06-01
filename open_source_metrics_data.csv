@@ -1,2277 +1,2277 @@
 Project: .github,Repo: bloxbean/.github,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: CIP-0094-polls,Repo: cardano-foundation/CIP-0094-polls,Language: JavaScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,9,9,9
-GitHub Forks,13,13,13
-GitHub Contributors,11,11,11
-GitHub Pull Requests (PRs) Merged,25,25,25
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,9,9,9,9
+GitHub Forks,13,13,13,13
+GitHub Contributors,11,11,11,11
+GitHub Pull Requests (PRs) Merged,25,25,25,25
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: CIPs,Repo: cardano-foundation/CIPs,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,563,563,563
-GitHub Forks,387,388,391
-GitHub Contributors,158,158,158
-GitHub Pull Requests (PRs) Merged,687,687,695
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,563,563,563,565
+GitHub Forks,387,388,391,391
+GitHub Contributors,158,158,158,158
+GitHub Pull Requests (PRs) Merged,687,687,695,704
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: Governance,Repo: cardano-foundation/Governance,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: aiken,Repo: aiken-lang/aiken,Language: Rust
-Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,541,544,550,556,558,564,570,572,575,578,578,578,578,578
-GitHub Forks,119,120,124,125,124,128,129,131,132,133,136,137,137,139
-GitHub Contributors,46,46,47,47,47,47,47,47,47,48,49,49,49,50
-GitHub Pull Requests (PRs) Merged,530,540,541,541,541,541,568,568,568,581,591,591,591,591
-Number of Releases,44,45,45,45,45,45,46,46,46,46,46,46,46,47
-Downloads,Github downloads 35779,Github downloads 37244,Github downloads 38532,Github downloads 40018,Github downloads 41417,Github downloads 43078,Github downloads 43975,Github downloads 45787,Github downloads 48769,Github downloads 50375,Github downloads 54579,Github downloads 55263,Github downloads 57100,Github downloads 58596
+Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,541,544,550,556,558,564,570,572,575,578,578,578,578,578,579
+GitHub Forks,119,120,124,125,124,128,129,131,132,133,136,137,137,139,140
+GitHub Contributors,46,46,47,47,47,47,47,47,47,48,49,49,49,50,51
+GitHub Pull Requests (PRs) Merged,530,540,541,541,541,541,568,568,568,581,591,591,591,591,593
+Number of Releases,44,45,45,45,45,45,46,46,46,46,46,46,46,47,47
+Downloads,Github downloads 35779,Github downloads 37244,Github downloads 38532,Github downloads 40018,Github downloads 41417,Github downloads 43078,Github downloads 43975,Github downloads 45787,Github downloads 48769,Github downloads 50375,Github downloads 54579,Github downloads 55263,Github downloads 57100,Github downloads 58596,Github downloads 62235
 
 Project: aiken-java-binding,Repo: bloxbean/aiken-java-binding,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,5,5,5
-GitHub Forks,1,1,1
-GitHub Contributors,5,5,5
-GitHub Pull Requests (PRs) Merged,16,16,16
-Number of Releases,7,7,7
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,5,5,5,5
+GitHub Forks,1,1,1,1
+GitHub Contributors,5,5,5,5
+GitHub Pull Requests (PRs) Merged,16,16,16,16
+Number of Releases,7,7,7,7
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: aiken-jna-wrapper,Repo: bloxbean/aiken-jna-wrapper,Language: Rust
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,2,2,2
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,17,17,17
-Number of Releases,13,13,13
-Downloads,Github downloads 506,Github downloads 506,Github downloads 514
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,2,2,2,2
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,17,17,17,17
+Number of Releases,13,13,13,13
+Downloads,Github downloads 506,Github downloads 506,Github downloads 514,Github downloads 514
 
 Project: aiken-lucid-yaci-dev-kit-starter-kit,Repo: cardano-foundation/aiken-lucid-yaci-dev-kit-starter-kit,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,15,15,15
-GitHub Forks,5,5,5
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,15,15,15,15
+GitHub Forks,5,5,5,5
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: aion-faucet,Repo: bloxbean/aion-faucet,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: aion-faucet-web,Repo: bloxbean/aion-faucet-web,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: aion4j-avm-helper,Repo: bloxbean/aion4j-avm-helper,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: aion4j-code-generator,Repo: bloxbean/aion4j-code-generator,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: aion4j-idea-plugin,Repo: bloxbean/aion4j-idea-plugin,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,4,4,4
-GitHub Forks,1,1,1
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,2,2,2
-Number of Releases,32,32,32
-Downloads,Github downloads 280,Github downloads 280,Github downloads 280
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,4,4,4,4
+GitHub Forks,1,1,1,1
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,2,2,2,2
+Number of Releases,32,32,32,32
+Downloads,Github downloads 280,Github downloads 280,Github downloads 280,Github downloads 280
 
 Project: aion4j-maven-plugin,Repo: bloxbean/aion4j-maven-plugin,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,5,5,5
-GitHub Forks,3,3,3
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,9,9,9
-Number of Releases,19,19,19
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,5,5,5,5
+GitHub Forks,3,3,3,3
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,9,9,9,9
+Number of Releases,19,19,19,19
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: aion4j-release,Repo: bloxbean/aion4j-release,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: algodea,Repo: bloxbean/algodea,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,17,17,17
-GitHub Forks,5,5,5
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,3,3,3
-Number of Releases,23,23,23
-Downloads,Github downloads 375,Github downloads 375,Github downloads 375
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,17,17,17,17
+GitHub Forks,5,5,5,5
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,3,3,3,3
+Number of Releases,23,23,23,23
+Downloads,Github downloads 375,Github downloads 375,Github downloads 375,Github downloads 379
 
 Project: algodea-docs,Repo: bloxbean/algodea-docs,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: amaru,Repo: pragma-org/amaru,Language: Rust
-Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,72,74,74,75,79,85,90,94,100,100,100,99,100,100
-GitHub Forks,9,11,13,15,16,19,18,18,21,21,21,22,23,23
-GitHub Contributors,15,18,21,21,21,22,23,25,25,25,25,25,25,25
-GitHub Pull Requests (PRs) Merged,204,231,279,328,373,421,442,464,485,508,522,525,534,552
-Number of Releases,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,72,74,74,75,79,85,90,94,100,100,100,99,100,100,101
+GitHub Forks,9,11,13,15,16,19,18,18,21,21,21,22,23,23,24
+GitHub Contributors,15,18,21,21,21,22,23,25,25,25,25,25,25,25,26
+GitHub Pull Requests (PRs) Merged,204,231,279,328,373,421,442,464,485,508,522,525,534,552,573
+Number of Releases,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: ambassadors-guild,Repo: cardano-foundation/ambassadors-guild,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,10,10,10
-GitHub Forks,2,2,2
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,1,1,1
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,10,10,10,10
+GitHub Forks,2,2,2,2
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,1,1,1,1
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: avm-archetype,Repo: bloxbean/avm-archetype,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,3,3,3
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,1,1,1
-Number of Releases,4,4,4
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,3,3,3,3
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,1,1,1,1
+Number of Releases,4,4,4,4
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: avm-archetype-multimodule,Repo: bloxbean/avm-archetype-multimodule,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: awesome-cardano-ai,Repo: cardano-foundation/awesome-cardano-ai,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,N/A,N/A,N/A
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,N/A,N/A,N/A,N/A
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: bech32,Repo: elm-cardano/bech32,Language: Elm
-Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-GitHub Forks,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-GitHub Contributors,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Number of Releases,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GitHub Forks,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GitHub Contributors,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Number of Releases,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: blockfrost-java-sdk,Repo: bloxbean/blockfrost-java-sdk,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: blockperf,Repo: cardano-foundation/blockperf,Language: Python
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,6,6,6
-GitHub Forks,5,5,5
-GitHub Contributors,5,5,5
-GitHub Pull Requests (PRs) Merged,22,22,22
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: blox4j,Repo: bloxbean/blox4j,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: blox4j-aion-api,Repo: bloxbean/blox4j-aion-api,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: bloxbean-dashboard,Repo: bloxbean/bloxbean-dashboard,Language: Vue
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: bloxbean-playground,Repo: bloxbean/bloxbean-playground,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,2,2,2
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,3,3,3
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,2,2,2,2
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,3,3,3,3
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: bloxbean-playground-config,Repo: bloxbean/bloxbean-playground-config,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: bloxbean.github.io,Repo: bloxbean/bloxbean.github.io,Language: HTML
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: bls,Repo: cardano-foundation/bls,Language: Rust
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,3,3,3
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,3,3,3,3
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-academy,Repo: cardano-foundation/cardano-academy,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,28,30,30
-GitHub Forks,9,9,9
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,2,2,2
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,28,30,30,30
+GitHub Forks,9,9,9,9
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,2,2,2,2
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-addresses,Repo: cardano-foundation/cardano-addresses,Language: Haskell
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,33,33,33
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,33,33,33,33
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-ambassador-tool,Repo: cardano-foundation/cardano-ambassador-tool,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,7,7,8
-GitHub Forks,1,2,3
-GitHub Contributors,7,8,8
-GitHub Pull Requests (PRs) Merged,47,47,47
-Number of Releases,20,22,22
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,7,7,8,9
+GitHub Forks,1,2,3,4
+GitHub Contributors,7,8,8,8
+GitHub Pull Requests (PRs) Merged,47,47,47,47
+Number of Releases,20,22,22,23
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-backer,Repo: cardano-foundation/cardano-backer,Language: Python
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,3,3,3
-GitHub Forks,0,0,0
-GitHub Contributors,6,6,6
-GitHub Pull Requests (PRs) Merged,32,32,32
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,3,3,3,3
+GitHub Forks,0,0,0,0
+GitHub Contributors,6,6,6,6
+GitHub Pull Requests (PRs) Merged,32,32,32,32
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-balance-transaction,Repo: cardano-foundation/cardano-balance-transaction,Language: Haskell
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,1
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,22,22,23
-Number of Releases,1,1,1
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,22,22,23,23
+Number of Releases,1,1,1,1
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-client-backend-gql,Repo: bloxbean/cardano-client-backend-gql,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,1,1,1
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,3,3,3
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,1,1,1,1
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,3,3,3,3
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-client-examples,Repo: bloxbean/cardano-client-examples,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,16,16,16
-GitHub Forks,9,9,9
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,6,6,6
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,16,16,16,16
+GitHub Forks,9,9,9,9
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,6,6,6,6
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-client-lib,Repo: bloxbean/cardano-client-lib,Language: Java
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,126,126,126,126,127,128,128,128,129,129,130,131,131,131,131
-GitHub Forks,52,53,53,52,52,53,54,53,54,54,54,54,54,54,54
-GitHub Contributors,26,26,26,26,27,28,28,28,29,30,30,30,30,30,30
-GitHub Pull Requests (PRs) Merged,235,239,241,243,248,252,260,260,263,294,314,317,318,318,319
-Number of Releases,51,53,53,53,54,55,55,56,56,56,59,59,60,60,60
-Downloads,Github downloads 241,Github downloads 67,Github downloads 67,Github downloads 67,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,126,126,126,126,127,128,128,128,129,129,130,131,131,131,131,131
+GitHub Forks,52,53,53,52,52,53,54,53,54,54,54,54,54,54,54,55
+GitHub Contributors,26,26,26,26,27,28,28,28,29,30,30,30,30,30,30,31
+GitHub Pull Requests (PRs) Merged,235,239,241,243,248,252,260,260,263,294,314,317,318,318,319,320
+Number of Releases,51,53,53,53,54,55,55,56,56,56,59,59,60,60,60,61
+Downloads,Github downloads 241,Github downloads 67,Github downloads 67,Github downloads 67,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-client-lib-docs,Repo: bloxbean/cardano-client-lib-docs,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,1,1,1
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,1,1,1,1
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-client-lib-dummy,Repo: bloxbean/cardano-client-lib-dummy,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-coin-selection,Repo: cardano-foundation/cardano-coin-selection,Language: Haskell
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,7,7,7
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,7,7,7,7
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-configurations,Repo: cardano-foundation/cardano-configurations,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,3,3,3
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,3,3,3,3
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-connect-with-wallet,Repo: cardano-foundation/cardano-connect-with-wallet,Language: TypeScript
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,86,86,86,85,86,86,87,90,90,91,91,90,89,90,90
-GitHub Forks,26,26,26,26,27,27,29,30,30,30,30,30,30,30,30
-GitHub Contributors,16,16,16,16,17,17,17,18,18,18,18,18,18,18,18
-GitHub Pull Requests (PRs) Merged,81,81,81,81,83,83,83,86,86,88,91,91,91,96,99
-Number of Releases,60,60,60,60,61,61,61,62,62,64,67,67,67,70,73
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,86,86,86,85,86,86,87,90,90,91,91,90,89,90,90,90
+GitHub Forks,26,26,26,26,27,27,29,30,30,30,30,30,30,30,30,30
+GitHub Contributors,16,16,16,16,17,17,17,18,18,18,18,18,18,18,18,18
+GitHub Pull Requests (PRs) Merged,81,81,81,81,83,83,83,86,86,88,91,91,91,96,99,99
+Number of Releases,60,60,60,60,61,61,61,62,62,64,67,67,67,70,73,73
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-crypto,Repo: cardano-foundation/cardano-crypto,Language: C
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,18,18,18
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,18,18,18,18
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-deposit-wallet,Repo: cardano-foundation/cardano-deposit-wallet,Language: Haskell
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2
-GitHub Forks,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-GitHub Contributors,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-GitHub Pull Requests (PRs) Merged,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24
-Number of Releases,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Downloads,Github downloads 176,Github downloads 176,Github downloads 176,Github downloads 176,Github downloads 176,Github downloads 176,Github downloads 176,Github downloads 177,Github downloads 177,Github downloads 177,Github downloads 177,Github downloads 177,Github downloads 177,Github downloads 177,Github downloads 177
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2
+GitHub Forks,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GitHub Contributors,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+GitHub Pull Requests (PRs) Merged,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24
+Number of Releases,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Downloads,Github downloads 176,Github downloads 176,Github downloads 176,Github downloads 176,Github downloads 176,Github downloads 176,Github downloads 176,Github downloads 177,Github downloads 177,Github downloads 177,Github downloads 177,Github downloads 177,Github downloads 177,Github downloads 177,Github downloads 177,Github downloads 178
 
 Project: cardano-devkit,Repo: cardano-foundation/cardano-devkit,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,10,10,10
-GitHub Forks,3,3,3
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,4,4,4
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,10,10,10,10
+GitHub Forks,3,3,3,3
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,4,4,4,4
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-dpp-standards,Repo: cardano-foundation/cardano-dpp-standards,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,3,3,3
-GitHub Forks,1,1,1
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,6,6,6
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,3,3,3,3
+GitHub Forks,1,1,1,1
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,6,6,6,6
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-dune-analytics,Repo: cardano-foundation/cardano-dune-analytics,Language: Python
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-economic-parameter-insights,Repo: cardano-foundation/cardano-economic-parameter-insights,Language: TeX
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
-GitHub Forks,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
-GitHub Contributors,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
-GitHub Pull Requests (PRs) Merged,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Number of Releases,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+GitHub Forks,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+GitHub Contributors,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+GitHub Pull Requests (PRs) Merged,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Number of Releases,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-explorer-app,Repo: cardano-foundation/cardano-explorer-app,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,102,102,102
-GitHub Forks,37,36,36
-GitHub Contributors,18,18,18
-GitHub Pull Requests (PRs) Merged,222,222,222
-Number of Releases,13,13,13
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,102,102,102,102
+GitHub Forks,37,36,36,35
+GitHub Contributors,18,18,18,18
+GitHub Pull Requests (PRs) Merged,222,222,222,222
+Number of Releases,13,13,13,13
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-governance-voting-tool,Repo: cardano-foundation/cardano-governance-voting-tool,Language: Elm
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,13,13,13
-GitHub Forks,8,8,8
-GitHub Contributors,4,4,4
-GitHub Pull Requests (PRs) Merged,112,118,118
-Number of Releases,2,2,2
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,13,13,13,13
+GitHub Forks,8,8,8,8
+GitHub Contributors,4,4,4,4
+GitHub Pull Requests (PRs) Merged,112,118,118,123
+Number of Releases,2,2,2,2
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-graphql,Repo: cardano-foundation/cardano-graphql,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,264,264,264
-GitHub Forks,99,99,98
-GitHub Contributors,41,41,41
-GitHub Pull Requests (PRs) Merged,421,427,430
-Number of Releases,61,63,63
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,264,264,264,264
+GitHub Forks,99,99,98,98
+GitHub Contributors,41,41,41,41
+GitHub Pull Requests (PRs) Merged,421,427,430,440
+Number of Releases,61,63,63,64
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-haskell-packages,Repo: cardano-foundation/cardano-haskell-packages,Language: Shell
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,58,58,58
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,58,58,58,58
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-ibc-incubator,Repo: cardano-foundation/cardano-ibc-incubator,Language: TypeScript
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,27,25,25,25,25,26,27,27,27,27,28,28,28,28,28
-GitHub Forks,11,12,12,12,14,15,15,15,16,15,15,15,15,15,15
-GitHub Contributors,16,16,16,16,16,16,16,17,17,17,17,17,17,17,17
-GitHub Pull Requests (PRs) Merged,176,185,185,190,190,190,199,208,212,288,313,329,331,366,401
-Number of Releases,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,27,25,25,25,25,26,27,27,27,27,28,28,28,28,28,29
+GitHub Forks,11,12,12,12,14,15,15,15,16,15,15,15,15,15,15,15
+GitHub Contributors,16,16,16,16,16,16,16,17,17,17,17,17,17,17,17,18
+GitHub Pull Requests (PRs) Merged,176,185,185,190,190,190,199,208,212,288,313,329,331,366,401,426
+Number of Releases,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-ibc-summit-demo,Repo: cardano-foundation/cardano-ibc-summit-demo,Language: Go
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,3,3,3
-GitHub Forks,0,0,0
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,3,3,3,3
+GitHub Forks,0,0,0,0
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-ignite,Repo: cardano-foundation/cardano-ignite,Language: Shell
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,11,11,11
-GitHub Forks,2,2,2
-GitHub Contributors,4,4,4
-GitHub Pull Requests (PRs) Merged,59,59,59
-Number of Releases,4,4,4
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,11,11,11,11
+GitHub Forks,2,2,2,2
+GitHub Contributors,4,4,4,4
+GitHub Pull Requests (PRs) Merged,59,59,59,60
+Number of Releases,4,4,4,4
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-learn-and-hack,Repo: cardano-foundation/cardano-learn-and-hack,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,15,15,15
-GitHub Forks,3,3,3
-GitHub Contributors,4,4,4
-GitHub Pull Requests (PRs) Merged,4,4,4
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,15,15,15,15
+GitHub Forks,3,3,3,3
+GitHub Contributors,4,4,4,4
+GitHub Pull Requests (PRs) Merged,4,4,4,4
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-ledger-read,Repo: cardano-foundation/cardano-ledger-read,Language: Haskell
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,7,7,8
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,7,7,8,8
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-mobile-connect-demo,Repo: cardano-foundation/cardano-mobile-connect-demo,Language: JavaScript
-Metric,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,3,4,4,4,4,4,4
-GitHub Forks,0,0,0,0,0,0,0
-GitHub Contributors,2,2,2,2,2,2,2
-GitHub Pull Requests (PRs) Merged,0,0,0,0,0,0,0
-Number of Releases,0,0,0,0,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,3,4,4,4,4,4,4,4
+GitHub Forks,0,0,0,0,0,0,0,0
+GitHub Contributors,2,2,2,2,2,2,2,2
+GitHub Pull Requests (PRs) Merged,0,0,0,0,0,0,0,0
+Number of Releases,0,0,0,0,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-mpfs-cage,Repo: cardano-foundation/cardano-mpfs-cage,Language: Shell
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,7,7,7
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,7,7,7,7
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-mpfs-onchain,Repo: cardano-foundation/cardano-mpfs-onchain,Language: Haskell
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,27,27,27
-Number of Releases,1,1,1
-Downloads,Github downloads 5,Github downloads 5,Github downloads 5
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,27,27,27,31
+Number of Releases,1,1,1,1
+Downloads,Github downloads 5,Github downloads 5,Github downloads 5,Github downloads 5
 
 Project: cardano-news-api,Repo: cardano-foundation/cardano-news-api,Language: JavaScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,4,4,4
-GitHub Pull Requests (PRs) Merged,16,16,16
-Number of Releases,10,10,10
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,4,4,4,4
+GitHub Pull Requests (PRs) Merged,16,16,16,16
+Number of Releases,10,10,10,10
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-node-antithesis,Repo: cardano-foundation/cardano-node-antithesis,Language: Haskell
-Metric,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1,1,1,1,1
-GitHub Forks,1,1,1,1,1,1,1
-GitHub Contributors,2,2,2,2,2,2,2
-GitHub Pull Requests (PRs) Merged,7,14,15,42,59,73,78
-Number of Releases,0,0,0,0,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1,1,1,1,1
+GitHub Forks,1,1,1,1,1,1,1,1
+GitHub Contributors,2,2,2,2,2,2,2,2
+GitHub Pull Requests (PRs) Merged,7,14,15,42,59,73,78,80
+Number of Releases,0,0,0,0,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-org,Repo: cardano-foundation/cardano-org,Language: JavaScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,95,96,96
-GitHub Forks,85,87,87
-GitHub Contributors,45,45,47
-GitHub Pull Requests (PRs) Merged,483,492,501
-Number of Releases,31,32,32
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,95,96,96,98
+GitHub Forks,85,87,87,89
+GitHub Contributors,45,45,47,48
+GitHub Pull Requests (PRs) Merged,483,492,501,520
+Number of Releases,31,32,32,32
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-org-header,Repo: cardano-foundation/cardano-org-header,Language: JavaScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,3,3,3
-GitHub Forks,2,2,2
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,3,3,3,3
+GitHub Forks,2,2,2,2
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-reward-calculator,Repo: cardano-foundation/cardano-reward-calculator,Language: JavaScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,6,6,6
-GitHub Forks,5,5,5
-GitHub Contributors,4,4,4
-GitHub Pull Requests (PRs) Merged,14,14,14
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,6,6,6,6
+GitHub Forks,5,5,5,5
+GitHub Contributors,4,4,4,4
+GitHub Pull Requests (PRs) Merged,14,14,14,14
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-rosetta,Repo: cardano-foundation/cardano-rosetta,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,97,97,97
-GitHub Forks,49,49,49
-GitHub Contributors,28,28,28
-GitHub Pull Requests (PRs) Merged,327,327,327
-Number of Releases,40,40,40
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,97,97,97,97
+GitHub Forks,49,49,49,49
+GitHub Contributors,28,28,28,28
+GitHub Pull Requests (PRs) Merged,327,327,327,327
+Number of Releases,40,40,40,40
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-rosetta-java,Repo: cardano-foundation/cardano-rosetta-java,Language: Java
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,19,20,20,21,23,24,24,24,24,26,26,27,26,26,27
-GitHub Forks,9,9,10,10,10,11,14,13,13,14,13,14,14,14,14
-GitHub Contributors,27,27,28,28,29,29,30,30,31,32,32,32,32,32,32
-GitHub Pull Requests (PRs) Merged,314,326,347,355,369,381,397,399,407,424,436,448,448,448,448
-Number of Releases,30,31,33,34,36,37,40,40,40,42,42,44,44,44,44
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,19,20,20,21,23,24,24,24,24,26,26,27,26,26,27,27
+GitHub Forks,9,9,10,10,10,11,14,13,13,14,13,14,14,14,14,14
+GitHub Contributors,27,27,28,28,29,29,30,30,31,32,32,32,32,32,32,32
+GitHub Pull Requests (PRs) Merged,314,326,347,355,369,381,397,399,407,424,436,448,448,448,448,450
+Number of Releases,30,31,33,34,36,37,40,40,40,42,42,44,44,44,44,46
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-serialization-lib,Repo: bloxbean/cardano-serialization-lib,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,23,23,23
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,23,23,23,23
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-store-poc-hoodies,Repo: cardano-foundation/cardano-store-poc-hoodies,Language: Python
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,6,6,6
-GitHub Forks,2,2,2
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,6,6,6,6
+GitHub Forks,2,2,2,2
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-template-and-ecosystem-monitoring,Repo: cardano-foundation/cardano-template-and-ecosystem-monitoring,Language: TypeScript
-Metric,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,26,27,27,27,27,27,27
-GitHub Forks,21,23,24,23,23,23,23
-GitHub Contributors,11,11,11,11,11,12,12
-GitHub Pull Requests (PRs) Merged,27,29,29,29,29,34,35
-Number of Releases,0,0,0,0,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,26,27,27,27,27,27,27,27
+GitHub Forks,21,23,24,23,23,23,23,23
+GitHub Contributors,11,11,11,11,11,12,12,12
+GitHub Pull Requests (PRs) Merged,27,29,29,29,29,34,35,36
+Number of Releases,0,0,0,0,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-token-registry,Repo: cardano-foundation/cardano-token-registry,Language: Nix
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,302,302,302
-GitHub Forks,1812,1812,1811
-GitHub Contributors,2114,2115,2117
-GitHub Pull Requests (PRs) Merged,5599,5601,5614
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,302,302,302,302
+GitHub Forks,1812,1812,1811,1813
+GitHub Contributors,2114,2115,2117,2118
+GitHub Pull Requests (PRs) Merged,5599,5601,5614,5622
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-tool-compass,Repo: cardano-foundation/cardano-tool-compass,Language: TypeScript
-Metric,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,7,7,7,7,7,7,7
-GitHub Forks,2,2,2,2,2,2,2
-GitHub Contributors,4,4,4,4,4,4,4
-GitHub Pull Requests (PRs) Merged,4,4,4,4,4,4,4
-Number of Releases,0,0,0,0,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,7,7,7,7,7,7,7,7
+GitHub Forks,2,2,2,2,2,2,2,2
+GitHub Contributors,4,4,4,4,4,4,4,4
+GitHub Pull Requests (PRs) Merged,4,4,4,4,4,4,4,4
+Number of Releases,0,0,0,0,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-verify-datasignature,Repo: cardano-foundation/cardano-verify-datasignature,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,19,19,19
-GitHub Forks,6,6,6
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,13,13,13
-Number of Releases,12,12,12
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,19,19,19,19
+GitHub Forks,6,6,6,6
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,13,13,13,13
+Number of Releases,12,12,12,12
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-wallet,Repo: cardano-foundation/cardano-wallet,Language: Haskell
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,798,802,803,805,809,807,812,819,819,818,817,819,819,819,819
-GitHub Forks,223,223,223,225,229,228,228,233,233,233,232,229,231,231,231
-GitHub Contributors,55,55,56,56,55,55,55,55,55,55,55,55,55,55,55
-GitHub Pull Requests (PRs) Merged,3612,3612,3612,3612,3612,3612,3612,3617,3617,3664,3666,3696,3696,3701,3705
-Number of Releases,80,80,80,80,80,80,80,81,81,81,81,86,86,86,85
-Downloads,Github downloads 17004,Github downloads 17217,Github downloads 17387,Github downloads 17640,Github downloads 17795,Github downloads 17935,Github downloads 18349,Github downloads 18261,Github downloads 18358,Github downloads 18635,Github downloads 18770,Github downloads 15849,Github downloads 15876,Github downloads 15905,Github downloads 16807
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,798,802,803,805,809,807,812,819,819,818,817,819,819,819,819,820
+GitHub Forks,223,223,223,225,229,228,228,233,233,233,232,229,231,231,231,231
+GitHub Contributors,55,55,56,56,55,55,55,55,55,55,55,55,55,55,55,55
+GitHub Pull Requests (PRs) Merged,3612,3612,3612,3612,3612,3612,3612,3617,3617,3664,3666,3696,3696,3701,3705,3708
+Number of Releases,80,80,80,80,80,80,80,81,81,81,81,86,86,86,85,85
+Downloads,Github downloads 17004,Github downloads 17217,Github downloads 17387,Github downloads 17640,Github downloads 17795,Github downloads 17935,Github downloads 18349,Github downloads 18261,Github downloads 18358,Github downloads 18635,Github downloads 18770,Github downloads 15849,Github downloads 15876,Github downloads 15905,Github downloads 16807,Github downloads 16924
 
 Project: cardano-wallet-agda,Repo: cardano-foundation/cardano-wallet-agda,Language: Haskell
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,12,12,13,13,13,13,13,13,13,13,13,13,13,13,13
-GitHub Forks,1,1,1,1,2,2,2,1,1,1,0,0,0,0,0
-GitHub Contributors,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
-GitHub Pull Requests (PRs) Merged,150,150,150,150,150,150,150,150,150,150,150,150,150,150,150
-Number of Releases,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,12,12,13,13,13,13,13,13,13,13,13,13,13,13,13,13
+GitHub Forks,1,1,1,1,2,2,2,1,1,1,0,0,0,0,0,0
+GitHub Contributors,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+GitHub Pull Requests (PRs) Merged,150,150,150,150,150,150,150,150,150,150,150,150,150,150,150,150
+Number of Releases,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cardano-wallet-client,Repo: cardano-foundation/cardano-wallet-client,Language: Haskell
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst-CIPs,Repo: cardano-foundation/catalyst-CIPs,Language: JavaScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,3,3,3
-GitHub Forks,2,2,2
-GitHub Contributors,134,134,134
-GitHub Pull Requests (PRs) Merged,10,10,10
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,3,3,3,3
+GitHub Forks,2,2,2,2
+GitHub Contributors,134,134,134,134
+GitHub Pull Requests (PRs) Merged,10,10,10,10
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst-ci,Repo: cardano-foundation/catalyst-ci,Language: Python
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,6,6,6
-GitHub Forks,2,2,2
-GitHub Contributors,26,26,26
-GitHub Pull Requests (PRs) Merged,328,328,328
-Number of Releases,186,186,186
-Downloads,Github downloads 8,Github downloads 8,Github downloads 8
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,6,6,6,6
+GitHub Forks,2,2,2,2
+GitHub Contributors,26,26,26,26
+GitHub Pull Requests (PRs) Merged,328,328,328,328
+Number of Releases,186,186,186,186
+Downloads,Github downloads 8,Github downloads 8,Github downloads 8,Github downloads 12
 
 Project: catalyst-core,Repo: cardano-foundation/catalyst-core,Language: Rust
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,38,38,38
-GitHub Forks,15,15,15
-GitHub Contributors,89,89,89
-GitHub Pull Requests (PRs) Merged,538,538,538
-Number of Releases,9,9,9
-Downloads,Github downloads 56,Github downloads 57,Github downloads 57
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,38,38,38,38
+GitHub Forks,15,15,15,15
+GitHub Contributors,89,89,89,89
+GitHub Pull Requests (PRs) Merged,538,538,538,538
+Number of Releases,9,9,9,9
+Downloads,Github downloads 56,Github downloads 57,Github downloads 57,Github downloads 61
 
 Project: catalyst-daedalus,Repo: cardano-foundation/catalyst-daedalus,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,72,72,72
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,72,72,72,72
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst-documentation,Repo: cardano-foundation/catalyst-documentation,Language: CSS
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,4,4,4
-GitHub Forks,0,0,0
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,3,3,3
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,4,4,4,4
+GitHub Forks,0,0,0,0
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,3,3,3,3
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst-eks-blueprints-add-ons,Repo: cardano-foundation/catalyst-eks-blueprints-add-ons,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,22,22,22
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,22,22,22,22
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst-eks-blueprints-workloads,Repo: cardano-foundation/catalyst-eks-blueprints-workloads,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,11,11,11
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,11,11,11,11
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst-engineering,Repo: cardano-foundation/catalyst-engineering,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,6,6,6
-GitHub Forks,0,0,0
-GitHub Contributors,8,8,8
-GitHub Pull Requests (PRs) Merged,31,31,31
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,6,6,6,6
+GitHub Forks,0,0,0,0
+GitHub Contributors,8,8,8,8
+GitHub Pull Requests (PRs) Merged,31,31,31,31
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst-forge,Repo: cardano-foundation/catalyst-forge,Language: Go
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,5,5,5
-GitHub Pull Requests (PRs) Merged,155,155,155
-Number of Releases,27,27,27
-Downloads,Github downloads 438319,Github downloads 438320,Github downloads 438321
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,5,5,5,5
+GitHub Pull Requests (PRs) Merged,155,155,155,155
+Number of Releases,27,27,27,27
+Downloads,Github downloads 438319,Github downloads 438320,Github downloads 438321,Github downloads 438343
 
 Project: catalyst-forge-docs,Repo: cardano-foundation/catalyst-forge-docs,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst-forge-libs,Repo: cardano-foundation/catalyst-forge-libs,Language: Go
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,14,14,14
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,14,14,14,14
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst-fund-archive-tool,Repo: cardano-foundation/catalyst-fund-archive-tool,Language: Rust
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,2,2,2
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,2,2,2,2
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst-gh-tools,Repo: cardano-foundation/catalyst-gh-tools,Language: Dockerfile
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,2,2,2
-Number of Releases,21,21,21
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,2,2,2,2
+Number of Releases,21,21,21,21
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst-kcl,Repo: cardano-foundation/catalyst-kcl,Language: Earthly
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,2,2,2
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,2,2,2,2
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst-libs,Repo: cardano-foundation/catalyst-libs,Language: Rust
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,4,4,5
-GitHub Forks,3,3,4
-GitHub Contributors,22,22,22
-GitHub Pull Requests (PRs) Merged,538,538,538
-Number of Releases,144,144,144
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,4,4,5,5
+GitHub Forks,3,3,4,4
+GitHub Contributors,22,22,22,22
+GitHub Pull Requests (PRs) Merged,538,538,538,538
+Number of Releases,144,144,144,144
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst-mithril,Repo: cardano-foundation/catalyst-mithril,Language: Rust
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,38,38,38
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,38,38,38,38
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst-pallas,Repo: cardano-foundation/catalyst-pallas,Language: Rust
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,52,52,52
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,52,52,52,52
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst-poem,Repo: cardano-foundation/catalyst-poem,Language: Rust
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,97,97,97
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,97,97,97,97
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst-test-wallets,Repo: cardano-foundation/catalyst-test-wallets,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst-toolbox,Repo: cardano-foundation/catalyst-toolbox,Language: Rust
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,16,16,16
-GitHub Forks,14,14,14
-GitHub Contributors,21,21,21
-GitHub Pull Requests (PRs) Merged,132,132,132
-Number of Releases,5,5,5
-Downloads,Github downloads 228,Github downloads 229,Github downloads 230
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,16,16,16,16
+GitHub Forks,14,14,14,14
+GitHub Contributors,21,21,21,21
+GitHub Pull Requests (PRs) Merged,132,132,132,132
+Number of Releases,5,5,5,5
+Downloads,Github downloads 228,Github downloads 229,Github downloads 230,Github downloads 231
 
 Project: catalyst-voices,Repo: cardano-foundation/catalyst-voices,Language: Dart
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,39,39,39
-GitHub Forks,12,11,11
-GitHub Contributors,30,30,30
-GitHub Pull Requests (PRs) Merged,1876,1876,1876
-Number of Releases,34,34,34
-Downloads,Github downloads 94,Github downloads 94,Github downloads 94
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,39,39,39,39
+GitHub Forks,12,11,11,11
+GitHub Contributors,30,30,30,30
+GitHub Pull Requests (PRs) Merged,1876,1876,1876,1876
+Number of Releases,34,34,34,34
+Downloads,Github downloads 94,Github downloads 94,Github downloads 94,Github downloads 95
 
 Project: catalyst-voices-web-poc,Repo: cardano-foundation/catalyst-voices-web-poc,Language: JavaScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst_flutter,Repo: cardano-foundation/catalyst_flutter,Language: Dart
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,3,3,3
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,4,4,4
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,3,3,3,3
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,4,4,4,4
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: catalyst_flutter_rust_bridge,Repo: cardano-foundation/catalyst_flutter_rust_bridge,Language: Dart
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,138,138,138
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,138,138,138,138
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cbor,Repo: elm-toulouse/cbor,Language: Elm
-Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,9,9,9,9,9,9,9,9,9,9,9,9,9,9
-GitHub Forks,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-GitHub Contributors,2,2,2,2,2,2,2,2,2,2,2,2,2,2
-GitHub Pull Requests (PRs) Merged,5,5,5,5,5,5,5,5,5,5,5,5,5,5
-Number of Releases,2,2,2,2,2,2,2,2,2,2,2,2,2,2
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9
+GitHub Forks,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GitHub Contributors,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+GitHub Pull Requests (PRs) Merged,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+Number of Releases,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: ccl-annotation-tests,Repo: bloxbean/ccl-annotation-tests,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: ccl-bridge,Repo: bloxbean/ccl-bridge,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,1,1,1
-Downloads,Github downloads 1,Github downloads 1,Github downloads 1
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,1,1,1,1
+Downloads,Github downloads 1,Github downloads 1,Github downloads 1,Github downloads 1
 
 Project: ccl-local-tx-example,Repo: bloxbean/ccl-local-tx-example,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-adahandle-resolver,Repo: cardano-foundation/cf-adahandle-resolver,Language: Java
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,12,12,12,13,14,14,14,14,14,14,14,14,13,13,13
-GitHub Forks,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2
-GitHub Contributors,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
-GitHub Pull Requests (PRs) Merged,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42
-Number of Releases,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,12,12,12,13,14,14,14,14,14,14,14,14,13,13,13,13
+GitHub Forks,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2
+GitHub Contributors,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+GitHub Pull Requests (PRs) Merged,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42
+Number of Releases,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-bolnisi-prototype,Repo: cardano-foundation/cf-bolnisi-prototype,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,0,0,0
-GitHub Contributors,13,13,13
-GitHub Pull Requests (PRs) Merged,708,708,708
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,0,0,0,0
+GitHub Contributors,13,13,13,13
+GitHub Pull Requests (PRs) Merged,708,708,708,708
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-cardano-ballot,Repo: cardano-foundation/cf-cardano-ballot,Language: TypeScript
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,22,22,22,24,24,24,25,25,25,25,25,25,24,24,24
-GitHub Forks,5,5,5,6,7,7,7,6,6,6,5,6,6,6,6
-GitHub Contributors,16,16,16,16,19,19,19,19,19,19,19,20,20,20,20
-GitHub Pull Requests (PRs) Merged,517,517,517,524,539,540,540,540,540,540,540,541,541,541,541
-Number of Releases,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,22,22,22,24,24,24,25,25,25,25,25,25,24,24,24,24
+GitHub Forks,5,5,5,6,7,7,7,6,6,6,5,6,6,6,6,6
+GitHub Contributors,16,16,16,16,19,19,19,19,19,19,19,20,20,20,20,20
+GitHub Pull Requests (PRs) Merged,517,517,517,524,539,540,540,540,540,540,540,541,541,541,541,541
+Number of Releases,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-cardano-ballot-ui,Repo: cardano-foundation/cf-cardano-ballot-ui,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-cardano-conversions-java,Repo: cardano-foundation/cf-cardano-conversions-java,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,4,4,4
-GitHub Forks,0,0,0
-GitHub Contributors,5,5,5
-GitHub Pull Requests (PRs) Merged,25,25,25
-Number of Releases,7,7,7
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,4,4,4,4
+GitHub Forks,0,0,0,0
+GitHub Contributors,5,5,5,5
+GitHub Pull Requests (PRs) Merged,25,25,25,25
+Number of Releases,7,7,7,7
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-cardano-wallet-testing,Repo: cardano-foundation/cf-cardano-wallet-testing,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,9,9,9
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,9,9,9,9
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-cddl-parser,Repo: cardano-foundation/cf-cddl-parser,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,7,7,7
-GitHub Pull Requests (PRs) Merged,85,85,85
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,7,7,7,7
+GitHub Pull Requests (PRs) Merged,85,85,85,85
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-cip-frontend,Repo: cardano-foundation/cf-cip-frontend,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,5,5,5
-GitHub Forks,5,5,5
-GitHub Contributors,5,5,5
-GitHub Pull Requests (PRs) Merged,51,51,51
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,5,5,5,5
+GitHub Forks,5,5,5,5
+GitHub Contributors,5,5,5,5
+GitHub Pull Requests (PRs) Merged,51,51,51,52
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-cip1694-ballot-status,Repo: cardano-foundation/cf-cip1694-ballot-status,Language: JSON
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-discord-wallet-verification-bot,Repo: cardano-foundation/cf-discord-wallet-verification-bot,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,5,5,5
-GitHub Forks,1,1,1
-GitHub Contributors,5,5,5
-GitHub Pull Requests (PRs) Merged,4,4,4
-Number of Releases,2,2,2
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,5,5,5,5
+GitHub Forks,1,1,1,1
+GitHub Contributors,5,5,5,5
+GitHub Pull Requests (PRs) Merged,4,4,4,4
+Number of Releases,2,2,2,2
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
-Project: cf-ec2-monoliths,Repo: cardano-foundation/cf-ec2-monoliths,Language: HCL
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Project: cf-ec2-monoliths,Repo: cardano-foundation/cf-ec2-monoliths,Language: Shell
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-explorer,Repo: cardano-foundation/cf-explorer,Language: Shell
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,12,12,12
-GitHub Forks,2,2,2
-GitHub Contributors,7,7,7
-GitHub Pull Requests (PRs) Merged,39,39,39
-Number of Releases,2,2,2
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,12,12,12,12
+GitHub Forks,2,2,2,2
+GitHub Contributors,7,7,7,7
+GitHub Pull Requests (PRs) Merged,39,39,39,39
+Number of Releases,2,2,2,2
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-explorer-aggregator,Repo: cardano-foundation/cf-explorer-aggregator,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,8,8,8
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,8,8,8,8
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-explorer-api,Repo: cardano-foundation/cf-explorer-api,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,6,6,6
-GitHub Forks,1,1,1
-GitHub Contributors,31,31,32
-GitHub Pull Requests (PRs) Merged,1252,1252,1252
-Number of Releases,34,34,34
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,6,6,6,6
+GitHub Forks,1,1,1,1
+GitHub Contributors,31,31,32,32
+GitHub Pull Requests (PRs) Merged,1252,1252,1252,1252
+Number of Releases,34,34,34,34
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-explorer-authentication,Repo: cardano-foundation/cf-explorer-authentication,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,1,1,1
-GitHub Contributors,16,16,17
-GitHub Pull Requests (PRs) Merged,120,120,120
-Number of Releases,17,17,17
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,1,1,1,1
+GitHub Contributors,16,16,17,17
+GitHub Pull Requests (PRs) Merged,120,120,120,120
+Number of Releases,17,17,17,17
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-explorer-frontend,Repo: cardano-foundation/cf-explorer-frontend,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,8,8,8
-GitHub Forks,3,3,3
-GitHub Contributors,56,56,56
-GitHub Pull Requests (PRs) Merged,3724,3724,3724
-Number of Releases,46,46,46
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,8,8,8,8
+GitHub Forks,3,3,3,3
+GitHub Contributors,56,56,56,56
+GitHub Pull Requests (PRs) Merged,3724,3724,3724,3724
+Number of Releases,46,46,46,46
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-explorer-landing,Repo: cardano-foundation/cf-explorer-landing,Language: JavaScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,5,5,6
-GitHub Forks,7,8,8
-GitHub Contributors,10,10,10
-GitHub Pull Requests (PRs) Merged,21,21,21
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,5,5,6,6
+GitHub Forks,7,8,8,8
+GitHub Contributors,10,10,10,10
+GitHub Pull Requests (PRs) Merged,21,21,21,21
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-explorer-monitoring,Repo: cardano-foundation/cf-explorer-monitoring,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-explorer-rewards,Repo: cardano-foundation/cf-explorer-rewards,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,0,0,0
-GitHub Contributors,13,13,14
-GitHub Pull Requests (PRs) Merged,97,97,97
-Number of Releases,9,9,9
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,0,0,0,0
+GitHub Contributors,13,13,14,14
+GitHub Pull Requests (PRs) Merged,97,97,97,97
+Number of Releases,9,9,9,9
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-explorer-status,Repo: cardano-foundation/cf-explorer-status,Language: Markdown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,1,1,1
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,1,1,1,1
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-flat-decoder-ts,Repo: cardano-foundation/cf-flat-decoder-ts,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,1,1,1
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,6,6,6
-Number of Releases,2,2,2
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,1,1,1,1
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,6,6,6,6
+Number of Releases,2,2,2,2
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-georgian-wine-resolver,Repo: cardano-foundation/cf-georgian-wine-resolver,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,3,3,3
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,3,3,3,3
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-gha-workflows,Repo: cardano-foundation/cf-gha-workflows,Language: Earthly
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,4,4,4
-GitHub Pull Requests (PRs) Merged,7,7,7
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,4,4,4,4
+GitHub Pull Requests (PRs) Merged,7,7,7,8
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-gsoc-ideas-page-2025,Repo: cardano-foundation/cf-gsoc-ideas-page-2025,Language: Unknown
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,17,15,15,16,16,16,16,16,16,16,16,16,15,15,15
-GitHub Forks,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4
-GitHub Contributors,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6
-GitHub Pull Requests (PRs) Merged,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-Number of Releases,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,17,15,15,16,16,16,16,16,16,16,16,16,15,15,15,15
+GitHub Forks,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,4
+GitHub Contributors,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6
+GitHub Pull Requests (PRs) Merged,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+Number of Releases,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-helm-charts,Repo: cardano-foundation/cf-helm-charts,Language: Go Template
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,1,1,1
-GitHub Contributors,4,4,4
-GitHub Pull Requests (PRs) Merged,33,35,36
-Number of Releases,46,49,50
-Downloads,Github downloads 458,Github downloads 479,Github downloads 495
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,1,1,1,2
+GitHub Contributors,4,4,4,4
+GitHub Pull Requests (PRs) Merged,33,35,36,41
+Number of Releases,46,49,50,55
+Downloads,Github downloads 458,Github downloads 479,Github downloads 495,Github downloads 607
 
 Project: cf-iiot-poc,Repo: cardano-foundation/cf-iiot-poc,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,4,4,4
-GitHub Pull Requests (PRs) Merged,17,17,17
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,4,4,4,4
+GitHub Pull Requests (PRs) Merged,17,17,17,17
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-java-cardano-common,Repo: cardano-foundation/cf-java-cardano-common,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,18,18,18
-GitHub Pull Requests (PRs) Merged,64,64,64
-Number of Releases,9,9,9
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,18,18,18,18
+GitHub Pull Requests (PRs) Merged,64,64,64,64
+Number of Releases,9,9,9,9
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-java-cardano-common-api,Repo: cardano-foundation/cf-java-cardano-common-api,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,15,15,15
-GitHub Pull Requests (PRs) Merged,25,25,25
-Number of Releases,1,1,1
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,15,15,15,15
+GitHub Pull Requests (PRs) Merged,25,25,25,25
+Number of Releases,1,1,1,1
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-java-cardano-common-explorer,Repo: cardano-foundation/cf-java-cardano-common-explorer,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,1,1,1
-GitHub Contributors,22,22,23
-GitHub Pull Requests (PRs) Merged,195,195,195
-Number of Releases,17,17,17
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,1,1,1,1
+GitHub Contributors,22,22,23,23
+GitHub Pull Requests (PRs) Merged,195,195,195,195
+Number of Releases,17,17,17,17
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-java-rewards-calculation,Repo: cardano-foundation/cf-java-rewards-calculation,Language: Java
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,20,20,20,20,20,20,20,20,21,21,21,21,21,21,21
-GitHub Forks,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2
-GitHub Contributors,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
-GitHub Pull Requests (PRs) Merged,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53
-Number of Releases,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,20,20,20,20,20,20,20,20,21,21,21,21,21,21,21,21
+GitHub Forks,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2
+GitHub Contributors,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+GitHub Pull Requests (PRs) Merged,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53
+Number of Releases,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-keria-provisioning,Repo: cardano-foundation/cf-keria-provisioning,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,6,6,6
-GitHub Pull Requests (PRs) Merged,14,14,14
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,6,6,6,6
+GitHub Pull Requests (PRs) Merged,14,14,14,14
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-ledger-consumer,Repo: cardano-foundation/cf-ledger-consumer,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,0,0,0
-GitHub Contributors,21,21,22
-GitHub Pull Requests (PRs) Merged,271,271,271
-Number of Releases,31,31,31
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,0,0,0,0
+GitHub Contributors,21,21,22,22
+GitHub Pull Requests (PRs) Merged,271,271,271,271
+Number of Releases,31,31,31,31
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-ledger-consumer-schedules,Repo: cardano-foundation/cf-ledger-consumer-schedules,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,3,3,3
-GitHub Forks,1,1,1
-GitHub Contributors,20,20,21
-GitHub Pull Requests (PRs) Merged,509,509,509
-Number of Releases,20,20,20
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,3,3,3,3
+GitHub Forks,1,1,1,1
+GitHub Contributors,20,20,21,21
+GitHub Pull Requests (PRs) Merged,509,509,509,509
+Number of Releases,20,20,20,20
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-ledger-crawler,Repo: cardano-foundation/cf-ledger-crawler,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,0,0,0
-GitHub Contributors,18,18,18
-GitHub Pull Requests (PRs) Merged,90,90,90
-Number of Releases,11,11,11
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,0,0,0,0
+GitHub Contributors,18,18,18,18
+GitHub Pull Requests (PRs) Merged,90,90,90,90
+Number of Releases,11,11,11,11
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-ledger-sync,Repo: cardano-foundation/cf-ledger-sync,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,28,28,28
-GitHub Forks,2,2,2
-GitHub Contributors,9,9,9
-GitHub Pull Requests (PRs) Merged,151,151,151
-Number of Releases,3,3,3
-Downloads,Github downloads 22,Github downloads 22,Github downloads 22
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,28,28,28,28
+GitHub Forks,2,2,2,2
+GitHub Contributors,9,9,9,9
+GitHub Pull Requests (PRs) Merged,151,151,151,151
+Number of Releases,3,3,3,3
+Downloads,Github downloads 22,Github downloads 22,Github downloads 22,Github downloads 22
+
+Project: cf-lob-platform,Repo: cardano-foundation/cf-reeve-platform,Language: Java
+Metric,01/06/2026
+GitHub Stars,41
+GitHub Forks,9
+GitHub Contributors,15
+GitHub Pull Requests (PRs) Merged,592
+Number of Releases,12
+Downloads,Github downloads 0
 
 Project: cf-ls-sync-data-verification,Repo: cardano-foundation/cf-ls-sync-data-verification,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,10,10,10
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,10,10,10,10
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-metadata-app,Repo: cardano-foundation/cf-metadata-app,Language: JavaScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,2,2,2
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,2,2,2,2
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-metadata-deployment,Repo: cardano-foundation/cf-metadata-deployment,Language: HCL
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,6,6,6
-GitHub Pull Requests (PRs) Merged,6,6,6
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,6,6,6,6
+GitHub Pull Requests (PRs) Merged,6,6,6,6
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-metafides-api,Repo: cardano-foundation/cf-metafides-api,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-metafides-deployment,Repo: cardano-foundation/cf-metafides-deployment,Language: HCL
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-metafides-rust,Repo: cardano-foundation/cf-metafides-rust,Language: Rust
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,4,4,4
-GitHub Pull Requests (PRs) Merged,1,1,1
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,4,4,4,4
+GitHub Pull Requests (PRs) Merged,1,1,1,1
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-network-monitoring-aggregator,Repo: cardano-foundation/cf-network-monitoring-aggregator,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-poc-tunnel,Repo: cardano-foundation/cf-poc-tunnel,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,1,1,1
-GitHub Contributors,5,5,5
-GitHub Pull Requests (PRs) Merged,31,31,31
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,1,1,1,1
+GitHub Contributors,5,5,5,5
+GitHub Pull Requests (PRs) Merged,31,31,31,31
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-product-tracing-aggregator,Repo: cardano-foundation/cf-product-tracing-aggregator,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,2,2,2
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,2,2,2,2
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-reeve-application,Repo: cardano-foundation/cf-reeve-application,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,8,8,8
-GitHub Forks,2,2,2
-GitHub Contributors,11,11,11
-GitHub Pull Requests (PRs) Merged,339,339,339
-Number of Releases,11,11,11
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,8,8,8,8
+GitHub Forks,2,2,2,3
+GitHub Contributors,11,11,11,11
+GitHub Pull Requests (PRs) Merged,339,339,339,340
+Number of Releases,11,11,11,11
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-reeve-docs,Repo: cardano-foundation/cf-reeve-docs,Language: MDX
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,4,4,4
-GitHub Pull Requests (PRs) Merged,2,3,3
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,4,4,4,4
+GitHub Pull Requests (PRs) Merged,2,3,3,3
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-reeve-frontend,Repo: cardano-foundation/cf-reeve-frontend,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,13,13,13
-GitHub Pull Requests (PRs) Merged,700,701,701
-Number of Releases,9,9,9
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,13,13,13,13
+GitHub Pull Requests (PRs) Merged,700,701,701,703
+Number of Releases,9,9,9,9
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-reeve-indexer,Repo: cardano-foundation/cf-reeve-indexer,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,7,7,7
-GitHub Pull Requests (PRs) Merged,57,58,58
-Number of Releases,6,6,6
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,7,7,7,7
+GitHub Pull Requests (PRs) Merged,57,58,58,60
+Number of Releases,6,6,6,6
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-reeve-platform,Repo: cardano-foundation/cf-reeve-platform,Language: Java
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,8,10,29,33,34,34,37,37,38,39,40,42,41,41,41
-GitHub Forks,7,7,9,9,9,9,8,8,8,8,8,9,9,9,9
-GitHub Contributors,9,9,10,10,10,10,13,13,13,14,14,15,15,15,15
-GitHub Pull Requests (PRs) Merged,263,297,336,374,408,438,457,467,506,544,573,585,587,590,591
-Number of Releases,0,0,2,2,2,4,5,5,5,7,11,12,12,12,12
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,8,10,29,33,34,34,37,37,38,39,40,42,41,41,41,41
+GitHub Forks,7,7,9,9,9,9,8,8,8,8,8,9,9,9,9,9
+GitHub Contributors,9,9,10,10,10,10,13,13,13,14,14,15,15,15,15,15
+GitHub Pull Requests (PRs) Merged,263,297,336,374,408,438,457,467,506,544,573,585,587,590,591,592
+Number of Releases,0,0,2,2,2,4,5,5,5,7,11,12,12,12,12,12
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-scamlan,Repo: cardano-foundation/cf-scamlan,Language: HCL
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-signify-java,Repo: cardano-foundation/cf-signify-java,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,8,8,8
-GitHub Forks,5,5,5
-GitHub Contributors,8,8,9
-GitHub Pull Requests (PRs) Merged,60,60,61
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,8,8,8,9
+GitHub Forks,5,5,5,5
+GitHub Contributors,8,8,9,9
+GitHub Pull Requests (PRs) Merged,60,60,61,61
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-signify-java-example,Repo: cardano-foundation/cf-signify-java-example,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,1,1,0
-GitHub Contributors,4,4,5
-GitHub Pull Requests (PRs) Merged,1,1,1
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,1,1,0,0
+GitHub Contributors,4,4,5,5
+GitHub Pull Requests (PRs) Merged,1,1,1,1
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-summit-evoting,Repo: cardano-foundation/cf-summit-evoting,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,4,4,4
-GitHub Forks,0,0,0
-GitHub Contributors,14,14,14
-GitHub Pull Requests (PRs) Merged,251,251,251
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,4,4,4,4
+GitHub Forks,0,0,0,0
+GitHub Contributors,14,14,14,14
+GitHub Pull Requests (PRs) Merged,251,251,251,251
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-summit-evoting-status,Repo: cardano-foundation/cf-summit-evoting-status,Language: Markdown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,3,3,3
-GitHub Forks,0,0,0
-GitHub Contributors,4,4,4
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,3,3,3,3
+GitHub Forks,0,0,0,0
+GitHub Contributors,4,4,4,4
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-token-metadata-registry,Repo: cardano-foundation/cf-token-metadata-registry,Language: Java
-Metric,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,6,6,7,8,8,8,8
-GitHub Forks,2,2,3,3,3,3,3
-GitHub Contributors,9,9,11,11,11,11,11
-GitHub Pull Requests (PRs) Merged,31,31,46,61,62,62,62
-Number of Releases,12,12,13,15,15,15,15
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,6,6,7,8,8,8,8,8
+GitHub Forks,2,2,3,3,3,3,3,3
+GitHub Contributors,9,9,11,11,11,11,11,11
+GitHub Pull Requests (PRs) Merged,31,31,46,61,62,62,62,64
+Number of Releases,12,12,13,15,15,15,15,16
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-token-metadata-registry-status,Repo: cardano-foundation/cf-token-metadata-registry-status,Language: Markdown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,1,1,1
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,1,1,1,1
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cf-tokens-cip26,Repo: cardano-foundation/cf-tokens-cip26,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,8,8,8
-GitHub Pull Requests (PRs) Merged,8,8,8
-Number of Releases,3,3,3
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,8,8,8,8
+GitHub Pull Requests (PRs) Merged,8,8,8,8
+Number of Releases,3,3,3,3
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: chain-libs,Repo: cardano-foundation/chain-libs,Language: Rust
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,35,35,34
-GitHub Forks,25,25,25
-GitHub Contributors,35,35,35
-GitHub Pull Requests (PRs) Merged,632,632,632
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,35,35,34,34
+GitHub Forks,25,25,25,25
+GitHub Contributors,35,35,35,35
+GitHub Pull Requests (PRs) Merged,632,632,632,632
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cip-170-attestation-frontend,Repo: cardano-foundation/cip-170-attestation-frontend,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,4,4,4
-GitHub Pull Requests (PRs) Merged,12,12,12
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,4,4,4,4
+GitHub Pull Requests (PRs) Merged,12,12,12,12
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cip113-programmable-tokens,Repo: cardano-foundation/cip113-programmable-tokens,Language: Aiken
-Metric,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,8,8,9,11,11,11,11
-GitHub Forks,4,5,6,6,6,7,7
-GitHub Contributors,3,5,6,6,6,6,6
-GitHub Pull Requests (PRs) Merged,8,17,28,33,33,33,33
-Number of Releases,0,0,0,0,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,8,8,9,11,11,11,11,12
+GitHub Forks,4,5,6,6,6,7,7,7
+GitHub Contributors,3,5,6,6,6,6,6,6
+GitHub Pull Requests (PRs) Merged,8,17,28,33,33,33,33,38
+Number of Releases,0,0,0,0,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cip113-programmable-tokens-platform,Repo: cardano-foundation/cip113-programmable-tokens-platform,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,1,4,4
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,1,4,4,4
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: cip30-data-signature-parser,Repo: cardano-foundation/cip30-data-signature-parser,Language: Java
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,7,7,7,7,8,8,8,8,8,8,8,8,8,8,8
-GitHub Forks,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0
-GitHub Contributors,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
-GitHub Pull Requests (PRs) Merged,21,21,21,21,22,22,22,22,22,22,22,22,22,22,22
-Number of Releases,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,7,7,7,7,8,8,8,8,8,8,8,8,8,8,8,8
+GitHub Forks,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0
+GitHub Contributors,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
+GitHub Pull Requests (PRs) Merged,21,21,21,21,22,22,22,22,22,22,22,22,22,22,22,22
+Number of Releases,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: dab,Repo: cardano-foundation/dab,Language: Haskell
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,36,36,36
-GitHub Forks,6,6,6
-GitHub Contributors,4,4,4
-GitHub Pull Requests (PRs) Merged,12,12,12
-Number of Releases,1,1,1
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,36,36,36,36
+GitHub Forks,6,6,6,6
+GitHub Contributors,4,4,4,4
+GitHub Pull Requests (PRs) Merged,12,12,12,12
+Number of Releases,1,1,1,1
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: delta-types,Repo: cardano-foundation/delta-types,Language: Haskell
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,13,13,13
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,13,13,13,13
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: developer-portal,Repo: cardano-foundation/developer-portal,Language: JavaScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,433,432,433
-GitHub Forks,1073,1077,1077
-GitHub Contributors,274,274,275
-GitHub Pull Requests (PRs) Merged,1237,1240,1257
-Number of Releases,1,1,1
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,433,432,433,434
+GitHub Forks,1073,1077,1077,1077
+GitHub Contributors,274,274,275,276
+GitHub Pull Requests (PRs) Merged,1237,1240,1257,1262
+Number of Releases,1,1,1,1
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: devkit-hackathon-demo,Repo: bloxbean/devkit-hackathon-demo,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: devkit-npm-ci-test,Repo: bloxbean/devkit-npm-ci-test,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: docs-cardano-org,Repo: cardano-foundation/docs-cardano-org,Language: CSS
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,98,98,98
-GitHub Forks,61,61,61
-GitHub Contributors,29,29,29
-GitHub Pull Requests (PRs) Merged,54,54,54
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,98,98,98,98
+GitHub Forks,61,61,61,61
+GitHub Contributors,29,29,29,29
+GitHub Pull Requests (PRs) Merged,54,54,54,54
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: ecosystem-updates,Repo: cardano-foundation/ecosystem-updates,Language: Python
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,2,2,2
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,2,2,2,2
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: ed25519-java,Repo: bloxbean/ed25519-java,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,1,1,1
-GitHub Contributors,17,17,17
-GitHub Pull Requests (PRs) Merged,2,2,2
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,1,1,1,1
+GitHub Contributors,17,17,17,17
+GitHub Pull Requests (PRs) Merged,2,2,2,2
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: elm-cardano,Repo: elm-cardano/elm-cardano,Language: Elm
-Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,21,22,22,23,24,24,24,24,24,24,25,25,25,26
-GitHub Forks,5,5,5,5,5,5,5,5,5,5,5,5,5,5
-GitHub Contributors,7,7,7,7,7,7,7,7,7,7,7,7,7,7
-GitHub Pull Requests (PRs) Merged,81,81,81,81,81,81,81,81,81,81,82,82,83,83
-Number of Releases,15,15,15,15,15,15,15,15,15,15,15,15,15,15
-Downloads,Github downloads 1081,Github downloads 1195,Github downloads 1301,Github downloads 1347,Github downloads 1450,Github downloads 1528,Github downloads 1530,Github downloads 1553,Github downloads 1606,Github downloads 1607,Github downloads 1719,Github downloads 1719,Github downloads 1750,Github downloads 1751
+Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,21,22,22,23,24,24,24,24,24,24,25,25,25,26,26
+GitHub Forks,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+GitHub Contributors,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+GitHub Pull Requests (PRs) Merged,81,81,81,81,81,81,81,81,81,81,82,82,83,83,83
+Number of Releases,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15
+Downloads,Github downloads 1081,Github downloads 1195,Github downloads 1301,Github downloads 1347,Github downloads 1450,Github downloads 1528,Github downloads 1530,Github downloads 1553,Github downloads 1606,Github downloads 1607,Github downloads 1719,Github downloads 1719,Github downloads 1750,Github downloads 1751,Github downloads 1797
 
 Project: fine-types,Repo: cardano-foundation/fine-types,Language: Haskell
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,10,10,10
-GitHub Forks,1,1,1
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,40,40,40
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,10,10,10,10
+GitHub Forks,1,1,1,1
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,40,40,40,40
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: fuzz,Repo: aiken-lang/fuzz,Language: Aiken
-Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,8,8,8,9,9,11,11,11,11,11,11,11,11,11
-GitHub Forks,7,7,7,7,7,7,7,7,7,7,7,7,7,7
-GitHub Contributors,7,7,7,7,7,7,7,7,7,7,7,7,7,7
-GitHub Pull Requests (PRs) Merged,9,9,9,9,9,9,9,9,9,9,9,9,9,9
-Number of Releases,4,5,5,5,5,5,5,5,5,5,5,5,5,5
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: hal,Repo: cardano-foundation/hal,Language: Shell
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,3,3,3
-GitHub Forks,0,0,0
-GitHub Contributors,5,5,5
-GitHub Pull Requests (PRs) Merged,14,14,14
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: hal-fixture-cos,Repo: cardano-foundation/hal-fixture-cos,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: hal-fixture-sec,Repo: cardano-foundation/hal-fixture-sec,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: hal-fixture-sin,Repo: cardano-foundation/hal-fixture-sin,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,4,4,4
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: hal-fixture-tan,Repo: cardano-foundation/hal-fixture-tan,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: hello-yaci,Repo: bloxbean/hello-yaci,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: hermes,Repo: cardano-foundation/hermes,Language: Rust
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,19,19,19
-GitHub Forks,4,4,4
-GitHub Contributors,17,17,17
-GitHub Pull Requests (PRs) Merged,299,299,299
-Number of Releases,4,4,4
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: hermes-relayer,Repo: cardano-foundation/hermes-relayer,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,88,88,88
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: homebrew-tap,Repo: bloxbean/homebrew-tap,Language: Ruby
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: hydra-java,Repo: cardano-foundation/hydra-java,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,11,11,11
-GitHub Forks,4,4,4
-GitHub Contributors,8,8,8
-GitHub Pull Requests (PRs) Merged,42,42,42
-Number of Releases,9,9,9
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: hydra-voting-poc,Repo: cardano-foundation/hydra-voting-poc,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,12,12,12
-GitHub Forks,1,1,1
-GitHub Contributors,4,4,4
-GitHub Pull Requests (PRs) Merged,10,10,10
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: incentivized-testnet-stakepool-registry,Repo: cardano-foundation/incentivized-testnet-stakepool-registry,Language: Standard ML
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,55,55,55
-GitHub Forks,704,704,704
-GitHub Contributors,886,886,886
-GitHub Pull Requests (PRs) Merged,1248,1248,1248
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: intelliada,Repo: bloxbean/intelliada,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,9,9,9
-GitHub Forks,3,3,3
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,5,5,5
-Number of Releases,8,8,8
-Downloads,Github downloads 76,Github downloads 76,Github downloads 76
-
-Project: intelliada-docs,Repo: bloxbean/intelliada-docs,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: jadex,Repo: bloxbean/jadex,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,3,3,3
-GitHub Forks,2,2,2
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,3,3,3
-Number of Releases,1,1,1
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: jormungandr,Repo: cardano-foundation/jormungandr,Language: Rust
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,368,368,368
-GitHub Forks,132,132,132
-GitHub Contributors,67,67,67
-GitHub Pull Requests (PRs) Merged,2168,2168,2168
-Number of Releases,96,96,96
-Downloads,Github downloads 44433,Github downloads 44490,Github downloads 44539
-
-Project: julc,Repo: bloxbean/julc,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,5,5,5
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,29,29,31
-Number of Releases,8,8,9
-Downloads,Github downloads 24,Github downloads 24,Github downloads 29
-
-Project: julc-examples,Repo: bloxbean/julc-examples,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,1,1,1
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: julc-helloworld,Repo: bloxbean/julc-helloworld,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: keria,Repo: cardano-foundation/keria,Language: Python
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,2,2,2
-GitHub Contributors,17,17,17
-GitHub Pull Requests (PRs) Merged,5,5,5
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: keripy,Repo: cardano-foundation/keripy,Language: Python
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,39,39,39
-GitHub Pull Requests (PRs) Merged,1,1,1
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: kokun,Repo: bloxbean/kokun,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,6,6,6
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: ktransform,Repo: cardano-foundation/ktransform,Language: Go
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: kupo,Repo: CardanoSolutions/kupo,Language: Haskell
-Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,129,133,132,133,135,135,136,137,137,138,138,137,137,137
-GitHub Forks,30,30,30,30,30,30,31,32,32,31,31,31,34,35
-GitHub Contributors,13,13,13,13,13,13,13,13,14,14,14,14,14,14
-GitHub Pull Requests (PRs) Merged,39,39,39,39,39,39,39,39,40,42,43,44,44,44
-Number of Releases,15,15,15,15,15,15,15,15,15,15,15,15,15,15
-Downloads,Github downloads 5128,Github downloads 5214,Github downloads 5289,Github downloads 5317,Github downloads 5408,Github downloads 5455,Github downloads 5607,Github downloads 5619,Github downloads 5762,Github downloads 5777,Github downloads 5829,Github downloads 5842,Github downloads 5879,Github downloads 5900
-
-Project: ledger-app-cardano,Repo: cardano-foundation/ledger-app-cardano,Language: C
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,25,25,25
-GitHub Forks,12,12,12
-GitHub Contributors,6,6,6
-GitHub Pull Requests (PRs) Merged,7,7,7
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: ledgerjs-hw-app-cardano,Repo: cardano-foundation/ledgerjs-hw-app-cardano,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,31,31,31
-GitHub Forks,16,16,16
-GitHub Contributors,21,21,21
-GitHub Pull Requests (PRs) Merged,12,12,12
-Number of Releases,11,11,11
-Downloads,Github downloads 106,Github downloads 106,Github downloads 106
-
-Project: merkle-patricia-forestry,Repo: aiken-lang/merkle-patricia-forestry,Language: JavaScript
-Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,43,43,43,44,44,43,43,43,43,43,44,43,43,43
-GitHub Forks,13,13,13,15,15,15,15,15,15,15,15,15,15,15
-GitHub Contributors,7,7,7,7,7,7,7,7,7,7,7,7,7,7
-GitHub Pull Requests (PRs) Merged,7,8,8,8,8,8,8,8,8,8,8,8,8,8
-Number of Releases,4,5,5,5,5,5,5,5,5,5,5,5,5,5
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: merkle-tree-java,Repo: cardano-foundation/merkle-tree-java,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,4,4,4
-GitHub Forks,7,7,7
-GitHub Contributors,7,7,7
-GitHub Pull Requests (PRs) Merged,14,14,14
-Number of Releases,3,3,3
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: metadata-indexer,Repo: bloxbean/metadata-indexer,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: moog,Repo: cardano-foundation/moog,Language: Haskell
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,12,12,12
-GitHub Forks,3,3,3
-GitHub Contributors,10,10,10
-GitHub Pull Requests (PRs) Merged,46,46,49
-Number of Releases,15,15,15
-Downloads,Github downloads 1433,Github downloads 1535,Github downloads 1596
-
-Project: mpfs,Repo: cardano-foundation/mpfs,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,0,0,0
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,6,6,6
-Number of Releases,1,1,1
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: oan-staking-dashboard-api,Repo: bloxbean/oan-staking-dashboard-api,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,1,1,1
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: ogmios,Repo: CardanoSolutions/ogmios,Language: Haskell
-Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,313,313,314,314,316,318,319,321,322,325,327,327,327,327
-GitHub Forks,94,94,94,96,97,97,96,95,95,95,94,94,96,97
-GitHub Contributors,29,29,29,29,29,29,29,29,29,29,29,29,29,29
-GitHub Pull Requests (PRs) Merged,135,135,135,135,135,135,136,136,136,136,136,136,136,136
-Number of Releases,49,49,49,49,50,50,50,50,50,50,50,50,50,50
-Downloads,Github downloads 16300,Github downloads 17291,Github downloads 18362,Github downloads 19507,Github downloads 20606,Github downloads 22293,Github downloads 23552,Github downloads 24943,Github downloads 25903,Github downloads 26674,Github downloads 27910,Github downloads 28156,Github downloads 29159,Github downloads 29998
-
-Project: ogmios-mdk,Repo: CardanoSolutions/ogmios-mdk,Language: JavaScript
-Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-GitHub Forks,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-GitHub Contributors,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Number of Releases,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: openblockperf,Repo: cardano-foundation/openblockperf,Language: Python
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,6,6,6
-Number of Releases,1,1,1
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: originatenavio,Repo: cardano-foundation/originatenavio,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,7,7,7
-GitHub Forks,5,5,5
-GitHub Contributors,5,5,5
-GitHub Pull Requests (PRs) Merged,8,8,8
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: pool-contribution-dashboard,Repo: cardano-foundation/pool-contribution-dashboard,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,1,1,1
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: rocks-types,Repo: bloxbean/rocks-types,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,6,6,6
-Number of Releases,3,3,3
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: roundtable,Repo: bloxbean/roundtable,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,3,3,3
-Downloads,Github downloads 13,Github downloads 13,Github downloads 13
-
-Project: signify-ts,Repo: cardano-foundation/signify-ts,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,3,3,3
-GitHub Forks,3,3,3
-GitHub Contributors,19,19,19
-GitHub Pull Requests (PRs) Merged,3,3,4
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: state-of-the-developer-ecosystem,Repo: cardano-foundation/state-of-the-developer-ecosystem,Language: JavaScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,16,16,16
-GitHub Forks,3,3,3
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,2,2,2
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: stdlib,Repo: aiken-lang/stdlib,Language: Aiken
-Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,56,56,57,57,58,58,59,59,59,59,60,59,60,60
-GitHub Forks,35,36,36,36,37,36,38,39,39,41,41,41,41,41
-GitHub Contributors,26,27,27,27,28,28,28,29,29,30,30,30,30,30
-GitHub Pull Requests (PRs) Merged,58,60,60,60,62,62,62,63,63,64,64,64,64,65
-Number of Releases,13,14,14,14,15,15,16,16,16,16,17,17,17,17
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: store-data-verification,Repo: bloxbean/store-data-verification,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,15,15,15
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: terragrunt-aws-eks,Repo: cardano-foundation/terragrunt-aws-eks,Language: HCL
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,1,1,1
-GitHub Contributors,3,3,4
-GitHub Pull Requests (PRs) Merged,12,12,13
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: testnet-generation-tool,Repo: cardano-foundation/testnet-generation-tool,Language: Python
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,4,4,4
-Number of Releases,1,1,1
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: testnets-cardano-org,Repo: cardano-foundation/testnets-cardano-org,Language: JavaScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,56,56,56
-GitHub Forks,32,32,32
-GitHub Contributors,25,25,25
-GitHub Pull Requests (PRs) Merged,510,510,510
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: tx-leaderboard-script,Repo: cardano-foundation/tx-leaderboard-script,Language: Python
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,3,3,3
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,4,4,4
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: utxo-tracker,Repo: bloxbean/utxo-tracker,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,3,3,3
-GitHub Forks,2,2,2
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,1,1,1
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: uverify-backend,Repo: cardano-foundation/uverify-backend,Language: Unknown
-Metric,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0,0,0,0,0
-GitHub Forks,0,0,0,0,0,0,0
-GitHub Contributors,3,3,3,3,3,3,3
-GitHub Pull Requests (PRs) Merged,0,0,0,0,0,0,0
-Number of Releases,0,0,0,0,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: veridian-docs,Repo: cardano-foundation/veridian-docs,Language: MDX
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,3,3,3
-GitHub Contributors,7,7,7
-GitHub Pull Requests (PRs) Merged,59,59,59
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
-
-Project: veridian-wallet,Repo: cardano-foundation/veridian-wallet,Language: TypeScript
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,123,124,125,127,130,133,136,138,139,139,141,142,141,141,143
-GitHub Forks,21,21,24,25,26,26,27,30,34,33,35,36,37,37,37
-GitHub Contributors,16,17,18,18,18,18,18,18,18,18,21,21,21,21,22
-GitHub Pull Requests (PRs) Merged,1103,1130,1162,1186,1224,1269,1312,1334,1404,1449,1486,1493,1493,1493,1495
-Number of Releases,3,3,4,4,4,4,4,4,4,4,4,6,6,6,6
+Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,8,8,8,9,9,11,11,11,11,11,11,11,11,11,11
+GitHub Forks,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+GitHub Contributors,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+GitHub Pull Requests (PRs) Merged,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9
+Number of Releases,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5
 Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
+Project: hal,Repo: cardano-foundation/hal,Language: Shell
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,3,3,3,3
+GitHub Forks,0,0,0,0
+GitHub Contributors,5,5,5,5
+GitHub Pull Requests (PRs) Merged,14,14,14,15
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: hal-fixture-cos,Repo: cardano-foundation/hal-fixture-cos,Language: Unknown
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: hal-fixture-sec,Repo: cardano-foundation/hal-fixture-sec,Language: Unknown
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: hal-fixture-sin,Repo: cardano-foundation/hal-fixture-sin,Language: Unknown
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,4,4,4,4
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: hal-fixture-tan,Repo: cardano-foundation/hal-fixture-tan,Language: Unknown
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: hello-yaci,Repo: bloxbean/hello-yaci,Language: Java
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: hermes,Repo: cardano-foundation/hermes,Language: Rust
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,19,19,19,19
+GitHub Forks,4,4,4,4
+GitHub Contributors,17,17,17,17
+GitHub Pull Requests (PRs) Merged,299,299,299,299
+Number of Releases,4,4,4,4
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: hermes-relayer,Repo: cardano-foundation/hermes-relayer,Language: Rust
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,88,88,88,89
+GitHub Pull Requests (PRs) Merged,0,0,0,3
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: homebrew-tap,Repo: bloxbean/homebrew-tap,Language: Ruby
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: hydra-java,Repo: cardano-foundation/hydra-java,Language: Java
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,11,11,11,11
+GitHub Forks,4,4,4,4
+GitHub Contributors,8,8,8,8
+GitHub Pull Requests (PRs) Merged,42,42,42,42
+Number of Releases,9,9,9,9
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: hydra-voting-poc,Repo: cardano-foundation/hydra-voting-poc,Language: Java
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,12,12,12,12
+GitHub Forks,1,1,1,1
+GitHub Contributors,4,4,4,4
+GitHub Pull Requests (PRs) Merged,10,10,10,10
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: incentivized-testnet-stakepool-registry,Repo: cardano-foundation/incentivized-testnet-stakepool-registry,Language: Standard ML
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,55,55,55,55
+GitHub Forks,704,704,704,700
+GitHub Contributors,886,886,886,886
+GitHub Pull Requests (PRs) Merged,1248,1248,1248,1248
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: intelliada,Repo: bloxbean/intelliada,Language: Java
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,9,9,9,9
+GitHub Forks,3,3,3,3
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,5,5,5,5
+Number of Releases,8,8,8,8
+Downloads,Github downloads 76,Github downloads 76,Github downloads 76,Github downloads 78
+
+Project: intelliada-docs,Repo: bloxbean/intelliada-docs,Language: Unknown
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: jadex,Repo: bloxbean/jadex,Language: Java
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,3,3,3,3
+GitHub Forks,2,2,2,2
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,3,3,3,3
+Number of Releases,1,1,1,1
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: jormungandr,Repo: cardano-foundation/jormungandr,Language: Rust
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,368,368,368,368
+GitHub Forks,132,132,132,132
+GitHub Contributors,67,67,67,67
+GitHub Pull Requests (PRs) Merged,2168,2168,2168,2168
+Number of Releases,96,96,96,96
+Downloads,Github downloads 44433,Github downloads 44490,Github downloads 44539,Github downloads 44584
+
+Project: julc,Repo: bloxbean/julc,Language: Java
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,5,5,5,5
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,29,29,31,38
+Number of Releases,8,8,9,10
+Downloads,Github downloads 24,Github downloads 24,Github downloads 29,Github downloads 35
+
+Project: julc-examples,Repo: bloxbean/julc-examples,Language: Java
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,1,1,1,1
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: julc-helloworld,Repo: bloxbean/julc-helloworld,Language: Java
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: keria,Repo: cardano-foundation/keria,Language: Python
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,2,2,2,2
+GitHub Contributors,17,17,17,17
+GitHub Pull Requests (PRs) Merged,5,5,5,5
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: keripy,Repo: cardano-foundation/keripy,Language: Python
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,39,39,39,39
+GitHub Pull Requests (PRs) Merged,1,1,1,2
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: kokun,Repo: bloxbean/kokun,Language: Unknown
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,6,6,6,6
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: ktransform,Repo: cardano-foundation/ktransform,Language: Go
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: kupo,Repo: CardanoSolutions/kupo,Language: Haskell
+Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,129,133,132,133,135,135,136,137,137,138,138,137,137,137,137
+GitHub Forks,30,30,30,30,30,30,31,32,32,31,31,31,34,35,36
+GitHub Contributors,13,13,13,13,13,13,13,13,14,14,14,14,14,14,14
+GitHub Pull Requests (PRs) Merged,39,39,39,39,39,39,39,39,40,42,43,44,44,44,44
+Number of Releases,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15
+Downloads,Github downloads 5128,Github downloads 5214,Github downloads 5289,Github downloads 5317,Github downloads 5408,Github downloads 5455,Github downloads 5607,Github downloads 5619,Github downloads 5762,Github downloads 5777,Github downloads 5829,Github downloads 5842,Github downloads 5879,Github downloads 5900,Github downloads 5956
+
+Project: ledger-app-cardano,Repo: cardano-foundation/ledger-app-cardano,Language: C
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,25,25,25,24
+GitHub Forks,12,12,12,12
+GitHub Contributors,6,6,6,6
+GitHub Pull Requests (PRs) Merged,7,7,7,7
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: ledgerjs-hw-app-cardano,Repo: cardano-foundation/ledgerjs-hw-app-cardano,Language: TypeScript
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,31,31,31,31
+GitHub Forks,16,16,16,16
+GitHub Contributors,21,21,21,21
+GitHub Pull Requests (PRs) Merged,12,12,12,12
+Number of Releases,11,11,11,11
+Downloads,Github downloads 106,Github downloads 106,Github downloads 106,Github downloads 109
+
+Project: merkle-patricia-forestry,Repo: aiken-lang/merkle-patricia-forestry,Language: JavaScript
+Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,43,43,43,44,44,43,43,43,43,43,44,43,43,43,43
+GitHub Forks,13,13,13,15,15,15,15,15,15,15,15,15,15,15,15
+GitHub Contributors,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+GitHub Pull Requests (PRs) Merged,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8
+Number of Releases,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: merkle-tree-java,Repo: cardano-foundation/merkle-tree-java,Language: Java
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,4,4,4,4
+GitHub Forks,7,7,7,7
+GitHub Contributors,7,7,7,7
+GitHub Pull Requests (PRs) Merged,14,14,14,14
+Number of Releases,3,3,3,3
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: metadata-indexer,Repo: bloxbean/metadata-indexer,Language: Java
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: moog,Repo: cardano-foundation/moog,Language: Haskell
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,12,12,12,12
+GitHub Forks,3,3,3,3
+GitHub Contributors,10,10,10,10
+GitHub Pull Requests (PRs) Merged,46,46,49,77
+Number of Releases,15,15,15,18
+Downloads,Github downloads 1433,Github downloads 1535,Github downloads 1596,Github downloads 1721
+
+Project: mpfs,Repo: cardano-foundation/mpfs,Language: TypeScript
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,0,0,0,0
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,6,6,6,7
+Number of Releases,1,1,1,2
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: oan-staking-dashboard-api,Repo: bloxbean/oan-staking-dashboard-api,Language: Java
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,1,1,1,1
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: ogmios,Repo: CardanoSolutions/ogmios,Language: Haskell
+Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,313,313,314,314,316,318,319,321,322,325,327,327,327,327,327
+GitHub Forks,94,94,94,96,97,97,96,95,95,95,94,94,96,97,103
+GitHub Contributors,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29
+GitHub Pull Requests (PRs) Merged,135,135,135,135,135,135,136,136,136,136,136,136,136,136,136
+Number of Releases,49,49,49,49,50,50,50,50,50,50,50,50,50,50,50
+Downloads,Github downloads 16300,Github downloads 17291,Github downloads 18362,Github downloads 19507,Github downloads 20606,Github downloads 22293,Github downloads 23552,Github downloads 24943,Github downloads 25903,Github downloads 26674,Github downloads 27910,Github downloads 28156,Github downloads 29159,Github downloads 29998,Github downloads 31488
+
+Project: ogmios-mdk,Repo: CardanoSolutions/ogmios-mdk,Language: JavaScript
+Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GitHub Forks,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GitHub Contributors,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Number of Releases,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: openblockperf,Repo: cardano-foundation/openblockperf,Language: Python
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,6,6,6,7
+Number of Releases,1,1,1,1
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: originatenavio,Repo: cardano-foundation/originatenavio,Language: Java
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,7,7,7,7
+GitHub Forks,5,5,5,5
+GitHub Contributors,5,5,5,5
+GitHub Pull Requests (PRs) Merged,8,8,8,8
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: pool-contribution-dashboard,Repo: cardano-foundation/pool-contribution-dashboard,Language: TypeScript
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,1,1,1,1
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: rocks-types,Repo: bloxbean/rocks-types,Language: Java
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,6,6,6,6
+Number of Releases,3,3,3,3
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: roundtable,Repo: bloxbean/roundtable,Language: Java
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,3,3,3,3
+Downloads,Github downloads 13,Github downloads 13,Github downloads 13,Github downloads 13
+
+Project: signify-ts,Repo: cardano-foundation/signify-ts,Language: TypeScript
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,3,3,3,3
+GitHub Forks,3,3,3,3
+GitHub Contributors,19,19,19,19
+GitHub Pull Requests (PRs) Merged,3,3,4,6
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: state-of-the-developer-ecosystem,Repo: cardano-foundation/state-of-the-developer-ecosystem,Language: JavaScript
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,16,16,16,16
+GitHub Forks,3,3,3,3
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,2,2,2,2
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: stdlib,Repo: aiken-lang/stdlib,Language: Aiken
+Metric,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,56,56,57,57,58,58,59,59,59,59,60,59,60,60,60
+GitHub Forks,35,36,36,36,37,36,38,39,39,41,41,41,41,41,41
+GitHub Contributors,26,27,27,27,28,28,28,29,29,30,30,30,30,30,30
+GitHub Pull Requests (PRs) Merged,58,60,60,60,62,62,62,63,63,64,64,64,64,65,65
+Number of Releases,13,14,14,14,15,15,16,16,16,16,17,17,17,17,17
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: store-data-verification,Repo: bloxbean/store-data-verification,Language: TypeScript
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,15,15,15,15
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: terragrunt-aws-eks,Repo: cardano-foundation/terragrunt-aws-eks,Language: HCL
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,1,1,1,1
+GitHub Contributors,3,3,4,4
+GitHub Pull Requests (PRs) Merged,12,12,13,13
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: testnet-generation-tool,Repo: cardano-foundation/testnet-generation-tool,Language: Python
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,4,4,4,4
+Number of Releases,1,1,1,1
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: testnets-cardano-org,Repo: cardano-foundation/testnets-cardano-org,Language: JavaScript
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,56,56,56,56
+GitHub Forks,32,32,32,32
+GitHub Contributors,25,25,25,25
+GitHub Pull Requests (PRs) Merged,510,510,510,510
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: tx-leaderboard-script,Repo: cardano-foundation/tx-leaderboard-script,Language: Python
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,3,3,3,3
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,4,4,4,4
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: utxo-tracker,Repo: bloxbean/utxo-tracker,Language: Java
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,3,3,3,3
+GitHub Forks,2,2,2,2
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,1,1,1,1
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: uverify-backend,Repo: cardano-foundation/uverify-backend,Language: Unknown
+Metric,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0,0,0,0,0
+GitHub Forks,0,0,0,0,0,0,0,0
+GitHub Contributors,3,3,3,3,3,3,3,3
+GitHub Pull Requests (PRs) Merged,0,0,0,0,0,0,0,0
+Number of Releases,0,0,0,0,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: veridian-docs,Repo: cardano-foundation/veridian-docs,Language: MDX
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,3,3,3,3
+GitHub Contributors,7,7,7,7
+GitHub Pull Requests (PRs) Merged,59,59,59,59
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
+Project: veridian-wallet,Repo: cardano-foundation/veridian-wallet,Language: TypeScript
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,123,124,125,127,130,133,136,138,139,139,141,142,141,141,143,143
+GitHub Forks,21,21,24,25,26,26,27,30,34,33,35,36,37,37,37,37
+GitHub Contributors,16,17,18,18,18,18,18,18,18,18,21,21,21,21,22,22
+GitHub Pull Requests (PRs) Merged,1103,1130,1162,1186,1224,1269,1312,1334,1404,1449,1486,1493,1493,1493,1495,1495
+Number of Releases,3,3,4,4,4,4,4,4,4,4,4,6,6,6,6,7
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+
 Project: verify-cardano-message-fe,Repo: cardano-foundation/verify-cardano-message-fe,Language: JavaScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,2,2
-GitHub Forks,2,2,2
-GitHub Contributors,4,4,4
-GitHub Pull Requests (PRs) Merged,59,59,59
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,2,2,2
+GitHub Forks,2,2,2,2
+GitHub Contributors,4,4,4,4
+GitHub Pull Requests (PRs) Merged,59,59,59,59
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: vit-servicing-station,Repo: cardano-foundation/vit-servicing-station,Language: Rust
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,7,7,7
-GitHub Forks,8,8,8
-GitHub Contributors,25,25,25
-GitHub Pull Requests (PRs) Merged,227,227,227
-Number of Releases,4,4,4
-Downloads,Github downloads 69,Github downloads 69,Github downloads 69
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,7,7,7,7
+GitHub Forks,8,8,8,8
+GitHub Contributors,25,25,25,25
+GitHub Pull Requests (PRs) Merged,227,227,227,227
+Number of Releases,4,4,4,4
+Downloads,Github downloads 69,Github downloads 69,Github downloads 69,Github downloads 70
 
 Project: vit-testing,Repo: cardano-foundation/vit-testing,Language: Rust
-Metric,18/05/2026
-GitHub Stars,4
-GitHub Forks,7
-GitHub Contributors,15
-GitHub Pull Requests (PRs) Merged,228
-Number of Releases,3
-Downloads,Github downloads 88
+Metric,18/05/2026,01/06/2026
+GitHub Stars,4,4
+GitHub Forks,7,7
+GitHub Contributors,15,15
+GitHub Pull Requests (PRs) Merged,228,228
+Number of Releases,3,3
+Downloads,Github downloads 88,Github downloads 89
 
 Project: x402,Repo: cardano-foundation/x402,Language: TypeScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,1,1
-GitHub Forks,0,0,1
-GitHub Contributors,254,256,256
-GitHub Pull Requests (PRs) Merged,0,1,1
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,1,1,1
+GitHub Forks,0,0,1,1
+GitHub Contributors,254,256,256,278
+GitHub Pull Requests (PRs) Merged,0,1,1,3
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: x402-cardano,Repo: cardano-foundation/x402-cardano,Language: TypeScript
-Metric,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0,0,0,0,0
-GitHub Forks,0,0,0,0,0,0,0
-GitHub Contributors,64,64,64,64,64,64,64
-GitHub Pull Requests (PRs) Merged,0,0,0,0,0,0,0
-Number of Releases,0,0,0,0,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0,0,0,0,0
+GitHub Forks,0,0,0,0,0,0,0,0
+GitHub Contributors,64,64,64,64,64,64,64,64
+GitHub Pull Requests (PRs) Merged,0,0,0,0,0,0,0,0
+Number of Releases,0,0,0,0,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: yaci,Repo: bloxbean/yaci,Language: Java
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,26,26,27,27,27,28,30,30,30,30,30,30,30,30,30
-GitHub Forks,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4
-GitHub Contributors,5,5,5,5,5,5,5,5,5,6,6,6,6,6,6
-GitHub Pull Requests (PRs) Merged,62,66,66,73,73,73,73,73,75,79,92,97,97,100,101
-Number of Releases,36,39,39,42,42,42,42,42,43,43,47,49,49,49,49
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 1,Github downloads 1,Github downloads 1,Github downloads 1,Github downloads 1
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,26,26,27,27,27,28,30,30,30,30,30,30,30,30,30,31
+GitHub Forks,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4
+GitHub Contributors,5,5,5,5,5,5,5,5,5,6,6,6,6,6,6,6
+GitHub Pull Requests (PRs) Merged,62,66,66,73,73,73,73,73,75,79,92,97,97,100,101,105
+Number of Releases,36,39,39,42,42,42,42,42,43,43,47,49,49,49,49,50
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 1,Github downloads 1,Github downloads 1,Github downloads 1,Github downloads 1,Github downloads 1
 
 Project: yaci-address-balance-monitor,Repo: cardano-foundation/yaci-address-balance-monitor,Language: Shell
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,3,3,3
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,3,3,3,3
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: yaci-bridge,Repo: bloxbean/yaci-bridge,Language: Python
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,2,2
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,1,1,1
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,2,2,2
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,1,1,1,1
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: yaci-cardano-test,Repo: bloxbean/yaci-cardano-test,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,0,0,0
-GitHub Contributors,3,3,3
-GitHub Pull Requests (PRs) Merged,10,10,10
-Number of Releases,3,3,3
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,0,0,0,0
+GitHub Contributors,3,3,3,3
+GitHub Pull Requests (PRs) Merged,10,10,10,10
+Number of Releases,3,3,3,3
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: yaci-cardano-test-sample,Repo: bloxbean/yaci-cardano-test-sample,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: yaci-cli,Repo: bloxbean/yaci-cli,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,6,6,6
-GitHub Forks,1,1,1
-GitHub Contributors,2,2,2
-GitHub Pull Requests (PRs) Merged,11,11,11
-Number of Releases,25,25,25
-Downloads,Github downloads 181,Github downloads 185,Github downloads 185
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,6,6,6,6
+GitHub Forks,1,1,1,1
+GitHub Contributors,2,2,2,2
+GitHub Pull Requests (PRs) Merged,11,11,11,11
+Number of Releases,25,25,25,25
+Downloads,Github downloads 181,Github downloads 185,Github downloads 185,Github downloads 185
 
 Project: yaci-dataprover,Repo: bloxbean/yaci-dataprover,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,1,1,1
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,1,1,1,1
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: yaci-devkit,Repo: bloxbean/yaci-devkit,Language: Java
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,52,53,53,57,58,59,61,62,62,62,67,68,68,68,68
-GitHub Forks,12,13,13,14,14,14,14,14,14,17,17,17,17,16,17
-GitHub Contributors,9,9,9,9,9,9,9,9,9,12,12,12,12,12,12
-GitHub Pull Requests (PRs) Merged,64,66,71,71,71,71,71,71,71,80,85,85,85,85,87
-Number of Releases,27,27,28,28,28,28,28,28,28,28,28,28,28,28,28
-Downloads,Github downloads 659,Github downloads 733,Github downloads 778,Github downloads 805,Github downloads 828,Github downloads 862,Github downloads 931,Github downloads 957,Github downloads 992,Github downloads 1040,Github downloads 1104,Github downloads 1127,Github downloads 1131,Github downloads 1134,Github downloads 1146
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,52,53,53,57,58,59,61,62,62,62,67,68,68,68,68,68
+GitHub Forks,12,13,13,14,14,14,14,14,14,17,17,17,17,16,17,17
+GitHub Contributors,9,9,9,9,9,9,9,9,9,12,12,12,12,12,12,13
+GitHub Pull Requests (PRs) Merged,64,66,71,71,71,71,71,71,71,80,85,85,85,85,87,91
+Number of Releases,27,27,28,28,28,28,28,28,28,28,28,28,28,28,28,28
+Downloads,Github downloads 659,Github downloads 733,Github downloads 778,Github downloads 805,Github downloads 828,Github downloads 862,Github downloads 931,Github downloads 957,Github downloads 992,Github downloads 1040,Github downloads 1104,Github downloads 1127,Github downloads 1131,Github downloads 1134,Github downloads 1146,Github downloads 1192
 
 Project: yaci-store,Repo: bloxbean/yaci-store,Language: Java
-Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,26,26,27,30,33,34,38,40,41,43,46,47,46,46,46
-GitHub Forks,9,10,10,11,11,11,12,12,12,12,13,13,13,13,13
-GitHub Contributors,11,11,11,11,11,12,12,12,12,13,15,15,15,15,15
-GitHub Pull Requests (PRs) Merged,312,328,350,367,373,375,401,402,418,438,459,482,484,497,509
-Number of Releases,45,47,51,55,56,56,58,58,60,62,62,63,63,63,66
-Downloads,Github downloads 1366,Github downloads 1420,Github downloads 1554,Github downloads 1351,Github downloads 1365,Github downloads 1559,Github downloads 1268,Github downloads 1611,Github downloads 1681,Github downloads 1801,Github downloads 2090,Github downloads 2227,Github downloads 2251,Github downloads 2999,Github downloads 3205
+Metric,01/06/2025,30/06/2025,28/07/2025,28/08/2025,28/09/2025,28/10/2025,28/11/2025,29/12/2025,29/01/2026,01/03/2026,29/03/2026,29/04/2026,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,26,26,27,30,33,34,38,40,41,43,46,47,46,46,46,46
+GitHub Forks,9,10,10,11,11,11,12,12,12,12,13,13,13,13,13,13
+GitHub Contributors,11,11,11,11,11,12,12,12,12,13,15,15,15,15,15,15
+GitHub Pull Requests (PRs) Merged,312,328,350,367,373,375,401,402,418,438,459,482,484,497,509,516
+Number of Releases,45,47,51,55,56,56,58,58,60,62,62,63,63,63,66,68
+Downloads,Github downloads 1366,Github downloads 1420,Github downloads 1554,Github downloads 1351,Github downloads 1365,Github downloads 1559,Github downloads 1268,Github downloads 1611,Github downloads 1681,Github downloads 1801,Github downloads 2090,Github downloads 2227,Github downloads 2251,Github downloads 2999,Github downloads 3205,Github downloads 3903
 
 Project: yaci-store-native-builds,Repo: bloxbean/yaci-store-native-builds,Language: Earthly
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: yaci-store-plugins,Repo: bloxbean/yaci-store-plugins,Language: JavaScript
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: yaci-store-samples,Repo: bloxbean/yaci-store-samples,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: yaci-viewer,Repo: bloxbean/yaci-viewer,Language: Svelte
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,1,1,1
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,1,1,1,1
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: yaci-viewer-config,Repo: bloxbean/yaci-viewer-config,Language: Unknown
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: yano,Repo: bloxbean/yano,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,2,2,2
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,4,7,7
-Number of Releases,1,3,3
-Downloads,Github downloads 6,Github downloads 8,Github downloads 11
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,2,2,2,2
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,4,7,7,10
+Number of Releases,1,3,3,5
+Downloads,Github downloads 6,Github downloads 8,Github downloads 11,Github downloads 18
 
 Project: zeroj,Repo: bloxbean/zeroj,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,1,1,1
-GitHub Forks,0,0,0
-GitHub Contributors,1,2,2
-GitHub Pull Requests (PRs) Merged,0,2,5
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,1,1,1,1
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,2,2,2
+GitHub Pull Requests (PRs) Merged,0,2,5,6
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
 Project: zeroj-usecases,Repo: bloxbean/zeroj-usecases,Language: Java
-Metric,04/05/2026,11/05/2026,18/05/2026
-GitHub Stars,0,0,0
-GitHub Forks,0,0,0
-GitHub Contributors,1,1,1
-GitHub Pull Requests (PRs) Merged,0,0,0
-Number of Releases,0,0,0
-Downloads,Github downloads 0,Github downloads 0,Github downloads 0
+Metric,04/05/2026,11/05/2026,18/05/2026,01/06/2026
+GitHub Stars,0,0,0,0
+GitHub Forks,0,0,0,0
+GitHub Contributors,1,1,1,1
+GitHub Pull Requests (PRs) Merged,0,0,0,0
+Number of Releases,0,0,0,0
+Downloads,Github downloads 0,Github downloads 0,Github downloads 0,Github downloads 0
 
