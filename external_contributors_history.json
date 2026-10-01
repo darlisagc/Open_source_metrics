@@ -5781,6 +5781,299 @@
           "zliu41"
         ]
       }
+    },
+    {
+      "period": "2026-09-01/2026-09-30",
+      "label": "Sep 2026",
+      "collected_at": "2026-10-01",
+      "excluded_orgs": [
+        "cardano-foundation",
+        "bloxbean"
+      ],
+      "repos": {
+        "aiken-lang/aiken": {
+          "new_contributors": [
+            "jefdaj",
+            "jtranq"
+          ],
+          "returning_contributors": [
+            "Riley-Kilgore",
+            "colll78"
+          ],
+          "total_external": 4,
+          "new_count": 2,
+          "returning_count": 2
+        },
+        "aiken-lang/stdlib": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "MavenRain"
+          ],
+          "total_external": 1,
+          "new_count": 0,
+          "returning_count": 1
+        },
+        "bloxbean/cardano-client-lib": {
+          "new_contributors": [
+            "SashaMIT"
+          ],
+          "returning_contributors": [],
+          "total_external": 1,
+          "new_count": 1,
+          "returning_count": 0
+        },
+        "bloxbean/yaci-devkit": {
+          "new_contributors": [
+            "rjharmon"
+          ],
+          "returning_contributors": [],
+          "total_external": 1,
+          "new_count": 1,
+          "returning_count": 0
+        },
+        "bloxbean/yano": {
+          "new_contributors": [
+            "rjharmon"
+          ],
+          "returning_contributors": [],
+          "total_external": 1,
+          "new_count": 1,
+          "returning_count": 0
+        },
+        "cardano-foundation/CIPs": {
+          "new_contributors": [
+            "basetunnel",
+            "wpennemans"
+          ],
+          "returning_contributors": [
+            "Crypto2099",
+            "GS1973",
+            "Lucsanszky",
+            "Titan-C",
+            "aniketd",
+            "aslesarenko",
+            "carlostome",
+            "ch1bo",
+            "mariusgeorgescu",
+            "michele-nuzzi",
+            "nhenin",
+            "perturbing",
+            "rphair",
+            "will-break-it",
+            "willjgould",
+            "yHSJ"
+          ],
+          "total_external": 18,
+          "new_count": 2,
+          "returning_count": 16
+        },
+        "cardano-foundation/cardano-academy": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "johnnygreeney"
+          ],
+          "total_external": 1,
+          "new_count": 0,
+          "returning_count": 1
+        },
+        "cardano-foundation/cardano-dev-skills": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "wolf31o2"
+          ],
+          "total_external": 1,
+          "new_count": 0,
+          "returning_count": 1
+        },
+        "cardano-foundation/cardano-ibc-incubator": {
+          "new_contributors": [
+            "jtranq"
+          ],
+          "returning_contributors": [
+            "wolf31o2"
+          ],
+          "total_external": 2,
+          "new_count": 1,
+          "returning_count": 1
+        },
+        "cardano-foundation/cardano-ledger-read": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "AndrewWestberg"
+          ],
+          "total_external": 1,
+          "new_count": 0,
+          "returning_count": 1
+        },
+        "cardano-foundation/cardano-org": {
+          "new_contributors": [
+            "Bryandero98",
+            "artemfrostderten-netizen",
+            "laurencraig-afk"
+          ],
+          "returning_contributors": [
+            "IndividuoDigital",
+            "anupamme",
+            "lodl",
+            "profd2004",
+            "schmidko"
+          ],
+          "total_external": 8,
+          "new_count": 3,
+          "returning_count": 5
+        },
+        "cardano-foundation/cardano-token-registry": {
+          "new_contributors": [
+            "napadaslabs",
+            "nicholestan1984"
+          ],
+          "returning_contributors": [
+            "cardano-tools-nft",
+            "j-mueller",
+            "jshear",
+            "mcvetyty",
+            "tregubartemofficial",
+            "vorujack"
+          ],
+          "total_external": 8,
+          "new_count": 2,
+          "returning_count": 6
+        },
+        "cardano-foundation/cardano-wallet": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "AndrewWestberg"
+          ],
+          "total_external": 1,
+          "new_count": 0,
+          "returning_count": 1
+        },
+        "cardano-foundation/cf-cip-frontend": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "rphair"
+          ],
+          "total_external": 1,
+          "new_count": 0,
+          "returning_count": 1
+        },
+        "cardano-foundation/developer-portal": {
+          "new_contributors": [
+            "cletus-VIA",
+            "colpo560-cyber",
+            "girginomer10"
+          ],
+          "returning_contributors": [
+            "carbolymer",
+            "paulobressan",
+            "weqanhet"
+          ],
+          "total_external": 6,
+          "new_count": 3,
+          "returning_count": 3
+        },
+        "cardano-foundation/hermes-relayer": {
+          "new_contributors": [
+            "jtranq"
+          ],
+          "returning_contributors": [],
+          "total_external": 1,
+          "new_count": 1,
+          "returning_count": 0
+        },
+        "elm-cardano/elm-cardano": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "keyan-m"
+          ],
+          "total_external": 1,
+          "new_count": 0,
+          "returning_count": 1
+        },
+        "pragma-org/amaru": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "Dam-CZ",
+            "MavenRain",
+            "arwlf",
+            "bomanaps",
+            "etorreborre",
+            "jeluard",
+            "mpizenberg",
+            "rkuhn",
+            "yHSJ"
+          ],
+          "total_external": 9,
+          "new_count": 0,
+          "returning_count": 9
+        }
+      },
+      "summary": {
+        "total_external": 58,
+        "total_new": 14,
+        "total_returning": 44,
+        "repos_with_activity": 18,
+        "all_contributors": [
+          "AndrewWestberg",
+          "Bryandero98",
+          "Crypto2099",
+          "Dam-CZ",
+          "GS1973",
+          "IndividuoDigital",
+          "Lucsanszky",
+          "MavenRain",
+          "Riley-Kilgore",
+          "SashaMIT",
+          "Titan-C",
+          "aniketd",
+          "anupamme",
+          "artemfrostderten-netizen",
+          "arwlf",
+          "aslesarenko",
+          "basetunnel",
+          "bomanaps",
+          "carbolymer",
+          "cardano-tools-nft",
+          "carlostome",
+          "ch1bo",
+          "cletus-VIA",
+          "colll78",
+          "colpo560-cyber",
+          "etorreborre",
+          "girginomer10",
+          "j-mueller",
+          "jefdaj",
+          "jeluard",
+          "johnnygreeney",
+          "jshear",
+          "jtranq",
+          "keyan-m",
+          "laurencraig-afk",
+          "lodl",
+          "mariusgeorgescu",
+          "mcvetyty",
+          "michele-nuzzi",
+          "mpizenberg",
+          "napadaslabs",
+          "nhenin",
+          "nicholestan1984",
+          "paulobressan",
+          "perturbing",
+          "profd2004",
+          "rjharmon",
+          "rkuhn",
+          "rphair",
+          "schmidko",
+          "tregubartemofficial",
+          "vorujack",
+          "weqanhet",
+          "will-break-it",
+          "willjgould",
+          "wolf31o2",
+          "wpennemans",
+          "yHSJ"
+        ]
+      }
     }
   ],
   "all_time_contributors": {
@@ -8905,7 +9198,8 @@
     "Lucsanszky": {
       "first_seen": "Jan 2018",
       "repos": [
-        "cardano-foundation/cardano-haskell-packages"
+        "cardano-foundation/cardano-haskell-packages",
+        "cardano-foundation/CIPs"
       ]
     },
     "andreabedini": {
@@ -8942,7 +9236,8 @@
     "carbolymer": {
       "first_seen": "Jan 2018",
       "repos": [
-        "cardano-foundation/cardano-haskell-packages"
+        "cardano-foundation/cardano-haskell-packages",
+        "cardano-foundation/developer-portal"
       ]
     },
     "effectfully": {
@@ -16704,7 +16999,8 @@
       "repos": [
         "cardano-foundation/cardano-token-registry",
         "cardano-foundation/catalyst-core",
-        "cardano-foundation/developer-portal"
+        "cardano-foundation/developer-portal",
+        "cardano-foundation/cardano-org"
       ]
     },
     "Bubba8291": {
@@ -17285,7 +17581,8 @@
     "Titan-C": {
       "first_seen": "Jan 2018",
       "repos": [
-        "cardano-foundation/cardano-wallet"
+        "cardano-foundation/cardano-wallet",
+        "cardano-foundation/CIPs"
       ]
     },
     "jimwfs": {
@@ -20791,7 +21088,8 @@
     "schmidko": {
       "first_seen": "Jan 2018",
       "repos": [
-        "cardano-foundation/developer-portal"
+        "cardano-foundation/developer-portal",
+        "cardano-foundation/cardano-org"
       ]
     },
     "BharatAtEMURGOIO": {
@@ -22163,7 +22461,8 @@
     "GS1973": {
       "first_seen": "Jan 2018",
       "repos": [
-        "cardano-foundation/incentivized-testnet-stakepool-registry"
+        "cardano-foundation/incentivized-testnet-stakepool-registry",
+        "cardano-foundation/CIPs"
       ]
     },
     "Eeee569": {
@@ -25814,7 +26113,8 @@
       "repos": [
         "cardano-foundation/cardano-governance-voting-tool",
         "elm-cardano/elm-cardano",
-        "cardano-foundation/CIPs"
+        "cardano-foundation/CIPs",
+        "pragma-org/amaru"
       ]
     },
     "karknu": {
@@ -25980,7 +26280,8 @@
     "yHSJ": {
       "first_seen": "Jan 2018",
       "repos": [
-        "pragma-org/amaru"
+        "pragma-org/amaru",
+        "cardano-foundation/CIPs"
       ]
     },
     "DeltaDeFiProtocol": {
@@ -26309,7 +26610,8 @@
       "repos": [
         "aiken-lang/fuzz",
         "aiken-lang/stdlib",
-        "cardano-foundation/cip113-programmable-tokens"
+        "cardano-foundation/cip113-programmable-tokens",
+        "pragma-org/amaru"
       ]
     },
     "skoniog": {
@@ -26365,6 +26667,93 @@
       "repos": [
         "pragma-org/amaru"
       ]
+    },
+    "jtranq": {
+      "first_seen": "Sep 2026",
+      "repos": [
+        "aiken-lang/aiken",
+        "cardano-foundation/cardano-ibc-incubator",
+        "cardano-foundation/hermes-relayer"
+      ]
+    },
+    "jefdaj": {
+      "first_seen": "Sep 2026",
+      "repos": [
+        "aiken-lang/aiken"
+      ]
+    },
+    "SashaMIT": {
+      "first_seen": "Sep 2026",
+      "repos": [
+        "bloxbean/cardano-client-lib"
+      ]
+    },
+    "rjharmon": {
+      "first_seen": "Sep 2026",
+      "repos": [
+        "bloxbean/yaci-devkit",
+        "bloxbean/yano"
+      ]
+    },
+    "basetunnel": {
+      "first_seen": "Sep 2026",
+      "repos": [
+        "cardano-foundation/CIPs"
+      ]
+    },
+    "wpennemans": {
+      "first_seen": "Sep 2026",
+      "repos": [
+        "cardano-foundation/CIPs"
+      ]
+    },
+    "artemfrostderten-netizen": {
+      "first_seen": "Sep 2026",
+      "repos": [
+        "cardano-foundation/cardano-org"
+      ]
+    },
+    "Bryandero98": {
+      "first_seen": "Sep 2026",
+      "repos": [
+        "cardano-foundation/cardano-org"
+      ]
+    },
+    "laurencraig-afk": {
+      "first_seen": "Sep 2026",
+      "repos": [
+        "cardano-foundation/cardano-org"
+      ]
+    },
+    "nicholestan1984": {
+      "first_seen": "Sep 2026",
+      "repos": [
+        "cardano-foundation/cardano-token-registry"
+      ]
+    },
+    "napadaslabs": {
+      "first_seen": "Sep 2026",
+      "repos": [
+        "cardano-foundation/cardano-token-registry"
+      ]
+    },
+    "cletus-VIA": {
+      "first_seen": "Sep 2026",
+      "repos": [
+        "cardano-foundation/developer-portal"
+      ]
+    },
+    "girginomer10": {
+      "first_seen": "Sep 2026",
+      "repos": [
+        "cardano-foundation/developer-portal"
+      ]
+    },
+    "colpo560-cyber": {
+      "first_seen": "Sep 2026",
+      "repos": [
+        "cardano-foundation/developer-portal"
+      ]
     }
   },
   "tracked_repos": [
@@ -26376,6 +26765,7 @@
     "aiken-lang/merkle-patricia-forestry",
     "aiken-lang/stdlib",
     "bloxbean/.github",
+    "bloxbean/BeanPulse",
     "bloxbean/aiken-java-binding",
     "bloxbean/aiken-jna-wrapper",
     "bloxbean/aion-faucet",
@@ -26397,7 +26787,6 @@
     "bloxbean/bloxbean-playground-config",
     "bloxbean/bloxbean.github.io",
     "bloxbean/cardano-client-backend-gql",
-    "bloxbean/cardano-client-bindings",
     "bloxbean/cardano-client-examples",
     "bloxbean/cardano-client-lib",
     "bloxbean/cardano-client-lib-docs",
@@ -26408,6 +26797,7 @@
     "bloxbean/devkit-hackathon-demo",
     "bloxbean/devkit-npm-ci-test",
     "bloxbean/ed25519-java",
+    "bloxbean/elci-lang",
     "bloxbean/hello-yaci",
     "bloxbean/homebrew-tap",
     "bloxbean/intelliada",
@@ -26416,9 +26806,13 @@
     "bloxbean/julc",
     "bloxbean/julc-examples",
     "bloxbean/julc-helloworld",
+    "bloxbean/kavach",
     "bloxbean/kokun",
+    "bloxbean/mesmo",
+    "bloxbean/mesmo-wasm",
     "bloxbean/metadata-indexer",
     "bloxbean/oan-staking-dashboard-api",
+    "bloxbean/release-ops",
     "bloxbean/rocks-types",
     "bloxbean/roundtable",
     "bloxbean/store-data-verification",
@@ -26439,11 +26833,14 @@
     "bloxbean/yano",
     "bloxbean/yano-wallet",
     "bloxbean/yano-x",
+    "bloxbean/yano-x-demo-client",
+    "bloxbean/yano-x-examples",
     "bloxbean/zeroj",
     "bloxbean/zeroj-usecases",
     "cardano-foundation/CIP-0094-polls",
     "cardano-foundation/CIPs",
     "cardano-foundation/Governance",
+    "cardano-foundation/Parameters-Landscape",
     "cardano-foundation/aiken-lucid-yaci-dev-kit-starter-kit",
     "cardano-foundation/ambassadors-guild",
     "cardano-foundation/bls",
@@ -26611,6 +27008,7 @@
     "cardano-foundation/verify-cardano-message-fe",
     "cardano-foundation/vit-servicing-station",
     "cardano-foundation/vit-testing",
+    "cardano-foundation/x402-cardano-demo",
     "cardano-foundation/yaci-address-balance-monitor",
     "elm-cardano/bech32",
     "elm-cardano/elm-cardano",
