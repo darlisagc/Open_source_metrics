@@ -6074,6 +6074,329 @@
           "yHSJ"
         ]
       }
+    },
+    {
+      "period": "2026-10-01/2026-10-31",
+      "label": "Oct 2026",
+      "collected_at": "2026-11-01",
+      "excluded_orgs": [
+        "cardano-foundation",
+        "bloxbean"
+      ],
+      "repos": {
+        "CardanoSolutions/ogmios": {
+          "new_contributors": [
+            "adacapo21"
+          ],
+          "returning_contributors": [
+            "carbolymer",
+            "maxalexweber1"
+          ],
+          "total_external": 3,
+          "new_count": 1,
+          "returning_count": 2
+        },
+        "aiken-lang/aiken": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "Riley-Kilgore",
+            "colll78",
+            "rober-m"
+          ],
+          "total_external": 3,
+          "new_count": 0,
+          "returning_count": 3
+        },
+        "cardano-foundation/CIPs": {
+          "new_contributors": [
+            "GreenSun-Tech",
+            "giorgospanagiotakos-iog",
+            "quantova-inc",
+            "styamanda",
+            "willmtl"
+          ],
+          "returning_contributors": [
+            "Benjmhart",
+            "Cerkoryn",
+            "Crypto2099",
+            "GS1973",
+            "RSoulatIOHK",
+            "Unisay",
+            "aniketd",
+            "ch1bo",
+            "colll78",
+            "nhenin",
+            "polinavino",
+            "rphair",
+            "wpennemans",
+            "zliu41"
+          ],
+          "total_external": 19,
+          "new_count": 5,
+          "returning_count": 14
+        },
+        "cardano-foundation/cardano-academy": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "johnnygreeney"
+          ],
+          "total_external": 1,
+          "new_count": 0,
+          "returning_count": 1
+        },
+        "cardano-foundation/cardano-connect-with-wallet": {
+          "new_contributors": [
+            "willmtl"
+          ],
+          "returning_contributors": [],
+          "total_external": 1,
+          "new_count": 1,
+          "returning_count": 0
+        },
+        "cardano-foundation/cardano-governance-voting-tool": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "mpizenberg"
+          ],
+          "total_external": 1,
+          "new_count": 0,
+          "returning_count": 1
+        },
+        "cardano-foundation/cardano-ibc-incubator": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "jtranq"
+          ],
+          "total_external": 1,
+          "new_count": 0,
+          "returning_count": 1
+        },
+        "cardano-foundation/cardano-ignite": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "karknu"
+          ],
+          "total_external": 1,
+          "new_count": 0,
+          "returning_count": 1
+        },
+        "cardano-foundation/cardano-node-antithesis": {
+          "new_contributors": [
+            "asgharmusani-antithesis-dev"
+          ],
+          "returning_contributors": [
+            "wolf31o2"
+          ],
+          "total_external": 2,
+          "new_count": 1,
+          "returning_count": 1
+        },
+        "cardano-foundation/cardano-org": {
+          "new_contributors": [
+            "AlexDochioiu",
+            "bridgersxyz",
+            "djenness",
+            "jtomtan",
+            "kutluhaneth46",
+            "leiosroadrunner",
+            "willmtl"
+          ],
+          "returning_contributors": [
+            "CoudreBros",
+            "ThirdEye707",
+            "laurencraig-afk",
+            "lodl",
+            "ofirgeller",
+            "pbwebdev"
+          ],
+          "total_external": 13,
+          "new_count": 7,
+          "returning_count": 6
+        },
+        "cardano-foundation/cardano-token-registry": {
+          "new_contributors": [
+            "erasmus-cymru",
+            "sondonmaker"
+          ],
+          "returning_contributors": [],
+          "total_external": 2,
+          "new_count": 2,
+          "returning_count": 0
+        },
+        "cardano-foundation/cardano-wallet": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "Crypto2099"
+          ],
+          "total_external": 1,
+          "new_count": 0,
+          "returning_count": 1
+        },
+        "cardano-foundation/catalyst-voices": {
+          "new_contributors": [
+            "willmtl"
+          ],
+          "returning_contributors": [],
+          "total_external": 1,
+          "new_count": 1,
+          "returning_count": 0
+        },
+        "cardano-foundation/cf-cip-frontend": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "rphair"
+          ],
+          "total_external": 1,
+          "new_count": 0,
+          "returning_count": 1
+        },
+        "cardano-foundation/developer-portal": {
+          "new_contributors": [
+            "Adisaok",
+            "zxpectre"
+          ],
+          "returning_contributors": [
+            "Benjmhart",
+            "ThirdEye707",
+            "carbolymer",
+            "cletus-VIA",
+            "nau",
+            "paulobressan",
+            "rober-m",
+            "weqanhet"
+          ],
+          "total_external": 10,
+          "new_count": 2,
+          "returning_count": 8
+        },
+        "cardano-foundation/hermes-relayer": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "jtranq"
+          ],
+          "total_external": 1,
+          "new_count": 0,
+          "returning_count": 1
+        },
+        "cardano-foundation/ledgerjs-hw-app-cardano": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "carmenmmartnz"
+          ],
+          "total_external": 1,
+          "new_count": 0,
+          "returning_count": 1
+        },
+        "cardano-foundation/metadata-registry-testnet": {
+          "new_contributors": [
+            "BTCnADA",
+            "cryptotrippers",
+            "xenberg"
+          ],
+          "returning_contributors": [
+            "tregubartemofficial"
+          ],
+          "total_external": 4,
+          "new_count": 3,
+          "returning_count": 1
+        },
+        "cardano-foundation/state-of-the-developer-ecosystem": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "IndividuoDigital",
+            "mpizenberg",
+            "rober-m"
+          ],
+          "total_external": 3,
+          "new_count": 0,
+          "returning_count": 3
+        },
+        "pragma-org/amaru": {
+          "new_contributors": [],
+          "returning_contributors": [
+            "arwlf",
+            "bomanaps",
+            "etorreborre",
+            "jeluard",
+            "rkuhn",
+            "wolf31o2",
+            "yHSJ"
+          ],
+          "total_external": 7,
+          "new_count": 0,
+          "returning_count": 7
+        }
+      },
+      "summary": {
+        "total_external": 62,
+        "total_new": 20,
+        "total_returning": 42,
+        "repos_with_activity": 20,
+        "all_contributors": [
+          "Adisaok",
+          "AlexDochioiu",
+          "BTCnADA",
+          "Benjmhart",
+          "Cerkoryn",
+          "CoudreBros",
+          "Crypto2099",
+          "GS1973",
+          "GreenSun-Tech",
+          "IndividuoDigital",
+          "RSoulatIOHK",
+          "Riley-Kilgore",
+          "ThirdEye707",
+          "Unisay",
+          "adacapo21",
+          "aniketd",
+          "arwlf",
+          "asgharmusani-antithesis-dev",
+          "bomanaps",
+          "bridgersxyz",
+          "carbolymer",
+          "carmenmmartnz",
+          "ch1bo",
+          "cletus-VIA",
+          "colll78",
+          "cryptotrippers",
+          "djenness",
+          "erasmus-cymru",
+          "etorreborre",
+          "giorgospanagiotakos-iog",
+          "jeluard",
+          "johnnygreeney",
+          "jtomtan",
+          "jtranq",
+          "karknu",
+          "kutluhaneth46",
+          "laurencraig-afk",
+          "leiosroadrunner",
+          "lodl",
+          "maxalexweber1",
+          "mpizenberg",
+          "nau",
+          "nhenin",
+          "ofirgeller",
+          "paulobressan",
+          "pbwebdev",
+          "polinavino",
+          "quantova-inc",
+          "rkuhn",
+          "rober-m",
+          "rphair",
+          "sondonmaker",
+          "styamanda",
+          "tregubartemofficial",
+          "weqanhet",
+          "willmtl",
+          "wolf31o2",
+          "wpennemans",
+          "xenberg",
+          "yHSJ",
+          "zliu41",
+          "zxpectre"
+        ]
+      }
     }
   ],
   "all_time_contributors": {
@@ -6720,7 +7043,8 @@
         "aiken-lang/aiken",
         "cardano-foundation/state-of-the-developer-ecosystem",
         "bloxbean/yaci-devkit",
-        "cardano-foundation/cardano-dev-skills"
+        "cardano-foundation/cardano-dev-skills",
+        "cardano-foundation/developer-portal"
       ]
     },
     "jmagan": {
@@ -9237,7 +9561,8 @@
       "first_seen": "Jan 2018",
       "repos": [
         "cardano-foundation/cardano-haskell-packages",
-        "cardano-foundation/developer-portal"
+        "cardano-foundation/developer-portal",
+        "CardanoSolutions/ogmios"
       ]
     },
     "effectfully": {
@@ -9452,7 +9777,8 @@
     "ThirdEye707": {
       "first_seen": "Jan 2018",
       "repos": [
-        "cardano-foundation/cardano-org"
+        "cardano-foundation/cardano-org",
+        "cardano-foundation/developer-portal"
       ]
     },
     "Rocky-BCAW": {
@@ -16721,7 +17047,9 @@
     "Benjmhart": {
       "first_seen": "Jan 2018",
       "repos": [
-        "cardano-foundation/cardano-token-registry"
+        "cardano-foundation/cardano-token-registry",
+        "cardano-foundation/CIPs",
+        "cardano-foundation/developer-portal"
       ]
     },
     "smoke1205": {
@@ -20499,7 +20827,8 @@
     "ofirgeller": {
       "first_seen": "Jan 2018",
       "repos": [
-        "cardano-foundation/developer-portal"
+        "cardano-foundation/developer-portal",
+        "cardano-foundation/cardano-org"
       ]
     },
     "Duzij": {
@@ -20794,7 +21123,8 @@
     "CoudreBros": {
       "first_seen": "Jan 2018",
       "repos": [
-        "cardano-foundation/developer-portal"
+        "cardano-foundation/developer-portal",
+        "cardano-foundation/cardano-org"
       ]
     },
     "will0101": {
@@ -26114,7 +26444,8 @@
         "cardano-foundation/cardano-governance-voting-tool",
         "elm-cardano/elm-cardano",
         "cardano-foundation/CIPs",
-        "pragma-org/amaru"
+        "pragma-org/amaru",
+        "cardano-foundation/state-of-the-developer-ecosystem"
       ]
     },
     "karknu": {
@@ -26133,7 +26464,8 @@
     "IndividuoDigital": {
       "first_seen": "Jan 2018",
       "repos": [
-        "cardano-foundation/cardano-org"
+        "cardano-foundation/cardano-org",
+        "cardano-foundation/state-of-the-developer-ecosystem"
       ]
     },
     "tuckpuck": {
@@ -26164,7 +26496,8 @@
     "tregubartemofficial": {
       "first_seen": "Jan 2018",
       "repos": [
-        "cardano-foundation/cardano-token-registry"
+        "cardano-foundation/cardano-token-registry",
+        "cardano-foundation/metadata-registry-testnet"
       ]
     },
     "cardanative": {
@@ -26324,7 +26657,8 @@
       "first_seen": "Apr 2026",
       "repos": [
         "cardano-foundation/developer-portal",
-        "cardano-foundation/cardano-org"
+        "cardano-foundation/cardano-org",
+        "CardanoSolutions/ogmios"
       ]
     },
     "danbaruka": {
@@ -26535,7 +26869,8 @@
     "nau": {
       "first_seen": "Jul 2026",
       "repos": [
-        "bloxbean/yaci-devkit"
+        "bloxbean/yaci-devkit",
+        "cardano-foundation/developer-portal"
       ]
     },
     "Sarthib7": {
@@ -26754,6 +27089,129 @@
       "repos": [
         "cardano-foundation/developer-portal"
       ]
+    },
+    "adacapo21": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "CardanoSolutions/ogmios"
+      ]
+    },
+    "quantova-inc": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/CIPs"
+      ]
+    },
+    "willmtl": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/CIPs",
+        "cardano-foundation/cardano-connect-with-wallet",
+        "cardano-foundation/cardano-org",
+        "cardano-foundation/catalyst-voices"
+      ]
+    },
+    "giorgospanagiotakos-iog": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/CIPs"
+      ]
+    },
+    "GreenSun-Tech": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/CIPs"
+      ]
+    },
+    "styamanda": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/CIPs"
+      ]
+    },
+    "asgharmusani-antithesis-dev": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/cardano-node-antithesis"
+      ]
+    },
+    "bridgersxyz": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/cardano-org"
+      ]
+    },
+    "kutluhaneth46": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/cardano-org"
+      ]
+    },
+    "leiosroadrunner": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/cardano-org"
+      ]
+    },
+    "AlexDochioiu": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/cardano-org"
+      ]
+    },
+    "djenness": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/cardano-org"
+      ]
+    },
+    "jtomtan": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/cardano-org"
+      ]
+    },
+    "erasmus-cymru": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/cardano-token-registry"
+      ]
+    },
+    "sondonmaker": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/cardano-token-registry"
+      ]
+    },
+    "zxpectre": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/developer-portal"
+      ]
+    },
+    "Adisaok": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/developer-portal"
+      ]
+    },
+    "BTCnADA": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/metadata-registry-testnet"
+      ]
+    },
+    "cryptotrippers": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/metadata-registry-testnet"
+      ]
+    },
+    "xenberg": {
+      "first_seen": "Oct 2026",
+      "repos": [
+        "cardano-foundation/metadata-registry-testnet"
+      ]
     }
   },
   "tracked_repos": [
@@ -26800,6 +27258,7 @@
     "bloxbean/elci-lang",
     "bloxbean/hello-yaci",
     "bloxbean/homebrew-tap",
+    "bloxbean/infra",
     "bloxbean/intelliada",
     "bloxbean/intelliada-docs",
     "bloxbean/jadex",
@@ -26835,6 +27294,8 @@
     "bloxbean/yano-x",
     "bloxbean/yano-x-demo-client",
     "bloxbean/yano-x-examples",
+    "bloxbean/yano-x-privacy",
+    "bloxbean/yano-x-products",
     "bloxbean/zeroj",
     "bloxbean/zeroj-usecases",
     "cardano-foundation/CIP-0094-polls",
@@ -26970,7 +27431,7 @@
     "cardano-foundation/cip113-programmable-tokens",
     "cardano-foundation/cip113-programmable-tokens-platform",
     "cardano-foundation/cip30-data-signature-parser",
-    "cardano-foundation/cpt-rwa-ch-de-cmta-reference",
+    "cardano-foundation/cpt-rwa-ch-cmta-reference",
     "cardano-foundation/dab",
     "cardano-foundation/delta-types",
     "cardano-foundation/developer-portal",
@@ -26993,6 +27454,7 @@
     "cardano-foundation/ledger-app-cardano",
     "cardano-foundation/ledgerjs-hw-app-cardano",
     "cardano-foundation/merkle-tree-java",
+    "cardano-foundation/metadata-registry-testnet",
     "cardano-foundation/moog",
     "cardano-foundation/mpfs",
     "cardano-foundation/openblockperf",
